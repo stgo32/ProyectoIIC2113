@@ -35,17 +35,6 @@ public class Undertaker:Superstar
         throw new System.NotImplementedException();
     }
 
-    private void DiscardTwoCards()
-    {
-        for (int i = 2; i > 0; i--)
-        {
-            // List<string> formattedHand = Formatter.GetFormattedCardList(Player.Hand, NextPlay.ShowCards);
-            // int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(formattedHand, Name, Name, i);
-            // Player.Deck.DrawCardFromHandToRingsideById(discardCardId);
-            Player.DiscardACard();
-        }
-    }
-
     private void DrawACard()
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(Player.Ringside, NextPlay.ShowCards);

@@ -95,14 +95,14 @@ public class Player
         Deck.DrawCardFromHandToRingsideById(discardCardId);
     }
 
-    private int SelectCardToDiscard(int quantity)
+    private int SelectCardToDiscard(int iter)
     {
         List<string> formattedHand = Formatter.GetFormattedCardList(Hand, NextPlay.ShowCards);
         int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
             formattedHand,
             Superstar.Name,
             Superstar.Name, 
-            quantity
+            iter
         );
         return discardCardId;
     }
