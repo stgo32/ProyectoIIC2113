@@ -24,7 +24,7 @@ public class ManKind:Superstar
     {
         if (Player.Arsenal.Count > 0)
         {
-            Player.DrawCardFromArsenalToHand();
+            Player.Deck.DrawCardFromArsenalToHand();
         }
     }
 

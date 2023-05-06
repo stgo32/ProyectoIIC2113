@@ -52,7 +52,8 @@ public class Game
         foreach (Player player in players)
         {
             ReadDeck(player);
-            correctDeck = player.CheckDeck(superstars);
+            // correctDeck = player.CheckDeck(superstars);
+            correctDeck = player.Deck.Check(superstars);
             if (!correctDeck) 
             {
                 Formatter.View.SayThatDeckIsInvalid();
@@ -66,7 +67,8 @@ public class Game
     private void ReadDeck(Player player)
     {
         string pathDeck = Formatter.View.AskUserToSelectDeck(_deckFolder);
-        player.ReadDeck(pathDeck, superstars, cards);
+        player.Deck.Player = player;
+        player.Deck.Read(pathDeck, superstars, cards);
     }
     
     private void SetPlayersInitialConfig(){
@@ -164,7 +166,7 @@ public class Game
   
     private int SelectCardIdToPlay()
     {
-        List<Card> possibleCards = playerAtTurn.GetPossibleCardsToPlay();
+        List<Card> possibleCards = playerAtTurn.Deck.GetPossibleCardsToPlay();
         List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, NextPlay.PlayCard);
         int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
         return idCardSelected;
@@ -203,7 +205,7 @@ public class Game
 
     private Card GetCardSelected(int idCardSelected)
     {
-        Card cardSelected = playerAtTurn.GetPossibleCardsToPlay()[idCardSelected];
+        Card cardSelected = playerAtTurn.Deck.GetPossibleCardsToPlay()[idCardSelected];
         return cardSelected;
     }
 

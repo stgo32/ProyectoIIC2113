@@ -36,7 +36,7 @@ public class StoneCold:Superstar
     }
     private void DrawACard()
     {
-        Player.DrawCardFromArsenalToHand();
+        Player.Deck.DrawCardFromArsenalToHand();
         Formatter.View.SayThatPlayerDrawCards(Name, 1);
     }
 
@@ -44,7 +44,7 @@ public class StoneCold:Superstar
     {
         List<string> formattedHand = Formatter.GetFormattedCardList(Player.Hand, NextPlay.ShowCards);
         int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(Name, formattedHand);
-        Player.DrawCardFromHandToArsenalById(cardId);
+        Player.Deck.DrawCardFromHandToArsenalById(cardId);
     }
 
 }

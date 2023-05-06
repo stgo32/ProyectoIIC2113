@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yAcT9vFWtruk+phNCX8GDMx6FoRFtu2lHybgqppq4yjIRVL4LFUCfRufx1P5V9Zo2LQehiiYWYO0d+Z1hNfEEg==",
+  "dgSpecHash": "vXkPlHei8eDyFcamDCEEizuMLcpRuwaACQG/EELBo+cEJiBKbz4XGX2aQ0fR8nWh7wh37Vceptq+O2yEpGT0Fg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDeal.Tests\\RawDeal.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDeal.Tests\\RawDeal.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Santiago\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Santiago\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

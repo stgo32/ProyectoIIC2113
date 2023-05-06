@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 using RawDealView.Formatters;
 
-public class Card: IViewableCardInfo
+public class Card : IViewableCardInfo
 {
     public string Title { get; set; }
     public List<string> Types { get; set; }

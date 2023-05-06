@@ -40,7 +40,7 @@ public class Undertaker:Superstar
         {
             List<string> formattedHand = Formatter.GetFormattedCardList(Player.Hand, NextPlay.ShowCards);
             int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(formattedHand, Name, Name, i);
-            Player.DrawCardFromHandToRingsideById(discardCardId);
+            Player.Deck.DrawCardFromHandToRingsideById(discardCardId);
         }
     }
 
@@ -48,6 +48,6 @@ public class Undertaker:Superstar
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(Player.Ringside, NextPlay.ShowCards);
         int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(Name, 1, formattedRingside);
-        Player.DrawCardFromRingsideToHandById(cardId);
+        Player.Deck.DrawCardFromRingsideToHandById(cardId);
     }
 }

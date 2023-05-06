@@ -70,3 +70,15 @@ C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Seme
 C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\RawDeal_E3\RawDeal\RawDealView\obj\Debug\net6.0\refint\RawDealView.dll
 C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\RawDeal_E3\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.pdb
 C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\RawDeal_E3\RawDeal\RawDealView\obj\Debug\net6.0\ref\RawDealView.dll
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\bin\Debug\net6.0\RawDealView.deps.json
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\bin\Debug\net6.0\RawDealView.dll
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\bin\Debug\net6.0\RawDealView.pdb
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.csproj.AssemblyReference.cache
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.AssemblyInfoInputs.cache
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.AssemblyInfo.cs
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.csproj.CoreCompileInputs.cache
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.dll
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\refint\RawDealView.dll
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\RawDealView.pdb
+C:\Users\Santiago\OneDrive - Universidad Católica de Chile\Universidad\9no Semestre\DDS\Proyecto\ProyectoIIC2113\RawDeal\RawDealView\obj\Debug\net6.0\ref\RawDealView.dll

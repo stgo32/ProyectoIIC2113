@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDeal\\RawDeal.csproj": {}
+    "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDeal\\RawDeal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDealView\\RawDealView.csproj": {
+    "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDealView\\RawDealView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDealView\\RawDealView.csproj",
+        "projectUniqueName": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDealView\\RawDealView.csproj",
         "projectName": "RawDealView",
-        "projectPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDealView\\RawDealView.csproj",
+        "projectPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDealView\\RawDealView.csproj",
         "packagesPath": "C:\\Users\\Santiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDealView\\obj\\",
+        "outputPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDealView\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDeal\\RawDeal.csproj": {
+    "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDeal\\RawDeal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDeal\\RawDeal.csproj",
+        "projectUniqueName": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDeal\\RawDeal.csproj",
         "projectName": "RawDeal",
-        "projectPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDeal\\RawDeal.csproj",
+        "projectPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDeal\\RawDeal.csproj",
         "packagesPath": "C:\\Users\\Santiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDeal\\obj\\",
+        "outputPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDeal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDealView\\RawDealView.csproj": {
-                "projectPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\RawDeal_E3\\RawDeal\\RawDealView\\RawDealView.csproj"
+              "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDealView\\RawDealView.csproj": {
+                "projectPath": "C:\\Users\\Santiago\\OneDrive - Universidad Católica de Chile\\Universidad\\9no Semestre\\DDS\\Proyecto\\ProyectoIIC2113\\RawDeal\\RawDealView\\RawDealView.csproj"
               }
             }
           }

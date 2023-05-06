@@ -39,7 +39,7 @@ public class TurnHandler
     private void BeginTurnSettings()
     {
         playerAtTurn.Superstar.UsedAbilityThisTurn = false;
-        playerAtTurn.DrawCardFromArsenalToHand();
+        playerAtTurn.Deck.DrawCardFromArsenalToHand();
         Formatter.View.SayThatATurnBegins(playerAtTurn.GetSuperstarName());
     }
 

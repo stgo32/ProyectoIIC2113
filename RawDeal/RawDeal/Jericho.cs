@@ -45,7 +45,7 @@ public class Jericho:Superstar
     private void DiscardACard(Player player)
     {
         int discardCardId = SelectCardToDiscard(player);
-        player.DrawCardFromHandToRingsideById(discardCardId);
+        player.Deck.DrawCardFromHandToRingsideById(discardCardId);
     }
 
 }

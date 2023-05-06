@@ -44,6 +44,6 @@ public class TheRock:Superstar
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(Player.Ringside, NextPlay.ShowCards);
         int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(Name, 1, formattedRingside);
-        Player.DrawCardFromRingsideToArsenalById(cardId);
+        Player.Deck.DrawCardFromRingsideToArsenalById(cardId);
     }
 }
