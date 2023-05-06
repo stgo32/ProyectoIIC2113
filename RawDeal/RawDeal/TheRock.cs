@@ -32,18 +32,11 @@ public class TheRock:Superstar
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }
     public override void UseAbility()
     {
-        RecoverACard();
+        Player.RecoverACard();
     }
 
    public override int TakeLessDamage(int damage)
     {
         throw new System.NotImplementedException();
-    }
-
-    private void RecoverACard()
-    {
-        List<string> formattedRingside = Formatter.GetFormattedCardList(Player.Ringside, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(Name, 1, formattedRingside);
-        Player.Deck.DrawCardFromRingsideToArsenalById(cardId);
     }
 }

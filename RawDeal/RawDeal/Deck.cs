@@ -3,7 +3,6 @@ namespace RawDeal;
 public class Deck
 {
     private List<Card> _deck;
-    // public List<Card> Cards { get { return _deck; } set { _deck = value; } }
     private List<Card> _arsenal;
     public List<Card> Arsenal { get { return _arsenal; } set { _arsenal = value; } }
     private List<Card> _hand;
@@ -14,9 +13,9 @@ public class Deck
     public List<Card> RingArea { get { return _ringArea; } set { _ringArea = value; } }
     private Superstar _superstar;
     public Superstar Superstar { get { return _superstar; } set { _superstar = value; } } 
-    
     private Player _player;
     public Player Player { get { return _player; } set { _player = value; } }
+
     public void Read(string filePath, List<Superstar> superstars, List<Card> cards)
     {
         _deck = new List<Card>();
@@ -122,7 +121,6 @@ public class Deck
         _arsenal = _deck;
     }
 
-
     private void SetStartingHand()
     {
         _hand = new List<Card>();
@@ -142,12 +140,6 @@ public class Deck
         _ringArea = new List<Card>();
     }
 
-    public void DrawCardFromArsenalToHand()
-    {
-        Card card = _arsenal[_arsenal.Count - 1];
-        _arsenal.RemoveAt(_arsenal.Count - 1);
-        _hand.Add(card);
-    }
 
     public List<Card> GetPossibleCardsToPlay()
     {
@@ -160,15 +152,6 @@ public class Deck
             }
         }
         return possibleCards;
-    }
-
-    public Card DrawCardFromPossibleCardsToRingAreaById(int cardId)
-    {
-        Card card = GetPossibleCardsToPlay()[cardId];
-        int cardCount = CountCardAppearancesInPossibleCardsToPlay(cardId);
-        int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
-        DrawCardFromHandToRingAreaById(idCardAtHand);
-        return card;
     }
 
     private int FindCardIdAtHandByCountInPossibleCardsToPlay(int cardCount, Card card)
@@ -204,6 +187,21 @@ public class Deck
             }
         }
         return cardCount;
+    }
+    public void DrawCardFromArsenalToHand()
+    {
+        Card card = _arsenal[_arsenal.Count - 1];
+        _arsenal.RemoveAt(_arsenal.Count - 1);
+        _hand.Add(card);
+    }
+
+    public Card DrawCardFromPossibleCardsToRingAreaById(int cardId)
+    {
+        Card card = GetPossibleCardsToPlay()[cardId];
+        int cardCount = CountCardAppearancesInPossibleCardsToPlay(cardId);
+        int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
+        DrawCardFromHandToRingAreaById(idCardAtHand);
+        return card;
     }
     
     public void DrawCardFromHandToRingAreaById(int cardId)

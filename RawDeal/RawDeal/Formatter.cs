@@ -19,7 +19,7 @@ public static class Formatter
         foreach (Player player in players)
         {
             PlayerInfo info = new PlayerInfo(
-                player.GetSuperstarName(),
+                player.Superstar.Name,
                 player.Fortitude,
                 player.Hand.Count,
                 player.Arsenal.Count
@@ -104,6 +104,6 @@ public static class Formatter
     public static void PrintCardInfo(Card card, Player playerAtTurn)
     {
         string infoCardSelected = FormatCard(card, card.Types[0], NextPlay.PlayCard);
-        View.SayThatPlayerIsTryingToPlayThisCard(playerAtTurn.GetSuperstarName(), infoCardSelected);
+        View.SayThatPlayerIsTryingToPlayThisCard(playerAtTurn.Superstar.Name, infoCardSelected);
     }
 }

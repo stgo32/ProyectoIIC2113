@@ -35,7 +35,7 @@ public class Kane:Superstar
     private void DeliverExtraDamage()
     {
         Card cardOverturned = Player.Oponent.RecieveDamage();
-        Formatter.View.SayThatOpponentWillTakeSomeDamage(Player.Oponent.GetSuperstarName(), 1);
+        Formatter.View.SayThatOpponentWillTakeSomeDamage(Player.Oponent.Superstar.Name, 1);
         Formatter.PrintCardOverturned(cardOverturned, 1, 1);
     }
 }

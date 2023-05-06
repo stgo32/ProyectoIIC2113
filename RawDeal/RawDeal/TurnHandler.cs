@@ -22,7 +22,7 @@ public class TurnHandler
     {
         Player playerThatStarts;
         Player playerThatGoesSecond;
-        if (players[0].GetSuperstarValue() >= players[1].GetSuperstarValue())
+        if (players[0].Superstar.SuperstarValue >= players[1].Superstar.SuperstarValue)
         {
             playerThatStarts = players[0];
             playerThatGoesSecond = players[1];
@@ -40,7 +40,7 @@ public class TurnHandler
     {
         playerAtTurn.Superstar.UsedAbilityThisTurn = false;
         playerAtTurn.Deck.DrawCardFromArsenalToHand();
-        Formatter.View.SayThatATurnBegins(playerAtTurn.GetSuperstarName());
+        Formatter.View.SayThatATurnBegins(playerAtTurn.Superstar.Name);
     }
 
     public void BeginTurn()

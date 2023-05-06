@@ -1,5 +1,4 @@
 namespace RawDeal;
-using System.Text.Json.Serialization;
 
 using RawDealView.Formatters;
 
@@ -11,8 +10,6 @@ public class Card : IViewableCardInfo
     public string Fortitude { get; set; }
     public string Damage { get; set; }
     public string StunValue { get; set; }
-
-    [JsonPropertyName("CardEffect")]
     public string CardEffect { get; set; }
 
     public int GetFortitude()

@@ -25,27 +25,12 @@ public class Jericho:Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        DiscardACard(Player);
-        DiscardACard(Player.Oponent);
+        Player.DiscardACard();
+        Player.Oponent.DiscardACard();
         UsedAbilityThisTurn = true;
     }
     public override int TakeLessDamage(int damage)
     {
         throw new System.NotImplementedException();
     }
-
-    private int SelectCardToDiscard(Player player)
-    {
-        List<string> formattedHand = Formatter.GetFormattedCardList(player.Hand, NextPlay.ShowCards);
-        string superstarName = player.Superstar.Name;
-        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(formattedHand, superstarName, superstarName, 1);
-        return discardCardId;
-    }
-
-    private void DiscardACard(Player player)
-    {
-        int discardCardId = SelectCardToDiscard(player);
-        player.Deck.DrawCardFromHandToRingsideById(discardCardId);
-    }
-
 }

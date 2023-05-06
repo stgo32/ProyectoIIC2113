@@ -63,11 +63,10 @@ public class Game
         return correctDeck;
     }
 
-
     private void ReadDeck(Player player)
     {
         string pathDeck = Formatter.View.AskUserToSelectDeck(_deckFolder);
-        player.Deck.Player = player;
+        player.Deck = new Deck();
         player.Deck.Read(pathDeck, superstars, cards);
     }
     
@@ -180,7 +179,7 @@ public class Game
     private void CongratulateWinner()
     {
         Player winner = playerAtTurn;
-        Formatter.View.CongratulateWinner(winner.GetSuperstarName());
+        Formatter.View.CongratulateWinner(winner.Superstar.Name);
     }
 
     private void CheckIfPlayerHasWon()
@@ -218,7 +217,7 @@ public class Game
 
     private void PrintOvertunedCards(int damage)
     {
-        Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.GetSuperstarName(), damage);
+        Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
         for (int i = 0; i < damage; i++)
         {
             CheckIfPlayerHasWon();

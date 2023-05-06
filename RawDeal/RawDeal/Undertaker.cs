@@ -24,7 +24,8 @@ public class Undertaker:Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        DiscardTwoCards();
+        // DiscardTwoCards();
+        Player.DiscardCards(2);
         DrawACard();
         UsedAbilityThisTurn = true;
     }
@@ -38,9 +39,10 @@ public class Undertaker:Superstar
     {
         for (int i = 2; i > 0; i--)
         {
-            List<string> formattedHand = Formatter.GetFormattedCardList(Player.Hand, NextPlay.ShowCards);
-            int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(formattedHand, Name, Name, i);
-            Player.Deck.DrawCardFromHandToRingsideById(discardCardId);
+            // List<string> formattedHand = Formatter.GetFormattedCardList(Player.Hand, NextPlay.ShowCards);
+            // int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(formattedHand, Name, Name, i);
+            // Player.Deck.DrawCardFromHandToRingsideById(discardCardId);
+            Player.DiscardACard();
         }
     }
 

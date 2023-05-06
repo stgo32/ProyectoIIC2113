@@ -25,8 +25,8 @@ public class StoneCold:Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        DrawACard();
-        ReturnACard();
+        Player.DrawACard();
+        Player.ReturnACard();
         UsedAbilityThisTurn = true;
     }
 
@@ -34,17 +34,4 @@ public class StoneCold:Superstar
     {
         throw new System.NotImplementedException();
     }
-    private void DrawACard()
-    {
-        Player.Deck.DrawCardFromArsenalToHand();
-        Formatter.View.SayThatPlayerDrawCards(Name, 1);
-    }
-
-    private void ReturnACard()
-    {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Player.Hand, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(Name, formattedHand);
-        Player.Deck.DrawCardFromHandToArsenalById(cardId);
-    }
-
 }
