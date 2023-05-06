@@ -24,9 +24,7 @@ public class Undertaker:Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        // DiscardTwoCards();
         Player.DiscardCards(2);
-        // DrawACard();
         Player.RetrieveACard();
         UsedAbilityThisTurn = true;
     }
@@ -34,12 +32,5 @@ public class Undertaker:Superstar
     public override int TakeLessDamage(int damage)
     {
         throw new System.NotImplementedException();
-    }
-
-    private void DrawACard()
-    {
-        List<string> formattedRingside = Formatter.GetFormattedCardList(Player.Ringside, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(Name, 1, formattedRingside);
-        Player.Deck.DrawCardFromRingsideToHandById(cardId);
     }
 }
