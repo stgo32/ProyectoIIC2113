@@ -26,7 +26,8 @@ public class Undertaker:Superstar
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
         // DiscardTwoCards();
         Player.DiscardCards(2);
-        DrawACard();
+        // DrawACard();
+        Player.RetrieveACard();
         UsedAbilityThisTurn = true;
     }
 

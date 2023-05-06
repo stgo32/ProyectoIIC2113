@@ -119,4 +119,11 @@ public class Player
         int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(Superstar.Name, 1, formattedRingside);
         Deck.DrawCardFromRingsideToArsenalById(cardId);
     }
+
+    public void RetrieveACard()
+    {
+        List<string> formattedRingside = Formatter.GetFormattedCardList(Ringside, NextPlay.ShowCards);
+        int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(Superstar.Name, 1, formattedRingside);
+        Deck.DrawCardFromRingsideToHandById(cardId);
+    }
 }
