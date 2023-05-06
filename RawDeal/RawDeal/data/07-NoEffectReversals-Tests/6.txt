@@ -1,0 +1,1566 @@
+-------------------------
+Elige un mazo
+1- data/07-NoEffectReversals/01_HHH.txt
+2- data/07-NoEffectReversals/02_Undertaker.txt
+3- data/07-NoEffectReversals/03_HHH.txt
+4- data/07-NoEffectReversals/04_Kane.txt
+5- data/07-NoEffectReversals/05_TheRock.txt
+6- data/07-NoEffectReversals/06_Jericho.txt
+7- data/07-NoEffectReversals/07_Mankind.txt
+8- data/07-NoEffectReversals/08_HHH.txt
+9- data/07-NoEffectReversals/09_Undertaker.txt
+10- data/07-NoEffectReversals/10_StoneCold.txt
+11- data/07-NoEffectReversals/11_Jericho.txt
+12- data/07-NoEffectReversals/12_HHH.txt
+13- data/07-NoEffectReversals/13_Mankind.txt
+14- data/07-NoEffectReversals/14_StoneCold.txt
+15- data/07-NoEffectReversals/15_Kane.txt
+16- data/07-NoEffectReversals/16_Undertaker.txt
+17- data/07-NoEffectReversals/17_TheRock.txt
+(Ingresa un número entre 1 y 17)
+INPUT: 10
+-------------------------
+Elige un mazo
+1- data/07-NoEffectReversals/01_HHH.txt
+2- data/07-NoEffectReversals/02_Undertaker.txt
+3- data/07-NoEffectReversals/03_HHH.txt
+4- data/07-NoEffectReversals/04_Kane.txt
+5- data/07-NoEffectReversals/05_TheRock.txt
+6- data/07-NoEffectReversals/06_Jericho.txt
+7- data/07-NoEffectReversals/07_Mankind.txt
+8- data/07-NoEffectReversals/08_HHH.txt
+9- data/07-NoEffectReversals/09_Undertaker.txt
+10- data/07-NoEffectReversals/10_StoneCold.txt
+11- data/07-NoEffectReversals/11_Jericho.txt
+12- data/07-NoEffectReversals/12_HHH.txt
+13- data/07-NoEffectReversals/13_Mankind.txt
+14- data/07-NoEffectReversals/14_StoneCold.txt
+15- data/07-NoEffectReversals/15_Kane.txt
+16- data/07-NoEffectReversals/16_Undertaker.txt
+17- data/07-NoEffectReversals/17_TheRock.txt
+(Ingresa un número entre 1 y 17)
+INPUT: 6
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+2- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+6- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 5
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN descarta Collar & Elbow Lockup.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 51 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 51 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+7- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+7- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 5
+STONE COLD STEVE AUSTIN debe descartar 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+2- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+3- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 7
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO descarta Collar & Elbow Lockup.
+CHRIS JERICHO roba 1 carta(s).
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 51 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 50 en el arsenal.
+CHRIS JERICHO: 0F, tiene 6 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+2- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+5- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+6- *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 7
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 50 en el arsenal.
+CHRIS JERICHO: 0F, tiene 6 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 3 de daño.
+-------------------------------- 1/3
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 6 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 6 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 1
+STONE COLD STEVE AUSTIN debe descartar 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+2- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+5- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 6 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 2 de daño.
+-------------------------------- 1/2
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/2
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+CHRIS JERICHO: 2F, tiene 5 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/3
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/3
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 5 de daño.
+-------------------------------- 1/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/5
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/5
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 4/5
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 5/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 10F, tiene 3 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO descarta Arm Bar Takedown.
+CHRIS JERICHO roba 1 carta(s).
+--------------------------------------------
+CHRIS JERICHO: 10F, tiene 3 cartas en la mano y 48 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 48 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 48 en el arsenal.
+STONE COLD STEVE AUSTIN: 3F, tiene 5 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 3F, tiene 6 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+3- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 3F, tiene 6 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 4 de daño.
+-------------------------------- 1/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 7F, tiene 5 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 4/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 6/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 13F, tiene 4 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 10 de daño.
+-------------------------------- 1/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/10
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/10
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 6/10
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 7/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 8/10
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 9/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 10/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 10 de daño.
+-------------------------------- 1/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/10
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 3/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 6/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 7/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 8/10
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 9/10
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 10/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 2 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 17 en el arsenal.
+STONE COLD STEVE AUSTIN: 33F, tiene 1 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 16F, tiene 2 cartas en la mano y 17 en el arsenal.
+STONE COLD STEVE AUSTIN: 33F, tiene 1 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/6
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 4/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO: 22F, tiene 1 cartas en la mano y 17 en el arsenal.
+STONE COLD STEVE AUSTIN: 33F, tiene 1 cartas en la mano y 27 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 2 cartas en la mano y 26 en el arsenal.
+CHRIS JERICHO: 22F, tiene 1 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 2 cartas en la mano y 26 en el arsenal.
+CHRIS JERICHO: 22F, tiene 1 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 2 cartas en la mano y 26 en el arsenal.
+CHRIS JERICHO: 22F, tiene 1 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 4 de daño.
+-------------------------------- 1/4
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 2/4
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 3/4
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/4
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 26 en el arsenal.
+CHRIS JERICHO: 22F, tiene 1 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 26 en el arsenal.
+CHRIS JERICHO: 22F, tiene 1 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 22F, tiene 2 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 22F, tiene 2 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/6
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 4/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 28F, tiene 1 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 2 cartas en la mano y 19 en el arsenal.
+CHRIS JERICHO: 28F, tiene 1 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 2 cartas en la mano y 19 en el arsenal.
+CHRIS JERICHO: 28F, tiene 1 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN descarta Collar & Elbow Lockup.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 2 cartas en la mano y 18 en el arsenal.
+CHRIS JERICHO: 28F, tiene 1 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 28F, tiene 1 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 10 de daño.
+-------------------------------- 1/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/10
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 3/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/10
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta desde el mazo.
+--------------------------------------------
+CHRIS JERICHO puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+CHRIS JERICHO roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 2 cartas en la mano y 13 en el arsenal.
+CHRIS JERICHO: 38F, tiene 1 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+2- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 2 cartas en la mano y 13 en el arsenal.
+CHRIS JERICHO: 38F, tiene 1 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+CHRIS JERICHO tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO revierte la carta usando:
+[REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 1 cartas en la mano y 9 en el arsenal.
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 1 cartas en la mano y 9 en el arsenal.
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 12 en el arsenal.
+CHRIS JERICHO: 38F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 37F, tiene 1 cartas en la mano y 12 en el arsenal.
+CHRIS JERICHO: 38F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 3 de daño.
+-------------------------------- 1/3
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 1 cartas en la mano y 7 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 1 cartas en la mano y 7 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 2/3
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/3
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+CHRIS JERICHO: 41F, tiene 0 cartas en la mano y 7 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 40F, tiene 1 cartas en la mano y 8 en el arsenal.
+CHRIS JERICHO: 41F, tiene 0 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 40F, tiene 1 cartas en la mano y 8 en el arsenal.
+CHRIS JERICHO: 41F, tiene 0 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 41F, tiene 1 cartas en la mano y 6 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 1 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 41F, tiene 1 cartas en la mano y 6 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 1 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO descarta Arm Bar Takedown.
+CHRIS JERICHO roba 1 carta(s).
+--------------------------------------------
+CHRIS JERICHO: 41F, tiene 1 cartas en la mano y 5 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 1 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 2/3
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 3/3
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 44F, tiene 0 cartas en la mano y 5 en el arsenal.
+STONE COLD STEVE AUSTIN: 40F, tiene 1 cartas en la mano y 5 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 40F, tiene 2 cartas en la mano y 4 en el arsenal.
+CHRIS JERICHO: 44F, tiene 0 cartas en la mano y 5 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 40F, tiene 2 cartas en la mano y 4 en el arsenal.
+CHRIS JERICHO: 44F, tiene 0 cartas en la mano y 5 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 3 de daño.
+-------------------------------- 1/3
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/3
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/3
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 43F, tiene 1 cartas en la mano y 4 en el arsenal.
+CHRIS JERICHO: 44F, tiene 0 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 44F, tiene 1 cartas en la mano y 1 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 1 cartas en la mano y 4 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 43F, tiene 1 cartas en la mano y 3 en el arsenal.
+CHRIS JERICHO: 44F, tiene 0 cartas en la mano y 1 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 43F, tiene 1 cartas en la mano y 3 en el arsenal.
+CHRIS JERICHO: 44F, tiene 0 cartas en la mano y 1 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 2 de daño.
+-------------------------------- 1/2
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+
+--------------------------------------------
+Felicidades, gana STONE COLD STEVE AUSTIN.

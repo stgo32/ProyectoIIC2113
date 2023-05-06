@@ -1,0 +1,711 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 8
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 11
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/3
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 3/3
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 3F, tiene 3 cartas en la mano y 56 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+MANKIND: 3F, tiene 3 cartas en la mano y 56 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 56 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/2
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 3F, tiene 10 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+2- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 5F, tiene 9 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 8F, tiene 8 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/5
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 5/5
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+HHH: 14F, tiene 7 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+6- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 9 de daño.
+-------------------------------- 1/9
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/9
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/9
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 4/9
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 5/9
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 6/9
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 7/9
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 8/9
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 9/9
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 24F, tiene 6 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 37 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+3- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+5- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/4
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/4
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+HHH: 29F, tiene 5 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 6 de daño.
+-------------------------------- 1/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 4/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 5/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+HHH: 36F, tiene 4 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 27 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+3- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/5
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/5
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 5/5
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+HHH: 42F, tiene 3 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 9 de daño.
+-------------------------------- 1/9
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/9
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/9
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/9
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/9
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 6/9
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 7/9
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 8/9
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 9/9
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+HHH: 52F, tiene 2 cartas en la mano y 46 en el arsenal.
+MANKIND: 3F, tiene 3 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 3F, tiene 5 cartas en la mano y 11 en el arsenal.
+HHH: 52F, tiene 2 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 4 de daño.
+-------------------------------- 1/4
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/4
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+MANKIND: 7F, tiene 4 cartas en la mano y 11 en el arsenal.
+HHH: 52F, tiene 2 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+MANKIND: 13F, tiene 3 cartas en la mano y 11 en el arsenal.
+HHH: 52F, tiene 2 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+2- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 4/5
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 5/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+MANKIND: 18F, tiene 2 cartas en la mano y 11 en el arsenal.
+HHH: 52F, tiene 2 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 4/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 5/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 6/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 24F, tiene 1 cartas en la mano y 11 en el arsenal.
+HHH: 52F, tiene 2 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 7 de daño.
+-------------------------------- 1/7
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/7
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/7
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 4/7
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 5/7
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 6/7
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 7/7
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+MANKIND: 31F, tiene 0 cartas en la mano y 11 en el arsenal.
+HHH: 52F, tiene 2 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 52F, tiene 3 cartas en la mano y 17 en el arsenal.
+MANKIND: 31F, tiene 0 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+2- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/5
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/5
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+HHH: 58F, tiene 2 cartas en la mano y 17 en el arsenal.
+MANKIND: 31F, tiene 0 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 31F, tiene 2 cartas en la mano y 4 en el arsenal.
+HHH: 58F, tiene 2 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 58F, tiene 3 cartas en la mano y 16 en el arsenal.
+MANKIND: 31F, tiene 2 cartas en la mano y 4 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+2- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: -1
+--------------------------------------------
+HHH: 58F, tiene 3 cartas en la mano y 16 en el arsenal.
+MANKIND: 31F, tiene 2 cartas en la mano y 4 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 31F, tiene 4 cartas en la mano y 2 en el arsenal.
+HHH: 58F, tiene 3 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 58F, tiene 4 cartas en la mano y 15 en el arsenal.
+MANKIND: 31F, tiene 4 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 31F, tiene 6 cartas en la mano y 0 en el arsenal.
+HHH: 58F, tiene 4 cartas en la mano y 15 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+
+--------------------------------------------
+Felicidades, gana HHH.

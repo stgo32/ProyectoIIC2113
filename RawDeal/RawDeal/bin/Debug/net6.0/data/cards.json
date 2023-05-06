@@ -1,0 +1,1853 @@
+[
+    {
+        "Title": "Chop",
+        "Types": [
+            "Action",
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "0",
+        "Damage": "2",
+        "StunValue": "0",
+        "CardEffect": "As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent."
+    },
+    {
+        "Title": "Punch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "0",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Head Butt",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "0",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, discard 1 card of your choice from your hand."
+    },
+    {
+        "Title": "Roundhouse Punch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "2",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Haymaker",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "3",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, all Strike maneuvers are +1D for the rest of this turn."
+    },
+    {
+        "Title": "Back Body Drop",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "5",
+        "Damage": "7",
+        "StunValue": "1",
+        "CardEffect": "The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards."
+    },
+    {
+        "Title": "Big Boot",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "6",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Shoulder Block",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Strike",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "0",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "May only reverse a maneuver played after the card titled Irish Whip."
+    },
+    {
+        "Title": "Kick",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "0",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile."
+    },
+    {
+        "Title": "Cross Body Block",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Strike",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "0",
+        "Damage": "7",
+        "StunValue": "0",
+        "CardEffect": "The card titled Irish Whip must be played before playing this card. May only reverse a maneuver played after the card titled Irish Whip."
+    },
+    {
+        "Title": "Ensugiri",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Strike",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "2",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "May only reverse the maneuver titled Kick."
+    },
+    {
+        "Title": "Running Elbow Smash",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "2",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile."
+    },
+    {
+        "Title": "Drop Kick",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Strike",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "6",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": "May only reverse the maneuver titled Drop Kick."
+    },
+    {
+        "Title": "Discus Punch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "7",
+        "Damage": "9",
+        "StunValue": "0",
+        "CardEffect": "Reversals to this maneuver are +2D."
+    },
+    {
+        "Title": "Superkick",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "0",
+        "Damage": "5",
+        "StunValue": "1",
+        "CardEffect": "When successfully played, +5D if played after a 5D or greater maneuver."
+    },
+    {
+        "Title": "Spinning Heel Kick",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "2",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Spear",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Strike",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "4",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "May only reverse a maneuver played after the card titled Irish Whip."
+    },
+    {
+        "Title": "Clothesline",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "8",
+        "Damage": "7",
+        "StunValue": "1",
+        "CardEffect": "When successfully played, if your next card played this turn is a maneuver it is +2D."
+    },
+    {
+        "Title": "Chair Shot",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike",
+            "ForeignObject",
+            "Heel"
+        ],
+        "Fortitude": "10",
+        "Damage": "10",
+        "StunValue": "1",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Hurricanrana",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike"
+        ],
+        "Fortitude": "11",
+        "Damage": "10",
+        "StunValue": "1",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Arm Bar Takedown",
+        "Types": [
+            "Action",
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "2",
+        "StunValue": "0",
+        "CardEffect": "As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent."
+    },
+    {
+        "Title": "Hip Toss",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Arm Drag",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, discard 1 card of your choice from your hand."
+    },
+    {
+        "Title": "Russian Leg Sweep",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "2",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Snap Mare",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "3",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, if your next card played this turn is a Strike maneuver it is +2D."
+    },
+    {
+        "Title": "Gut Buster",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "4",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Body Slam",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "7",
+        "Damage": "6",
+        "StunValue": "1",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Back Breaker",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "8",
+        "Damage": "7",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Double Leg Takedown",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you may draw 1 card."
+    },
+    {
+        "Title": "Fireman's Carry",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you may look at your opponent's hand."
+    },
+    {
+        "Title": "Headlock Takedown",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must draw 1 card."
+    },
+    {
+        "Title": "Belly to Belly Suplex",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "4",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "May only reverse the maneuver titled Belly to Belly Suplex."
+    },
+    {
+        "Title": "Atomic Facebuster",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "4",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Atomic Drop",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "5",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, if your next card played this turn is a maneuver it is +2D."
+    },
+    {
+        "Title": "Inverse Atomic Drop",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "6",
+        "Damage": "5",
+        "StunValue": "1",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Vertical Suplex",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "6",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": "May only reverse the maneuver titled Vertical Suplex."
+    },
+    {
+        "Title": "Belly to Back Suplex",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "8",
+        "Damage": "7",
+        "StunValue": "0",
+        "CardEffect": "May only reverse the maneuver titled Belly to Back Suplex."
+    },
+    {
+        "Title": "Pump Handle Slam",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "10",
+        "Damage": "7",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 2 cards."
+    },
+    {
+        "Title": "Reverse DDT",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "12",
+        "Damage": "9",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you may draw 1 card."
+    },
+    {
+        "Title": "Samoan Drop",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Sit Out Powerbomb",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "3",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Bulldog",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "8",
+        "Damage": "8",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, discard 1 card of your choice from your hand. Look at opponent's hand, then choose and discard 1 card from his hand."
+    },
+    {
+        "Title": "Fisherman's Suplex",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "10",
+        "Damage": "10",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card."
+    },
+    {
+        "Title": "DDT",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "11",
+        "Damage": "9",
+        "StunValue": "1",
+        "CardEffect": "When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards."
+    },
+    {
+        "Title": "Power Slam",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "13",
+        "Damage": "10",
+        "StunValue": "1",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Powerbomb",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "18",
+        "Damage": "12",
+        "StunValue": "2",
+        "CardEffect": "When successfully played, you may draw 1 card. Add +1D for every maneuver with the word \"slam\" in its title in your Ring area."
+    },
+    {
+        "Title": "Press Slam",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple"
+        ],
+        "Fortitude": "24",
+        "Damage": "15",
+        "StunValue": "2",
+        "CardEffect": "When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards."
+    },
+    {
+        "Title": "Collar & Elbow Lockup",
+        "Types": [
+            "Action",
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "0",
+        "Damage": "1",
+        "StunValue": "0",
+        "CardEffect": "As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent."
+    },
+    {
+        "Title": "Wrist Lock",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "0",
+        "Damage": "2",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Arm Bar",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "0",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, discard 1 card of your choice from your hand."
+    },
+    {
+        "Title": "Chin Lock",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "2",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Bear Hug",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "4",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Full Nelson",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "6",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, look through your Arsenal for the card titled Maintain Hold and place that card in your hand, then shuffle your Arsenal."
+    },
+    {
+        "Title": "Choke Hold",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission",
+            "Heel"
+        ],
+        "Fortitude": "6",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Step Over Toe Hold",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "8",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Ankle Lock",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "0",
+        "Damage": "2",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Standing Side Headlock",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "0",
+        "Damage": "4",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must draw 1 card."
+    },
+    {
+        "Title": "Cobra Clutch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "4",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, look through your Arsenal for the card titled Maintain Hold and place that card in your hand, then shuffle your Arsenal."
+    },
+    {
+        "Title": "Bow & Arrow",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "6",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Chicken Wing",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "12",
+        "Damage": "7",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal."
+    },
+    {
+        "Title": "Sleeper",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "4",
+        "Damage": "5",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, look through your Arsenal for the card titled Maintain Hold and place that card in your hand, then shuffle your Arsenal."
+    },
+    {
+        "Title": "Camel Clutch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "7",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, look through your Arsenal for the card titled Maintain Hold and place that card in your hand, then shuffle your Arsenal."
+    },
+    {
+        "Title": "Boston Crab",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "10",
+        "Damage": "8",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Guillotine Stretch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "12",
+        "Damage": "8",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, opponent must discard 1 card and you may draw 1 card."
+    },
+    {
+        "Title": "Abdominal Stretch",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "13",
+        "Damage": "6",
+        "StunValue": "0",
+        "CardEffect": "When successfully played, you may discard 3 cards, search through your Arsenal and put 1 card into your hand, then shuffle your Arsenal."
+    },
+    {
+        "Title": "Torture Rack",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "13",
+        "Damage": "9",
+        "StunValue": "1",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Figure Four Leg Lock",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Submission"
+        ],
+        "Fortitude": "19",
+        "Damage": "12",
+        "StunValue": "1",
+        "CardEffect": "When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Step Aside",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalStrike"
+        ],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Strike maneuver and end your opponent's turn."
+    },
+    {
+        "Title": "Escape Move",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalGrapple"
+        ],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Grapple maneuver and end your opponent's turn."
+    },
+    {
+        "Title": "Break the Hold",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSubmission"
+        ],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Submission maneuver and end your opponent's turn."
+    },
+    {
+        "Title": "Rolling Takedown",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalGrappleSpecial"
+        ],
+        "Fortitude": "1",
+        "Damage": "#",
+        "StunValue": "0",
+        "CardEffect": "Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area."
+    },
+    {
+        "Title": "Knee to the Gut",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalStrikeSpecial"
+        ],
+        "Fortitude": "1",
+        "Damage": "#",
+        "StunValue": "0",
+        "CardEffect": "Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area."
+    },
+    {
+        "Title": "Elbow to the Face",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial"
+        ],
+        "Fortitude": "0",
+        "Damage": "2",
+        "StunValue": "0",
+        "CardEffect": "May reverse any maneuver that does 7D or less. End your opponent's turn."
+    },
+    {
+        "Title": "Clean Break",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Face"
+        ],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "If played from your hand, may reverse the card titled Jockeying for Position. Opponent must discard 4 cards. End your opponent's turn. Draw 1 card."
+    },
+    {
+        "Title": "Manager Interferes",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Heel"
+        ],
+        "Fortitude": "10",
+        "Damage": "1",
+        "StunValue": "0",
+        "CardEffect": "Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card."
+    },
+    {
+        "Title": "Disqualification!",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Face"
+        ],
+        "Fortitude": "10",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any HEEL maneuver or reversal card if that opponent has 5 or more HEEL cards in his Ring area. Opponent is Disqualified and you win the game. This effect happens even if the card titled Disqualification is placed into your Ringside pile while applying damage from a HEEL maneuver or reversal card."
+    },
+    {
+        "Title": "No Chance in Hell",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalAction"
+        ],
+        "Fortitude": "12",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn."
+    },
+    {
+        "Title": "Hmmm",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal."
+    },
+    {
+        "Title": "Don't Think Too Hard",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal."
+    },
+    {
+        "Title": "Whaddya Got?",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Look at opponent's hand."
+    },
+    {
+        "Title": "Not Yet",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "4",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Take a card in your hand, shuffle it into your Arsenal, then draw 2 cards."
+    },
+    {
+        "Title": "Jockeying for Position",
+        "Types": [
+            "Action",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "SetUp",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "4",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F."
+    },
+    {
+        "Title": "Irish Whip",
+        "Types": [
+            "Action",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "SetUp",
+            "ReversalSpecial"
+        ],
+        "Fortitude": "5",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D."
+    },
+    {
+        "Title": "Flash in the Pan",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Face"
+        ],
+        "Fortitude": "6",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw 1 card. Look at opponent's hand, and then make him discard all HEEL cards."
+    },
+    {
+        "Title": "View of Villainy",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Heel"
+        ],
+        "Fortitude": "6",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw 1 card. Look at opponent's hand, and then make him discard all FACE cards."
+    },
+    {
+        "Title": "Shake It Off",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Playable only if your Fortitude Rating is less than your opponent's Fortitude Rating. Remove any 1 card in opponent's Ring area with a D value less than or equal to your total Fortitude Rating and place it into his Ringside pile."
+    },
+    {
+        "Title": "Offer Handshake",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Face"
+        ],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw up to 3 cards, then discard 1 card."
+    },
+    {
+        "Title": "Roll Out of the Ring",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Discard up to 2 cards from your hand to your Ringside pile. Return an equal number of cards of your choice to your hand from your Ringside pile."
+    },
+    {
+        "Title": "Distract the Ref",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Heel"
+        ],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw 1 card. Look at opponent's hand. If he has any cards titled Disqualification! he must discard them."
+    },
+    {
+        "Title": "Recovery",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "4",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card."
+    },
+    {
+        "Title": "Spit At Opponent",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Heel"
+        ],
+        "Fortitude": "4",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "You discard 1 card. Your opponent discards 4 cards."
+    },
+    {
+        "Title": "Get Crowd Support",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Face"
+        ],
+        "Fortitude": "10",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw 1 card. Your next maneuver this turn is +4D and opponent's reversals are +12F."
+    },
+    {
+        "Title": "Comeback!",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Discard 3 cards of your choice from your hand. All players compare their current Fortitude Rating. The player(s) with a higher Fortitude Rating must remove maneuver and/or reversal cards from their Ring area, putting them into his Ringside pile, until that player's Fortitude Rating is less than or equal to the others."
+    },
+    {
+        "Title": "Ego Boost",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Your next card played is -5F. If opponent forces you to discard a card from your hand, you may choose to discard this card from your hand and then draw up to 2 cards."
+    },
+    {
+        "Title": "Deluding Yourself",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Heel"
+        ],
+        "Fortitude": "8",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw 4 cards. At end of turn, discard your hand."
+    },
+    {
+        "Title": "Stagger",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "3",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it."
+    },
+    {
+        "Title": "Diversion",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "17",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Your next maneuver may not be reversed."
+    },
+    {
+        "Title": "Marking Out",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Face"
+        ],
+        "Fortitude": "13",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Choose one: Look through your Arsenal and put 1 card in your hand, shuffle it and end your turn; or go through opponent's Arsenal and put any 3 cards into his Ringside pile, then shuffle his Arsenal."
+    },
+    {
+        "Title": "Puppies! Puppies!",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "14",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards."
+    },
+    {
+        "Title": "Shane O'Mac",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "15",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "While this card is in your Ring area, at the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile."
+    },
+    {
+        "Title": "Maintain Hold",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [],
+        "Fortitude": "10",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Play after a successful Submission maneuver not reversed and end your turn. You and your opponent may not play maneuvers or actions until your opponent reverses the maintained Submission. On your turn, during the main segment, the Submission does its damage, along with any other abilities on the card. If a reversal is played by your opponent or is revealed while applying damage, both Maintain Hold and the Submission maneuver remain in your Ring area, but you may no longer use the ability of this Maintain Hold card."
+    },
+    {
+        "Title": "Pat & Gerry",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Face"
+        ],
+        "Fortitude": "18",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Opponent skips his next turn."
+    },
+    {
+        "Title": "Austin Elbow Smash",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "HighRisk",
+            "StoneCold",
+            "Unique"
+        ],
+        "Fortitude": "8",
+        "Damage": "10",
+        "StunValue": "0",
+        "CardEffect": "May not be reversed. Can only be played after a maneuver that does 5D or greater."
+    },
+    {
+        "Title": "Lou Thesz Press",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "StoneCold",
+            "Unique"
+        ],
+        "Fortitude": "0",
+        "Damage": "15",
+        "StunValue": "0",
+        "CardEffect": "If played from your hand, may reverse a maneuver played after the card titled Irish Whip. End your opponent's turn. You may draw 1 card."
+    },
+    {
+        "Title": "Double Digits",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "StoneCold",
+            "Unique"
+        ],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards, then take the top 2 cards from his Arsenal and put them into his Ringside pile."
+    },
+    {
+        "Title": "Stone Cold Stunner",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "StoneCold",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "25",
+        "StunValue": "3",
+        "CardEffect": "-6F on this card if played after the maneuver titled Kick."
+    },
+    {
+        "Title": "Open Up a Can of Whoop-A%$",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "StoneCold",
+            "Unique"
+        ],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Your next maneuver this turn is +6D, and your opponent's reversal to it is +20F. Draw a card."
+    },
+    {
+        "Title": "Undertaker's Chokeslam",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "Undertaker",
+            "Unique"
+        ],
+        "Fortitude": "15",
+        "Damage": "15",
+        "StunValue": "2",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Undertaker's Flying Clothesline",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "HighRisk",
+            "Undertaker",
+            "Unique"
+        ],
+        "Fortitude": "10",
+        "Damage": "18",
+        "StunValue": "2",
+        "CardEffect": "Can only be played after a 5D or greater maneuver. Reversals to this maneuver are +6D."
+    },
+    {
+        "Title": "Undertaker Sits Up!",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Undertaker",
+            "Unique"
+        ],
+        "Fortitude": "15",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F."
+    },
+    {
+        "Title": "Undertaker's Tombstone Piledriver",
+        "Types": [
+            "Action",
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "Undertaker",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "25",
+        "StunValue": "3",
+        "CardEffect": "As an action, this card is -30F and -25D, discard this card and draw 1 card."
+    },
+    {
+        "Title": "Power of Darkness",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Undertaker",
+            "Unique"
+        ],
+        "Fortitude": "12",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "+5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn."
+    },
+    {
+        "Title": "Have a Nice Day!",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Mankind",
+            "Unique"
+        ],
+        "Fortitude": "5",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand."
+    },
+    {
+        "Title": "Double Arm DDT",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "ReversalSpecial",
+            "Mankind",
+            "Unique"
+        ],
+        "Fortitude": "15",
+        "Damage": "15",
+        "StunValue": "2",
+        "CardEffect": "May only reverse the maneuver titled Back Body Drop."
+    },
+    {
+        "Title": "Tree of Woe",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "Mankind",
+            "Unique"
+        ],
+        "Fortitude": "18",
+        "Damage": "10",
+        "StunValue": "0",
+        "CardEffect": "May not be reversed. When successfully played, opponent must discard 2 cards."
+    },
+    {
+        "Title": "Mandible Claw",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "Mankind",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "20",
+        "StunValue": "3",
+        "CardEffect": "-6F on this card if Mr. Socko card is in your Ring area. You may play the card titled Maintain Hold after this card as if it were a Submission maneuver."
+    },
+    {
+        "Title": "Mr. Socko",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Mankind",
+            "Unique"
+        ],
+        "Fortitude": "20",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Take 1 card from either your Arsenal or Ringside pile and place it into your hand, then shuffle your Arsenal. While Mr. Socko is in your Ring area, all your maneuvers are +1D."
+    },
+    {
+        "Title": "Leaping Knee to the Face",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Strike",
+            "HHH",
+            "Unique"
+        ],
+        "Fortitude": "8",
+        "Damage": "10",
+        "StunValue": "0",
+        "CardEffect": "May not be reversed. You must play the card titled Irish Whip before playing this card. When successfully played, opponent discards 1 card."
+    },
+    {
+        "Title": "Facebuster",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "HHH",
+            "Unique"
+        ],
+        "Fortitude": "0",
+        "Damage": "10",
+        "StunValue": "0",
+        "CardEffect": "If played from your hand, may reverse a maneuver played after the card titled Irish Whip. End your opponent's turn. You may draw 2 cards."
+    },
+    {
+        "Title": "I Am the Game",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "HHH",
+            "Unique"
+        ],
+        "Fortitude": "3",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards."
+    },
+    {
+        "Title": "Pedigree",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "ReversalSpecial",
+            "HHH",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "25",
+        "StunValue": "3",
+        "CardEffect": "When successfully played, +2D if played after a Strike maneuver. May only reverse the maneuver titled Back Body Drop."
+    },
+    {
+        "Title": "Chyna Interferes",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "HHH",
+            "Unique"
+        ],
+        "Fortitude": "5",
+        "Damage": "3",
+        "StunValue": "0",
+        "CardEffect": "Reverses any maneuver and ends your opponent's turn. If played from your hand, draw 2 cards."
+    },
+    {
+        "Title": "Smackdown Hotel",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "TheRock",
+            "Unique"
+        ],
+        "Fortitude": "0",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw 1 card. Look at your opponent's hand. Your next maneuver this turn is +6D."
+    },
+    {
+        "Title": "Take That Move, Shine It Up Real Nice, Turn That Sumb*tch Sideways, and Stick It Straight Up Your Roody Poo Candy A%$!",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "TheRock",
+            "Unique"
+        ],
+        "Fortitude": "4",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, shuffle up to 5 cards from your Ringside pile into your Arsenal."
+    },
+    {
+        "Title": "Rock Bottom",
+        "Types": [
+            "Maneuver",
+            "Reversal"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "ReversalSpecial",
+            "TheRock",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "20",
+        "StunValue": "2",
+        "CardEffect": "When successfully played, look through your Ringside pile and Arsenal for the card titled The People's Elbow and place that card in your hand, then shuffle your Arsenal. May only reverse a Grapple maneuver, but you must first discard 1 card."
+    },
+    {
+        "Title": "The People's Eyebrow",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "TheRock",
+            "Unique"
+        ],
+        "Fortitude": "7",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Take any 2 cards from your Ringside pile and put them into your hand. Then take any 2 cards from your Ringside pile and shuffle them back into your Arsenal."
+    },
+    {
+        "Title": "The People's Elbow",
+        "Types": [
+            "Action",
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "TheRock",
+            "Unique"
+        ],
+        "Fortitude": "0",
+        "Damage": "10",
+        "StunValue": "3",
+        "CardEffect": "As a maneuver, this card can only be played if the card titled Rock Bottom is in your Ring area. As an action, place this card back in your Arsenal, shuffle, then draw 2 cards. Doing this will not cause any damage to opponent."
+    },
+    {
+        "Title": "Kane's Chokeslam",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "Grapple",
+            "Kane",
+            "Unique"
+        ],
+        "Fortitude": "12",
+        "Damage": "12",
+        "StunValue": "2",
+        "CardEffect": ""
+    },
+    {
+        "Title": "Kane's Flying Clothesline",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "HighRisk",
+            "Kane",
+            "Unique"
+        ],
+        "Fortitude": "8",
+        "Damage": "16",
+        "StunValue": "2",
+        "CardEffect": "Can only be played after a 4D or greater maneuver. Reversals to this maneuver are +6D."
+    },
+    {
+        "Title": "Kane's Return!",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Kane",
+            "Unique"
+        ],
+        "Fortitude": "10",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile; next turn, all your maneuvers are +2D, and all opponents reversals are +15F."
+    },
+    {
+        "Title": "Kane's Tombstone Piledriver",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "Kane",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "25",
+        "StunValue": "3",
+        "CardEffect": "-6F on this card if played after the card titled Kane's Choke Slam."
+    },
+    {
+        "Title": "Hellfire & Brimstone",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Kane",
+            "Unique"
+        ],
+        "Fortitude": "6",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "All players discard all cards from their hands. Your opponent places the top 5 cards of his Arsenal into his Ringside pile."
+    },
+    {
+        "Title": "Lionsault",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "HighRisk",
+            "Jericho",
+            "Unique"
+        ],
+        "Fortitude": "6",
+        "Damage": "12",
+        "StunValue": "2",
+        "CardEffect": "Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card."
+    },
+    {
+        "Title": "Y2J",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Jericho",
+            "Unique"
+        ],
+        "Fortitude": "5",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Draw up to 5 Cards or force opponent to discard up to 5 cards."
+    },
+    {
+        "Title": "Don't You Never... EVER!",
+        "Types": [
+            "Reversal"
+        ],
+        "Subtypes": [
+            "ReversalSpecial",
+            "Jericho",
+            "Unique"
+        ],
+        "Fortitude": "2",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards and all your maneuvers next turn are +2D."
+    },
+    {
+        "Title": "Walls of Jericho",
+        "Types": [
+            "Maneuver"
+        ],
+        "Subtypes": [
+            "TrademarkFinisher",
+            "Jericho",
+            "Unique"
+        ],
+        "Fortitude": "30",
+        "Damage": "20",
+        "StunValue": "3",
+        "CardEffect": "You may play the card titled Maintain Hold after this card as if it were a Submission maneuver."
+    },
+    {
+        "Title": "Ayatollah of Rock 'n' Roll-a",
+        "Types": [
+            "Action"
+        ],
+        "Subtypes": [
+            "Jericho",
+            "Unique"
+        ],
+        "Fortitude": "12",
+        "Damage": "0",
+        "StunValue": "0",
+        "CardEffect": "Look at your opponent's hand. For the rest of this turn, your opponent's reversals revealed from his Arsenal while applying damage may not reverse your maneuvers."
+    }
+]

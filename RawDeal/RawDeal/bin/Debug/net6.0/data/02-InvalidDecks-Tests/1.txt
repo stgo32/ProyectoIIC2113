@@ -1,0 +1,33 @@
+-------------------------
+Elige un mazo
+1- data/02-InvalidDecks/01.txt
+2- data/02-InvalidDecks/02.txt
+3- data/02-InvalidDecks/03.txt
+4- data/02-InvalidDecks/04.txt
+5- data/02-InvalidDecks/05.txt
+6- data/02-InvalidDecks/06.txt
+7- data/02-InvalidDecks/07.txt
+8- data/02-InvalidDecks/08.txt
+9- data/02-InvalidDecks/09.txt
+10- data/02-InvalidDecks/10.txt
+11- data/02-InvalidDecks/11.txt
+12- data/02-InvalidDecks/12.txt
+(Ingresa un número entre 1 y 12)
+INPUT: 1
+-------------------------
+Elige un mazo
+1- data/02-InvalidDecks/01.txt
+2- data/02-InvalidDecks/02.txt
+3- data/02-InvalidDecks/03.txt
+4- data/02-InvalidDecks/04.txt
+5- data/02-InvalidDecks/05.txt
+6- data/02-InvalidDecks/06.txt
+7- data/02-InvalidDecks/07.txt
+8- data/02-InvalidDecks/08.txt
+9- data/02-InvalidDecks/09.txt
+10- data/02-InvalidDecks/10.txt
+11- data/02-InvalidDecks/11.txt
+12- data/02-InvalidDecks/12.txt
+(Ingresa un número entre 1 y 12)
+INPUT: 2
+El mazo ingresado es inválido.

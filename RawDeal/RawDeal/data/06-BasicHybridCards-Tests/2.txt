@@ -1,0 +1,859 @@
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 2
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO descarta Arm Bar Takedown.
+CHRIS JERICHO roba 1 carta(s).
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 51 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 1 de daño.
+-------------------------------- 1/1
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+CHRIS JERICHO: 1F, tiene 7 cartas en la mano y 51 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 2 de daño.
+-------------------------------- 1/2
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/2
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 6 cartas en la mano y 51 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 3 de daño.
+-------------------------------- 1/3
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/3
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+CHRIS JERICHO: 6F, tiene 5 cartas en la mano y 51 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 1
+KANE debe descartar 1 carta(s).
+KANE elige una carta para descartar.
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 51 en el arsenal.
+KANE: 0F, tiene 6 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+KANE: 0F, tiene 7 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 2 de daño.
+-------------------------------- 1/2
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/2
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+KANE: 2F, tiene 6 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 2 de daño.
+-------------------------------- 1/2
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 2/2
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+KANE: 4F, tiene 5 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 5 de daño.
+-------------------------------- 1/5
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 4/5
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 5/5
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+KANE: 9F, tiene 4 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 41 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 6/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+KANE: 15F, tiene 3 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 10 de daño.
+-------------------------------- 1/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/10
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 7/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 8/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 9/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 10/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+KANE: 25F, tiene 2 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 7 de daño.
+-------------------------------- 1/7
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/7
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 3/7
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 4/7
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 5/7
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/7
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 7/7
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+KANE: 32F, tiene 1 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 3/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 6/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+KANE: 38F, tiene 0 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+KANE: 38F, tiene 0 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+4- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+5- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+6- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+--------------------------------------------
+KANE: 38F, tiene 0 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+KANE: 38F, tiene 0 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+KANE: 38F, tiene 0 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 6F, tiene 4 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 6F, tiene 5 cartas en la mano y 11 en el arsenal.
+KANE: 38F, tiene 0 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+2- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 6 de daño.
+-------------------------------- 1/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 5/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+CHRIS JERICHO: 12F, tiene 4 cartas en la mano y 11 en el arsenal.
+KANE: 38F, tiene 0 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+3- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 10 de daño.
+-------------------------------- 1/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 4/10
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 6/10
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 7/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 8/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 9/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 10/10
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+CHRIS JERICHO: 22F, tiene 3 cartas en la mano y 11 en el arsenal.
+KANE: 38F, tiene 0 cartas en la mano y 30 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+2- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 6 de daño.
+-------------------------------- 1/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 6/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 28F, tiene 2 cartas en la mano y 11 en el arsenal.
+KANE: 38F, tiene 0 cartas en la mano y 24 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 6 de daño.
+-------------------------------- 1/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 5/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 34F, tiene 1 cartas en la mano y 11 en el arsenal.
+KANE: 38F, tiene 0 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 3 de daño.
+-------------------------------- 1/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/3
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+CHRIS JERICHO: 37F, tiene 0 cartas en la mano y 11 en el arsenal.
+KANE: 38F, tiene 0 cartas en la mano y 15 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+KANE: 38F, tiene 1 cartas en la mano y 14 en el arsenal.
+CHRIS JERICHO: 37F, tiene 0 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE descarta Arm Bar Takedown.
+KANE roba 1 carta(s).
+--------------------------------------------
+KANE: 38F, tiene 1 cartas en la mano y 13 en el arsenal.
+CHRIS JERICHO: 37F, tiene 0 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 4/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+KANE: 44F, tiene 0 cartas en la mano y 13 en el arsenal.
+CHRIS JERICHO: 37F, tiene 0 cartas en la mano y 4 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 37F, tiene 1 cartas en la mano y 3 en el arsenal.
+KANE: 44F, tiene 0 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 6 de daño.
+-------------------------------- 1/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+-------------------------------- 3/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 6/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 43F, tiene 0 cartas en la mano y 3 en el arsenal.
+KANE: 44F, tiene 0 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+KANE: 44F, tiene 1 cartas en la mano y 6 en el arsenal.
+CHRIS JERICHO: 43F, tiene 0 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 4 de daño.
+-------------------------------- 1/4
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/4
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+
+--------------------------------------------
+Felicidades, gana KANE.

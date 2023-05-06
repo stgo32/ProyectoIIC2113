@@ -1,0 +1,1004 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 8
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 9
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 3 de daño.
+-------------------------------- 1/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/3
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 3F, tiene 10 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+2- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+3- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 2 de daño.
+-------------------------------- 1/2
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/2
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+HHH: 5F, tiene 9 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+3- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 3/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 6/6
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+HHH: 11F, tiene 8 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+5- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+7- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 10 de daño.
+-------------------------------- 1/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 3/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 5/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 6/10
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 7/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 8/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 9/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 10/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+HHH: 21F, tiene 7 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+6- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 4/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 5/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 6/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 27F, tiene 6 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+3- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+5- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 5 de daño.
+-------------------------------- 1/5
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 3/5
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/5
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/5
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+HHH: 32F, tiene 5 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 21 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 7 de daño.
+-------------------------------- 1/7
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/7
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/7
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 4/7
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 5/7
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 6/7
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 7/7
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 39F, tiene 4 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 14 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 13 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+5- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 13 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 13 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+5- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 4
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+3- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 13 en el arsenal.
+HHH: 39F, tiene 3 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 39F, tiene 4 cartas en la mano y 48 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 12 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 12 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+6- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+7- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 4
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+3- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 12 en el arsenal.
+HHH: 39F, tiene 3 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 39F, tiene 4 cartas en la mano y 47 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 11 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 11 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+7- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 1
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+3- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 11 en el arsenal.
+HHH: 39F, tiene 3 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+2- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+5- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+7- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+9- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+10- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+11- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+12- *Punch*. Info: 0F/3D, Maneuver, Strike.
+13- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+14- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+15- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+16- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+17- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+18- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+19- *Punch*. Info: 0F/3D, Maneuver, Strike.
+20- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+21- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+22- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+23- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+24- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+25- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+26- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+27- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+28- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+29- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+30- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+31- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+32- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+33- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+34- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+35- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+36- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+37- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+38- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+39- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+40- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+41- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 11 en el arsenal.
+HHH: 39F, tiene 3 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 5
+--------------------------------------------
+0- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 11 en el arsenal.
+HHH: 39F, tiene 3 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 39F, tiene 4 cartas en la mano y 46 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 10 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 10 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 39F, tiene 5 cartas en la mano y 45 en el arsenal.
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 9 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/3
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 8 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 4 de daño.
+-------------------------------- 1/4
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/4
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/4
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+CHRIS JERICHO: 7F, tiene 7 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+CHRIS JERICHO: 13F, tiene 6 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+5- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 5/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 6/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+CHRIS JERICHO: 19F, tiene 5 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+4- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 5/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 6/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 25F, tiene 4 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+3- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 7 de daño.
+-------------------------------- 1/7
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 2/7
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 3/7
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 4/7
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/7
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/7
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 7/7
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 32F, tiene 3 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+2- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 10 de daño.
+-------------------------------- 1/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/10
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 4/10
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 5/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 7/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 8/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 9/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 10/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 42F, tiene 2 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 5 cartas en la mano y 3 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+3- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO: 42F, tiene 1 cartas en la mano y 9 en el arsenal.
+HHH: 39F, tiene 4 cartas en la mano y 3 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/5
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+
+--------------------------------------------
+Felicidades, gana CHRIS JERICHO.

@@ -1,0 +1,1249 @@
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 5
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 6
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 55 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 55 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 5
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 2 de daño.
+-------------------------------- 1/2
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/2
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 4 de daño.
+-------------------------------- 1/4
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 4/4
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 6F, tiene 6 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/3
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 9F, tiene 5 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 2/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 4/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 5/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 15F, tiene 4 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 5 de daño.
+-------------------------------- 1/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/5
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/5
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 3 cartas en la mano y 52 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+6- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+7- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+8- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+9- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+10- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+11- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+12- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+13- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+14- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+15- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+16- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+17- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+18- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+19- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 19)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 0F, tiene 6 cartas en la mano y 35 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 3 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 1 de daño.
+-------------------------------- 1/1
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 1F, tiene 5 cartas en la mano y 35 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 3 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE ROCK: 1F, tiene 5 cartas en la mano y 35 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 3 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 50 en el arsenal.
+THE ROCK: 1F, tiene 5 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 50 en el arsenal.
+THE ROCK: 1F, tiene 5 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/3
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 3/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 50 en el arsenal.
+THE ROCK: 1F, tiene 5 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Punch*. Info: 0F/3D, Maneuver, Strike.
+20- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+21- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 21)
+INPUT: 21
+--------------------------------------------
+THE ROCK: 1F, tiene 6 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 2 de daño.
+-------------------------------- 1/2
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/2
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+THE ROCK: 3F, tiene 5 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 4 de daño.
+-------------------------------- 1/4
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/4
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+THE ROCK: 7F, tiene 4 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 5 de daño.
+-------------------------------- 1/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/5
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+THE ROCK: 12F, tiene 3 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 10 de daño.
+-------------------------------- 1/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/10
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 6/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 7/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 8/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 9/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 10/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 22F, tiene 2 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 29 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 5/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 6/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 28F, tiene 1 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 23 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 5 de daño.
+-------------------------------- 1/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/5
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 33F, tiene 0 cartas en la mano y 32 en el arsenal.
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 23F, tiene 4 cartas en la mano y 17 en el arsenal.
+THE ROCK: 33F, tiene 0 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 23F, tiene 4 cartas en la mano y 17 en el arsenal.
+THE ROCK: 33F, tiene 0 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 10 de daño.
+-------------------------------- 1/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 5/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 7/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 8/10
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 9/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 10/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 3 cartas en la mano y 17 en el arsenal.
+THE ROCK: 33F, tiene 0 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Punch*. Info: 0F/3D, Maneuver, Strike.
+20- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+21- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+22- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+23- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+24- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+25- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+26- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+27- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+28- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+29- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+30- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 30)
+INPUT: 10
+--------------------------------------------
+THE ROCK: 33F, tiene 1 cartas en la mano y 22 en el arsenal.
+STONE COLD STEVE AUSTIN: 33F, tiene 3 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+THE ROCK: 39F, tiene 0 cartas en la mano y 22 en el arsenal.
+STONE COLD STEVE AUSTIN: 33F, tiene 3 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 4 cartas en la mano y 10 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 4 cartas en la mano y 10 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN descarta Chop.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 4 cartas en la mano y 9 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN descarta Chop.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 33F, tiene 4 cartas en la mano y 8 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 2 de daño.
+-------------------------------- 1/2
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 35F, tiene 3 cartas en la mano y 8 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 5/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 41F, tiene 2 cartas en la mano y 8 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 14 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 2 de daño.
+-------------------------------- 1/2
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 43F, tiene 1 cartas en la mano y 8 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/3
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 46F, tiene 0 cartas en la mano y 8 en el arsenal.
+THE ROCK: 39F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+13- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+14- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+15- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+16- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+17- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+18- *Punch*. Info: 0F/3D, Maneuver, Strike.
+19- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+20- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+21- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+22- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+23- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+24- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+25- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+26- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+27- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+28- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+29- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+30- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+31- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+32- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+33- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+34- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+35- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+36- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+37- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+38- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+39- *Punch*. Info: 0F/3D, Maneuver, Strike.
+40- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+41- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+42- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 42)
+INPUT: 42
+--------------------------------------------
+THE ROCK: 39F, tiene 1 cartas en la mano y 9 en el arsenal.
+STONE COLD STEVE AUSTIN: 46F, tiene 0 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/3
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/3
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+THE ROCK: 42F, tiene 0 cartas en la mano y 9 en el arsenal.
+STONE COLD STEVE AUSTIN: 46F, tiene 0 cartas en la mano y 5 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 46F, tiene 1 cartas en la mano y 4 en el arsenal.
+THE ROCK: 42F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 46F, tiene 1 cartas en la mano y 4 en el arsenal.
+THE ROCK: 42F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN descarta Collar & Elbow Lockup.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 46F, tiene 1 cartas en la mano y 3 en el arsenal.
+THE ROCK: 42F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 3/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 52F, tiene 0 cartas en la mano y 3 en el arsenal.
+THE ROCK: 42F, tiene 0 cartas en la mano y 3 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+13- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+14- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+15- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+16- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+17- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+18- *Punch*. Info: 0F/3D, Maneuver, Strike.
+19- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+20- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+21- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+22- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+23- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+24- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+25- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+26- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+27- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+28- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+29- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+30- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+31- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+32- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+33- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+34- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+35- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+36- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+37- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+38- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+39- *Punch*. Info: 0F/3D, Maneuver, Strike.
+40- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+41- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+42- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+43- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+44- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+45- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+46- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+47- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 47)
+INPUT: 47
+--------------------------------------------
+THE ROCK: 42F, tiene 1 cartas en la mano y 3 en el arsenal.
+STONE COLD STEVE AUSTIN: 52F, tiene 0 cartas en la mano y 3 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+
+--------------------------------------------
+Felicidades, gana THE ROCK.

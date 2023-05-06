@@ -1,0 +1,191 @@
+-------------------------
+Elige un mazo
+1- data/04-NoEffects/01.txt
+2- data/04-NoEffects/02.txt
+3- data/04-NoEffects/03.txt
+4- data/04-NoEffects/04.txt
+5- data/04-NoEffects/05.txt
+6- data/04-NoEffects/06.txt
+7- data/04-NoEffects/07.txt
+8- data/04-NoEffects/08.txt
+(Ingresa un número entre 1 y 8)
+INPUT: 2
+-------------------------
+Elige un mazo
+1- data/04-NoEffects/01.txt
+2- data/04-NoEffects/02.txt
+3- data/04-NoEffects/03.txt
+4- data/04-NoEffects/04.txt
+5- data/04-NoEffects/05.txt
+6- data/04-NoEffects/06.txt
+7- data/04-NoEffects/07.txt
+8- data/04-NoEffects/08.txt
+(Ingresa un número entre 1 y 8)
+INPUT: 1
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+2- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+3- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+8- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+9- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+10- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay cartas aquí
+--------------------------------------------
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+No hay cartas aquí
+--------------------------------------------
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+No hay cartas aquí
+--------------------------------------------
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 5
+--------------------------------------------
+No hay cartas aquí
+--------------------------------------------
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+4- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+7- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+8- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+9- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+10- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 4
+
+--------------------------------------------
+Felicidades, gana HHH.

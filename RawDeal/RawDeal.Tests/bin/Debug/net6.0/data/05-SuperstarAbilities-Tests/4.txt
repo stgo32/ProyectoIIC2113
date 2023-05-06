@@ -1,0 +1,204 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 2
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 5
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+1- *Open Up a Can of Whoop-A%$*. Info: 2F/0D, Action, StoneCold/Unique. Effect: Your next maneuver this turn is +6D, and your opponent's reversal to it is +20F. Draw a card.
+2- *Stone Cold Stunner*. Info: 30F/25D/3SV, Maneuver, TrademarkFinisher/StoneCold/Unique. Effect: -6F on this card if played after the maneuver titled Kick.
+3- *Austin Elbow Smash*. Info: 8F/10D, Maneuver, HighRisk/StoneCold/Unique. Effect: May not be reversed. Can only be played after a maneuver that does 5D or greater.
+4- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+6- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+7- *Not Yet*. Info: 4F/0D, Action. Effect: Take a card in your hand, shuffle it into your Arsenal, then draw 2 cards.
+8- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 8
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Leaping Knee to the Face*. Info: 8F/10D, Maneuver, Strike/HHH/Unique. Effect: May not be reversed. You must play the card titled Irish Whip before playing this card. When successfully played, opponent discards 1 card.
+-------------------------------- 2/3
+*Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+-------------------------------- 3/3
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 3F, tiene 8 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+1- *Open Up a Can of Whoop-A%$*. Info: 2F/0D, Action, StoneCold/Unique. Effect: Your next maneuver this turn is +6D, and your opponent's reversal to it is +20F. Draw a card.
+2- *Stone Cold Stunner*. Info: 30F/25D/3SV, Maneuver, TrademarkFinisher/StoneCold/Unique. Effect: -6F on this card if played after the maneuver titled Kick.
+3- *Austin Elbow Smash*. Info: 8F/10D, Maneuver, HighRisk/StoneCold/Unique. Effect: May not be reversed. Can only be played after a maneuver that does 5D or greater.
+4- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+6- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+7- *Not Yet*. Info: 4F/0D, Action. Effect: Take a card in your hand, shuffle it into your Arsenal, then draw 2 cards.
+8- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 3F, tiene 8 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Open Up a Can of Whoop-A%$*. Info: 2F/0D, Action, StoneCold/Unique. Effect: Your next maneuver this turn is +6D, and your opponent's reversal to it is +20F. Draw a card.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/3
+*Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+-------------------------------- 3/3
+*Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 6F, tiene 7 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 12 cartas en la mano y 42 en el arsenal.
+STONE COLD STEVE AUSTIN: 6F, tiene 7 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 4
+
+--------------------------------------------
+Felicidades, gana STONE COLD STEVE AUSTIN.

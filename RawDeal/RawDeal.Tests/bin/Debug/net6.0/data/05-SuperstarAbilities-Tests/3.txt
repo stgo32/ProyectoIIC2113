@@ -1,0 +1,164 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 4
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 1
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+KANE: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 55 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Full Nelson*. Info: 6F/3D, Maneuver, Submission. Effect: When successfully played, look through your Arsenal for the card titled Maintain Hold and place that card in your hand, then shuffle your Arsenal.
+-------------------------------- 2/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+KANE: 3F, tiene 7 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+-------------------------------- 2/2
+*Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+KANE: 6F, tiene 6 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+-------------------------------- 2/2
+*Double Arm DDT*. Info: 15F/15D/2SV, Maneuver/Reversal, Grapple/ReversalSpecial/Mankind/Unique. Effect: May only reverse the maneuver titled Back Body Drop.
+--------------------------------------------
+KANE: 9F, tiene 5 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 6 cartas en la mano y 47 en el arsenal.
+KANE: 9F, tiene 5 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 4
+
+--------------------------------------------
+Felicidades, gana KANE.

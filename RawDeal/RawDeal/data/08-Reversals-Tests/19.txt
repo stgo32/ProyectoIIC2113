@@ -1,0 +1,1459 @@
+-------------------------
+Elige un mazo
+1- data/08-Reversals/01_Undertaker.txt
+2- data/08-Reversals/02_HHH.txt
+3- data/08-Reversals/03_Kane.txt
+4- data/08-Reversals/04_Undertaker.txt
+5- data/08-Reversals/05_Mankind.txt
+6- data/08-Reversals/06_HHH.txt
+7- data/08-Reversals/07_StoneCold.txt
+8- data/08-Reversals/08_Undertaker.txt
+9- data/08-Reversals/09_Kane.txt
+10- data/08-Reversals/10_TheRock.txt
+11- data/08-Reversals/11_Jericho.txt
+12- data/08-Reversals/12_HHH.txt
+13- data/08-Reversals/13_TheRock.txt
+14- data/08-Reversals/14_Mankind.txt
+15- data/08-Reversals/15_Undertaker.txt
+16- data/08-Reversals/16_Jericho.txt
+17- data/08-Reversals/17_StoneCold.txt
+18- data/08-Reversals/18_Kane.txt
+(Ingresa un número entre 1 y 18)
+INPUT: 15
+-------------------------
+Elige un mazo
+1- data/08-Reversals/01_Undertaker.txt
+2- data/08-Reversals/02_HHH.txt
+3- data/08-Reversals/03_Kane.txt
+4- data/08-Reversals/04_Undertaker.txt
+5- data/08-Reversals/05_Mankind.txt
+6- data/08-Reversals/06_HHH.txt
+7- data/08-Reversals/07_StoneCold.txt
+8- data/08-Reversals/08_Undertaker.txt
+9- data/08-Reversals/09_Kane.txt
+10- data/08-Reversals/10_TheRock.txt
+11- data/08-Reversals/11_Jericho.txt
+12- data/08-Reversals/12_HHH.txt
+13- data/08-Reversals/13_TheRock.txt
+14- data/08-Reversals/14_Mankind.txt
+15- data/08-Reversals/15_Undertaker.txt
+16- data/08-Reversals/16_Jericho.txt
+17- data/08-Reversals/17_StoneCold.txt
+18- data/08-Reversals/18_Kane.txt
+(Ingresa un número entre 1 y 18)
+INPUT: 17
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+6- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+7- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+8- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+STONE COLD STEVE AUSTIN recibe 2 de daño.
+-------------------------------- 1/2
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 6 cartas en la mano y 53 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 2/2
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 49 en el arsenal.
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+2- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+3- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+4- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+6- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 49 en el arsenal.
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+STONE COLD STEVE AUSTIN recibe 2 de daño.
+-------------------------------- 1/2
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/2
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 50 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 50 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 50 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 50 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 46 en el arsenal.
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+5- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 6
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 46 en el arsenal.
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 1
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+2- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+3- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 1
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+4- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 45 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+4- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 5
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 45 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 45 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 48 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER descarta Collar & Elbow Lockup.
+THE UNDERTAKER roba 1 carta(s).
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 6 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 44 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+4- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+6- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+7- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 44 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 44 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 46 en el arsenal.
+STONE COLD STEVE AUSTIN: 2F, tiene 7 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/2
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 4F, tiene 7 cartas en la mano y 43 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, STONE COLD STEVE AUSTIN debe elegir uno de los siguientes efectos:
+1- Tu siguiente carta, si es un Grapple, tiene +4D.
+2- Tu siguiente carta, si es un Grapple, tu oponente requiere +8F para revertirla.
+(Ingresa un número entre 1 y 2)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 4F, tiene 6 cartas en la mano y 43 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+5- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 4F, tiene 6 cartas en la mano y 43 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 2/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/6
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 6/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 10F, tiene 5 cartas en la mano y 43 en el arsenal.
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 2/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 3/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 7/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 8/10
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+STONE COLD STEVE AUSTIN puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 29 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 29 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+4- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 29 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+10- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+11- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+14- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+15- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+16- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+17- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+18- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+21- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+22- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 29 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+4- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 4
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 1
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+10- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+11- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+14- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+15- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+16- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+17- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+18- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+21- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+22- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+23- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+24- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre 0 y 24)
+INPUT: 18
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 29 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+1- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/4
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 3/4
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/4
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 41 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 41 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/6
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 3/6
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 4/6
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 5/6
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 6/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 24 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 24 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+2- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 24 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 34 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 24 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 5
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 34 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 24 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 23 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 23 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+2- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 23 en el arsenal.
+STONE COLD STEVE AUSTIN: 20F, tiene 4 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 33 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 23 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 20F, tiene 5 cartas en la mano y 33 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 23 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 2/6
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 20 en el arsenal.
+STONE COLD STEVE AUSTIN: 26F, tiene 4 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+2- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 2/4
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 3/4
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 4/4
+*Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 26F, tiene 4 cartas en la mano y 32 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 26F, tiene 4 cartas en la mano y 32 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 2/5
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/5
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/5
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 4 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 31F, tiene 3 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta usando:
+[REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 32F, tiene 4 cartas en la mano y 30 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+2- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 32F, tiene 4 cartas en la mano y 30 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/10
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 3/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/10
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 5/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 7/10
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 8/10
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 9/10
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 10/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+
+--------------------------------------------
+Felicidades, gana STONE COLD STEVE AUSTIN.

@@ -1,0 +1,1076 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 13
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 14
+--------------------------------------------
+Comienza el turno de THE ROCK.
+--------------------------------------------
+THE ROCK: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/2
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+THE ROCK: 2F, tiene 5 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/4
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 6F, tiene 4 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/5
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/5
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 4/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 11F, tiene 3 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 7 de daño.
+-------------------------------- 1/7
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/7
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 3/7
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/7
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/7
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 6/7
+*Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+-------------------------------- 7/7
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+THE ROCK: 18F, tiene 2 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 4/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 5/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 6/10
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 7/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 8/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 9/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 10/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+THE ROCK: 28F, tiene 1 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+THE ROCK: 28F, tiene 1 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 3/3
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 3F, tiene 6 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/3
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/3
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+THE UNDERTAKER: 6F, tiene 5 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 4 de daño.
+-------------------------------- 1/4
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 3/4
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 4/4
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 10F, tiene 4 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 5/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 6/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 16F, tiene 3 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 10 de daño.
+-------------------------------- 1/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 7/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 8/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 9/10
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 10/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 26F, tiene 2 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 2/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/6
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 4/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 32F, tiene 1 cartas en la mano y 25 en el arsenal.
+THE ROCK: 28F, tiene 1 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Punch*. Info: 0F/3D, Maneuver, Strike.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+12- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+13- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+14- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+15- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+16- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+17- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+18- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+19- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+20- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+21- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+22- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+23- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+24- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+25- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+26- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+27- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+28- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+29- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+30- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+31- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 31)
+INPUT: 27
+--------------------------------------------
+THE ROCK: 28F, tiene 2 cartas en la mano y 22 en el arsenal.
+THE UNDERTAKER: 32F, tiene 1 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 4/4
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+THE ROCK: 32F, tiene 1 cartas en la mano y 22 en el arsenal.
+THE UNDERTAKER: 32F, tiene 1 cartas en la mano y 21 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 32F, tiene 2 cartas en la mano y 20 en el arsenal.
+THE ROCK: 32F, tiene 1 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 4/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/6
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 6/6
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+THE UNDERTAKER: 38F, tiene 1 cartas en la mano y 20 en el arsenal.
+THE ROCK: 32F, tiene 1 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Punch*. Info: 0F/3D, Maneuver, Strike.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+12- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+13- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+14- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+15- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+16- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+17- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+18- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+19- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+20- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+21- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+22- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+23- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+24- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+25- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+26- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+27- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+28- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+29- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+30- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+31- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+32- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+33- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+34- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+35- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+36- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 36)
+INPUT: 30
+--------------------------------------------
+THE ROCK: 32F, tiene 2 cartas en la mano y 16 en el arsenal.
+THE UNDERTAKER: 38F, tiene 1 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/10
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 3/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 7/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 8/10
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 9/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 10/10
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+THE ROCK: 42F, tiene 1 cartas en la mano y 16 en el arsenal.
+THE UNDERTAKER: 38F, tiene 1 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+THE ROCK: 42F, tiene 1 cartas en la mano y 16 en el arsenal.
+THE UNDERTAKER: 38F, tiene 1 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 38F, tiene 2 cartas en la mano y 9 en el arsenal.
+THE ROCK: 42F, tiene 1 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 38F, tiene 2 cartas en la mano y 9 en el arsenal.
+THE ROCK: 42F, tiene 1 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre 0 y 0)
+INPUT: 0
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Punch*. Info: 0F/3D, Maneuver, Strike.
+9- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+14- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+15- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+16- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+17- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+18- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+19- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+20- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+21- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+24- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+25- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+26- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+27- *Punch*. Info: 0F/3D, Maneuver, Strike.
+28- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+29- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+30- *Punch*. Info: 0F/3D, Maneuver, Strike.
+31- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+32- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+33- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+34- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+35- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+36- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+37- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+38- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+39- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+40- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+41- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+42- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+43- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre 0 y 43)
+INPUT: 16
+--------------------------------------------
+THE UNDERTAKER: 38F, tiene 1 cartas en la mano y 9 en el arsenal.
+THE ROCK: 42F, tiene 1 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 15 de daño.
+-------------------------------- 1/15
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 2/15
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 3/15
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/15
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 5/15
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/15
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 7/15
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 8/15
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 9/15
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 10/15
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 11/15
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 12/15
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 13/15
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 14/15
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 15/15
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+THE UNDERTAKER: 53F, tiene 0 cartas en la mano y 9 en el arsenal.
+THE ROCK: 42F, tiene 1 cartas en la mano y 1 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Punch*. Info: 0F/3D, Maneuver, Strike.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+12- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+13- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+14- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+15- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+16- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+17- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+18- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+19- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+20- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+21- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+22- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+23- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+24- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+25- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+26- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+27- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+28- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+29- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+30- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+31- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+32- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+33- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+34- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+35- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+36- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+37- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+38- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+39- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+40- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+41- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+42- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+43- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+44- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+45- *Punch*. Info: 0F/3D, Maneuver, Strike.
+46- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+47- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+48- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+49- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+50- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre 0 y 50)
+INPUT: 50
+--------------------------------------------
+THE ROCK: 42F, tiene 2 cartas en la mano y 1 en el arsenal.
+THE UNDERTAKER: 53F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 3/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 48F, tiene 1 cartas en la mano y 1 en el arsenal.
+THE UNDERTAKER: 53F, tiene 0 cartas en la mano y 3 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 53F, tiene 1 cartas en la mano y 2 en el arsenal.
+THE ROCK: 48F, tiene 1 cartas en la mano y 1 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 53F, tiene 1 cartas en la mano y 2 en el arsenal.
+THE ROCK: 48F, tiene 1 cartas en la mano y 1 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Punch*. Info: 0F/3D, Maneuver, Strike.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+12- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+13- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+14- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+15- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+16- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+17- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+18- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+19- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+20- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+21- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+22- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+23- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+24- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+25- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+26- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+27- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+28- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+29- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+30- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+31- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+32- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+33- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+34- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+35- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+36- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+37- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+38- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+39- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+40- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+41- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+42- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+43- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+44- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+45- *Punch*. Info: 0F/3D, Maneuver, Strike.
+46- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+47- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+48- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+49- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 49)
+INPUT: 38
+--------------------------------------------
+THE ROCK: 48F, tiene 2 cartas en la mano y 1 en el arsenal.
+THE UNDERTAKER: 53F, tiene 1 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+1- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 2/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+
+--------------------------------------------
+Felicidades, gana THE ROCK.

@@ -1,0 +1,282 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 1
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+1- *Don't You Never... EVER!*. Info: 2F/0D, Reversal, ReversalSpecial/Jericho/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards and all your maneuvers next turn are +2D.
+2- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 0
+KANE debe descartar 1 carta(s).
+KANE elige una carta para descartar.
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- *Kane's Return!*. Info: 10F/0D, Reversal, ReversalSpecial/Kane/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile; next turn, all your maneuvers are +2D, and all opponents reversals are +15F.
+4- *Kane's Tombstone Piledriver*. Info: 30F/25D/3SV, Maneuver, TrademarkFinisher/Kane/Unique. Effect: -6F on this card if played after the card titled Kane's Choke Slam.
+5- *Kane's Flying Clothesline*. Info: 8F/16D/2SV, Maneuver, HighRisk/Kane/Unique. Effect: Can only be played after a 4D or greater maneuver. Reversals to this maneuver are +6D.
+6- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 4
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 6 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 3 de daño.
+-------------------------------- 1/3
+*Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 2/3
+*Hellfire & Brimstone*. Info: 6F/0D, Action, Kane/Unique. Effect: All players discard all cards from their hands. Your opponent places the top 5 cards of his Arsenal into his Ringside pile.
+-------------------------------- 3/3
+*Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 6 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 6 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 6 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 6 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 5
+--------------------------------------------
+0- *Kane's Tombstone Piledriver*. Info: 30F/25D/3SV, Maneuver, TrademarkFinisher/Kane/Unique. Effect: -6F on this card if played after the card titled Kane's Choke Slam.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Hellfire & Brimstone*. Info: 6F/0D, Action, Kane/Unique. Effect: All players discard all cards from their hands. Your opponent places the top 5 cards of his Arsenal into his Ringside pile.
+3- *Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 6 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 6 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+--------------------------------------------
+KANE: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 3F, tiene 6 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 7 cartas en la mano y 50 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 4
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 3 de daño.
+-------------------------------- 1/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+CHRIS JERICHO: 6F, tiene 6 cartas en la mano y 50 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Don't You Never... EVER!*. Info: 2F/0D, Reversal, ReversalSpecial/Jericho/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards and all your maneuvers next turn are +2D.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Not Yet*. Info: 4F/0D, Action. Effect: Take a card in your hand, shuffle it into your Arsenal, then draw 2 cards.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 5
+KANE debe descartar 1 carta(s).
+KANE elige una carta para descartar.
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- *Kane's Return!*. Info: 10F/0D, Reversal, ReversalSpecial/Kane/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile; next turn, all your maneuvers are +2D, and all opponents reversals are +15F.
+4- *Kane's Flying Clothesline*. Info: 8F/16D/2SV, Maneuver, HighRisk/Kane/Unique. Effect: Can only be played after a 4D or greater maneuver. Reversals to this maneuver are +6D.
+5- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+6- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 6
+--------------------------------------------
+CHRIS JERICHO: 6F, tiene 5 cartas en la mano y 50 en el arsenal.
+KANE: 0F, tiene 6 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Not Yet*. Info: 4F/0D, Action. Effect: Take a card in your hand, shuffle it into your Arsenal, then draw 2 cards.
+--------------------------------------------
+KANE: 0F, tiene 7 cartas en la mano y 45 en el arsenal.
+CHRIS JERICHO: 6F, tiene 5 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 4
+
+--------------------------------------------
+Felicidades, gana CHRIS JERICHO.

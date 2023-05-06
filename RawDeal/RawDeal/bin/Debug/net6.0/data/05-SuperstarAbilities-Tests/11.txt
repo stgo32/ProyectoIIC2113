@@ -1,0 +1,859 @@
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 12
+-------------------------
+Elige un mazo
+1- data/05-SuperstarAbilities/01_Kane.txt
+2- data/05-SuperstarAbilities/02_HHH.txt
+3- data/05-SuperstarAbilities/03_Jericho.txt
+4- data/05-SuperstarAbilities/04_Mankind.txt
+5- data/05-SuperstarAbilities/05_StoneCold.txt
+6- data/05-SuperstarAbilities/06_TheRock.txt
+7- data/05-SuperstarAbilities/07_Undertaker.txt
+8- data/05-SuperstarAbilities/08_HHH.txt
+9- data/05-SuperstarAbilities/09_Jericho.txt
+10- data/05-SuperstarAbilities/10_Kane.txt
+11- data/05-SuperstarAbilities/11_Mankind.txt
+12- data/05-SuperstarAbilities/12_StoneCold.txt
+13- data/05-SuperstarAbilities/13_Undertaker.txt
+14- data/05-SuperstarAbilities/14_TheRock.txt
+(Ingresa un número entre 1 y 14)
+INPUT: 13
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 3 de daño.
+-------------------------------- 1/3
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/3
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+-------------------------------- 3/3
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 3F, tiene 7 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+1- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+2- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 4/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 6/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 9F, tiene 6 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+5- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/5
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 14F, tiene 5 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+3- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 3 de daño.
+-------------------------------- 1/3
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/3
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 3/3
+*Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 17F, tiene 4 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 37 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+2- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 5/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 23F, tiene 3 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+2- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 2/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 5/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 6/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 29F, tiene 2 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 4/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 5/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 35F, tiene 1 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 19 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 35F, tiene 1 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 19 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 2/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 6/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 52 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+3- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+6- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Punch*. Info: 0F/3D, Maneuver, Strike.
+9- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+14- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+15- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+16- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+17- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+18- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+19- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+20- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+21- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+24- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+25- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+26- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+27- *Punch*. Info: 0F/3D, Maneuver, Strike.
+28- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+29- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+30- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+31- *Punch*. Info: 0F/3D, Maneuver, Strike.
+32- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+33- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+34- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+35- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+36- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+37- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+38- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+39- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+40- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/3
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/3
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+THE UNDERTAKER: 3F, tiene 6 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+3- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/3
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 3/3
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 6F, tiene 5 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 4 de daño.
+-------------------------------- 1/4
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/4
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/4
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+THE UNDERTAKER: 10F, tiene 4 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+2- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 2/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/6
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 5/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+THE UNDERTAKER: 16F, tiene 3 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+2- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 10 de daño.
+-------------------------------- 1/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 4/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/10
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 7/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 8/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 9/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 10/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+THE UNDERTAKER: 26F, tiene 2 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- [ACTION] *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 26F, tiene 2 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+1- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 0)
+INPUT: 0
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Punch*. Info: 0F/3D, Maneuver, Strike.
+9- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+14- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+15- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+16- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+17- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+18- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+19- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+20- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+21- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+24- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+25- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+26- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+27- *Punch*. Info: 0F/3D, Maneuver, Strike.
+28- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+29- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+30- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+31- *Punch*. Info: 0F/3D, Maneuver, Strike.
+32- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+33- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+34- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+35- *Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+36- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+37- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+38- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+39- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+40- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+41- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+42- *Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 42)
+INPUT: 16
+--------------------------------------------
+THE UNDERTAKER: 26F, tiene 1 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 15 de daño.
+-------------------------------- 1/15
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 2/15
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 3/15
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 4/15
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/15
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/15
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 7/15
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 8/15
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 9/15
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 10/15
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 11/15
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 12/15
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 13/15
+*Hmmm*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of your Arsenal. You may either arrange them in any order or shuffle your Arsenal.
+-------------------------------- 14/15
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 15/15
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+THE UNDERTAKER: 41F, tiene 0 cartas en la mano y 12 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 0 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 41F, tiene 1 cartas en la mano y 10 en el arsenal.
+THE UNDERTAKER: 41F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 41F, tiene 1 cartas en la mano y 10 en el arsenal.
+THE UNDERTAKER: 41F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+1- *Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 41F, tiene 1 cartas en la mano y 10 en el arsenal.
+THE UNDERTAKER: 41F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 41F, tiene 1 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 41F, tiene 1 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 10 de daño.
+-------------------------------- 1/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 5/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 6/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 7/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 8/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 9/10
+*Don't Think Too Hard*. Info: 0F/0D, Action. Effect: Look at the top 5 cards of an opponent's Arsenal. You may either arrange them in any order or make him shuffle his Arsenal.
+-------------------------------- 10/10
+*Whaddya Got?*. Info: 2F/0D, Action. Effect: Look at opponent's hand.
+
+--------------------------------------------
+Felicidades, gana THE UNDERTAKER.

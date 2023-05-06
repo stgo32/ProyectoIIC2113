@@ -1,0 +1,1311 @@
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 6
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 7
+--------------------------------------------
+Comienza el turno de THE ROCK.
+--------------------------------------------
+THE ROCK: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+THE ROCK: 1F, tiene 5 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 2F, tiene 4 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/4
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 6F, tiene 3 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+-------------------------------- 2/5
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/5
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/5
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 5/5
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 11F, tiene 2 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/10
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 7/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 8/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 9/10
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 10/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 21F, tiene 1 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 6/6
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 27F, tiene 0 cartas en la mano y 54 en el arsenal.
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 27 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 26 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER descarta Arm Bar Takedown.
+THE UNDERTAKER roba 1 carta(s).
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 6
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+2- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 5
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+6- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+7- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+14- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+17- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+18- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+19- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+20- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+21- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+22- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+23- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+24- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+25- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+26- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+27- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+28- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+29- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 29)
+INPUT: 27
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 6 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 2 de daño.
+-------------------------------- 1/2
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 2F, tiene 5 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/3
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 4 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 5 de daño.
+-------------------------------- 1/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 4/5
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+THE UNDERTAKER: 10F, tiene 3 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 10 de daño.
+-------------------------------- 1/10
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 3/10
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 4/10
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 6/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 7/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 8/10
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 9/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 10/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 20F, tiene 2 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/3
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 3/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 23F, tiene 1 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 6/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 0 cartas en la mano y 25 en el arsenal.
+THE ROCK: 27F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Punch*. Info: 0F/3D, Maneuver, Strike.
+21- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+24- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+25- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+26- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+27- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+28- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 28)
+INPUT: 23
+--------------------------------------------
+THE ROCK: 27F, tiene 1 cartas en la mano y 25 en el arsenal.
+THE UNDERTAKER: 29F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/2
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+THE ROCK: 29F, tiene 0 cartas en la mano y 25 en el arsenal.
+THE UNDERTAKER: 29F, tiene 0 cartas en la mano y 23 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 1 cartas en la mano y 22 en el arsenal.
+THE ROCK: 29F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 1 cartas en la mano y 22 en el arsenal.
+THE ROCK: 29F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Punch*. Info: 0F/3D, Maneuver, Strike.
+21- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+24- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+25- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+26- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+27- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 27)
+INPUT: 27
+--------------------------------------------
+THE ROCK: 29F, tiene 1 cartas en la mano y 25 en el arsenal.
+THE UNDERTAKER: 29F, tiene 1 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+THE ROCK: 31F, tiene 0 cartas en la mano y 25 en el arsenal.
+THE UNDERTAKER: 29F, tiene 1 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 2 cartas en la mano y 19 en el arsenal.
+THE ROCK: 31F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 2 cartas en la mano y 19 en el arsenal.
+THE ROCK: 31F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 0)
+INPUT: 0
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+6- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+7- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+14- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+17- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+18- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+19- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+20- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+21- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+22- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+23- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+24- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+25- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+26- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+27- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+28- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+29- *Punch*. Info: 0F/3D, Maneuver, Strike.
+30- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+31- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+32- *Punch*. Info: 0F/3D, Maneuver, Strike.
+33- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+34- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 34)
+INPUT: 21
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 1 cartas en la mano y 19 en el arsenal.
+THE ROCK: 31F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER descarta Collar & Elbow Lockup.
+THE UNDERTAKER roba 1 carta(s).
+--------------------------------------------
+THE UNDERTAKER: 29F, tiene 1 cartas en la mano y 18 en el arsenal.
+THE ROCK: 31F, tiene 0 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 10 de daño.
+-------------------------------- 1/10
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 5/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 7/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 8/10
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 9/10
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 10/10
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 39F, tiene 0 cartas en la mano y 18 en el arsenal.
+THE ROCK: 31F, tiene 0 cartas en la mano y 15 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Punch*. Info: 0F/3D, Maneuver, Strike.
+21- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+24- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+25- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+26- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+27- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+28- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+29- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+30- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+31- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+32- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+33- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+34- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+35- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+36- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 36)
+INPUT: 29
+--------------------------------------------
+THE ROCK: 31F, tiene 1 cartas en la mano y 15 en el arsenal.
+THE UNDERTAKER: 39F, tiene 0 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK descarta Collar & Elbow Lockup.
+THE ROCK roba 1 carta(s).
+--------------------------------------------
+THE ROCK: 31F, tiene 1 cartas en la mano y 14 en el arsenal.
+THE UNDERTAKER: 39F, tiene 0 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 2/2
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+THE ROCK: 33F, tiene 0 cartas en la mano y 14 en el arsenal.
+THE UNDERTAKER: 39F, tiene 0 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 39F, tiene 1 cartas en la mano y 15 en el arsenal.
+THE ROCK: 33F, tiene 0 cartas en la mano y 14 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 3/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/6
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+THE UNDERTAKER: 45F, tiene 0 cartas en la mano y 15 en el arsenal.
+THE ROCK: 33F, tiene 0 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Punch*. Info: 0F/3D, Maneuver, Strike.
+21- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+24- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+25- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+26- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+27- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+28- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+29- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+30- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+31- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+32- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+33- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+34- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+35- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+36- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+37- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+38- *Punch*. Info: 0F/3D, Maneuver, Strike.
+39- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+40- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+41- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+42- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 42)
+INPUT: 23
+--------------------------------------------
+THE ROCK: 33F, tiene 1 cartas en la mano y 8 en el arsenal.
+THE UNDERTAKER: 45F, tiene 0 cartas en la mano y 15 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 2 de daño.
+-------------------------------- 1/2
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/2
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+THE ROCK: 35F, tiene 0 cartas en la mano y 8 en el arsenal.
+THE UNDERTAKER: 45F, tiene 0 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 45F, tiene 1 cartas en la mano y 12 en el arsenal.
+THE ROCK: 35F, tiene 0 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER: 51F, tiene 0 cartas en la mano y 12 en el arsenal.
+THE ROCK: 35F, tiene 0 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+14- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+19- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+20- *Punch*. Info: 0F/3D, Maneuver, Strike.
+21- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+24- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+25- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+26- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+27- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+28- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+29- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+30- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+31- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+32- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+33- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+34- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+35- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+36- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+37- *Punch*. Info: 0F/3D, Maneuver, Strike.
+38- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+39- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+40- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+41- *Punch*. Info: 0F/3D, Maneuver, Strike.
+42- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+43- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+44- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+45- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+46- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+47- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 47)
+INPUT: 47
+--------------------------------------------
+THE ROCK: 35F, tiene 1 cartas en la mano y 2 en el arsenal.
+THE UNDERTAKER: 51F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK descarta Arm Bar Takedown.
+THE ROCK roba 1 carta(s).
+--------------------------------------------
+THE ROCK: 35F, tiene 1 cartas en la mano y 1 en el arsenal.
+THE UNDERTAKER: 51F, tiene 0 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 10 de daño.
+-------------------------------- 1/10
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/10
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 5/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 7/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 8/10
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 9/10
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 10/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK: 45F, tiene 0 cartas en la mano y 1 en el arsenal.
+THE UNDERTAKER: 51F, tiene 0 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 51F, tiene 1 cartas en la mano y 1 en el arsenal.
+THE ROCK: 45F, tiene 0 cartas en la mano y 1 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+
+--------------------------------------------
+Felicidades, gana THE UNDERTAKER.

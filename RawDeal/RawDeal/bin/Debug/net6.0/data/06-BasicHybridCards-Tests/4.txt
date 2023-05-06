@@ -1,0 +1,1293 @@
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 4
+-------------------------
+Elige un mazo
+1- data/06-BasicHybridCards/01_HHH.txt
+2- data/06-BasicHybridCards/02_JERICHO.txt
+3- data/06-BasicHybridCards/03_KANE.txt
+4- data/06-BasicHybridCards/04_MANKIND.txt
+5- data/06-BasicHybridCards/05_STONE_COLD.txt
+6- data/06-BasicHybridCards/06_THE_ROCK.txt
+7- data/06-BasicHybridCards/07_UNDERTAKER.txt
+(Ingresa un número entre 1 y 7)
+INPUT: 5
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 2 cartas en la mano y 58 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 2 cartas en la mano y 58 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 9)
+INPUT: 9
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 10
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 11
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+MANKIND: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+12- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 12)
+INPUT: 12
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+MANKIND: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+MANKIND: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+12- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+13- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 13)
+INPUT: 12
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+MANKIND: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+MANKIND: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+14- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 14)
+INPUT: 14
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+MANKIND: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 16 cartas en la mano y 44 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 15 cartas en la mano y 45 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+STONE COLD STEVE AUSTIN usa su habilidad: Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+STONE COLD STEVE AUSTIN elige una carta para devolver a tu arsenal.
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+11- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+12- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+13- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+14- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+15- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 15)
+INPUT: 15
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 15 cartas en la mano y 45 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 8
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 1F, tiene 14 cartas en la mano y 45 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 4
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN descarta Arm Bar Takedown.
+STONE COLD STEVE AUSTIN roba 1 carta(s).
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 1F, tiene 14 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/2
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 4F, tiene 13 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+6- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+8- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 3 de daño.
+-------------------------------- 1/3
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 2/3
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 3/3
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 8F, tiene 12 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+5- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+6- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+7- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+9- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+10- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+11- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 11)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/5
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/5
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 5/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 14F, tiene 11 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+6- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+9- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+10- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/4
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 19F, tiene 10 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 30 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+5- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+6- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+8- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+9- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/2
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 22F, tiene 9 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+5- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+6- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+7- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+8- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 25F, tiene 8 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 27F, tiene 7 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+2- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+4- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+6- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 3/4
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/4
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 32F, tiene 6 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 21 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+3- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+4- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/5
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/5
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/5
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 38F, tiene 5 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+2- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+3- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 40F, tiene 4 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 15 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+3- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/2
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 44 en el arsenal.
+MANKIND: 0F, tiene 16 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 18 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 1 de daño.
+-------------------------------- 1/1
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 1F, tiene 17 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 1 de daño.
+-------------------------------- 1/1
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+MANKIND: 2F, tiene 16 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 2
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 1 de daño.
+-------------------------------- 1/1
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+MANKIND: 3F, tiene 15 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 41 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/3
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/3
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 6F, tiene 14 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [ACTION] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+8- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 3
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 2 de daño.
+-------------------------------- 1/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/2
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 8F, tiene 13 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+1- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+3- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+5- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+8- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+9- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 11)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 3/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/6
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 6/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 14F, tiene 12 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 30 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+1- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+2- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+7- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+8- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+9- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 11)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 7 de daño.
+-------------------------------- 1/7
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 2/7
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 3/7
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/7
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 5/7
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 6/7
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 7/7
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 21F, tiene 11 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 23 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+6- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+7- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+8- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+9- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 5/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 6/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 27F, tiene 10 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+3- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+5- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+7- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+8- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+9- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/6
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 6/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+MANKIND: 33F, tiene 9 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+5- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+8- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/6
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 5/6
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 6/6
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+MANKIND: 39F, tiene 8 cartas en la mano y 11 en el arsenal.
+STONE COLD STEVE AUSTIN: 43F, tiene 3 cartas en la mano y 5 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 6 de daño.
+-------------------------------- 1/6
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 4/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+
+--------------------------------------------
+Felicidades, gana MANKIND.

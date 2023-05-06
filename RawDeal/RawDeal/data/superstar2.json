@@ -1,0 +1,51 @@
+[
+    {
+        "Name": "STONE COLD STEVE AUSTIN",
+        "Logo": "StoneCold",
+        "HandSize": 7,
+        "SuperstarValue": 5,
+        "SuperstarAbility": "Once during your turn, you may draw a card, but you must then take a card from your hand and place it on the bottom of your Arsenal."
+    },
+    {
+        "Name": "THE UNDERTAKER",
+        "Logo": "Undertaker",
+        "HandSize": 6,
+        "SuperstarValue": 4,
+        "SuperstarAbility": "Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand."
+    },
+    {
+        "Name": "MANKIND",
+        "Logo": "Mankind",
+        "HandSize": 2,
+        "SuperstarValue": 4,
+        "SuperstarAbility": "You must always draw 2 cards, if possible, during your draw segment. All damage from opponent is at -1D."
+    },
+    {
+        "Name": "HHH",
+        "Logo": "HHH",
+        "HandSize": 10,
+        "SuperstarValue": 3,
+        "SuperstarAbility": "None, isn't the starting HandSize enough! He is \"The Game\" after all!"
+    },
+    {
+        "Name": "THE ROCK",
+        "Logo": "TheRock",
+        "HandSize": 5,
+        "SuperstarValue": 5,
+        "SuperstarAbility": "At the start of your turn, before your draw segment, you may take 1 card from your Ringside pile and place it on the bottom of your Arsenal."
+    },
+    {
+        "Name": "KANE",
+        "Logo": "Kane",
+        "HandSize": 7,
+        "SuperstarValue": 2,
+        "SuperstarAbility": "At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile."
+    },
+    {
+        "Name": "CHRIS JERICHO",
+        "Logo": "Jericho",
+        "HandSize": 7,
+        "SuperstarValue": 3,
+        "SuperstarAbility": "Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand."
+    }
+]
