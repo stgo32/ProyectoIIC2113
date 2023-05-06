@@ -1,9 +1,8 @@
+namespace RawDeal;
+
 using RawDealView;
 using RawDealView.Options;
 
-
-
-namespace RawDeal;
 
 public class Game
 {
@@ -52,7 +51,6 @@ public class Game
         foreach (Player player in players)
         {
             ReadDeck(player);
-            // correctDeck = player.CheckDeck(superstars);
             correctDeck = player.Deck.Check(superstars);
             if (!correctDeck) 
             {

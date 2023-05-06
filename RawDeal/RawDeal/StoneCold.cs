@@ -1,6 +1,5 @@
 namespace RawDeal;
 
-using RawDealView.Options;
 
 public class StoneCold:Superstar
 {

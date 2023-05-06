@@ -1,7 +1,5 @@
 namespace RawDeal;
 
-using RawDealView.Options;
-
 public class Undertaker:Superstar
 {
     public override Player Player { get; set; }
