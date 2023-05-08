@@ -20,7 +20,6 @@ public class StoneCold:Superstar
     public override bool CanUseAbilityAtBeginOfTurn { get { return false; } }
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }
 
-
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);

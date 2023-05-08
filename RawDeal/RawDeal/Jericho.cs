@@ -1,7 +1,7 @@
 namespace RawDeal;
 
 
-public class Jericho:Superstar
+public class Jericho : Superstar
 {
     public override Player Player { get; set; }
     public override bool UsedAbilityThisTurn { get; set; } = false;
@@ -20,7 +20,6 @@ public class Jericho:Superstar
     public override bool CanUseAbilityAtBeginOfTurn { get { return false; } }
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }
 
-
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
@@ -28,6 +27,7 @@ public class Jericho:Superstar
         Player.Oponent.DiscardACard();
         UsedAbilityThisTurn = true;
     }
+    
     public override int TakeLessDamage(int damage)
     {
         throw new System.NotImplementedException();

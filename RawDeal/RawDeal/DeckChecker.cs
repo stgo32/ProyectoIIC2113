@@ -1,5 +1,6 @@
 namespace RawDeal;
 
+
 public class DeckChecker
 {
     private List<Card> _deck;

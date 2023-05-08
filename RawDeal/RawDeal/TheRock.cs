@@ -1,6 +1,7 @@
 namespace RawDeal;
 
-public class TheRock:Superstar
+
+public class TheRock : Superstar
 {
     private Player _player;
     public override Player Player { 
@@ -13,7 +14,6 @@ public class TheRock:Superstar
         }
     }
     public override bool UsedAbilityThisTurn { get; set; } = false;
-
     public override bool CanChooseToUseAbility { 
         get { return false; } 
         set { CanChooseToUseAbility = value; }
@@ -28,7 +28,9 @@ public class TheRock:Superstar
             return isValid;
         }
     }
+
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }
+    
     public override void UseAbility()
     {
         Player.RecoverACard();

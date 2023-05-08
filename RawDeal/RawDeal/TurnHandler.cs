@@ -1,5 +1,6 @@
 namespace RawDeal;
 
+
 public class TurnHandler
 {
     private int _idPlayerAtTurn { get; set;} = 0;

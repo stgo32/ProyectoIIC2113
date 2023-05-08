@@ -1,5 +1,6 @@
 namespace RawDeal;
 
+
 using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -7,11 +8,12 @@ using System.Text.Json.Serialization;
 
 public class SuperstarConverter : JsonConverter<Superstar>
 {
+    private string _property = "Name";
     public override Superstar Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
         var jsonDocument = JsonDocument.ParseValue(ref reader);
         var jsonObject = jsonDocument.RootElement;
-        var name = jsonObject.GetProperty("Name").GetString();
+        var name = jsonObject.GetProperty(_property).GetString();
         Superstar superstar = DeserializeSuperstarByName(name, jsonObject, options);
         return superstar;
     }

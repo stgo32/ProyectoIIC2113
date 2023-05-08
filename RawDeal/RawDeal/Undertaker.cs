@@ -1,6 +1,7 @@
 namespace RawDeal;
 
-public class Undertaker:Superstar
+
+public class Undertaker : Superstar
 {
     public override Player Player { get; set; }
     public override bool UsedAbilityThisTurn { get; set; } = false;

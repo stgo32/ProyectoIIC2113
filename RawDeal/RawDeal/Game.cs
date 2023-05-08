@@ -1,5 +1,6 @@
 namespace RawDeal;
 
+
 using RawDealView;
 using RawDealView.Options;
 
@@ -164,7 +165,8 @@ public class Game
     private int SelectCardIdToPlay()
     {
         List<Card> possibleCards = playerAtTurn.Deck.GetPossibleCardsToPlay();
-        List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, NextPlay.PlayCard);
+        NextPlay nextPlay = NextPlay.PlayCard;
+        List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, nextPlay);
         int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
         return idCardSelected;
     }
@@ -236,7 +238,8 @@ public class Game
 
     private void AskPlayerToUseAbility(Player playerAtTurn)
     {
-        bool wantsToUseAbility = Formatter.View.DoesPlayerWantToUseHisAbility(playerAtTurn.Superstar.Name);
+        string superstarName = playerAtTurn.Superstar.Name;
+        bool wantsToUseAbility = Formatter.View.DoesPlayerWantToUseHisAbility(superstarName);
         playerAtTurn.WantsToUseAbility = wantsToUseAbility;
     }
 }

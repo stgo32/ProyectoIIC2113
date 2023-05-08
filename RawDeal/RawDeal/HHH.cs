@@ -1,6 +1,7 @@
 namespace RawDeal;
 
-public class HHH:Superstar
+
+public class HHH : Superstar
 {
     public override Player Player { get; set; }
     public override bool UsedAbilityThisTurn { get; set; } = false;
@@ -10,7 +11,6 @@ public class HHH:Superstar
     }
     public override bool CanUseAbilityAtBeginOfTurn { get { return false; } }
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }
-
 
     public override void UseAbility()
     {

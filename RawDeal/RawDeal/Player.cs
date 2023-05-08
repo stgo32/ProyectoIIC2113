@@ -1,30 +1,28 @@
 namespace RawDeal;
 
+
 using RawDealView.Options;
+
 
 public class Player
 {
     private bool _hasWon = false;
-    public bool HasWon
-    {
-        get { return _hasWon; }
-        set { _hasWon = value; }
+    public bool HasWon { 
+        get { return _hasWon; } 
+        set { _hasWon = value; } 
     }
     private int _fortitude = 0;
-    public int Fortitude
-    {
-        get { return _fortitude; }
-        set { _fortitude = value; }
+    public int Fortitude { 
+        get { return _fortitude; } 
+        set { _fortitude = value; } 
     }
     private bool _needToAskToUseAbility = false;
-    public bool NeedToAskToUseAbility
-    {
+    public bool NeedToAskToUseAbility {
         get { return _needToAskToUseAbility; }
         set { _needToAskToUseAbility = value; }
     }
     private bool _wantsToUseAbility = false;
-    public bool WantsToUseAbility
-    {
+    public bool WantsToUseAbility {
         get { return _wantsToUseAbility; }
         set { _wantsToUseAbility = value; }
     }
@@ -44,12 +42,10 @@ public class Player
     public List<Card> RingArea { get { return Deck.RingArea; } }
     public List<Card> Ringside { get { return Deck.Ringside; } }
     private Player _oponent;
-    public Player Oponent
-    {
+    public Player Oponent { 
         get { return _oponent; }
-        set { _oponent = value; }
+        set { _oponent = value; } 
     }
-
 
     public int PlayCard(int cardId)
     {

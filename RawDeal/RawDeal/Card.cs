@@ -1,6 +1,8 @@
 namespace RawDeal;
 
+
 using RawDealView.Formatters;
+
 
 public class Card : IViewableCardInfo
 {

@@ -1,6 +1,7 @@
 namespace RawDeal;
 
-public class Kane:Superstar
+
+public class Kane : Superstar
 {
     private Player _player;
     public override Player Player { 

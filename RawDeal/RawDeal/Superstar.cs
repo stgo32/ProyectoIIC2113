@@ -17,5 +17,4 @@ public abstract class Superstar
     public abstract void UseAbility();
 
     public abstract int TakeLessDamage(int damage);
-
 }
