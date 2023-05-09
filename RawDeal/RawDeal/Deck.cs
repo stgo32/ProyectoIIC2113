@@ -196,13 +196,16 @@ public class Deck
             Card possibleCard = GetPossibleCardsToPlay()[i];
             if (possibleCard.Title == card.Title)
             {
-                SumCountersOptions(possibleCard, ref cardCount, ref hibridCounter);
+                ManageCountersOptionsForCardAppearances(
+                    possibleCard, ref cardCount, ref hibridCounter
+                );
             }
         }
         return cardCount;
     }
 
-    private void SumCountersOptions(Card possibleCard, ref int cardCount, ref int hibridCounter)
+    private void ManageCountersOptionsForCardAppearances(Card possibleCard, ref int cardCount, 
+                                                         ref int hibridCounter)
     {
         if (possibleCard.isHibrid && hibridCounter == 0)
         {
