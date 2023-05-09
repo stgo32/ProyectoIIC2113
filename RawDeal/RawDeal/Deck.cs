@@ -149,10 +149,20 @@ public class Deck
         {
             if (card.IsPossibleToPlay(Player.Fortitude))
             {
-                possibleCards.Add(card);
+                // possibleCards.Add(card);
+                AddPossibleCard(card, possibleCards);
             }
         }
         return possibleCards;
+    }
+
+    private void AddPossibleCard(Card card, List<Card> possibleCards)
+    {
+        foreach (string type in card.Types)
+        {
+            Card cardToAdd = card.PlayCardAs(type);
+            possibleCards.Add(cardToAdd);
+        }
     }
 
     private int FindCardIdAtHandByCountInPossibleCardsToPlay(int cardCount, Card card)

@@ -13,6 +13,20 @@ public class Card : IViewableCardInfo
     public string Damage { get; set; }
     public string StunValue { get; set; }
     public string CardEffect { get; set; }
+    private string _playAs;
+    public string PlayAs { get { return _playAs; } set { _playAs = value; } }
+
+    public Card(string title, List<string> types, List<string> subtypes, string fortitude,
+                string damage, string stunValue, string cardEffect)
+    {
+        Title = title;
+        Types = types;
+        Subtypes = subtypes;
+        Fortitude = fortitude;
+        Damage = damage;
+        StunValue = stunValue;
+        CardEffect = cardEffect;
+    }
 
     public int GetFortitude()
     {
@@ -53,5 +67,12 @@ public class Card : IViewableCardInfo
             contains = true;
         }
         return contains;
+    }
+
+    public Card PlayCardAs(string type)
+    {
+        Card card = MemberwiseClone() as Card;
+        card._playAs = type;
+        return card;
     }
 }

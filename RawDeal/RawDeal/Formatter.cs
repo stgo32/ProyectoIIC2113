@@ -60,7 +60,7 @@ public static class Formatter
         List<string> formattedCardList = new List<string>();
         foreach (Card card in cardList)
         {
-            string formattedCard = FormatCard(card, card.Types[0], nextPlay);
+            string formattedCard = FormatCard(card, card.PlayAs, nextPlay);
             formattedCardList.Add(formattedCard);
         }
         return formattedCardList;
