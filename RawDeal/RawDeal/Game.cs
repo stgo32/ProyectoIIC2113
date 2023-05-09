@@ -106,7 +106,6 @@ public class Game
             {
                 GiveUp();
             }
-            CheckIfPlayerHasWon();
         }
         CongratulateWinner();
         return;
@@ -139,12 +138,8 @@ public class Game
 
     private bool APlayerHasWon()
     {
-        bool anyHasWon = false;
-        if (playerAtTurn.HasWon || oponent.HasWon)
-        {
-            anyHasWon = true;
-        }
-        return anyHasWon;
+        CheckIfPlayerHasWon();
+        return playerAtTurn.HasWon || oponent.HasWon;
     }
 
     public void SuperstarCanUseAbilityAtBeginOfTurn()
@@ -235,7 +230,6 @@ public class Game
         }
         for (int i = 0; i < damage; i++)
         {
-            CheckIfPlayerHasWon();
             if (APlayerHasWon())
             {
                 break;
