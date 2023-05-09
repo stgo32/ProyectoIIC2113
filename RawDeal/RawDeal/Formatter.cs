@@ -60,20 +60,20 @@ public static class Formatter
         List<string> formattedCardList = new List<string>();
         foreach (Card card in cardList)
         {
-            string formattedCard = FormatCard(card, card.PlayAs, nextPlay);
+            string formattedCard = FormatCard(card, nextPlay);
             formattedCardList.Add(formattedCard);
         }
         return formattedCardList;
     }
 
-    public static string FormatCard(Card card, string type, NextPlay nextPlay)
+    public static string FormatCard(Card card, NextPlay nextPlay)
     {
         string formattedCard = "";
         if (nextPlay == NextPlay.PlayCard)
         {
-            if (type == "Action" || type == "Maneuver")
+            if (card.PlayAs == "Action" || card.PlayAs == "Maneuver")
             {
-                formattedCard = PlayCardFormat(card, type);
+                formattedCard = PlayCardFormat(card);
             }
         }
         else if (nextPlay == NextPlay.ShowCards)
@@ -83,9 +83,9 @@ public static class Formatter
         return formattedCard;
     }
 
-    public static string PlayCardFormat(Card card, string type)
+    public static string PlayCardFormat(Card card)
     {
-        ViewablePlayInfo play = new ViewablePlayInfo(card, type.ToUpper());
+        ViewablePlayInfo play = new ViewablePlayInfo(card, card.PlayAs.ToUpper());
         string formattedCard = RawDealView.Formatters.Formatter.PlayToString(play);
         return formattedCard;
     }

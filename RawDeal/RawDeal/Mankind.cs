@@ -10,6 +10,7 @@ public class ManKind : Superstar
         }
         set {
             _player = value;
+
             _player.WantsToUseAbility = true;
         }
     }
