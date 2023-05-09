@@ -15,6 +15,7 @@ public class Card : IViewableCardInfo
     public string CardEffect { get; set; }
     private string _playAs;
     public string PlayAs { get { return _playAs; } set { _playAs = value; } }
+    public bool isHibrid { get { return Types.Count > 1; } }
 
     public Card(string title, List<string> types, List<string> subtypes, string fortitude,
                 string damage, string stunValue, string cardEffect)

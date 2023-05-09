@@ -190,15 +190,35 @@ public class Deck
     {
         Card card = GetPossibleCardsToPlay()[cardId];
         int cardCount = 0;
+        int hibridCounter = 0;
         for (int i = 0; i < cardId; i++)
         {
-            if (GetPossibleCardsToPlay()[i].Title == card.Title)
+            Card possibleCard = GetPossibleCardsToPlay()[i];
+            if (possibleCard.Title == card.Title)
             {
-                cardCount++;
+                SumCountersOptions(possibleCard, ref cardCount, ref hibridCounter);
             }
         }
         return cardCount;
     }
+
+    private void SumCountersOptions(Card possibleCard, ref int cardCount, ref int hibridCounter)
+    {
+        if (possibleCard.isHibrid && hibridCounter == 0)
+        {
+            hibridCounter++;
+        }
+        else if (possibleCard.isHibrid && hibridCounter == 1)
+        {
+            cardCount++;
+            hibridCounter = 0;
+        }
+        else
+        {
+            cardCount++;
+        }
+    }
+
     public void DrawCardFromArsenalToHand()
     {
         Card card = _arsenal[_arsenal.Count - 1];

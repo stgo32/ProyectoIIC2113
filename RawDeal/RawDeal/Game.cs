@@ -197,8 +197,6 @@ public class Game
         {
             Card cardSelected = GetCardSelected(idCardSelected);
             Formatter.PlayCard(cardSelected, playerAtTurn);
-            // Formatter.PrintCardInfo(cardSelected, playerAtTurn);
-            // Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
             if (cardSelected.PlayAs == "Action")
             {
                 PlayCardAsAction(idCardSelected);
