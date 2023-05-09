@@ -102,9 +102,20 @@ public static class Formatter
         View.ShowCardOverturnByTakingDamage(infoCardOvertuned, numCard, damage);
     }
 
-    public static void PrintCardInfo(Card card, Player playerAtTurn)
+    public static void PlayCard(Card card, Player player)
     {
-        string infoCardSelected = FormatCard(card, card.Types[0], NextPlay.PlayCard);
+        Formatter.PrintCardInfo(card, player);
+        View.SayThatPlayerSuccessfullyPlayedACard();
+    }
+
+    public static void PlayCardAsAction(string discardedCardTitle, string superstarName)
+    {
+        View.SayThatPlayerMustDiscardThisCard(superstarName, discardedCardTitle);
+    }
+
+    private static void PrintCardInfo(Card card, Player playerAtTurn)
+    {
+        string infoCardSelected = FormatCard(card, NextPlay.PlayCard);
         View.SayThatPlayerIsTryingToPlayThisCard(playerAtTurn.Superstar.Name, infoCardSelected);
     }
 }

@@ -196,10 +196,24 @@ public class Game
         if (idCardSelected != -1)
         {
             Card cardSelected = GetCardSelected(idCardSelected);
-            Formatter.PrintCardInfo(cardSelected, playerAtTurn);
-            Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-            OverturnCardsWhenAttacking(idCardSelected);
+            Formatter.PlayCard(cardSelected, playerAtTurn);
+            // Formatter.PrintCardInfo(cardSelected, playerAtTurn);
+            // Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
+            if (cardSelected.PlayAs == "Action")
+            {
+                PlayCardAsAction(idCardSelected);
+            }
+            else 
+            {
+                OverturnCardsWhenAttacking(idCardSelected);
+            }
         }
+    }
+
+    private void PlayCardAsAction(int idCardSelected)
+    {
+        Card cardSelected = playerAtTurn.Deck.GetPossibleCardsToPlay()[idCardSelected];
+        playerAtTurn.PlayCardAsAction(idCardSelected);
     }
 
     private Card GetCardSelected(int idCardSelected)

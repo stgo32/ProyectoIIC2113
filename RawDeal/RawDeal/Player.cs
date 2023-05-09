@@ -55,6 +55,12 @@ public class Player
         return damage;
     }
 
+    public void PlayCardAsAction(int cardId)
+    {
+        DiscardPossibleCardById(cardId);
+        DrawACard();
+    }
+
     private int DeliverDamage(int damage)
     {
         _fortitude += damage;
@@ -89,6 +95,13 @@ public class Player
     {
         int discardCardId = SelectCardToDiscard(iter);
         Deck.DrawCardFromHandToRingsideById(discardCardId);
+    }
+
+    public void DiscardPossibleCardById(int cardId)
+    {
+        string cardTitle = Deck.GetPossibleCardsToPlay()[cardId].Title;
+        Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
+        Deck.DrawCardFromPossibleCardsToRingsideById(cardId);
     }
 
     private int SelectCardToDiscard(int iter)

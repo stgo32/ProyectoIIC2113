@@ -214,6 +214,14 @@ public class Deck
         DrawCardFromHandToRingAreaById(idCardAtHand);
         return card;
     }
+
+    public void DrawCardFromPossibleCardsToRingsideById(int cardId)
+    {
+        Card card = GetPossibleCardsToPlay()[cardId];
+        int cardCount = CountCardAppearancesInPossibleCardsToPlay(cardId);
+        int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
+        DrawCardFromHandToRingsideById(idCardAtHand);
+    }
     
     public void DrawCardFromHandToRingAreaById(int cardId)
     {
