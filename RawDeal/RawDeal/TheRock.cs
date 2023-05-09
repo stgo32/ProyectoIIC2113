@@ -14,10 +14,7 @@ public class TheRock : Superstar
         }
     }
     public override bool UsedAbilityThisTurn { get; set; } = false;
-    public override bool CanChooseToUseAbility { 
-        get { return false; } 
-        set { CanChooseToUseAbility = value; }
-    }
+    public override bool CanChooseToUseAbility { get { return false; } }
     public override bool CanUseAbilityAtBeginOfTurn { 
         get {
             bool isValid = false;

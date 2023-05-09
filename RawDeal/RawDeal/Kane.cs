@@ -15,10 +15,7 @@ public class Kane : Superstar
         }
     }
     public override bool UsedAbilityThisTurn { get; set; } = false;
-    public override bool CanChooseToUseAbility { 
-        get { return false; } 
-        set { CanChooseToUseAbility = value; }
-    }
+    public override bool CanChooseToUseAbility { get { return false; } }
     public override bool CanUseAbilityAtBeginOfTurn { get { return true; } }
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }
 

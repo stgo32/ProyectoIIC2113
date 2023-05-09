@@ -13,9 +13,6 @@ public class Jericho : Superstar
             }
             return Player.Hand.Count >= 1;
         }
-        set {
-            CanChooseToUseAbility = value;
-        }
     }
     public override bool CanUseAbilityAtBeginOfTurn { get { return false; } }
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }

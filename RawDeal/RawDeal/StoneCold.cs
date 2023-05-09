@@ -12,9 +12,6 @@ public class StoneCold:Superstar
             }
             return Player.Arsenal.Count >= 1;
         }
-        set {
-            CanChooseToUseAbility = value;
-        }
     }
     public override bool UsedAbilityThisTurn { get; set; } = false;
     public override bool CanUseAbilityAtBeginOfTurn { get { return false; } }

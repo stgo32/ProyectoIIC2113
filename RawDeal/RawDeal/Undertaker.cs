@@ -13,9 +13,6 @@ public class Undertaker : Superstar
             }
             return Player.Hand.Count >= 2;
         }
-        set {
-            CanChooseToUseAbility = value;
-        }
     }
     public override bool CanUseAbilityAtBeginOfTurn { get { return false; } }
     public override bool CanUseAbilityBeforeTakingDamage { get { return false; } }

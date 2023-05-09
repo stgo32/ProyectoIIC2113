@@ -10,7 +10,7 @@ public abstract class Superstar
     public string SuperstarAbility { get; set;}
     public abstract Player Player { get; set; }
     public abstract bool UsedAbilityThisTurn { get; set; }
-    public abstract bool CanChooseToUseAbility { get; set; }
+    public abstract bool CanChooseToUseAbility { get; }
     public abstract bool CanUseAbilityAtBeginOfTurn { get; }
     public abstract bool CanUseAbilityBeforeTakingDamage { get; }
 
