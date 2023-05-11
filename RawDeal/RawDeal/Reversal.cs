@@ -9,5 +9,6 @@ public abstract class Reversal : Card
 
     public abstract bool CanReverse(Card card);
 
-    public abstract bool ReversalEffect(Card card);
+    public abstract void ReversalEffect(Card card);
 }
+
