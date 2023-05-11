@@ -1,4 +1,4 @@
-namespace RawDeal;
+namespace RawDeal.DeckHandler;
 
 
 public class DeckChecker

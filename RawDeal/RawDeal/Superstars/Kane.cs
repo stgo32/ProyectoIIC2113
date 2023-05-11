@@ -1,4 +1,4 @@
-namespace RawDeal;
+namespace RawDeal.Superstars;
 
 
 public class Kane : Superstar

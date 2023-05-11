@@ -1,6 +1,8 @@
 namespace RawDeal;
 
 
+using RawDeal.Deserialize;
+using RawDeal.DeckHandler;
 using RawDealView;
 using RawDealView.Options;
 

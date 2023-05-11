@@ -1,6 +1,7 @@
 namespace RawDeal;
 
 
+using RawDeal.Superstars;
 using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;

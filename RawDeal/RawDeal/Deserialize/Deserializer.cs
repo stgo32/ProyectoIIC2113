@@ -1,4 +1,4 @@
-namespace RawDeal;
+namespace RawDeal.Deserialize;
 
 
 using System.Text.Json;

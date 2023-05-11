@@ -1,4 +1,7 @@
-namespace RawDeal;
+namespace RawDeal.DeckHandler;
+
+
+using RawDeal.Superstars;
 
 
 public class Deck
