@@ -149,7 +149,6 @@ public class Deck
         {
             if (card.IsPossibleToPlay(Player.Fortitude))
             {
-                // possibleCards.Add(card);
                 AddPossibleCard(card, possibleCards);
             }
         }
@@ -228,6 +227,11 @@ public class Deck
         _arsenal.RemoveAt(_arsenal.Count - 1);
         _hand.Add(card);
     }
+
+    // public bool IsPossibleToReverse(Card card)
+    // {
+    //     Check
+    // }
 
     public Card DrawCardFromPossibleCardsToRingAreaById(int cardId)
     {

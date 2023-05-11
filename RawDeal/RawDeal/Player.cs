@@ -47,7 +47,7 @@ public class Player
         set { _oponent = value; } 
     }
 
-    public int PlayCard(int cardId)
+    public int PlayCardAsManeuver(int cardId)
     {
         Card card = Deck.DrawCardFromPossibleCardsToRingAreaById(cardId);
         int damage = card.GetDamage();

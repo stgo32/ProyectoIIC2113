@@ -198,7 +198,7 @@ public class Game
             }
             else 
             {
-                OverturnCardsWhenAttacking(idCardSelected);
+                PlayCardAsManeuver(idCardSelected);
             }
         }
     }
@@ -215,10 +215,10 @@ public class Game
         return cardSelected;
     }
 
-    private void OverturnCardsWhenAttacking(int cardSelectedId)
+    private void PlayCardAsManeuver(int cardSelectedId)
     {
         Card cardSelected = GetCardSelected(cardSelectedId);
-        int numCardsToOverturn = playerAtTurn.PlayCard(cardSelectedId);
+        int numCardsToOverturn = playerAtTurn.PlayCardAsManeuver(cardSelectedId);
         PrintOvertunedCards(numCardsToOverturn);
     }
 
