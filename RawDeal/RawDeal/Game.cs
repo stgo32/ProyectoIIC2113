@@ -194,19 +194,35 @@ public class Game
         {
             Card cardSelected = GetCardSelected(idCardSelected);
             Formatter.PlayCard(cardSelected, playerAtTurn);
-            if (cardSelected.PlayAs == "Action")
+            if (oponent.Deck.CanReverseCard(cardSelected))
+            {
+                int reversalSelectedId = oponent.SelectReversal(cardSelected);
+                if (reversalSelectedId != -1)
+                {
+                    Card reversal = oponent.Deck.GetPossibleReversals(cardSelected)[reversalSelectedId];
+                    // reversal.PlayAs = "Reversal";
+                    // string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
+                    // Formatter.View.SayThatPlayerReversedTheCard(oponent.Superstar.Name, reversalInfo);
+                    oponent.ReverseCardFromHand(idCardSelected, reversalSelectedId);
+                    Console.WriteLine("AA: " + oponent.WantsToReverseACard);
+                }
+
+            }
+            if (cardSelected.PlayAs == "Action" && !oponent.WantsToReverseACard)
             {
                 PlayCardAsAction(idCardSelected);
             }
-            else 
+            else if (cardSelected.PlayAs == "Maneuver" && !oponent.WantsToReverseACard)
             {
                 PlayCardAsManeuver(idCardSelected);
             }
+            // oponent.WantsToReverseACard = false;
         }
     }
 
     private void PlayCardAsAction(int idCardSelected)
     {
+        Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
         Card cardSelected = playerAtTurn.Deck.GetPossibleCardsToPlay()[idCardSelected];
         playerAtTurn.PlayCardAsAction(idCardSelected);
     }
@@ -219,6 +235,7 @@ public class Game
 
     private void PlayCardAsManeuver(int cardSelectedId)
     {
+        Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
         Card cardSelected = GetCardSelected(cardSelectedId);
         int numCardsToOverturn = playerAtTurn.PlayCardAsManeuver(cardSelectedId);
         PrintOvertunedCards(numCardsToOverturn);

@@ -40,8 +40,10 @@ public class TurnHandler
     private void BeginTurnSettings()
     {
         playerAtTurn.Superstar.UsedAbilityThisTurn = false;
+        playerAtTurn.WantsToReverseACard = false;
         playerAtTurn.Deck.DrawCardFromArsenalToHand();
         Formatter.View.SayThatATurnBegins(playerAtTurn.Superstar.Name);
+        _turnHasStarted = true;
     }
 
     public void BeginTurn()
@@ -64,12 +66,19 @@ public class TurnHandler
     }
 
     public void SetTurn()
-    {
+    {   if (APlayerHasReversedACard())
+        {
+            EndTurn();
+        }
         if (!_turnHasStarted)
         {
             BeginTurn();
-            _turnHasStarted = true;
         }
         Formatter.PrintPlayersInfo(playerAtTurn, oponent);
+    }
+
+    private bool APlayerHasReversedACard()
+    {
+        return oponent.WantsToReverseACard;
     }
 }

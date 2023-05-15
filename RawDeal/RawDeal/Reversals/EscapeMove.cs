@@ -1,9 +1,9 @@
 namespace RawDeal.Reversals;
 
 
-public class ScapeMove : Reversal
+public class EscapeMove : Reversal
 {
-    public ScapeMove(string title, List<string> types, List<string> subtypes, string fortitude,
+    public EscapeMove(string title, List<string> types, List<string> subtypes, string fortitude,
                     string damage, string stunValue, string cardEffect)
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}

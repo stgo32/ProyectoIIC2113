@@ -27,6 +27,11 @@ public class Player
         get { return _wantsToUseAbility; }
         set { _wantsToUseAbility = value; }
     }
+    private bool _wantsToReverseACard = false;
+    public bool WantsToReverseACard {
+        get { return _wantsToReverseACard; }
+        set { _wantsToReverseACard = value; }
+    }
     private Deck _deck = new Deck();
     public Deck Deck { 
         get { return _deck; }
@@ -60,6 +65,31 @@ public class Player
     {
         DiscardPossibleCardById(cardId);
         DrawACard();
+    }
+
+    public int SelectReversal(Card oponentCard)
+    {
+        List<Card> possibleReversals = Deck.GetPossibleReversals(oponentCard);
+        List<string> formattedReversals = Formatter.GetFormattedCardList(possibleReversals, NextPlay.PlayCard);
+        int reversalSelected = Formatter.View.AskUserToSelectAReversal(Superstar.Name, formattedReversals);
+        if (reversalSelected != -1)
+        {
+            _wantsToReverseACard = true;
+        }
+        return reversalSelected;
+    }
+
+    public void ReverseCardFromHand(int oponentCardId, int reversalId)
+    {
+        Console.WriteLine("BB: " + _wantsToReverseACard);
+        Card oponentCard = Oponent.Deck.GetPossibleCardsToPlay()[oponentCardId];
+        Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(oponentCardId);
+        Card reversal = Deck.GetPossibleReversals(oponentCard)[reversalId];
+        reversal.PlayAs = "Reversal";
+        _oponent.Deck.PutReversedCardIntoRingside(oponentCard);
+        string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
+        Formatter.View.SayThatPlayerReversedTheCard(Superstar.Name, reversalInfo);
+        Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
     }
 
     private int DeliverDamage(int damage)

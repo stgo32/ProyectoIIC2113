@@ -2,6 +2,7 @@ namespace RawDeal.DeckHandler;
 
 
 using RawDeal.Superstars;
+using RawDeal.Reversals;
 
 
 public class Deck
@@ -206,6 +207,24 @@ public class Deck
         return cardCount;
     }
 
+    private int CountCardAppearancesInPossibleReversals(int cardId, Card oponentCard)
+    {
+        Card card = GetPossibleReversals(oponentCard)[cardId];
+        int cardCount = 0;
+        int hibridCounter = 0;
+        for (int i = 0; i < cardId; i++)
+        {
+            Card possibleCard = GetPossibleReversals(oponentCard)[i];
+            if (possibleCard.Title == card.Title)
+            {
+                ManageCountersOptionsForCardAppearances(
+                    possibleCard, ref cardCount, ref hibridCounter
+                );
+            }
+        }
+        return cardCount;
+    }
+
     private void ManageCountersOptionsForCardAppearances(Card possibleCard, ref int cardCount, 
                                                          ref int hibridCounter)
     {
@@ -224,17 +243,84 @@ public class Deck
         }
     }
 
+
+    public List<Card> GetPossibleReversals(Card oponentCard)
+    {
+        List<Card> possibleReversals = new List<Card>();
+        foreach (Card card in _hand)
+        {
+            if (card.Types.Contains("Reversal"))
+            {
+                AddPossibleReversal(card, ref possibleReversals, oponentCard);
+            }
+        }
+        return possibleReversals;
+    }
+
+    private void AddPossibleReversal(Card card, ref List<Card> possibleReversals, Card oponentCard)
+    {
+        Reversal reversal;
+        try {
+            reversal = InitReversalByName(card);
+        }
+        catch (Exception e)
+        {
+            return;
+        }
+        if (reversal.GetFortitude() <= Player.Fortitude && reversal.CanReverse(oponentCard))
+        {
+            possibleReversals.Add(card.PlayCardAs("Reversal"));
+        }
+    }
+
+    public bool CanReverseCard(Card card)
+    {
+        return GetPossibleReversals(card).Any();
+    }
+
+    public void PutReversedCardIntoRingside(Card card)
+    {
+        _ringside.Add(card);
+    }
+
+    public Reversal InitReversalByName(Card card)
+    {
+        string reversalTitle = card.Title;
+        Reversal reversal;
+        if (reversalTitle == "Break the Hold")
+        {
+            reversal = new BreakTheHole(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                        card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "Escape Move")
+        {
+            reversal = new EscapeMove(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                      card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "No Chance in Hell")
+        {
+            reversal = new NoChanceInHell(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                          card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "Step Aside")
+        {
+            reversal = new StepAside(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                     card.Damage, card.StunValue, card.CardEffect);
+        }
+        else
+        {
+            throw new Exception("Reversal not found");
+        }
+        reversal.PlayAs = "Reversal";
+        return reversal;
+    }
+
     public void DrawCardFromArsenalToHand()
     {
         Card card = _arsenal[_arsenal.Count - 1];
         _arsenal.RemoveAt(_arsenal.Count - 1);
         _hand.Add(card);
     }
-
-    // public bool IsPossibleToReverse(Card card)
-    // {
-    //     Check
-    // }
 
     public Card DrawCardFromPossibleCardsToRingAreaById(int cardId)
     {
@@ -251,6 +337,14 @@ public class Deck
         int cardCount = CountCardAppearancesInPossibleCardsToPlay(cardId);
         int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
         DrawCardFromHandToRingsideById(idCardAtHand);
+    }
+
+    public void DrawCardFromPossibleReversalsToRingAreaById(int reversedId, Card oponentCard)
+    {
+        Card card = GetPossibleReversals(oponentCard)[reversedId];
+        int cardCount = CountCardAppearancesInPossibleReversals(reversedId, oponentCard);
+        int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
+        DrawCardFromHandToRingAreaById(idCardAtHand);
     }
     
     public void DrawCardFromHandToRingAreaById(int cardId)

@@ -51,7 +51,8 @@ public class Card : IViewableCardInfo
     public bool IsPossibleToPlay(int fortitude)
     {
         bool isPossible = false;
-        if (GetFortitude() <= fortitude &&
+        if (
+            GetFortitude() <= fortitude &&
             (Types.Contains("Action") || Types.Contains("Maneuver"))
         )
         {
@@ -62,11 +63,6 @@ public class Card : IViewableCardInfo
 
     public bool ContainsSubtype(string subtype)
     {
-        // bool contains = false;
-        // if (this.Subtypes.Contains(subtype))
-        // {
-        //     contains = true;
-        // }
         return this.Subtypes.Contains(subtype);
     }
 

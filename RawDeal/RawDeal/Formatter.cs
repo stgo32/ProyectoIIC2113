@@ -71,10 +71,7 @@ public static class Formatter
         string formattedCard = "";
         if (nextPlay == NextPlay.PlayCard)
         {
-            if (card.PlayAs == "Action" || card.PlayAs == "Maneuver")
-            {
-                formattedCard = PlayCardFormat(card);
-            }
+            formattedCard = PlayCardFormat(card);
         }
         else if (nextPlay == NextPlay.ShowCards)
         {
@@ -83,14 +80,14 @@ public static class Formatter
         return formattedCard;
     }
 
-    public static string PlayCardFormat(Card card)
+    private static string PlayCardFormat(Card card)
     {
         ViewablePlayInfo play = new ViewablePlayInfo(card, card.PlayAs.ToUpper());
         string formattedCard = RawDealView.Formatters.Formatter.PlayToString(play);
         return formattedCard;
     }
 
-    public static string ShowCardFormat(Card card)
+    private static string ShowCardFormat(Card card)
     {
         string formattedCard = RawDealView.Formatters.Formatter.CardToString(card);
         return formattedCard;
@@ -105,7 +102,7 @@ public static class Formatter
     public static void PlayCard(Card card, Player player)
     {
         Formatter.PrintCardInfo(card, player);
-        View.SayThatPlayerSuccessfullyPlayedACard();
+        // View.SayThatPlayerSuccessfullyPlayedACard();
     }
 
     public static void PlayCardAsAction(string discardedCardTitle, string superstarName)
