@@ -45,7 +45,6 @@ public class Maneuver : Play
             }
             Card cardOvertuned = oponent.RecieveDamage();
             
-
             
             Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
         }

@@ -75,7 +75,7 @@ public class Player
     {
         if (idCardSelected != -1)
         {
-            Play = InitPlayByType(idCardSelected);
+            Play = Initializer.InitPlayByType(idCardSelected, this);
             Play.Start();
         }
         // Card card = Deck.GetPossibleCardsToPlay()[idCardSelected];
@@ -90,19 +90,19 @@ public class Player
         // Play.Start();
     }
 
-    private Play InitPlayByType(int cardId)
-    {
-        Card card = Deck.GetPossibleCardsToPlay()[cardId];
-        if (card.PlayAs == "Maneuver")
-        {
-            Play = new Maneuver(cardId, this);
-        }
-        else if (card.PlayAs == "Action")
-        {
-            Play = new Action(cardId, this);
-        }
-        return Play;
-    }
+    // private Play InitPlayByType(int cardId)
+    // {
+    //     Card card = Deck.GetPossibleCardsToPlay()[cardId];
+    //     if (card.PlayAs == "Maneuver")
+    //     {
+    //         Play = new Maneuver(cardId, this);
+    //     }
+    //     else if (card.PlayAs == "Action")
+    //     {
+    //         Play = new Action(cardId, this);
+    //     }
+    //     return Play;
+    // }
 
     // public int PlayCardAsManeuver(int cardId)
     // {
