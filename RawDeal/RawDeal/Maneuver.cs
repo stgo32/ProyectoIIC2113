@@ -44,9 +44,38 @@ public class Maneuver : Play
                 break;
             }
             Card cardOvertuned = oponent.RecieveDamage();
-            
-            
             Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
+
+            if (IsBeingReversedByDeck(cardOvertuned))
+            {
+                break;
+            }
+
+            // if (cardOvertuned.Types.Contains("Reversal"))
+            // {
+            //     Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
+            //     if (reversal.CanReverse(Card, Player.Fortitude))
+            //     {
+            //         Formatter.View.SayThatCardWasReversedByDeck(oponent.Superstar.Name);
+            //         oponent.WantsToReverseACard = true;
+            //         break;
+            //     }
+            // }
         }
+    }
+
+    private bool IsBeingReversedByDeck(Card cardOvertuned)
+    {   
+        if (cardOvertuned.Types.Contains("Reversal"))
+        {
+            Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
+            if (reversal.CanReverse(Card, Player.Fortitude))
+            {
+                Formatter.View.SayThatCardWasReversedByDeck(Player.Oponent.Superstar.Name);
+                Player.Oponent.WantsToReverseACard = true;
+                Reversed = true;
+            }
+        }
+        return Reversed;
     }
 }
