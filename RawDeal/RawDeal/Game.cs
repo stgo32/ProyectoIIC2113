@@ -144,6 +144,19 @@ public class Game
         return playerAtTurn.HasWon || oponent.HasWon;
     }
 
+    private void CheckIfPlayerHasWon()
+    {
+        if (oponent.Arsenal.Count == 0)
+        {
+            HasWon(playerAtTurn);
+        }
+    }
+
+    private void HasWon(Player winner)
+    {
+        winner.HasWon = true;
+    }
+
     public void SuperstarCanUseAbilityAtBeginOfTurn()
     {
         if (playerAtTurn.Superstar.CanUseAbilityAtBeginOfTurn)
@@ -168,10 +181,6 @@ public class Game
         return idCardSelected;
     }
 
-    private void HasWon(Player winner)
-    {
-        winner.HasWon = true;
-    }
 
     private void CongratulateWinner()
     {
@@ -179,41 +188,34 @@ public class Game
         Formatter.View.CongratulateWinner(winner.Superstar.Name);
     }
 
-    private void CheckIfPlayerHasWon()
-    {
-        if (oponent.Arsenal.Count == 0)
-        {
-            HasWon(playerAtTurn);
-        }
-    }
 
     private void PlayCard()
     {
         int idCardSelected = SelectCardIdToPlay();
         if (idCardSelected != -1)
         {
-            Card cardSelected = GetCardSelected(idCardSelected);
-            Formatter.PlayCard(cardSelected, playerAtTurn);
-            if (oponent.Deck.CanReverseCard(cardSelected))
-            {
-                int reversalSelectedId = oponent.SelectReversal(cardSelected);
-                oponent.ReverseCardFromHand(idCardSelected, reversalSelectedId);
-            }
-            if (cardSelected.PlayAs == "Action" && !oponent.WantsToReverseACard)
-            {
-                PlayCardAsAction(idCardSelected);
-            }
-            else if (cardSelected.PlayAs == "Maneuver" && !oponent.WantsToReverseACard)
-            {
-                PlayCardAsManeuver(idCardSelected);
-            }
+            playerAtTurn.PlayCard(idCardSelected);
+            // Card cardSelected = GetCardSelected(idCardSelected);
+            // Formatter.PlayCard(cardSelected, playerAtTurn);
+            // if (oponent.Deck.CanReverseCard(cardSelected))
+            // {
+            //     int reversalSelectedId = oponent.SelectReversal(cardSelected);
+            //     oponent.ReverseCardFromHand(idCardSelected, reversalSelectedId);
+            // }
+            // if (cardSelected.PlayAs == "Action" && !oponent.WantsToReverseACard)
+            // {
+            //     PlayCardAsAction(idCardSelected);
+            // }
+            // else if (cardSelected.PlayAs == "Maneuver" && !oponent.WantsToReverseACard)
+            // {
+            //     PlayCardAsManeuver(idCardSelected);
+            // }
         }
     }
 
     private void PlayCardAsAction(int idCardSelected)
     {
         Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-        Card cardSelected = playerAtTurn.Deck.GetPossibleCardsToPlay()[idCardSelected];
         playerAtTurn.PlayCardAsAction(idCardSelected);
     }
 
@@ -239,7 +241,7 @@ public class Game
         }
         for (int i = 0; i < damage; i++)
         {
-            if (APlayerHasWon())
+            if (oponent.Arsenal.Count == 0)
             {
                 break;
             }

@@ -243,7 +243,6 @@ public class Deck
         }
     }
 
-
     public List<Card> GetPossibleReversals(Card oponentCard)
     {
         List<Card> possibleReversals = new List<Card>();
@@ -278,9 +277,10 @@ public class Deck
         return GetPossibleReversals(card).Any();
     }
 
-    public void PutReversedCardIntoRingside(Card card)
+    public void PutReversedCardIntoRingside(int cardId)
     {
-        _ringside.Add(card);
+        Card oponentCard = GetPossibleCardsToPlay()[cardId];
+        DrawCardFromPossibleCardsToRingsideById(cardId);
     }
 
     public Reversal InitReversalByName(Card card)

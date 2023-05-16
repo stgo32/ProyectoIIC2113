@@ -32,6 +32,11 @@ public class Player
         get { return _wantsToReverseACard; }
         set { _wantsToReverseACard = value; }
     }
+    private bool _hasPlayedThisTurn = false;
+    public bool HasPlayedThisTurn { 
+        get { return _hasPlayedThisTurn; } 
+        set { _hasPlayedThisTurn = value; } 
+    }
     private Deck _deck = new Deck();
     public Deck Deck { 
         get { return _deck; }
@@ -52,6 +57,26 @@ public class Player
         get { return _oponent; }
         set { _oponent = value; } 
     }
+    private Play _play;
+    public Play Play { 
+        get { return _play; }
+        set { _play = value; } 
+    }
+
+    public void PlayCard(int idCardSelected)
+    {
+        Card card = Deck.GetPossibleCardsToPlay()[idCardSelected];
+        // Formatter.PlayCard(card, this);
+        if (card.PlayAs == "Maneuver")
+        {
+            Play = new Maneuver(idCardSelected, this);
+        }
+        else if (card.PlayAs == "Action")
+        {
+            Play = new Action(idCardSelected, this);
+        }
+        Play.Start();
+    }
 
     public int PlayCardAsManeuver(int cardId)
     {
@@ -69,8 +94,10 @@ public class Player
 
     public int SelectReversal(Card oponentCard)
     {
-        List<Card> possibleReversals = Deck.GetPossibleReversals(oponentCard);
-        List<string> formattedReversals = Formatter.GetFormattedCardList(possibleReversals, NextPlay.PlayCard);
+        List<string> formattedReversals = Formatter.GetFormattedCardList(
+            Deck.GetPossibleReversals(oponentCard),
+            NextPlay.PlayCard
+        );
         int reversalSelected = Formatter.View.AskUserToSelectAReversal(Superstar.Name, formattedReversals);
         if (reversalSelected != -1)
         {
@@ -85,13 +112,10 @@ public class Player
         {
             Card oponentCard = Oponent.Deck.GetPossibleCardsToPlay()[oponentCardId];
             Card reversal = Deck.GetPossibleReversals(oponentCard)[reversalId];
-            
             Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(oponentCardId);
-            Oponent.Deck.PutReversedCardIntoRingside(oponentCard);
-            
+            Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
             string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
             Formatter.View.SayThatPlayerReversedTheCard(Superstar.Name, reversalInfo);
-            Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
         }
     }
 
