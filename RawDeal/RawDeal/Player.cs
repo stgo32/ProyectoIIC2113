@@ -81,15 +81,18 @@ public class Player
 
     public void ReverseCardFromHand(int oponentCardId, int reversalId)
     {
-        Console.WriteLine("BB: " + _wantsToReverseACard);
-        Card oponentCard = Oponent.Deck.GetPossibleCardsToPlay()[oponentCardId];
-        Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(oponentCardId);
-        Card reversal = Deck.GetPossibleReversals(oponentCard)[reversalId];
-        reversal.PlayAs = "Reversal";
-        _oponent.Deck.PutReversedCardIntoRingside(oponentCard);
-        string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
-        Formatter.View.SayThatPlayerReversedTheCard(Superstar.Name, reversalInfo);
-        Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
+        if (reversalId != -1)
+        {
+            Card oponentCard = Oponent.Deck.GetPossibleCardsToPlay()[oponentCardId];
+            Card reversal = Deck.GetPossibleReversals(oponentCard)[reversalId];
+            
+            Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(oponentCardId);
+            Oponent.Deck.PutReversedCardIntoRingside(oponentCard);
+            
+            string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
+            Formatter.View.SayThatPlayerReversedTheCard(Superstar.Name, reversalInfo);
+            Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
+        }
     }
 
     private int DeliverDamage(int damage)

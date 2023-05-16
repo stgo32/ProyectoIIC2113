@@ -197,16 +197,7 @@ public class Game
             if (oponent.Deck.CanReverseCard(cardSelected))
             {
                 int reversalSelectedId = oponent.SelectReversal(cardSelected);
-                if (reversalSelectedId != -1)
-                {
-                    Card reversal = oponent.Deck.GetPossibleReversals(cardSelected)[reversalSelectedId];
-                    // reversal.PlayAs = "Reversal";
-                    // string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
-                    // Formatter.View.SayThatPlayerReversedTheCard(oponent.Superstar.Name, reversalInfo);
-                    oponent.ReverseCardFromHand(idCardSelected, reversalSelectedId);
-                    Console.WriteLine("AA: " + oponent.WantsToReverseACard);
-                }
-
+                oponent.ReverseCardFromHand(idCardSelected, reversalSelectedId);
             }
             if (cardSelected.PlayAs == "Action" && !oponent.WantsToReverseACard)
             {
@@ -216,7 +207,6 @@ public class Game
             {
                 PlayCardAsManeuver(idCardSelected);
             }
-            // oponent.WantsToReverseACard = false;
         }
     }
 
