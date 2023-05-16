@@ -7,7 +7,7 @@ public class Maneuver : Play
     public override void Start()
     {
         Formatter.PlayCard(Card, Player);
-        if (!IsBeingReversedFromHand())
+        if (!IsBeingReversedByHand())
         {
             Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
             Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
@@ -45,9 +45,9 @@ public class Maneuver : Play
             }
             Card cardOvertuned = oponent.RecieveDamage();
             Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
-
-            if (IsBeingReversedByDeck(cardOvertuned))
+            if (CanBeReversedByDeck(cardOvertuned))
             {
+                ReverseByDeck();
                 break;
             }
 
@@ -64,18 +64,24 @@ public class Maneuver : Play
         }
     }
 
-    private bool IsBeingReversedByDeck(Card cardOvertuned)
+    private bool CanBeReversedByDeck(Card cardOvertuned)
     {   
+        bool canBeReversed = false;
         if (cardOvertuned.Types.Contains("Reversal"))
         {
             Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
             if (reversal.CanReverse(Card, Player.Fortitude))
             {
-                Formatter.View.SayThatCardWasReversedByDeck(Player.Oponent.Superstar.Name);
-                Player.Oponent.WantsToReverseACard = true;
-                Reversed = true;
+                canBeReversed = true;
             }
         }
-        return Reversed;
+        return canBeReversed;
+    }
+
+    private void ReverseByDeck()
+    {
+        Formatter.View.SayThatCardWasReversedByDeck(Player.Oponent.Superstar.Name);
+        Player.Oponent.WantsToReverseACard = true;
+        Reversed = true;
     }
 }

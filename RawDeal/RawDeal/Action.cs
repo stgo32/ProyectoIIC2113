@@ -7,7 +7,7 @@ public class Action : Play
     public override void Start()
     {
         Formatter.PlayCard(Card, Player);
-        if (!IsBeingReversedFromHand())
+        if (!IsBeingReversedByHand())
         {
             Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
             Player.DiscardPossibleCardById(_cardId);

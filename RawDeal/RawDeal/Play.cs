@@ -26,19 +26,21 @@ public abstract class Play
 
     public abstract void Stop();
 
-    public bool IsBeingReversedFromHand()
+    public bool IsBeingReversedByHand()
     {
+        bool willBeReversed = false;
         Player oponent = Player.Oponent;
         int reversalSelectedId = -1;
         if (oponent.Deck.CanReverseCard(Card))
         {
             reversalSelectedId = oponent.SelectReversal(Card);
-            oponent.ReverseCardFromHand(_cardId, reversalSelectedId);
+            Player.Oponent.ReverseCardFromHand(_cardId, reversalSelectedId);
+            Reversed = true;
         }
         if (reversalSelectedId != -1)
         {
-            Reversed = true;
+            willBeReversed = true;
         }
-        return Reversed;
+        return willBeReversed;
     }
 }
