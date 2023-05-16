@@ -11,7 +11,7 @@ public class Maneuver : Play
         {
             Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
             Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
-            Attack(Card.GetDamage());
+            Attack();
         }
     }
 
@@ -19,8 +19,9 @@ public class Maneuver : Play
     {
     }
 
-    private void Attack(int damage)
+    private void Attack()
     {
+        int damage = Card.GetDamage();
         Player.Fortitude += damage;
         if (Player.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
@@ -43,6 +44,9 @@ public class Maneuver : Play
                 break;
             }
             Card cardOvertuned = oponent.RecieveDamage();
+            
+
+            
             Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
         }
     }

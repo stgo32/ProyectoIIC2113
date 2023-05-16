@@ -63,34 +63,60 @@ public class Player
         set { _play = value; } 
     }
 
+    public int SelectCardToPlay()
+    {
+        List<Card> possibleCards = Deck.GetPossibleCardsToPlay();
+        List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, NextPlay.PlayCard);
+        int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
+        return idCardSelected;
+    }
+
     public void PlayCard(int idCardSelected)
     {
-        Card card = Deck.GetPossibleCardsToPlay()[idCardSelected];
-        // Formatter.PlayCard(card, this);
+        if (idCardSelected != -1)
+        {
+            Play = InitPlayByType(idCardSelected);
+            Play.Start();
+        }
+        // Card card = Deck.GetPossibleCardsToPlay()[idCardSelected];
+        // if (card.PlayAs == "Maneuver")
+        // {
+        //     Play = new Maneuver(idCardSelected, this);
+        // }
+        // else if (card.PlayAs == "Action")
+        // {
+        //     Play = new Action(idCardSelected, this);
+        // }
+        // Play.Start();
+    }
+
+    private Play InitPlayByType(int cardId)
+    {
+        Card card = Deck.GetPossibleCardsToPlay()[cardId];
         if (card.PlayAs == "Maneuver")
         {
-            Play = new Maneuver(idCardSelected, this);
+            Play = new Maneuver(cardId, this);
         }
         else if (card.PlayAs == "Action")
         {
-            Play = new Action(idCardSelected, this);
+            Play = new Action(cardId, this);
         }
-        Play.Start();
+        return Play;
     }
 
-    public int PlayCardAsManeuver(int cardId)
-    {
-        Card card = Deck.DrawCardFromPossibleCardsToRingAreaById(cardId);
-        int damage = card.GetDamage();
-        damage = DeliverDamage(damage);
-        return damage;
-    }
+    // public int PlayCardAsManeuver(int cardId)
+    // {
+    //     Card card = Deck.DrawCardFromPossibleCardsToRingAreaById(cardId);
+    //     int damage = card.GetDamage();
+    //     damage = DeliverDamage(damage);
+    //     return damage;
+    // }
 
-    public void PlayCardAsAction(int cardId)
-    {
-        DiscardPossibleCardById(cardId);
-        DrawACard();
-    }
+    // public void PlayCardAsAction(int cardId)
+    // {
+    //     DiscardPossibleCardById(cardId);
+    //     DrawACard();
+    // }
 
     public int SelectReversal(Card oponentCard)
     {
@@ -119,15 +145,15 @@ public class Player
         }
     }
 
-    private int DeliverDamage(int damage)
-    {
-        _fortitude += damage;
-        if (Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
-        {
-            damage = Oponent.Superstar.TakeLessDamage(damage);
-        }
-        return damage;
-    }
+    // private int DeliverDamage(int damage)
+    // {
+    //     _fortitude += damage;
+    //     if (Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+    //     {
+    //         damage = Oponent.Superstar.TakeLessDamage(damage);
+    //     }
+    //     return damage;
+    // }
 
     public Card RecieveDamage()
     {

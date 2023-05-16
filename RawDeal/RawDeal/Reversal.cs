@@ -7,7 +7,7 @@ public abstract class Reversal : Card
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}
 
-    public abstract bool CanReverse(Card card);
+    public abstract bool CanReverse(Card card, int fortitude);
 
     public abstract void ReversalEffect(Card card);
 }

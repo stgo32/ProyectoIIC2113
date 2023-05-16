@@ -266,7 +266,7 @@ public class Deck
         {
             return;
         }
-        if (reversal.GetFortitude() <= Player.Fortitude && reversal.CanReverse(oponentCard))
+        if (reversal.CanReverse(oponentCard, Player.Fortitude))
         {
             possibleReversals.Add(card.PlayCardAs("Reversal"));
         }

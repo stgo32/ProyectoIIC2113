@@ -8,9 +8,16 @@ public class BreakTheHole : Reversal
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}
 
-    public override bool CanReverse(Card card)
+    public override bool CanReverse(Card card, int fortitude)
     {
-        return card.ContainsSubtype("Submission") && card.PlayAs == "Maneuver";
+        bool canReverse = false;
+        bool fortitudeRestriction = GetFortitude() <= fortitude;
+        bool reversalRestriction = card.ContainsSubtype("Submission") && card.PlayAs == "Maneuver";
+        if (fortitudeRestriction && reversalRestriction)
+        {
+            canReverse = true;
+        }
+        return canReverse;
     }
 
     public override void ReversalEffect(Card card)
