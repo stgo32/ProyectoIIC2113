@@ -7,9 +7,12 @@ public class Maneuver : Play
     public override void Start()
     {
         Formatter.PlayCard(Card, Player);
-        Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-        Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
-        Attack(Card.GetDamage());
+        if (!IsBeingReversedFromHand())
+        {
+            Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
+            Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+            Attack(Card.GetDamage());
+        }
     }
 
     public override void Stop()

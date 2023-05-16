@@ -22,10 +22,23 @@ public abstract class Play
         Player = player;
     }
 
-    public virtual void Start()
-    {
-        Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-    }
+    public abstract void Start();
 
     public abstract void Stop();
+
+    public bool IsBeingReversedFromHand()
+    {
+        Player oponent = Player.Oponent;
+        int reversalSelectedId = -1;
+        if (oponent.Deck.CanReverseCard(Card))
+        {
+            reversalSelectedId = oponent.SelectReversal(Card);
+            oponent.ReverseCardFromHand(_cardId, reversalSelectedId);
+        }
+        if (reversalSelectedId != -1)
+        {
+            Reversed = true;
+        }
+        return Reversed;
+    }
 }
