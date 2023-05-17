@@ -256,6 +256,14 @@ public class Deck
         return possibleReversals;
     }
 
+    public Reversal GetReversalById(int cardId, Card oponentCard)
+    {
+        Card card = GetPossibleReversals(oponentCard)[cardId];
+        Reversal reversal = Initializer.InitReversalByTitle(card);
+        reversal.ReversalId = cardId;
+        return reversal;
+    }
+
     private void AddPossibleReversal(Card card, ref List<Card> possibleReversals, Card oponentCard)
     {
         Reversal reversal;

@@ -1,7 +1,13 @@
 namespace RawDeal;
 
+
+using RawDealView.Options;
+
+
 public abstract class Reversal : Card
 {
+    private int _reversalId;
+    public int ReversalId { get { return _reversalId; } set { _reversalId = value; } }
     public Reversal(string title, List<string> types, List<string> subtypes, string fortitude,
                     string damage, string stunValue, string cardEffect)
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
@@ -10,5 +16,16 @@ public abstract class Reversal : Card
     public abstract bool CanReverse(Card card, int fortitude);
 
     public abstract void ReversalEffect(Card card);
+
+    public void ReverseFromHand(Play play)
+    {
+        Player playerReversing = play.Player.Oponent;
+        Player oponent = play.Player;
+        string superstarName = playerReversing.Superstar.Name;
+        oponent.Deck.DrawCardFromPossibleCardsToRingsideById(play.CardId);
+        playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(ReversalId, play.Card);
+        string reversalInfo = Formatter.FormatCard(this, NextPlay.PlayCard);
+        Formatter.View.SayThatPlayerReversedTheCard(superstarName, reversalInfo);
+    }
 }
 

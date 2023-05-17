@@ -3,6 +3,7 @@ namespace RawDeal;
 public abstract class Play
 {
     protected int _cardId;
+    public int CardId { get { return _cardId; } set { _cardId = value; } }
     private Card _card;
     public Card Card { get { return _card; } set { _card = value; } }
     public string PlayAs { get { return Card.PlayAs; } }
@@ -34,11 +35,13 @@ public abstract class Play
         if (oponent.Deck.CanReverseCard(Card))
         {
             reversalSelectedId = oponent.SelectReversal(Card);
-            Player.Oponent.ReverseCardFromHand(_cardId, reversalSelectedId);
             Reversed = true;
         }
         if (reversalSelectedId != -1)
         {
+            Reversal reversal = oponent.Deck.GetReversalById(reversalSelectedId, Card);
+            reversal.ReverseFromHand(this);
+            // Player.Oponent.ReverseCardFromHand(_cardId, reversalSelectedId);
             willBeReversed = true;
         }
         return willBeReversed;
