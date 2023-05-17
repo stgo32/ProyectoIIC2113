@@ -26,6 +26,15 @@ public abstract class Reversal : Card
         playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(ReversalId, play.Card);
         string reversalInfo = Formatter.FormatCard(this, NextPlay.PlayCard);
         Formatter.View.SayThatPlayerReversedTheCard(superstarName, reversalInfo);
+        play.Reversed = true;
+    }
+
+    public void ReverseByDeck(Play play)
+    {
+        Player playerReversing = play.Player.Oponent;
+        Formatter.View.SayThatCardWasReversedByDeck(playerReversing.Superstar.Name);
+        playerReversing.WantsToReverseACard = true;
+        play.Reversed = true;
     }
 }
 

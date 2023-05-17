@@ -35,13 +35,11 @@ public abstract class Play
         if (oponent.Deck.CanReverseCard(Card))
         {
             reversalSelectedId = oponent.SelectReversal(Card);
-            Reversed = true;
         }
         if (reversalSelectedId != -1)
         {
             Reversal reversal = oponent.Deck.GetReversalById(reversalSelectedId, Card);
             reversal.ReverseFromHand(this);
-            // Player.Oponent.ReverseCardFromHand(_cardId, reversalSelectedId);
             willBeReversed = true;
         }
         return willBeReversed;

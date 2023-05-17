@@ -47,7 +47,8 @@ public class Maneuver : Play
             Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
             if (CanBeReversedByDeck(cardOvertuned))
             {
-                ReverseByDeck();
+                Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
+                reversal.ReverseByDeck(this);
                 break;
             }
 
@@ -76,12 +77,5 @@ public class Maneuver : Play
             }
         }
         return canBeReversed;
-    }
-
-    private void ReverseByDeck()
-    {
-        Formatter.View.SayThatCardWasReversedByDeck(Player.Oponent.Superstar.Name);
-        Player.Oponent.WantsToReverseACard = true;
-        Reversed = true;
     }
 }
