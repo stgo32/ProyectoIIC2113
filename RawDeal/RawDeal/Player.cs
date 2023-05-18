@@ -2,6 +2,7 @@ namespace RawDeal;
 
 
 using RawDeal.DeckHandler;
+using RawDeal.Plays;
 using RawDealView.Options;
 
 
@@ -97,7 +98,6 @@ public class Player
         {
             Card oponentCard = Oponent.Deck.GetPossibleCardsToPlay()[oponentCardId];
             Card reversal = Deck.GetPossibleReversals(oponentCard)[reversalId];
-            // reversal.ReverseFromHand(
             Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(oponentCardId);
             Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
             string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);

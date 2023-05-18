@@ -102,7 +102,6 @@ public static class Formatter
     public static void PlayCard(Card card, Player player)
     {
         Formatter.PrintCardInfo(card, player);
-        // View.SayThatPlayerSuccessfullyPlayedACard();
     }
 
     public static void PlayCardAsAction(string discardedCardTitle, string superstarName)

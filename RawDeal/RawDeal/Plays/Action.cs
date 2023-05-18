@@ -1,4 +1,4 @@
-namespace RawDeal;
+namespace RawDeal.Plays;
 
 public class Action : Play
 {
@@ -13,9 +13,5 @@ public class Action : Play
             Player.DiscardPossibleCardById(_cardId);
             Player.DrawACard();
         }
-    }
-
-    public override void Stop()
-    {
     }
 }

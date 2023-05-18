@@ -1,4 +1,8 @@
-namespace RawDeal;
+namespace RawDeal.Plays;
+
+
+using RawDeal.Reversals;
+
 
 public abstract class Play
 {
@@ -24,8 +28,6 @@ public abstract class Play
     }
 
     public abstract void Start();
-
-    public abstract void Stop();
 
     public bool IsBeingReversedByHand()
     {

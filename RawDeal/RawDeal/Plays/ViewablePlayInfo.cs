@@ -2,7 +2,7 @@ namespace RawDeal;
 
 using RawDealView.Formatters;
 
-public class ViewablePlayInfo:IViewablePlayInfo
+public class ViewablePlayInfo : IViewablePlayInfo
 {
     public IViewableCardInfo CardInfo { get; set; }
     public string PlayedAs { get; set; }

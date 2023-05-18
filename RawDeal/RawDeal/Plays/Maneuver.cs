@@ -1,4 +1,8 @@
-namespace RawDeal;
+namespace RawDeal.Plays;
+
+
+using RawDeal.Reversals;
+
 
 public class Maneuver : Play
 {
@@ -13,10 +17,6 @@ public class Maneuver : Play
             Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
             Attack();
         }
-    }
-
-    public override void Stop()
-    {
     }
 
     private void Attack()
@@ -54,17 +54,6 @@ public class Maneuver : Play
                 Console.WriteLine("Gap: " + gap);
                 break;
             }
-
-            // if (cardOvertuned.Types.Contains("Reversal"))
-            // {
-            //     Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
-            //     if (reversal.CanReverse(Card, Player.Fortitude))
-            //     {
-            //         Formatter.View.SayThatCardWasReversedByDeck(oponent.Superstar.Name);
-            //         oponent.WantsToReverseACard = true;
-            //         break;
-            //     }
-            // }
         }
     }
 

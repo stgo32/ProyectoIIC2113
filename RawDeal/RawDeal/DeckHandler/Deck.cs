@@ -54,43 +54,6 @@ public class Deck
         }
     }
 
-    // private void SetSuperstarType(Superstar superstarInfo)
-    // {
-    //     string superstarName = superstarInfo.Name;
-    //     if (superstarName == "STONE COLD STEVE AUSTIN")
-    //     {
-    //         _superstar = new StoneCold();
-    //     }
-    //     else if (superstarName == "THE UNDERTAKER")
-    //     {
-    //         _superstar = new Undertaker();
-    //     }
-    //     else if (superstarName == "MANKIND")
-    //     {
-    //         _superstar = new ManKind();
-    //     }
-    //     else if (superstarName == "HHH")
-    //     {
-    //         _superstar = new HHH();
-    //     }
-    //     else if (superstarName == "THE ROCK")
-    //     {
-    //         _superstar = new TheRock();
-    //     }
-    //     else if (superstarName == "KANE")
-    //     {
-    //         _superstar = new Kane();
-    //     }
-    //     else if (superstarName == "CHRIS JERICHO")
-    //     {
-    //         _superstar = new Jericho();
-    //     }
-    //     else
-    //     {
-    //         throw new Exception("Superstar not found");
-    //     }
-    // }
-
     private void SetSuperstarInfo(Superstar superstarInfo)
     {
         _superstar.Name = superstarInfo.Name;
@@ -290,38 +253,6 @@ public class Deck
         Card oponentCard = GetPossibleCardsToPlay()[cardId];
         DrawCardFromPossibleCardsToRingsideById(cardId);
     }
-
-    // private Reversal InitReversalByTitle(Card card)
-    // {
-    //     string reversalTitle = card.Title;
-    //     Reversal reversal;
-    //     if (reversalTitle == "Break the Hold")
-    //     {
-    //         reversal = new BreakTheHole(card.Title, card.Types, card.Subtypes, card.Fortitude,
-    //                                     card.Damage, card.StunValue, card.CardEffect);
-    //     }
-    //     else if (reversalTitle == "Escape Move")
-    //     {
-    //         reversal = new EscapeMove(card.Title, card.Types, card.Subtypes, card.Fortitude,
-    //                                   card.Damage, card.StunValue, card.CardEffect);
-    //     }
-    //     else if (reversalTitle == "No Chance in Hell")
-    //     {
-    //         reversal = new NoChanceInHell(card.Title, card.Types, card.Subtypes, card.Fortitude,
-    //                                       card.Damage, card.StunValue, card.CardEffect);
-    //     }
-    //     else if (reversalTitle == "Step Aside")
-    //     {
-    //         reversal = new StepAside(card.Title, card.Types, card.Subtypes, card.Fortitude,
-    //                                  card.Damage, card.StunValue, card.CardEffect);
-    //     }
-    //     else
-    //     {
-    //         throw new Exception("Reversal not found");
-    //     }
-    //     reversal.PlayAs = "Reversal";
-    //     return reversal;
-    // }
 
     public void DrawCardFromArsenalToHand()
     {
