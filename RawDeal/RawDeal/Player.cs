@@ -73,50 +73,9 @@ public class Player
 
     public void PlayCard(int idCardSelected)
     {
-        if (idCardSelected != -1)
-        {
-            Play = Initializer.InitPlayByType(idCardSelected, this);
-            Play.Start();
-        }
-        // Card card = Deck.GetPossibleCardsToPlay()[idCardSelected];
-        // if (card.PlayAs == "Maneuver")
-        // {
-        //     Play = new Maneuver(idCardSelected, this);
-        // }
-        // else if (card.PlayAs == "Action")
-        // {
-        //     Play = new Action(idCardSelected, this);
-        // }
-        // Play.Start();
+        Play = Initializer.InitPlayByType(idCardSelected, this);
+        Play.Start();
     }
-
-    // private Play InitPlayByType(int cardId)
-    // {
-    //     Card card = Deck.GetPossibleCardsToPlay()[cardId];
-    //     if (card.PlayAs == "Maneuver")
-    //     {
-    //         Play = new Maneuver(cardId, this);
-    //     }
-    //     else if (card.PlayAs == "Action")
-    //     {
-    //         Play = new Action(cardId, this);
-    //     }
-    //     return Play;
-    // }
-
-    // public int PlayCardAsManeuver(int cardId)
-    // {
-    //     Card card = Deck.DrawCardFromPossibleCardsToRingAreaById(cardId);
-    //     int damage = card.GetDamage();
-    //     damage = DeliverDamage(damage);
-    //     return damage;
-    // }
-
-    // public void PlayCardAsAction(int cardId)
-    // {
-    //     DiscardPossibleCardById(cardId);
-    //     DrawACard();
-    // }
 
     public int SelectReversal(Card oponentCard)
     {
@@ -145,16 +104,6 @@ public class Player
             Formatter.View.SayThatPlayerReversedTheCard(Superstar.Name, reversalInfo);
         }
     }
-
-    // private int DeliverDamage(int damage)
-    // {
-    //     _fortitude += damage;
-    //     if (Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
-    //     {
-    //         damage = Oponent.Superstar.TakeLessDamage(damage);
-    //     }
-    //     return damage;
-    // }
 
     public Card RecieveDamage()
     {

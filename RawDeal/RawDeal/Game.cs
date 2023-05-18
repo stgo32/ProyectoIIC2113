@@ -196,65 +196,12 @@ public class Game
 
     private void PlayCard()
     {
-        // int idCardSelected = SelectCardIdToPlay();
         int idCardSelected = playerAtTurn.SelectCardToPlay();
         if (idCardSelected != -1)
         {
             playerAtTurn.PlayCard(idCardSelected);
-            // Card cardSelected = GetCardSelected(idCardSelected);
-            // Formatter.PlayCard(cardSelected, playerAtTurn);
-            // if (oponent.Deck.CanReverseCard(cardSelected))
-            // {
-            //     int reversalSelectedId = oponent.SelectReversal(cardSelected);
-            //     oponent.ReverseCardFromHand(idCardSelected, reversalSelectedId);
-            // }
-            // if (cardSelected.PlayAs == "Action" && !oponent.WantsToReverseACard)
-            // {
-            //     PlayCardAsAction(idCardSelected);
-            // }
-            // else if (cardSelected.PlayAs == "Maneuver" && !oponent.WantsToReverseACard)
-            // {
-            //     PlayCardAsManeuver(idCardSelected);
-            // }
         }
     }
-
-    // private void PlayCardAsAction(int idCardSelected)
-    // {
-    //     Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-    //     playerAtTurn.PlayCardAsAction(idCardSelected);
-    // }
-
-    // private Card GetCardSelected(int idCardSelected)
-    // {
-    //     Card cardSelected = playerAtTurn.Deck.GetPossibleCardsToPlay()[idCardSelected];
-    //     return cardSelected;
-    // }
-
-    // private void PlayCardAsManeuver(int cardSelectedId)
-    // {
-    //     Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-    //     Card cardSelected = GetCardSelected(cardSelectedId);
-    //     int numCardsToOverturn = playerAtTurn.PlayCardAsManeuver(cardSelectedId);
-    //     PrintOvertunedCards(numCardsToOverturn);
-    // }
-
-    // private void PrintOvertunedCards(int damage)
-    // {
-    //     if (damage > 0)
-    //     {
-    //         Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
-    //     }
-    //     for (int i = 0; i < damage; i++)
-    //     {
-    //         if (oponent.Arsenal.Count == 0)
-    //         {
-    //             break;
-    //         }
-    //         Card cardOvertuned = oponent.RecieveDamage();
-    //         Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
-    //     }
-    // }
 
     private void UseSuperstarAbility()
     {
