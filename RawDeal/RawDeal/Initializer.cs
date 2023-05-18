@@ -32,6 +32,31 @@ public static class Initializer
             reversal = new StepAside(card.Title, card.Types, card.Subtypes, card.Fortitude,
                                      card.Damage, card.StunValue, card.CardEffect);
         }
+        else if (reversalTitle == "Rolling Takedown")
+        {
+            reversal = new RollingTakedown(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                           card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "Knee to the Gut")
+        {
+            reversal = new KneeToTheGut(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                        card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "Elbow to the Face")
+        {
+            reversal = new ElbowToTheFace(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                          card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "Manager Interferes")
+        {
+            reversal = new ManagerInterferes(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                             card.Damage, card.StunValue, card.CardEffect);
+        }
+        else if (reversalTitle == "Chyna Interferes")
+        {
+            reversal = new ChynaInterferes(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                           card.Damage, card.StunValue, card.CardEffect);
+        }
         else
         {
             throw new Exception("Reversal not found");

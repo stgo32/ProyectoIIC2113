@@ -1,6 +1,9 @@
 namespace RawDeal.Reversals;
 
 
+using RawDeal.Plays;
+
+
 public class NoChanceInHell : Reversal
 {
     public NoChanceInHell(string title, List<string> types, List<string> subtypes, string fortitude,
@@ -20,8 +23,5 @@ public class NoChanceInHell : Reversal
         return canReverse;
     }
 
-    public override void ReversalEffect(Card card)
-    {
-        throw new NotImplementedException();
-    }
+    public override void ReversalEffect(Play play) { return; }
 }

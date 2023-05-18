@@ -1,6 +1,7 @@
 namespace RawDeal;
 
 
+using RawDeal.Reversals;
 using RawDealView;
 using RawDealView.Options;
 
@@ -17,6 +18,8 @@ public static class Formatter
     {
         List<Player> players = new List<Player> {atTurn, oponent};
         List<PlayerInfo> playersInfo = new List<PlayerInfo>();
+        Console.WriteLine("at turn fortitude: " + atTurn.Fortitude);
+        Console.WriteLine("oponent fortitude: " + oponent.Fortitude);
         foreach (Player player in players)
         {
             PlayerInfo info = new PlayerInfo(
@@ -107,6 +110,12 @@ public static class Formatter
     public static void PlayCardAsAction(string discardedCardTitle, string superstarName)
     {
         View.SayThatPlayerMustDiscardThisCard(superstarName, discardedCardTitle);
+    }
+
+    public static void ReverseACard(Reversal reversal, Player player)
+    {
+        string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
+        Formatter.View.SayThatPlayerReversedTheCard(player.Superstar.Name, reversalInfo);
     }
 
     private static void PrintCardInfo(Card card, Player playerAtTurn)

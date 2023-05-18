@@ -14,10 +14,17 @@ public class Player
         set { _hasWon = value; }
     }
 
-    private int _fortitude = 0;
+    // private int _fortitude = 0;
     public int Fortitude { 
-        get { return _fortitude; } 
-        set { _fortitude = value; } 
+        get {
+            // count the fortitude of the cards in the ring area
+            int fortitude = 0;
+            foreach (Card card in Deck.RingArea)
+            {
+                fortitude += card.GetDamage();
+            }
+            return fortitude;
+        } 
     }
 
     private bool _needToAskToUseAbility = false;
@@ -30,6 +37,12 @@ public class Player
     public bool WantsToUseAbility {
         get { return _wantsToUseAbility; }
         set { _wantsToUseAbility = value; }
+    }
+
+    private bool _wantsToReverseACard = false;
+    public bool WantsToReverseACard {
+        get { return _wantsToReverseACard; }
+        set { _wantsToReverseACard = value; }
     }
 
     private bool _hasReversedACard = false;
@@ -94,9 +107,19 @@ public class Player
         int reversalSelected = Formatter.View.AskUserToSelectAReversal(Superstar.Name, formattedReversals);
         if (reversalSelected != -1)
         {
-            _hasReversedACard = true;
+            _wantsToReverseACard = true;
         }
         return reversalSelected;
+    }
+
+    public int HandleDamage(int damage)
+    {
+        // Fortitude += damage;
+        if (Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+        {
+            damage = Oponent.Superstar.TakeLessDamage(damage);
+        }
+        return damage;
     }
 
     public Card RecieveDamage()

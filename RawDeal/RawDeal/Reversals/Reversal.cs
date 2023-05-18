@@ -2,7 +2,6 @@ namespace RawDeal.Reversals;
 
 
 using RawDeal.Plays;
-using RawDealView.Options;
 
 
 public abstract class Reversal : Card
@@ -17,27 +16,34 @@ public abstract class Reversal : Card
 
     public abstract bool CanReverse(Card card, int fortitude);
 
-    public abstract void ReversalEffect(Card card);
+    public abstract void ReversalEffect(Play play);
 
     public void ReverseFromHand(Play play)
     {
         Player playerReversing = play.Player.Oponent;
         Player oponent = play.Player;
-        string superstarName = playerReversing.Superstar.Name;
+        
         oponent.Deck.DrawCardFromPossibleCardsToRingsideById(play.CardId);
         playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(ReversalId, play.Card);
-        string reversalInfo = Formatter.FormatCard(this, NextPlay.PlayCard);
-        Formatter.View.SayThatPlayerReversedTheCard(superstarName, reversalInfo);
+        Formatter.ReverseACard(this, playerReversing);
+        ReversalEffect(play);
+        ApplyDamage(play);
+        playerReversing.HasReversedACard = true;
+        playerReversing.WantsToReverseACard = false;
         play.Reversed = true;
     }
 
     public void ReverseByDeck(Play play, int gapDamage)
     {
         Player playerReversing = play.Player.Oponent;
+        Player oponent = play.Player;
+
         Formatter.View.SayThatCardWasReversedByDeck(playerReversing.Superstar.Name);
-        play.Player.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
+        oponent.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
         playerReversing.HasReversedACard = true;
         play.Reversed = true;
     }
+
+    protected virtual void ApplyDamage(Play play) { return; }
 }
 

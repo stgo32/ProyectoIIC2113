@@ -1,6 +1,9 @@
 namespace RawDeal.Reversals;
 
 
+using RawDeal.Plays;
+
+
 public class BreakTheHole : Reversal
 {
     public BreakTheHole(string title, List<string> types, List<string> subtypes, string fortitude,
@@ -20,8 +23,5 @@ public class BreakTheHole : Reversal
         return canReverse;
     }
 
-    public override void ReversalEffect(Card card)
-    {
-        throw new NotImplementedException();
-    }
+    public override void ReversalEffect(Play play) { return; }
 }

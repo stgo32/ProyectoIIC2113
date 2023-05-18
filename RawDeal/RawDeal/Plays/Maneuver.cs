@@ -13,21 +13,35 @@ public class Maneuver : Play
         Formatter.PlayCard(Card, Player);
         if (!IsBeingReversedByHand())
         {
-            Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-            Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
             Attack();
         }
     }
 
-    private void Attack()
+    private void Stop(Card card, int gapDamage)
+    {
+        Reversal reversal = Initializer.InitReversalByTitle(card);
+        reversal.ReverseByDeck(this, gapDamage);
+    }
+
+    protected override void Attack()
+    {
+        base.Attack();
+        Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+        int damage = HandleDamage();
+        DeliverDamage(damage);
+        // int damage = Player.HandleDamage(Card.GetDamage());
+        // Card.DeliverDamage(Player.Oponent, damage);
+    }
+
+    private int HandleDamage()
     {
         int damage = Card.GetDamage();
-        Player.Fortitude += damage;
+        // Player.Fortitude += damage;
         if (Player.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
             damage = Player.Oponent.Superstar.TakeLessDamage(damage);
         }
-        DeliverDamage(damage);
+        return damage;
     }
 
     private void DeliverDamage(int damage)
@@ -43,18 +57,20 @@ public class Maneuver : Play
             {
                 break;
             }
-            Card cardOvertuned = oponent.RecieveDamage();
-            Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
-            Console.WriteLine("Damaging");
-            if (CanBeReversedByDeck(cardOvertuned))
+            Card cardOverturned = OverTurnCard(oponent, i, damage);
+            if (CanBeReversedByDeck(cardOverturned))
             {
-                int gap = damage - (i+1);
-                Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
-                reversal.ReverseByDeck(this, gap);
-                Console.WriteLine("Gap: " + gap);
+                Stop(cardOverturned, damage-i-1);
                 break;
             }
         }
+    }
+
+    private Card OverTurnCard(Player oponent, int iter, int damage)
+    {
+        Card cardOverTurned = oponent.RecieveDamage();
+        Formatter.PrintCardOverturned(cardOverTurned, iter+1, damage);
+        return cardOverTurned;
     }
 
     private bool CanBeReversedByDeck(Card cardOvertuned)

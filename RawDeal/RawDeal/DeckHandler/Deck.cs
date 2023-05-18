@@ -131,8 +131,11 @@ public class Deck
     {
         foreach (string type in card.Types)
         {
-            Card cardToAdd = card.PlayCardAs(type);
-            possibleCards.Add(cardToAdd);
+            if (type == "Action" || type == "Maneuver")
+            {
+                Card cardToAdd = card.PlayCardAs(type);
+                possibleCards.Add(cardToAdd);   
+            }
         }
     }
 

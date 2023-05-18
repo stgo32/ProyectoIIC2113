@@ -1,6 +1,7 @@
 namespace RawDeal;
 
 
+using RawDeal.Reversals;
 using RawDealView.Formatters;
 
 
@@ -50,7 +51,7 @@ public class Card : IViewableCardInfo
     public int GetDamage()
     {
         int damage = 0;
-        if (this.Damage != null)
+        if (this.Damage != "#")
         {
             damage = int.Parse(this.Damage);
         }
@@ -91,4 +92,67 @@ public class Card : IViewableCardInfo
         card._playAs = type;
         return card;
     }
+
+    // private int HandleDamage(Player player, int damage)
+    // {
+    //     player.Fortitude += damage;
+    //     if (player.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+    //     {
+    //         damage = player.Oponent.Superstar.TakeLessDamage(damage);
+    //     }
+    //     return damage;
+    // }
+
+    // public void DeliverDamage(Player player, int damage)
+    // {
+    //     if (damage > 0)
+    //     {
+    //         Formatter.View.SayThatOpponentWillTakeSomeDamage(player.Superstar.Name, damage);
+    //     }
+    //     for (int i = 0; i < damage; i++)
+    //     {
+    //         if (player.Arsenal.Count == 0)
+    //         {
+    //             break;
+    //         }
+    //         Card cardOverturned = OverTurnCard(player, i, damage);
+    //         if (CanBeReversedByDeck(cardOverturned, player.Oponent.Fortitude))
+    //         {
+    //             StopDamage(cardOverturned, damage-i-1);
+    //             break;
+    //         }
+    //     }
+    // }
+
+    // private Card OverTurnCard(Player oponent, int iter, int damage)
+    // {
+    //     Card cardOverTurned = oponent.RecieveDamage();
+    //     Formatter.PrintCardOverturned(cardOverTurned, iter+1, damage);
+    //     return cardOverTurned;
+    // }
+
+    // private bool CanBeReversedByDeck(Card cardOvertuned, int fortitude)
+    // {   
+    //     bool canBeReversed = false;
+    //     if (cardOvertuned.Types.Contains("Reversal"))
+    //     {
+    //         Reversal reversal;
+    //         try {
+    //             reversal = Initializer.InitReversalByTitle(cardOvertuned);
+    //         } catch (Exception e) {
+    //             return canBeReversed;
+    //         }
+    //         if (reversal.CanReverse(this, fortitude))
+    //         {
+    //             canBeReversed = true;
+    //         }
+    //     }
+    //     return canBeReversed;
+    // }
+
+    // private void StopDamage(Card card, int gapDamage)
+    // {
+    //     Reversal reversal = Initializer.InitReversalByTitle(card);
+    //     reversal.ReverseByDeck(this, gapDamage);
+    // }
 }

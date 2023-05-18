@@ -9,9 +9,14 @@ public class Action : Play
         Formatter.PlayCard(Card, Player);
         if (!IsBeingReversedByHand())
         {
-            Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
-            Player.DiscardPossibleCardById(_cardId);
-            Player.DrawACard();
+            Attack();
         }
+    }
+
+    protected override void Attack()
+    {
+        base.Attack();
+        Player.DiscardPossibleCardById(_cardId);
+        Player.DrawACard();
     }
 }

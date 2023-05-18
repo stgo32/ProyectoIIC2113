@@ -22,7 +22,7 @@ public abstract class Play
 
     private Play _nextPlay;
     public Play NextPlay { get { return _nextPlay; } set { _nextPlay = value; } }
-    
+
     private bool _reversed = false;
     public bool Reversed { get { return _reversed; } set { _reversed = value; } }
 
@@ -35,18 +35,22 @@ public abstract class Play
 
     public abstract void Start();
 
+    protected virtual void Attack()
+    {
+        Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
+    }
+
     public bool IsBeingReversedByHand()
     {
         bool willBeReversed = false;
-        Player oponent = Player.Oponent;
         int reversalSelectedId = -1;
-        if (oponent.Deck.CanReverseCard(Card))
+        if (Player.Oponent.Deck.CanReverseCard(Card))
         {
-            reversalSelectedId = oponent.SelectReversal(Card);
+            reversalSelectedId = Player.Oponent.SelectReversal(Card);
         }
-        if (reversalSelectedId != -1)
+        if (Player.Oponent.WantsToReverseACard)
         {
-            Reversal reversal = oponent.Deck.GetReversalById(reversalSelectedId, Card);
+            Reversal reversal = Player.Oponent.Deck.GetReversalById(reversalSelectedId, Card);
             reversal.ReverseFromHand(this);
             willBeReversed = true;
         }
