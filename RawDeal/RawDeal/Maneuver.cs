@@ -45,10 +45,13 @@ public class Maneuver : Play
             }
             Card cardOvertuned = oponent.RecieveDamage();
             Formatter.PrintCardOverturned(cardOvertuned, i+1, damage);
+            Console.WriteLine("Damaging");
             if (CanBeReversedByDeck(cardOvertuned))
             {
+                int gap = damage - (i+1);
                 Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
-                reversal.ReverseByDeck(this);
+                reversal.ReverseByDeck(this, gap);
+                Console.WriteLine("Gap: " + gap);
                 break;
             }
 
@@ -70,7 +73,12 @@ public class Maneuver : Play
         bool canBeReversed = false;
         if (cardOvertuned.Types.Contains("Reversal"))
         {
-            Reversal reversal = Initializer.InitReversalByTitle(cardOvertuned);
+            Reversal reversal;
+            try {
+                reversal = Initializer.InitReversalByTitle(cardOvertuned);
+            } catch (Exception e) {
+                return canBeReversed;
+            }
             if (reversal.CanReverse(Card, Player.Fortitude))
             {
                 canBeReversed = true;

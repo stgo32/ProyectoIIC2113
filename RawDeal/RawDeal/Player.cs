@@ -9,8 +9,8 @@ public class Player
 {
     private bool _hasWon = false;
     public bool HasWon { 
-        get { return _hasWon; } 
-        set { _hasWon = value; } 
+        get { return _hasWon; }
+        set { _hasWon = value; }
     }
     private int _fortitude = 0;
     public int Fortitude { 
@@ -201,6 +201,18 @@ public class Player
         return discardCardId;
     }
 
+    public void DrawCards(int quantity)
+    {
+        if (quantity > 0)
+        {
+            Formatter.View.SayThatPlayerDrawCards(Superstar.Name, quantity);
+            for (int i = quantity; i > 0; i--)
+            {
+                Deck.DrawCardFromArsenalToHand();
+            }
+        }
+    }
+
     public void DrawACard()
     {
         Deck.DrawCardFromArsenalToHand();
@@ -219,5 +231,16 @@ public class Player
         List<string> formattedRingside = Formatter.GetFormattedCardList(Ringside, NextPlay.ShowCards);
         int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(Superstar.Name, 1, formattedRingside);
         Deck.DrawCardFromRingsideToHandById(cardId);
+    }
+
+    public void DrawCardsBecauseOfStunValue(int stunValue, int gapDamage)
+    {
+        int howManyWillDraw = 0;
+        if (stunValue > 0 && gapDamage > 0)
+        {
+            Console.WriteLine("Gap: " + gapDamage);
+            howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(Superstar.Name, stunValue);
+            DrawCards(howManyWillDraw);
+        }
     }
 }

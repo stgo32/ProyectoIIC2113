@@ -29,10 +29,11 @@ public abstract class Reversal : Card
         play.Reversed = true;
     }
 
-    public void ReverseByDeck(Play play)
+    public void ReverseByDeck(Play play, int gapDamage)
     {
         Player playerReversing = play.Player.Oponent;
         Formatter.View.SayThatCardWasReversedByDeck(playerReversing.Superstar.Name);
+        play.Player.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
         playerReversing.WantsToReverseACard = true;
         play.Reversed = true;
     }

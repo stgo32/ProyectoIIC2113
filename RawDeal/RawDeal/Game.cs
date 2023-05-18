@@ -16,6 +16,7 @@ public class Game
     private TurnHandler TurnHandler = new TurnHandler();
     private Player playerAtTurn { get { return TurnHandler.playerAtTurn; } }
     private Player oponent { get { return TurnHandler.oponent; } }
+    private Player _winner;
     
     public Game(View view, string deckFolder)
     {
@@ -135,7 +136,7 @@ public class Game
     private void GiveUp()
     {
         TurnHandler.EndTurn();
-        HasWon(oponent);
+        HasWon(playerAtTurn);
     }
 
     private bool APlayerHasWon()
@@ -150,11 +151,16 @@ public class Game
         {
             HasWon(playerAtTurn);
         }
+        else if (playerAtTurn.Arsenal.Count == 0 && oponent.WantsToReverseACard)
+        {
+            HasWon(oponent);
+        }
     }
 
     private void HasWon(Player winner)
     {
         winner.HasWon = true;
+        _winner = winner;
     }
 
     public void SuperstarCanUseAbilityAtBeginOfTurn()
@@ -184,8 +190,7 @@ public class Game
 
     private void CongratulateWinner()
     {
-        Player winner = playerAtTurn;
-        Formatter.View.CongratulateWinner(winner.Superstar.Name);
+        Formatter.View.CongratulateWinner(_winner.Superstar.Name);
     }
 
 

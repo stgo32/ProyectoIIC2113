@@ -48,6 +48,16 @@ public class Card : IViewableCardInfo
         return damage;
     }
 
+    public int GetStunValue()
+    {
+        int stunValue = 0;
+        if (this.StunValue != null)
+        {
+            stunValue = int.Parse(this.StunValue);
+        }
+        return stunValue;
+    }
+
     public bool IsPossibleToPlay(int fortitude)
     {
         bool isPossible = false;

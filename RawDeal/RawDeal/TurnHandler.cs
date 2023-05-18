@@ -77,8 +77,8 @@ public class TurnHandler
         Formatter.PrintPlayersInfo(playerAtTurn, oponent);
     }
 
-    private bool APlayerHasReversedACard()
+    public bool APlayerHasReversedACard()
     {
-        return oponent.WantsToReverseACard;
+        return oponent.WantsToReverseACard || playerAtTurn.WantsToReverseACard;
     }
 }
