@@ -14,9 +14,13 @@ public class ManKind : Superstar
             _player.WantsToUseAbility = true;
         }
     }
+
     public override bool CanChooseToUseAbility { get { return false; } }
+
     public override bool UsedAbilityThisTurn { get; set; } = false;
+
     public override bool CanUseAbilityAtBeginOfTurn { get { return true; } }
+    
     public override bool CanUseAbilityBeforeTakingDamage { get { return true; } }
 
     public override void UseAbility()

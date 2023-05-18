@@ -9,6 +9,7 @@ public abstract class Reversal : Card
 {
     private int _reversalId;
     public int ReversalId { get { return _reversalId; } set { _reversalId = value; } }
+    
     public Reversal(string title, List<string> types, List<string> subtypes, string fortitude,
                     string damage, string stunValue, string cardEffect)
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
@@ -35,7 +36,7 @@ public abstract class Reversal : Card
         Player playerReversing = play.Player.Oponent;
         Formatter.View.SayThatCardWasReversedByDeck(playerReversing.Superstar.Name);
         play.Player.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
-        playerReversing.WantsToReverseACard = true;
+        playerReversing.HasReversedACard = true;
         play.Reversed = true;
     }
 }

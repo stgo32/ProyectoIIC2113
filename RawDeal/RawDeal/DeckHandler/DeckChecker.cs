@@ -4,14 +4,18 @@ namespace RawDeal.DeckHandler;
 public class DeckChecker
 {
     private List<Card> _deck;
+
     private List<Superstar> _superstars;
+
     private Superstar _superstar;
+
     public DeckChecker(List<Card> deck, List<Superstar> superstars, Superstar superstar)
     {
         _deck = deck;
         _superstars = superstars;
         _superstar = superstar;
     }
+
     public bool CheckDeck()
     {
         bool isValid = CheckSuperstar() && CheckCardCount() &&
@@ -19,6 +23,7 @@ public class DeckChecker
                        CheckSuperstarLogo(_superstars);
         return isValid;
     }
+
     private bool CheckSuperstar() 
     { 
         bool isValid = true;
@@ -27,6 +32,7 @@ public class DeckChecker
         }
         return isValid;
     }
+
     private bool CheckCardCount()
     {
         bool isValid = true;
@@ -36,6 +42,7 @@ public class DeckChecker
         }
         return isValid;
     }
+
     private bool CheckUniqueAndSetUpCardTypes()
     {
         Dictionary<string, int> cardCount = new Dictionary<string, int>();
@@ -61,6 +68,7 @@ public class DeckChecker
         }
         return isValid;
     }
+
     private bool CheckRegularTypeCard(Card card, Dictionary<string, int> cardCount)
     {
         bool isValid = true;
@@ -81,6 +89,7 @@ public class DeckChecker
         }
         return isValid;
     }
+    
     private bool CheckSetUpTypeCard(Card card, Dictionary<string, int> cardCount)
     {
         cardCount[card.Title] = int.MaxValue;

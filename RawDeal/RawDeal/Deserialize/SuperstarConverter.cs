@@ -10,6 +10,7 @@ using System.Text.Json.Serialization;
 public class SuperstarConverter : JsonConverter<Superstar>
 {
     private string _property = "Name";
+    
     public override Superstar Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
         var jsonDocument = JsonDocument.ParseValue(ref reader);

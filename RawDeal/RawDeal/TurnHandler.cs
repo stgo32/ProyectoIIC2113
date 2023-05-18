@@ -4,7 +4,9 @@ namespace RawDeal;
 public class TurnHandler
 {
     private int _idPlayerAtTurn { get; set;} = 0;
+
     private bool _turnHasStarted { get; set;} = false;
+
     private Game _game;
     public Game Game
     {
@@ -12,12 +14,16 @@ public class TurnHandler
         set
         {
             _game = value;
-            _game.players = players;
+            _game.Players = players;
         }
     }
+
     private Player[] players { get; set; } = { new Player(), new Player() };
+
     public Player playerAtTurn { get { return players[_idPlayerAtTurn]; } }
+
     public Player oponent { get { return playerAtTurn.Oponent; } }
+    
 
     public void SetOrderOfTurns()
     {
@@ -40,7 +46,7 @@ public class TurnHandler
     private void BeginTurnSettings()
     {
         playerAtTurn.Superstar.UsedAbilityThisTurn = false;
-        playerAtTurn.WantsToReverseACard = false;
+        playerAtTurn.HasReversedACard = false;
         playerAtTurn.Deck.DrawCardFromArsenalToHand();
         Formatter.View.SayThatATurnBegins(playerAtTurn.Superstar.Name);
         _turnHasStarted = true;
@@ -79,6 +85,6 @@ public class TurnHandler
 
     public bool APlayerHasReversedACard()
     {
-        return oponent.WantsToReverseACard || playerAtTurn.WantsToReverseACard;
+        return oponent.HasReversedACard || playerAtTurn.HasReversedACard;
     }
 }

@@ -7,6 +7,7 @@ using System.Text.Json;
 public static class Deserializer
 {
     private static string _cardsPath = "./data/cards.json";
+    
     private static string _superstarsPath = "./data/superstar2.json";
 
     public static List<Superstar> DeserializeInfoSuperstars()

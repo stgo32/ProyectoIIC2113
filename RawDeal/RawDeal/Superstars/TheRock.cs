@@ -13,8 +13,11 @@ public class TheRock : Superstar
             _player.NeedToAskToUseAbility = true;
         }
     }
+
     public override bool UsedAbilityThisTurn { get; set; } = false;
+
     public override bool CanChooseToUseAbility { get { return false; } }
+    
     public override bool CanUseAbilityAtBeginOfTurn { 
         get {
             bool isValid = false;

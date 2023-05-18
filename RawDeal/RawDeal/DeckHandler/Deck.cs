@@ -1,23 +1,28 @@
 namespace RawDeal.DeckHandler;
 
 
-using RawDeal.Superstars;
 using RawDeal.Reversals;
 
 
 public class Deck
 {
     private List<Card> _deck;
+
     private List<Card> _arsenal;
     public List<Card> Arsenal { get { return _arsenal; } set { _arsenal = value; } }
+
     private List<Card> _hand;
     public List<Card> Hand { get { return _hand; } set { _hand = value; } }
+
     private List<Card> _ringside;
     public List<Card> Ringside { get { return _ringside; } set { _ringside = value; } }
+
     private List<Card> _ringArea;
     public List<Card> RingArea { get { return _ringArea; } set { _ringArea = value; } }
+
     private Superstar _superstar;
     public Superstar Superstar { get { return _superstar; } set { _superstar = value; } } 
+    
     private Player _player;
     public Player Player { get { return _player; } set { _player = value; } }
 

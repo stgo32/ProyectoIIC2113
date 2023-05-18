@@ -13,31 +13,31 @@ public class Player
         get { return _hasWon; }
         set { _hasWon = value; }
     }
+
     private int _fortitude = 0;
     public int Fortitude { 
         get { return _fortitude; } 
         set { _fortitude = value; } 
     }
+
     private bool _needToAskToUseAbility = false;
     public bool NeedToAskToUseAbility {
         get { return _needToAskToUseAbility; }
         set { _needToAskToUseAbility = value; }
     }
+
     private bool _wantsToUseAbility = false;
     public bool WantsToUseAbility {
         get { return _wantsToUseAbility; }
         set { _wantsToUseAbility = value; }
     }
-    private bool _wantsToReverseACard = false;
-    public bool WantsToReverseACard {
-        get { return _wantsToReverseACard; }
-        set { _wantsToReverseACard = value; }
+
+    private bool _hasReversedACard = false;
+    public bool HasReversedACard {
+        get { return _hasReversedACard; }
+        set { _hasReversedACard = value; }
     }
-    private bool _hasPlayedThisTurn = false;
-    public bool HasPlayedThisTurn { 
-        get { return _hasPlayedThisTurn; } 
-        set { _hasPlayedThisTurn = value; } 
-    }
+
     private Deck _deck = new Deck();
     public Deck Deck { 
         get { return _deck; }
@@ -46,18 +46,25 @@ public class Player
             _deck.Player = this;
         }
     }
+
     public Superstar Superstar { 
         get { return Deck.Superstar; }
     } 
+
     public List<Card> Hand { get { return Deck.Hand; } }
+
     public List<Card> Arsenal { get { return Deck.Arsenal; } }
+
     public List<Card> RingArea { get { return Deck.RingArea; } }
+
     public List<Card> Ringside { get { return Deck.Ringside; } }
+
     private Player _oponent;
     public Player Oponent { 
         get { return _oponent; }
         set { _oponent = value; } 
     }
+
     private Play _play;
     public Play Play { 
         get { return _play; }
@@ -87,22 +94,9 @@ public class Player
         int reversalSelected = Formatter.View.AskUserToSelectAReversal(Superstar.Name, formattedReversals);
         if (reversalSelected != -1)
         {
-            _wantsToReverseACard = true;
+            _hasReversedACard = true;
         }
         return reversalSelected;
-    }
-
-    public void ReverseCardFromHand(int oponentCardId, int reversalId)
-    {
-        if (reversalId != -1)
-        {
-            Card oponentCard = Oponent.Deck.GetPossibleCardsToPlay()[oponentCardId];
-            Card reversal = Deck.GetPossibleReversals(oponentCard)[reversalId];
-            Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(oponentCardId);
-            Deck.DrawCardFromPossibleReversalsToRingAreaById(reversalId, oponentCard);
-            string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);
-            Formatter.View.SayThatPlayerReversedTheCard(Superstar.Name, reversalInfo);
-        }
     }
 
     public Card RecieveDamage()

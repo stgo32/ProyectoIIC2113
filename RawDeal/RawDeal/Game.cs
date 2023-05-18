@@ -10,19 +10,26 @@ using RawDealView.Options;
 public class Game
 {
     private string _deckFolder;
-    public List<Superstar> superstars { get; set; }
-    public List<Card> cards { get; set; }
-    public Player[] players { get; set; } = { new Player(), new Player() };
-    private TurnHandler TurnHandler = new TurnHandler();
-    private Player playerAtTurn { get { return TurnHandler.playerAtTurn; } }
-    private Player oponent { get { return TurnHandler.oponent; } }
+
+    private List<Superstar> _superstars { get; set; }
+    
+    private List<Card> _cards { get; set; }
+    
+    public Player[] Players { get; set; } = { new Player(), new Player() };
+    
+    private TurnHandler _turnHandler = new TurnHandler();
+
+    private Player _playerAtTurn { get { return _turnHandler.playerAtTurn; } }
+
+    private Player _oponent { get { return _turnHandler.oponent; } }
+
     private Player _winner;
     
     public Game(View view, string deckFolder)
     {
         _deckFolder = deckFolder;
         Formatter.View = view;
-        TurnHandler.Game = this;
+        _turnHandler.Game = this;
     }
 
     public void Play()
@@ -33,7 +40,7 @@ public class Game
             return;
         }
         SetPlayersInitialConfig();
-        GameLoop();
+        PlayGame();
     }
 
     private bool SetGameInitialConfig()
@@ -44,18 +51,18 @@ public class Game
 
     private void DeserializeData()
     {
-        superstars = Deserializer.DeserializeInfoSuperstars();
-        cards = Deserializer.DeserializeInfoCards();
+        _superstars = Deserializer.DeserializeInfoSuperstars();
+        _cards = Deserializer.DeserializeInfoCards();
     }
 
     private bool ReadDecks()
     {
         bool correctDeck = true;
         DeserializeData();
-        foreach (Player player in players)
+        foreach (Player player in Players)
         {
             ReadDeck(player);
-            correctDeck = player.Deck.Check(superstars);
+            correctDeck = player.Deck.Check(_superstars);
             if (!correctDeck) 
             {
                 Formatter.View.SayThatDeckIsInvalid();
@@ -69,25 +76,25 @@ public class Game
     {
         string pathDeck = Formatter.View.AskUserToSelectDeck(_deckFolder);
         player.Deck = new Deck();
-        player.Deck.Read(pathDeck, superstars, cards);
+        player.Deck.Read(pathDeck, _superstars, _cards);
     }
     
     private void SetPlayersInitialConfig(){
-        TurnHandler.SetOrderOfTurns();
+        _turnHandler.SetOrderOfTurns();
         SetOponentsToPlayers();
     }
 
     private void SetOponentsToPlayers()
     {
-        players[0].Oponent = players[1];
-        players[1].Oponent = players[0];
+        Players[0].Oponent = Players[1];
+        Players[1].Oponent = Players[0];
     }
 
-    private void GameLoop()
+    private void PlayGame()
     {
         while (!APlayerHasWon())
         {
-            TurnHandler.SetTurn();
+            _turnHandler.SetTurn();
             NextPlay nextPlay = ChooseNextPlay();
             if (nextPlay == NextPlay.ShowCards)
             {
@@ -103,7 +110,7 @@ public class Game
             }
             else if (nextPlay == NextPlay.EndTurn)
             {
-                TurnHandler.EndTurn();
+                _turnHandler.EndTurn();
             }
             else if (nextPlay == NextPlay.GiveUp)
             {
@@ -116,13 +123,13 @@ public class Game
 
     private void ShowCards()
     {
-        Formatter.ShowCards(playerAtTurn, oponent);
+        Formatter.ShowCards(_playerAtTurn, _oponent);
     }
 
     private NextPlay ChooseNextPlay()
     {   
         NextPlay nextPlay;
-        if (playerAtTurn.Superstar.CanChooseToUseAbility)
+        if (_playerAtTurn.Superstar.CanChooseToUseAbility)
         {
             nextPlay = Formatter.View.AskUserWhatToDoWhenUsingHisAbilityIsPossible();
         }
@@ -135,25 +142,25 @@ public class Game
 
     private void GiveUp()
     {
-        HasWon(oponent);
-        TurnHandler.EndTurn();
+        HasWon(_oponent);
+        _turnHandler.EndTurn();
     }
 
     private bool APlayerHasWon()
     {
         CheckIfPlayerHasWon();
-        return playerAtTurn.HasWon || oponent.HasWon;
+        return _playerAtTurn.HasWon || _oponent.HasWon;
     }
 
     private void CheckIfPlayerHasWon()
     {
-        if (oponent.Arsenal.Count == 0)
+        if (_oponent.Arsenal.Count == 0)
         {
-            HasWon(playerAtTurn);
+            HasWon(_playerAtTurn);
         }
-        else if (playerAtTurn.Arsenal.Count == 0 && oponent.WantsToReverseACard)
+        else if (_playerAtTurn.Arsenal.Count == 0 && _oponent.HasReversedACard)
         {
-            HasWon(oponent);
+            HasWon(_oponent);
         }
     }
 
@@ -165,13 +172,13 @@ public class Game
 
     public void SuperstarCanUseAbilityAtBeginOfTurn()
     {
-        if (playerAtTurn.Superstar.CanUseAbilityAtBeginOfTurn)
+        if (_playerAtTurn.Superstar.CanUseAbilityAtBeginOfTurn)
         {
-            if (playerAtTurn.NeedToAskToUseAbility)
+            if (_playerAtTurn.NeedToAskToUseAbility)
             {
-                AskPlayerToUseAbility(playerAtTurn);
+                AskPlayerToUseAbility(_playerAtTurn);
             }
-            if (playerAtTurn.WantsToUseAbility)
+            if (_playerAtTurn.WantsToUseAbility)
             {
                 UseSuperstarAbility();
             }
@@ -180,7 +187,7 @@ public class Game
   
     private int SelectCardIdToPlay()
     {
-        List<Card> possibleCards = playerAtTurn.Deck.GetPossibleCardsToPlay();
+        List<Card> possibleCards = _playerAtTurn.Deck.GetPossibleCardsToPlay();
         NextPlay nextPlay = NextPlay.PlayCard;
         List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, nextPlay);
         int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
@@ -196,16 +203,16 @@ public class Game
 
     private void PlayCard()
     {
-        int idCardSelected = playerAtTurn.SelectCardToPlay();
+        int idCardSelected = _playerAtTurn.SelectCardToPlay();
         if (idCardSelected != -1)
         {
-            playerAtTurn.PlayCard(idCardSelected);
+            _playerAtTurn.PlayCard(idCardSelected);
         }
     }
 
     private void UseSuperstarAbility()
     {
-        Superstar superstar = playerAtTurn.Superstar;
+        Superstar superstar = _playerAtTurn.Superstar;
         superstar.UseAbility();
     }
 
