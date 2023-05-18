@@ -135,8 +135,8 @@ public class Game
 
     private void GiveUp()
     {
+        HasWon(oponent);
         TurnHandler.EndTurn();
-        HasWon(playerAtTurn);
     }
 
     private bool APlayerHasWon()
