@@ -16,7 +16,9 @@ public abstract class Reversal : Card
 
     public abstract bool CanReverse(Card card, int fortitude);
 
-    public abstract void ReversalEffect(Play play);
+    protected abstract void ReversalEffect(Play play);
+    
+    protected abstract void ApplyDamage(Play play);
 
     public void ReverseFromHand(Play play)
     {
@@ -44,6 +46,5 @@ public abstract class Reversal : Card
         play.Reversed = true;
     }
 
-    protected virtual void ApplyDamage(Play play) { return; }
 }
 

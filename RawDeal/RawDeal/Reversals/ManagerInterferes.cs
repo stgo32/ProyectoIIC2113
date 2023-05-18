@@ -23,7 +23,7 @@ public class ManagerInterferes : Reversal
         return canReverse;
     }
 
-    public override void ReversalEffect(Play play)
+    protected override void ReversalEffect(Play play)
     {
         play.Player.Oponent.DrawACard();
     }

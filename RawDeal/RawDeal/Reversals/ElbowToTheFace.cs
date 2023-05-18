@@ -24,7 +24,7 @@ public class ElbowToTheFace : Reversal
         return canReverse;
     }
 
-    public override void ReversalEffect(Play play) { return; }
+    protected override void ReversalEffect(Play play) { return; }
 
     protected override void ApplyDamage(Play play)
     {

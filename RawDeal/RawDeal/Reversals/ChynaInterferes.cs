@@ -23,7 +23,7 @@ public class ChynaInterferes : Reversal
         return canReverse;
     }
 
-    public override void ReversalEffect(Play play)
+    protected override void ReversalEffect(Play play)
     {
         play.Player.Oponent.DrawCards(2);
     }
