@@ -22,8 +22,9 @@ public class Action : Play
         base.Attack();
         if (Card.Title == "Jockeying for Position")
         {
-            JockeyingForPositionEffect();
+            Console.WriteLine("Jockeying for Position: " + _cardId);
             Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+            JockeyingForPositionEffect();
         }
         else
         {

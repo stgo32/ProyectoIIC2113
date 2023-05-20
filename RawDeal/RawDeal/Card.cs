@@ -24,7 +24,8 @@ public class Card : IViewableCardInfo
     private string _playAs;
     public string PlayAs { get { return _playAs; } set { _playAs = value; } }
 
-    public bool isHibrid { get { return Types.Count > 1; } }
+    public bool isHibrid { get { return Types.Contains("Maneuver") && Types.Contains("Action"); } }
+    
 
     public Card(string title, List<string> types, List<string> subtypes, string fortitude,
                 string damage, string stunValue, string cardEffect)

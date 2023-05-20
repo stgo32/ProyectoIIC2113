@@ -69,13 +69,6 @@ public class Player
         set { _playedJockeyingForPositionLast = value; }
     }
 
-    public void ResetJockeyingForPosition()
-    {
-        _nextGrappleIsPlus4D = false;
-        _nextGrapplesReversalIsPlus8F = false;
-        _playedJockeyingForPositionLast = false;
-    }
-
     private Deck _deck = new Deck();
     public Deck Deck { 
         get { return _deck; }
@@ -109,6 +102,14 @@ public class Player
         set { _play = value; } 
     }
 
+
+    public void ResetJockeyingForPosition()
+    {
+        _nextGrappleIsPlus4D = false;
+        _nextGrapplesReversalIsPlus8F = false;
+        _playedJockeyingForPositionLast = false;
+    }
+
     public int SelectCardToPlay()
     {
         List<Card> possibleCards = Deck.GetPossibleCardsToPlay();
@@ -125,6 +126,10 @@ public class Player
             ResetJockeyingForPosition();
         }
         Play.Start();
+        if (Play.Card.Title != "Jockeying for Position" && _playedJockeyingForPositionLast)
+        {
+            ResetJockeyingForPosition();
+        }
     }
 
     public int SelectReversal(Card oponentCard)
