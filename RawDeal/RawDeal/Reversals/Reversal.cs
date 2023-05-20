@@ -23,6 +23,7 @@ public abstract class Reversal : Card
         {
             fortitude += 8; 
         }
+        Console.WriteLine("-------------------");
         Console.WriteLine("Card: " + Title);
         Console.WriteLine("Card fortitude: " + GetFortitude());
         Console.WriteLine("JFP fortitude: " + fortitude);

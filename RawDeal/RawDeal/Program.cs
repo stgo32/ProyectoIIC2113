@@ -5,7 +5,7 @@ using RawDealView;
 // string folder = "06-BasicHybridCards";
 // string folder = "07-NoEffectReversals";
 string folder = "08-Reversals";
-int idTest = 1;
+int idTest = 8;
 string pathToTest = Path.Combine("data", $"{folder}-Tests", $"{idTest}.txt");
 
 // Esta vista permite verificar el comportamiento de un test particular.

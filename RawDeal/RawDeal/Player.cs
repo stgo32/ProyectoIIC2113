@@ -141,12 +141,16 @@ public class Player
         return reversalSelected;
     }
 
-    public int HandleDamage(int damage)
+    public int HandleDamage(int damage, bool reversing=false)
     {
         // Fortitude += damage;
         if (Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
             damage = Oponent.Superstar.TakeLessDamage(damage);
+        }
+        else if (reversing && Superstar.CanUseAbilityBeforeTakingDamage)
+        {
+            damage = Superstar.TakeLessDamage(damage);
         }
         return damage;
     }

@@ -15,7 +15,7 @@ public class RollingTakedown : Reversal
     {
         bool canReverse = false;
         bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
-        bool reversalRestriction = CalculateDamageRestriction(card, oponent.NextGrappleIsPlus4D);
+        bool reversalRestriction = CalculateDamageRestriction(card, oponent);
         if (fortitudeRestriction && reversalRestriction)
         {
             canReverse = true;
@@ -23,17 +23,21 @@ public class RollingTakedown : Reversal
         return canReverse;
     }
 
-    private bool CalculateDamageRestriction(Card card, bool nextGrappleIsPlus4D)
+    private bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
-        if (nextGrappleIsPlus4D)
+        if (oponent.NextGrappleIsPlus4D)
         {
             damage += 4;
+        }
+        if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+        {
+            damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
         Console.WriteLine("Card: " + Title);
         Console.WriteLine("Card damage: " + card.GetDamage());
         Console.WriteLine("JFP damage: " + damage);
-        Console.WriteLine("JFP +4D: " + nextGrappleIsPlus4D);
+        Console.WriteLine("JFP +4D: " + oponent.NextGrappleIsPlus4D);
         return card.ContainsSubtype("Grapple") && card.PlayAs == "Maneuver" && damage <= 7;
     }
 
@@ -41,7 +45,7 @@ public class RollingTakedown : Reversal
 
     protected override void ApplyDamage(Play play)
     {
-        int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage());
+        int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
         DeliverDamage(play.Player, damage);
     }
 

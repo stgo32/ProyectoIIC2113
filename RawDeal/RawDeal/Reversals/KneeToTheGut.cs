@@ -15,9 +15,10 @@ public class KneeToTheGut : Reversal
     {
         bool canReverse = false;
         bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
-        bool reversalRestriction = card.ContainsSubtype("Strike") 
-                                   && card.PlayAs == "Maneuver"
-                                   && card.GetDamage() <= 7;
+        bool reversalRestriction = CalculateDamageRestriction(card, oponent);
+        // bool reversalRestriction = card.ContainsSubtype("Strike") 
+        //                            && card.PlayAs == "Maneuver"
+        //                            && card.GetDamage() <= 7;
         if (fortitudeRestriction && reversalRestriction)
         {
             canReverse = true;
@@ -25,11 +26,29 @@ public class KneeToTheGut : Reversal
         return canReverse;
     }
 
+    private bool CalculateDamageRestriction(Card card, Player oponent)
+    {
+        int damage = card.GetDamage();
+        if (oponent.NextGrappleIsPlus4D)
+        {
+            damage += 4;
+        }
+        if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+        {
+            damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
+        }
+        Console.WriteLine("Card: " + Title);
+        Console.WriteLine("Card damage: " + card.GetDamage());
+        Console.WriteLine("JFP damage: " + damage);
+        Console.WriteLine("JFP +4D: " + oponent.NextGrappleIsPlus4D);
+        return card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver"
+                                   && card.GetDamage() <= 7;
+    }
     protected override void ReversalEffect(Play play) { return; }
 
     protected override void ApplyDamage(Play play)
     {
-        int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage());
+        int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
         DeliverDamage(play.Player, damage);
     }
 
