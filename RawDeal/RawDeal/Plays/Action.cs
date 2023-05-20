@@ -22,7 +22,6 @@ public class Action : Play
         base.Attack();
         if (Card.Title == "Jockeying for Position")
         {
-            Console.WriteLine("Jockeying for Position: " + _cardId);
             Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
             JockeyingForPositionEffect();
         }
@@ -40,12 +39,10 @@ public class Action : Play
         );
         if (selectedEffect == SelectedEffect.NextGrappleIsPlus4D)
         {
-            Console.WriteLine("NextGrappleIsPlus4D");
             NextGrappleIsPlus4D();
         }
         else if (selectedEffect == SelectedEffect.NextGrapplesReversalIsPlus8F)
         {
-            Console.WriteLine("NextGrapplesReversalIsPlus8F");
             NextGrapplesReversalIsPlus8F();
         }
         Player.PlayedJockeyingForPositionLast = true;

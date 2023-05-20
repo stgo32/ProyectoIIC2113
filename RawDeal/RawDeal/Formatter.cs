@@ -18,8 +18,6 @@ public static class Formatter
     {
         List<Player> players = new List<Player> {atTurn, oponent};
         List<PlayerInfo> playersInfo = new List<PlayerInfo>();
-        Console.WriteLine("at turn fortitude: " + atTurn.Fortitude);
-        Console.WriteLine("oponent fortitude: " + oponent.Fortitude);
         foreach (Player player in players)
         {
             PlayerInfo info = new PlayerInfo(

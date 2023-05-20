@@ -33,12 +33,10 @@ public class JockeyingForPosition : Reversal
         );
         if (selectedEffect == SelectedEffect.NextGrappleIsPlus4D)
         {
-            Console.WriteLine("NextGrappleIsPlus4D");
             reversingPlayer.NextGrappleIsPlus4D = true;
         }
         else if (selectedEffect == SelectedEffect.NextGrapplesReversalIsPlus8F)
         {
-            Console.WriteLine("NextGrapplesReversalIsPlus8F");
             reversingPlayer.NextGrapplesReversalIsPlus8F = true;
         }
         reversingPlayer.PlayedJockeyingForPositionLast = true;

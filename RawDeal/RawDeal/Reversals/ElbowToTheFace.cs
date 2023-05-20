@@ -14,8 +14,6 @@ public class ElbowToTheFace : Reversal
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
         bool canReverse = false;
-        Console.WriteLine("This: " + oponent.Oponent.NextGrappleIsPlus4D);
-        Console.WriteLine("Oponent: " + oponent.NextGrappleIsPlus4D);
         bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
         bool reversalRestriction = CalculateDamageRestriction(card, oponent.NextGrappleIsPlus4D);
         if (fortitudeRestriction && reversalRestriction)
@@ -32,10 +30,6 @@ public class ElbowToTheFace : Reversal
         {
             damage += 4;
         }
-        Console.WriteLine("Card: " + Title);
-        Console.WriteLine("Card damage: " + card.GetDamage());
-        Console.WriteLine("JFP damage: " + damage);
-        Console.WriteLine("JFP +4D: " + nextGrappleIsPlus4D);
         return card.PlayAs == "Maneuver" && damage <= 7;
     }
 
@@ -49,7 +43,6 @@ public class ElbowToTheFace : Reversal
 
     private void DeliverDamage(Player oponent, int damage)
     {
-        // Player oponent = Player.Oponent;
         if (damage > 0)
         {
             Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
@@ -61,11 +54,6 @@ public class ElbowToTheFace : Reversal
                 break;
             }
             Card cardOverturned = OverTurnCard(oponent, i, damage);
-            // if (CanBeReversedByDeck(cardOverturned))
-            // {
-            //     Stop(cardOverturned, damage-i-1);
-            //     break;
-            // }
         }
     }
 

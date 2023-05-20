@@ -34,10 +34,6 @@ public class RollingTakedown : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        Console.WriteLine("Card: " + Title);
-        Console.WriteLine("Card damage: " + card.GetDamage());
-        Console.WriteLine("JFP damage: " + damage);
-        Console.WriteLine("JFP +4D: " + oponent.NextGrappleIsPlus4D);
         return card.ContainsSubtype("Grapple") && card.PlayAs == "Maneuver" && damage <= 7;
     }
 
@@ -46,10 +42,6 @@ public class RollingTakedown : Reversal
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
-        Console.WriteLine("play.Player: " + play.Player.Superstar.Name);
-        Console.WriteLine("play.Player.NextGrappleIsPlus4D: " + play.Player.NextGrappleIsPlus4D);
-        Console.WriteLine("oponent: " + play.Player.Oponent.Superstar.Name);
-        Console.WriteLine("oponent.NextGrappleIsPlus4D: " + play.Player.Oponent.NextGrappleIsPlus4D);
         if (play.Player.NextGrappleIsPlus4D)
         {
             damage += 4;
@@ -59,7 +51,6 @@ public class RollingTakedown : Reversal
 
     private void DeliverDamage(Player oponent, int damage)
     {
-        // Player oponent = Player.Oponent;
         if (damage > 0)
         {
             Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
@@ -71,11 +62,6 @@ public class RollingTakedown : Reversal
                 break;
             }
             Card cardOverturned = OverTurnCard(oponent, i, damage);
-            // if (CanBeReversedByDeck(cardOverturned))
-            // {
-            //     Stop(cardOverturned, damage-i-1);
-            //     break;
-            // }
         }
     }
 

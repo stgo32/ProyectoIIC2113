@@ -14,10 +14,8 @@ public class Player
         set { _hasWon = value; }
     }
 
-    // private int _fortitude = 0;
     public int Fortitude { 
         get {
-            // count the fortitude of the cards in the ring area
             int fortitude = 0;
             foreach (Card card in Deck.RingArea)
             {
@@ -148,7 +146,6 @@ public class Player
 
     public int HandleDamage(int damage, bool reversing=false)
     {
-        // Fortitude += damage;
         if (Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
             damage = Oponent.Superstar.TakeLessDamage(damage);
@@ -242,7 +239,6 @@ public class Player
         int howManyWillDraw = 0;
         if (stunValue > 0 && gapDamage > 0)
         {
-            Console.WriteLine("Gap: " + gapDamage);
             howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(Superstar.Name, stunValue);
             DrawCards(howManyWillDraw);
         }

@@ -36,7 +36,6 @@ public class ChynaInterferes : Reversal
 
     private void DeliverDamage(Player oponent, int damage)
     {
-        // Player oponent = Player.Oponent;
         if (damage > 0)
         {
             Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
@@ -48,11 +47,6 @@ public class ChynaInterferes : Reversal
                 break;
             }
             Card cardOverturned = OverTurnCard(oponent, i, damage);
-            // if (CanBeReversedByDeck(cardOverturned))
-            // {
-            //     Stop(cardOverturned, damage-i-1);
-            //     break;
-            // }
         }
     }
 

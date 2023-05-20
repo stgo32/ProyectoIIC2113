@@ -29,8 +29,6 @@ public class Maneuver : Play
         Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
         int damage = HandleDamage();
         DeliverDamage(damage);
-        // int damage = Player.HandleDamage(Card.GetDamage());
-        // Card.DeliverDamage(Player.Oponent, damage);
     }
 
     private int HandleDamage()
@@ -39,7 +37,6 @@ public class Maneuver : Play
         if (Player.NextGrappleIsPlus4D && Card.ContainsSubtype("Grapple"))
         {
             damage += 4;
-            // Player.ResetJockeyingForPosition();
         }
         damage = Player.HandleDamage(damage);
         return damage;

@@ -16,9 +16,6 @@ public class KneeToTheGut : Reversal
         bool canReverse = false;
         bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
         bool reversalRestriction = CalculateDamageRestriction(card, oponent);
-        // bool reversalRestriction = card.ContainsSubtype("Strike") 
-        //                            && card.PlayAs == "Maneuver"
-        //                            && card.GetDamage() <= 7;
         if (fortitudeRestriction && reversalRestriction)
         {
             canReverse = true;
@@ -37,10 +34,6 @@ public class KneeToTheGut : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        Console.WriteLine("Card: " + Title);
-        Console.WriteLine("Card damage: " + card.GetDamage());
-        Console.WriteLine("JFP damage: " + damage);
-        Console.WriteLine("JFP +4D: " + oponent.NextGrappleIsPlus4D);
         return card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver"
                                    && card.GetDamage() <= 7;
     }
@@ -54,7 +47,6 @@ public class KneeToTheGut : Reversal
 
     private void DeliverDamage(Player oponent, int damage)
     {
-        // Player oponent = Player.Oponent;
         if (damage > 0)
         {
             Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
@@ -66,11 +58,6 @@ public class KneeToTheGut : Reversal
                 break;
             }
             Card cardOverturned = OverTurnCard(oponent, i, damage);
-            // if (CanBeReversedByDeck(cardOverturned))
-            // {
-            //     Stop(cardOverturned, damage-i-1);
-            //     break;
-            // }
         }
     }
 

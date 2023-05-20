@@ -273,7 +273,6 @@ public class Deck
     {
         Card card = GetPossibleCardsToPlay()[cardId];
         int cardCount = CountCardAppearancesInPossibleCardsToPlay(cardId);
-        Console.WriteLine("Card Count RA: " + cardCount);
         int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
         DrawCardFromHandToRingAreaById(idCardAtHand);
         return card;
