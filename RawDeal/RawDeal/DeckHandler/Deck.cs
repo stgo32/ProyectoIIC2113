@@ -178,14 +178,14 @@ public class Deck
         return cardCount;
     }
 
-    private int CountCardAppearancesInPossibleReversals(int cardId, Card oponentCard)
+    private int CountCardAppearancesInPossibleReversals(int cardId, Card oponentCard, int fortitude)
     {
-        Card card = GetPossibleReversals(oponentCard)[cardId];
+        Card card = GetPossibleReversals(oponentCard, fortitude)[cardId];
         int cardCount = 0;
         int hibridCounter = 0;
         for (int i = 0; i < cardId; i++)
         {
-            Card possibleCard = GetPossibleReversals(oponentCard)[i];
+            Card possibleCard = GetPossibleReversals(oponentCard, fortitude)[i];
             if (possibleCard.Title == card.Title)
             {
                 ManageCountersOptionsForCardAppearances(
@@ -214,28 +214,28 @@ public class Deck
         }
     }
 
-    public List<Card> GetPossibleReversals(Card oponentCard)
+    public List<Card> GetPossibleReversals(Card oponentCard, int fortitude)
     {
         List<Card> possibleReversals = new List<Card>();
         foreach (Card card in _hand)
         {
             if (card.Types.Contains("Reversal"))
             {
-                AddPossibleReversal(card, ref possibleReversals, oponentCard);
+                AddPossibleReversal(card, fortitude, ref possibleReversals, oponentCard);
             }
         }
         return possibleReversals;
     }
 
-    public Reversal GetReversalById(int cardId, Card oponentCard)
+    public Reversal GetReversalById(int cardId, Card oponentCard, int fortitude)
     {
-        Card card = GetPossibleReversals(oponentCard)[cardId];
+        Card card = GetPossibleReversals(oponentCard, fortitude)[cardId];
         Reversal reversal = Initializer.InitReversalByTitle(card);
         reversal.ReversalId = cardId;
         return reversal;
     }
 
-    private void AddPossibleReversal(Card card, ref List<Card> possibleReversals, Card oponentCard)
+    private void AddPossibleReversal(Card card, int fortitude, ref List<Card> possibleReversals, Card oponentCard)
     {
         Reversal reversal;
         try {
@@ -245,15 +245,15 @@ public class Deck
         {
             return;
         }
-        if (reversal.CanReverse(oponentCard, Player.Fortitude))
+        if (reversal.CanReverse(oponentCard, fortitude))
         {
             possibleReversals.Add(card.PlayCardAs("Reversal"));
         }
     }
 
-    public bool CanReverseCard(Card card)
+    public bool CanReverseCard(Card card, int fortitude)
     {
-        return GetPossibleReversals(card).Any();
+        return GetPossibleReversals(card, fortitude).Any();
     }
 
     public void PutReversedCardIntoRingside(int cardId)
@@ -286,10 +286,10 @@ public class Deck
         DrawCardFromHandToRingsideById(idCardAtHand);
     }
 
-    public void DrawCardFromPossibleReversalsToRingAreaById(int reversedId, Card oponentCard)
+    public void DrawCardFromPossibleReversalsToRingAreaById(int reversedId, Card oponentCard, int fortitude)
     {
-        Card card = GetPossibleReversals(oponentCard)[reversedId];
-        int cardCount = CountCardAppearancesInPossibleReversals(reversedId, oponentCard);
+        Card card = GetPossibleReversals(oponentCard, fortitude)[reversedId];
+        int cardCount = CountCardAppearancesInPossibleReversals(reversedId, oponentCard, fortitude);
         int idCardAtHand = FindCardIdAtHandByCountInPossibleCardsToPlay(cardCount, card);
         DrawCardFromHandToRingAreaById(idCardAtHand);
     }

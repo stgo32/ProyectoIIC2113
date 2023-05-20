@@ -51,6 +51,31 @@ public class Player
         set { _hasReversedACard = value; }
     }
 
+    private bool _nextGrappleIsPlus4D = false;
+    public bool NextGrappleIsPlus4D {
+        get { return _nextGrappleIsPlus4D; }
+        set { _nextGrappleIsPlus4D = value; }
+    }
+
+    private bool _nextGrapplesReversalIsPlus8F = false;
+    public bool NextGrapplesReversalIsPlus8F {
+        get { return _nextGrapplesReversalIsPlus8F; }
+        set { _nextGrapplesReversalIsPlus8F = value; }
+    }
+
+    private bool _playedJockeyingForPositionLast = false;
+    public bool PlayedJockeyingForPositionLast {
+        get { return _playedJockeyingForPositionLast; }
+        set { _playedJockeyingForPositionLast = value; }
+    }
+
+    public void ResetJockeyingForPosition()
+    {
+        _nextGrappleIsPlus4D = false;
+        _nextGrapplesReversalIsPlus8F = false;
+        _playedJockeyingForPositionLast = false;
+    }
+
     private Deck _deck = new Deck();
     public Deck Deck { 
         get { return _deck; }
@@ -95,13 +120,17 @@ public class Player
     public void PlayCard(int idCardSelected)
     {
         Play = Initializer.InitPlayByType(idCardSelected, this);
+        if (!Play.Card.ContainsSubtype("Grapple") || !_playedJockeyingForPositionLast)
+        {
+            ResetJockeyingForPosition();
+        }
         Play.Start();
     }
 
     public int SelectReversal(Card oponentCard)
     {
         List<string> formattedReversals = Formatter.GetFormattedCardList(
-            Deck.GetPossibleReversals(oponentCard),
+            Deck.GetPossibleReversals(oponentCard, Fortitude),
             NextPlay.PlayCard
         );
         int reversalSelected = Formatter.View.AskUserToSelectAReversal(Superstar.Name, formattedReversals);

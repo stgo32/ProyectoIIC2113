@@ -26,7 +26,7 @@ public abstract class Reversal : Card
         Player oponent = play.Player;
         
         oponent.Deck.DrawCardFromPossibleCardsToRingsideById(play.CardId);
-        playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(ReversalId, play.Card);
+        playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(ReversalId, play.Card, playerReversing.Fortitude);
         Formatter.ReverseACard(this, playerReversing);
         ReversalEffect(play);
         ApplyDamage(play);

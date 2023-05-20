@@ -49,9 +49,11 @@ public class Action : Play
 
     private void NextGrappleIsPlus4D()
     {
+        Player.NextGrappleIsPlus4D = true;
     }
 
     private void NextGrapplesReversalIsPlus8F()
     {
+        Player.NextGrapplesReversalIsPlus8F = true;
     }
 }

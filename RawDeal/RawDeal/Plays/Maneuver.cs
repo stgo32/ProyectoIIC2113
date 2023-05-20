@@ -36,11 +36,12 @@ public class Maneuver : Play
     private int HandleDamage()
     {
         int damage = Card.GetDamage();
-        // Player.Fortitude += damage;
-        if (Player.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+        if (Player.NextGrappleIsPlus4D && Card.ContainsSubtype("Grapple"))
         {
-            damage = Player.Oponent.Superstar.TakeLessDamage(damage);
+            damage += 4;
+            Player.ResetJockeyingForPosition();
         }
+        damage = Player.HandleDamage(damage);
         return damage;
     }
 

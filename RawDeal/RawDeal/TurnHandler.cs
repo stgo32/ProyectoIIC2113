@@ -61,6 +61,7 @@ public class TurnHandler
     public void EndTurn()
     {
         _turnHasStarted = false;
+        playerAtTurn.ResetJockeyingForPosition();
         if (_idPlayerAtTurn == 0)
         {
             _idPlayerAtTurn = 1;
