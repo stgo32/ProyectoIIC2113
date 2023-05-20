@@ -43,17 +43,29 @@ public abstract class Play
     public bool IsBeingReversedByHand()
     {
         bool willBeReversed = false;
-        int reversalSelectedId = -1;
-        if (Player.Oponent.Deck.CanReverseCard(Card, Player.Oponent.Fortitude))
-        {
-            reversalSelectedId = Player.Oponent.SelectReversal(Card);
-        }
+        int reversalSelectedId = SelectReversal();
         if (Player.Oponent.WantsToReverseACard)
         {
-            Reversal reversal = Player.Oponent.Deck.GetReversalById(reversalSelectedId, Card, Player.Oponent.Fortitude);
-            reversal.ReverseFromHand(this);
+            ReverseFromHand(reversalSelectedId);
             willBeReversed = true;
         }
         return willBeReversed;
+    }
+
+    private int SelectReversal()
+    {
+        int reversalSelectedId = -1;
+        int fortitude = Player.Oponent.Fortitude;
+        if (Player.Oponent.Deck.CanReverseCard(Card, fortitude))
+        {
+            reversalSelectedId = Player.Oponent.SelectReversal(Card);
+        }
+        return reversalSelectedId;
+    }
+
+    private void ReverseFromHand(int reversalSelectedId)
+    {
+        Reversal reversal = Player.Oponent.Deck.GetReversalById(reversalSelectedId, Card, Player.Oponent.Fortitude);
+        reversal.ReverseFromHand(this);
     }
 }

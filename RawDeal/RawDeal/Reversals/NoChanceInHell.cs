@@ -11,10 +11,10 @@ public class NoChanceInHell : Reversal
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}
 
-    public override bool CanReverse(Card card, int fortitude)
+    public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
         bool canReverse = false;
-        bool fortitudeRestriction = GetFortitude() <= fortitude;
+        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
         bool reversalRestriction = card.PlayAs == "Action";
         if (fortitudeRestriction && reversalRestriction)
         {

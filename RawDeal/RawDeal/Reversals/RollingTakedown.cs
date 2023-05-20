@@ -11,18 +11,30 @@ public class RollingTakedown : Reversal
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}
 
-    public override bool CanReverse(Card card, int fortitude)
+    public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
         bool canReverse = false;
-        bool fortitudeRestriction = GetFortitude() <= fortitude;
-        bool reversalRestriction = card.ContainsSubtype("Grapple") 
-                                   && card.PlayAs == "Maneuver"
-                                   && card.GetDamage() <= 7;
+        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
+        bool reversalRestriction = CalculateDamageRestriction(card, oponent.NextGrappleIsPlus4D);
         if (fortitudeRestriction && reversalRestriction)
         {
             canReverse = true;
         }
         return canReverse;
+    }
+
+    private bool CalculateDamageRestriction(Card card, bool nextGrappleIsPlus4D)
+    {
+        int damage = card.GetDamage();
+        if (nextGrappleIsPlus4D)
+        {
+            damage += 4;
+        }
+        Console.WriteLine("Card: " + Title);
+        Console.WriteLine("Card damage: " + card.GetDamage());
+        Console.WriteLine("JFP damage: " + damage);
+        Console.WriteLine("JFP +4D: " + nextGrappleIsPlus4D);
+        return card.ContainsSubtype("Grapple") && card.PlayAs == "Maneuver" && damage <= 7;
     }
 
     protected override void ReversalEffect(Play play) { return; }

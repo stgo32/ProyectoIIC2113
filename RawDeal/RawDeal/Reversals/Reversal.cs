@@ -14,7 +14,23 @@ public abstract class Reversal : Card
                     : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}
 
-    public abstract bool CanReverse(Card card, int fortitude);
+    public abstract bool CanReverse(Card card, int fortitude, Player oponent);
+
+    protected bool CalculateFortitudeRestriction(int oponentFortitude, bool nextGrapplesReversalIsPlus8F)
+    {
+        int fortitude = GetFortitude();
+        if (nextGrapplesReversalIsPlus8F)
+        {
+            fortitude += 8; 
+        }
+        Console.WriteLine("Card: " + Title);
+        Console.WriteLine("Card fortitude: " + GetFortitude());
+        Console.WriteLine("JFP fortitude: " + fortitude);
+        Console.WriteLine("JFP +8F: " + nextGrapplesReversalIsPlus8F);
+        bool f = fortitude <= oponentFortitude;
+        Console.WriteLine("Fortitude restriction: " + f);
+        return fortitude <= oponentFortitude;
+    }
 
     protected abstract void ReversalEffect(Play play);
     

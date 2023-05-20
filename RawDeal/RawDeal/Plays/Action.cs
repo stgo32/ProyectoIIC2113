@@ -39,12 +39,15 @@ public class Action : Play
         );
         if (selectedEffect == SelectedEffect.NextGrappleIsPlus4D)
         {
+            Console.WriteLine("NextGrappleIsPlus4D");
             NextGrappleIsPlus4D();
         }
         else if (selectedEffect == SelectedEffect.NextGrapplesReversalIsPlus8F)
         {
+            Console.WriteLine("NextGrapplesReversalIsPlus8F");
             NextGrapplesReversalIsPlus8F();
         }
+        Player.PlayedJockeyingForPositionLast = true;
     }
 
     private void NextGrappleIsPlus4D()

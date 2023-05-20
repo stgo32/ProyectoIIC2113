@@ -39,7 +39,7 @@ public class Maneuver : Play
         if (Player.NextGrappleIsPlus4D && Card.ContainsSubtype("Grapple"))
         {
             damage += 4;
-            Player.ResetJockeyingForPosition();
+            // Player.ResetJockeyingForPosition();
         }
         damage = Player.HandleDamage(damage);
         return damage;
@@ -85,7 +85,7 @@ public class Maneuver : Play
             } catch (Exception e) {
                 return canBeReversed;
             }
-            if (reversal.CanReverse(Card, Player.Fortitude))
+            if (reversal.CanReverse(Card, Player.Oponent.Fortitude, Player))
             {
                 canBeReversed = true;
             }
