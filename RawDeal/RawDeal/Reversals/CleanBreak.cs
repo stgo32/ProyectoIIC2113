@@ -13,15 +13,12 @@ public class CleanBreak : Reversal
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
-        bool canReverse = false;
-        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
-        bool reversalRestriction = card.PlayAs == "Action"
-                                   && card.Title == "Jockeying for Position";
-        if (fortitudeRestriction && reversalRestriction)
-        {
-            canReverse = true;
-        }
-        return canReverse;
+        bool fortitudeRestriction = CalculateFortitudeRestriction(
+            fortitude,
+            oponent.NextGrapplesReversalIsPlus8F
+        );
+        bool reversalRestriction = card.PlayAs == "Action" && card.Title == "Jockeying for Position";
+        return fortitudeRestriction && reversalRestriction;
     }
 
     protected override void ReversalEffect(Play play)

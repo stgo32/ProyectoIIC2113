@@ -13,14 +13,12 @@ public class StepAside : Reversal
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
-        bool canReverse = false;
-        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
+        bool fortitudeRestriction = CalculateFortitudeRestriction(
+            fortitude,
+            oponent.NextGrapplesReversalIsPlus8F
+        );
         bool reversalRestriction = card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver";
-        if (fortitudeRestriction && reversalRestriction)
-        {
-            canReverse = true;
-        }
-        return canReverse;
+        return fortitudeRestriction && reversalRestriction;
     }
 
     protected override void ReversalEffect(Play play) { return; }

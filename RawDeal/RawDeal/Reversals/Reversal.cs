@@ -34,15 +34,12 @@ public abstract class Reversal : Card
     {
         Player playerReversing = play.Player.Oponent;
         Player oponent = play.Player;
-        
-        oponent.Deck.DrawCardFromPossibleCardsToRingsideById(play.CardId);
-        playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(ReversalId, play.Card, playerReversing.Fortitude);
+
+        SetDecksAfterReversingFromHand(play, playerReversing);
         Formatter.ReverseACard(this, playerReversing);
         ReversalEffect(play);
         ApplyDamage(play);
-        playerReversing.HasReversedACard = true;
-        playerReversing.WantsToReverseACard = false;
-        play.Reversed = true;
+        SetReversalState(playerReversing);
     }
 
     public void ReverseByDeck(Play play, int gapDamage)
@@ -52,9 +49,23 @@ public abstract class Reversal : Card
 
         Formatter.View.SayThatCardWasReversedByDeck(playerReversing.Superstar.Name);
         oponent.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
-        playerReversing.HasReversedACard = true;
-        play.Reversed = true;
+        SetReversalState(playerReversing);
     }
 
+    private void SetReversalState(Player player)
+    {
+        player.HasReversedACard = true;
+        player.WantsToReverseACard = false;        
+    }
+
+    private void SetDecksAfterReversingFromHand(Play play, Player playerReversing)
+    {
+        playerReversing.Oponent.Deck.DrawCardFromPossibleCardsToRingsideById(play.CardId);
+        playerReversing.Deck.DrawCardFromPossibleReversalsToRingAreaById(
+            ReversalId,
+            play.Card,
+            playerReversing.Fortitude
+        );
+    }
 }
 

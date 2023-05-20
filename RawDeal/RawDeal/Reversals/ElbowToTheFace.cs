@@ -13,14 +13,12 @@ public class ElbowToTheFace : Reversal
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
-        bool canReverse = false;
-        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
+        bool fortitudeRestriction = CalculateFortitudeRestriction(
+            fortitude,
+            oponent.NextGrapplesReversalIsPlus8F
+        );
         bool reversalRestriction = CalculateDamageRestriction(card, oponent.NextGrappleIsPlus4D);
-        if (fortitudeRestriction && reversalRestriction)
-        {
-            canReverse = true;
-        }
-        return canReverse;
+        return fortitudeRestriction && reversalRestriction;
     }
 
     private bool CalculateDamageRestriction(Card card, bool nextGrappleIsPlus4D)

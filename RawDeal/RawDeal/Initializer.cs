@@ -60,12 +60,12 @@ public static class Initializer
         else if (reversalTitle == "Clean Break")
         {
             reversal = new CleanBreak(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                           card.Damage, card.StunValue, card.CardEffect);
+                                      card.Damage, card.StunValue, card.CardEffect);
         }
         else if (reversalTitle == "Jockeying for Position")
         {
             reversal = new JockeyingForPosition(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                           card.Damage, card.StunValue, card.CardEffect);
+                                                card.Damage, card.StunValue, card.CardEffect);
         }
         else
         {

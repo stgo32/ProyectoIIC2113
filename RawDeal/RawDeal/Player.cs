@@ -239,7 +239,10 @@ public class Player
         int howManyWillDraw = 0;
         if (stunValue > 0 && gapDamage > 0)
         {
-            howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(Superstar.Name, stunValue);
+            howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(
+                Superstar.Name,
+                stunValue
+            );
             DrawCards(howManyWillDraw);
         }
     }

@@ -13,14 +13,12 @@ public class RollingTakedown : Reversal
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
-        bool canReverse = false;
-        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
+        bool fortitudeRestriction = CalculateFortitudeRestriction(
+            fortitude,
+            oponent.NextGrapplesReversalIsPlus8F
+        );
         bool reversalRestriction = CalculateDamageRestriction(card, oponent);
-        if (fortitudeRestriction && reversalRestriction)
-        {
-            canReverse = true;
-        }
-        return canReverse;
+        return fortitudeRestriction && reversalRestriction;
     }
 
     private bool CalculateDamageRestriction(Card card, Player oponent)

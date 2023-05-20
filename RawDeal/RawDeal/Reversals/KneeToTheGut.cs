@@ -13,14 +13,12 @@ public class KneeToTheGut : Reversal
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
-        bool canReverse = false;
-        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
+        bool fortitudeRestriction = CalculateFortitudeRestriction(
+            fortitude,
+            oponent.NextGrapplesReversalIsPlus8F
+        );
         bool reversalRestriction = CalculateDamageRestriction(card, oponent);
-        if (fortitudeRestriction && reversalRestriction)
-        {
-            canReverse = true;
-        }
-        return canReverse;
+        return fortitudeRestriction && reversalRestriction;
     }
 
     private bool CalculateDamageRestriction(Card card, Player oponent)
@@ -34,9 +32,9 @@ public class KneeToTheGut : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        return card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver"
-                                   && card.GetDamage() <= 7;
+        return card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver" && card.GetDamage() <= 7;
     }
+    
     protected override void ReversalEffect(Play play) { return; }
 
     protected override void ApplyDamage(Play play)

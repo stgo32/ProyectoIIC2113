@@ -235,7 +235,8 @@ public class Deck
         return reversal;
     }
 
-    private void AddPossibleReversal(Card card, int fortitude, ref List<Card> possibleReversals, Card oponentCard)
+    private void AddPossibleReversal(Card card, int fortitude, ref List<Card> possibleReversals,
+                                     Card oponentCard)
     {
         Reversal reversal;
         try {
@@ -286,7 +287,8 @@ public class Deck
         DrawCardFromHandToRingsideById(idCardAtHand);
     }
 
-    public void DrawCardFromPossibleReversalsToRingAreaById(int reversedId, Card oponentCard, int fortitude)
+    public void DrawCardFromPossibleReversalsToRingAreaById(int reversedId, Card oponentCard,
+                                                            int fortitude)
     {
         Card card = GetPossibleReversals(oponentCard, fortitude)[reversedId];
         int cardCount = CountCardAppearancesInPossibleReversals(reversedId, oponentCard, fortitude);
