@@ -1454,6 +1454,16 @@ THE UNDERTAKER recibe 10 de daño.
 *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
 -------------------------------- 10/10
 *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 42F, tiene 3 cartas en la mano y 30 en el arsenal.
+THE UNDERTAKER: 2F, tiene 3 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
 
 --------------------------------------------
 Felicidades, gana STONE COLD STEVE AUSTIN.

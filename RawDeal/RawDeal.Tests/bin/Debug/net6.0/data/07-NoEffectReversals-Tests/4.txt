@@ -961,6 +961,16 @@ MANKIND recibe 5 de daño.
 *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
 -------------------------------- 5/5
 *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+CHRIS JERICHO: 55F, tiene 0 cartas en la mano y 40 en el arsenal.
+MANKIND: 2F, tiene 15 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
 
 --------------------------------------------
 Felicidades, gana CHRIS JERICHO.

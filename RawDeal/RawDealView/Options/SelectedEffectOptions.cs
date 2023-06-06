@@ -5,6 +5,9 @@ public static class SelectedEffectOptions
     private const string NextGrappleIsPlus4D = "Tu siguiente carta, si es un Grapple, tiene +4D.";
     private const string NextGrapplesReversalIsPlus8F =
         "Tu siguiente carta, si es un Grapple, tu oponente requiere +8F para revertirla.";
+    private const string DrawCards = "Robar cartas.";
+    private const string ForceOpponentToDiscard = "Forzar al oponente a descartar cartas.";
+    
 
     private static readonly Dictionary<SelectedEffect, string> Effect2String = new ();
     private static readonly Dictionary<string, SelectedEffect> String2Effect = new ();
@@ -19,6 +22,8 @@ public static class SelectedEffectOptions
     {
         Effect2String[SelectedEffect.NextGrappleIsPlus4D] = NextGrappleIsPlus4D;
         Effect2String[SelectedEffect.NextGrapplesReversalIsPlus8F] = NextGrapplesReversalIsPlus8F;
+        Effect2String[SelectedEffect.DrawCards] = DrawCards;
+        Effect2String[SelectedEffect.ForceOpponentToDiscard] = ForceOpponentToDiscard;
     }
 
     private static void InitializeString2EffectUsingTheInformationFromEffect2String()

@@ -1041,6 +1041,16 @@ La carta fue exitosamente jugada.
 CHRIS JERICHO recibe 1 de daño.
 -------------------------------- 1/1
 *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+HHH: 55F, tiene 0 cartas en la mano y 18 en el arsenal.
+CHRIS JERICHO: 29F, tiene 0 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
 
 --------------------------------------------
 Felicidades, gana HHH.

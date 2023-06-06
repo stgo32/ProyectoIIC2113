@@ -2,5 +2,5 @@ namespace RawDealView.Options;
 
 public enum SelectedEffect
 {
-    NextGrappleIsPlus4D, NextGrapplesReversalIsPlus8F
+    NextGrappleIsPlus4D, NextGrapplesReversalIsPlus8F, DrawCards, ForceOpponentToDiscard
 }

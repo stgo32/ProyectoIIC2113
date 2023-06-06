@@ -1220,6 +1220,16 @@ THE UNDERTAKER recibe 6 de daño.
 *Big Boot*. Info: 6F/6D, Maneuver, Strike.
 -------------------------------- 6/6
 *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+KANE: 51F, tiene 2 cartas en la mano y 1 en el arsenal.
+THE UNDERTAKER: 43F, tiene 0 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
 
 --------------------------------------------
 Felicidades, gana KANE.

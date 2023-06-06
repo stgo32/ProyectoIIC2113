@@ -1386,6 +1386,16 @@ KANE recibe 7 de daño.
 *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
 -------------------------------- 7/7
 *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 51F, tiene 6 cartas en la mano y 25 en el arsenal.
+KANE: 0F, tiene 17 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
 
 --------------------------------------------
 Felicidades, gana STONE COLD STEVE AUSTIN.

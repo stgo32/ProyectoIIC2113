@@ -689,6 +689,16 @@ HHH recibe 10 de daño.
 *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
 -------------------------------- 10/10
 *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+HHH: 42F, tiene 12 cartas en la mano y 9 en el arsenal.
+HHH: 33F, tiene 12 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
 
 --------------------------------------------
 Felicidades, gana HHH.

@@ -9,6 +9,7 @@ using RawDealView.Options;
 public class Player
 {
     private bool _hasWon = false;
+
     public bool HasWon { 
         get { return _hasWon; }
         set { _hasWon = value; }
@@ -100,6 +101,17 @@ public class Player
         set { _play = value; } 
     }
 
+    public void HasWonByPinVictory()
+    {
+        Console.WriteLine($"{Superstar.Name} has won by pin victory!");
+        _hasWon = true;
+    }
+
+    public void HasWonByCountOutVictory()
+    {
+        Console.WriteLine($"{Superstar.Name} has won by count out victory!");
+        _hasWon = true;
+    }
 
     public void ResetJockeyingForPosition()
     {

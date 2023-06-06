@@ -2,6 +2,8 @@ namespace RawDealView.Views;
 
 class ManualTestingView:TestingView
 {
+    private const string EndOfFileString = "[EndOfFile]";
+    
     private string[] _expectedScript;
     private int _currentLine;
     private bool _isOutputCorrectSoFar = true;
@@ -45,7 +47,14 @@ class ManualTestingView:TestingView
         => GetExpectedLine() != line;
 
     private string GetExpectedLine()
-        => _expectedScript[_currentLine];
+    {
+        if (IsTheEndOfTheExpectedScript())
+            return EndOfFileString;
+        return _expectedScript[_currentLine];
+    }
+
+    private bool IsTheEndOfTheExpectedScript()
+        => _currentLine == _expectedScript.Length;
     
     private void IndicateThatThereIsAnErrorInThisLineAndChangeTheColorOfTheConsole()
     {

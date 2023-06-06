@@ -1195,7 +1195,7 @@
         "Fortitude": "4",
         "Damage": "0",
         "StunValue": "0",
-        "CardEffect": "You discard 1 card. Your opponent discards 4 cards."
+        "CardEffect": "Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards."
     },
     {
         "Title": "Get Crowd Support",

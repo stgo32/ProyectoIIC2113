@@ -136,21 +136,48 @@ public class View
         _view.WriteLine($"{superstarName} revierte la carta desde el mazo.");
     }
 
-    public int AskHowManyCardsToDrawBecauseOfStunValue(string superstarName, int stunValue)
+    public int AskHowManyCardsToDiscard(string superstarName, int maxCardsToDiscard)
     {
         ShowDivision();
         _view.WriteLine(
-            $"{superstarName} puede robar hasta {stunValue} cartas debido al stun value. ¿Cuántas cartas quieres robar?");
-        return AskUserToSelectANumber(0, stunValue);
+            $"{superstarName} puede descartar hasta {maxCardsToDiscard} cartas. ¿Cuántas cartas quieres descartar?");
+        return AskUserToSelectANumber(0, maxCardsToDiscard);
     }
 
+    public int AskHowManyCardsToDrawBecauseOfACardEffect(string superstarName, int maxCardsToDraw)
+        => AskHowManyCardsToDraw(superstarName, maxCardsToDraw, "efecto de la carta");
+
+    public int AskHowManyCardsToDrawBecauseOfStunValue(string superstarName, int stunValue)
+        => AskHowManyCardsToDraw(superstarName, stunValue, "stun value");
+
+    private int AskHowManyCardsToDraw(string superstarName, int maxCardsToDraw, string reasonToDrawCards)
+    {
+        ShowDivision();
+        _view.WriteLine(
+            $"{superstarName} puede robar hasta {maxCardsToDraw} cartas debido al {reasonToDrawCards}. ¿Cuántas cartas quieres robar?");
+        return AskUserToSelectANumber(0, maxCardsToDraw);
+    }
+    
     public void SayThatPlayerSuccessfullyPlayedACard()
     {
         ShowDivision();
         _view.WriteLine("La carta fue exitosamente jugada.");
     }
 
-    public void SayThatOpponentWillTakeSomeDamage(string opponentsSuperstarName, int damageToBeReceived)
+    public void SayThatPlayerDamagedHimself(string playersSuperstarName, int damage)
+    {
+        ShowDivision();
+        _view.WriteLine(
+            $"Como resultado de jugar la carta, {playersSuperstarName} se pega {damage} de daño colateral a si mismo.");
+    }
+
+    public void SayThatPlayerLostDueToSelfDamage(string playersSuperstarName)
+    {
+        _view.WriteLine(
+            $"{playersSuperstarName} pierde debido al daño colateral.");
+    }
+
+    public void SayThatSuperstarWillTakeSomeDamage(string opponentsSuperstarName, int damageToBeReceived)
         => _view.WriteLine($"{opponentsSuperstarName} recibe {damageToBeReceived} de daño.");
 
     public void ShowCardOverturnByTakingDamage(string overturnedCardInfo, int currentDamage, int totalDamage)
@@ -230,6 +257,10 @@ public class View
         => AskUserToSelectAnEffect(superstarName,
             new[] { SelectedEffect.NextGrappleIsPlus4D, SelectedEffect.NextGrapplesReversalIsPlus8F });
 
+    public SelectedEffect AskUserToChooseBetweenDrawingOrForcingOpponentToDiscardCards(string superstarName)
+        => AskUserToSelectAnEffect(superstarName,
+            new[] { SelectedEffect.DrawCards, SelectedEffect.ForceOpponentToDiscard });
+
     private SelectedEffect AskUserToSelectAnEffect(string superstarName, SelectedEffect[] possibleEffects)
     {
         ShowDivision();
@@ -264,5 +295,5 @@ public class View
 
     private string ReplaceBackslashesWithSlashesToFixPathIncompatibilitiesWithWindows(string path)
         => path.Replace("\\", "/");
-    
+
 }

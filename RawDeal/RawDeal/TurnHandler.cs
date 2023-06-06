@@ -62,6 +62,7 @@ public class TurnHandler
     {
         _turnHasStarted = false;
         playerAtTurn.ResetJockeyingForPosition();
+        CheckCountOutVictory();
         if (_idPlayerAtTurn == 0)
         {
             _idPlayerAtTurn = 1;
@@ -69,6 +70,18 @@ public class TurnHandler
         else
         {
             _idPlayerAtTurn = 0;
+        }
+    }
+
+    private void CheckCountOutVictory()
+    {
+        if (oponent.Arsenal.Count == 0)
+        {
+            playerAtTurn.HasWonByCountOutVictory();
+        }
+        else if (playerAtTurn.Arsenal.Count == 0)
+        {
+            oponent.HasWonByCountOutVictory();
         }
     }
 

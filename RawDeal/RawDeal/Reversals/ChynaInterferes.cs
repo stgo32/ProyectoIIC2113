@@ -33,7 +33,7 @@ public class ChynaInterferes : Reversal
     {
         if (damage > 0)
         {
-            Formatter.View.SayThatOpponentWillTakeSomeDamage(oponent.Superstar.Name, damage);
+            Formatter.View.SayThatSuperstarWillTakeSomeDamage(oponent.Superstar.Name, damage);
         }
         for (int i = 0; i < damage; i++)
         {

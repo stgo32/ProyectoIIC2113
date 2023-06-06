@@ -154,13 +154,21 @@ public class Game
 
     private void CheckIfPlayerHasWon()
     {
-        if (_oponent.Arsenal.Count == 0)
+        if (_playerAtTurn.HasWon)
         {
             HasWon(_playerAtTurn);
+        }
+        else if (_oponent.HasWon)
+        {
+            HasWon(_oponent);
         }
         else if (_playerAtTurn.Arsenal.Count == 0 && _oponent.HasReversedACard)
         {
             HasWon(_oponent);
+        }
+        else if (_oponent.Arsenal.Count == 0 && _oponent.HasReversedACard)
+        {
+            HasWon(_playerAtTurn);
         }
     }
 
