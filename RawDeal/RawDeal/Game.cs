@@ -35,12 +35,11 @@ public class Game
     public void Play()
     {
         bool successInitializingGame = SetGameInitialConfig();
-        if (!successInitializingGame)
+        if (successInitializingGame)
         {
-            return;
+            SetPlayersInitialConfig();
+            PlayGame();
         }
-        SetPlayersInitialConfig();
-        PlayGame();
     }
 
     private bool SetGameInitialConfig()
@@ -62,7 +61,7 @@ public class Game
         foreach (Player player in Players)
         {
             ReadDeck(player);
-            correctDeck = player.Deck.Check(_superstars);
+            correctDeck = player.Deck.CheckCorrectness(_superstars);
             if (!correctDeck) 
             {
                 Formatter.View.SayThatDeckIsInvalid();
@@ -76,7 +75,7 @@ public class Game
     {
         string pathDeck = Formatter.View.AskUserToSelectDeck(_deckFolder);
         player.Deck = new Deck();
-        player.Deck.Read(pathDeck, _superstars, _cards);
+        player.Deck.ReadCardsFromFile(pathDeck, _superstars, _cards);
     }
     
     private void SetPlayersInitialConfig(){
@@ -118,7 +117,6 @@ public class Game
             }
         }
         CongratulateWinner();
-        return;
     }
 
     private void ShowCards()
@@ -191,15 +189,6 @@ public class Game
                 UseSuperstarAbility();
             }
         }
-    }
-  
-    private int SelectCardIdToPlay()
-    {
-        List<Card> possibleCards = _playerAtTurn.Deck.GetPossibleCardsToPlay();
-        NextPlay nextPlay = NextPlay.PlayCard;
-        List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, nextPlay);
-        int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
-        return idCardSelected;
     }
 
 

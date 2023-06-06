@@ -105,11 +105,6 @@ public static class Formatter
         Formatter.PrintCardInfo(card, player);
     }
 
-    public static void PlayCardAsAction(string discardedCardTitle, string superstarName)
-    {
-        View.SayThatPlayerMustDiscardThisCard(superstarName, discardedCardTitle);
-    }
-
     public static void ReverseACard(Reversal reversal, Player player)
     {
         string reversalInfo = Formatter.FormatCard(reversal, NextPlay.PlayCard);

@@ -26,7 +26,7 @@ public class Deck
     private Player _player;
     public Player Player { get { return _player; } set { _player = value; } }
 
-    public void Read(string filePath, List<Superstar> superstars, List<Card> cards)
+    public void ReadCardsFromFile(string filePath, List<Superstar> superstars, List<Card> cards)
     {
         _deck = new List<Card>();
         string[] lines = File.ReadAllLines(filePath);
@@ -69,7 +69,7 @@ public class Deck
         _superstar.Player = Player;
     }
 
-    public bool Check(List<Superstar> superstars)
+    public bool CheckCorrectness(List<Superstar> superstars)
     {
         DeckChecker deckChecker = new DeckChecker(_deck, superstars, Superstar);
         bool isValid = deckChecker.CheckDeck();
@@ -144,18 +144,16 @@ public class Deck
         int idCardAtHand = 0;
         for (int i = 0; i < _hand.Count; i++)
         {
-            if (_hand[i].Title == card.Title)
+            if (_hand[i].Title != card.Title)
             {
-                if (cardCount == 0)
-                {
-                    idCardAtHand = i;
-                    return idCardAtHand;
-                }
-                else
-                {
-                    cardCount--;
-                }
+                continue;
             }
+            if (cardCount == 0)
+            {
+                idCardAtHand = i;
+                break;
+            }
+            cardCount--;
         }
         return idCardAtHand;
     }
@@ -221,7 +219,8 @@ public class Deck
         {
             if (card.Types.Contains("Reversal"))
             {
-                AddPossibleReversal(card, fortitude, ref possibleReversals, oponentCard);
+                bool isReversalPossibleToPlay = CheckReversalIsPossibleToPlay(card, fortitude, oponentCard);
+                AddPossibleReversal(ref possibleReversals, card, isReversalPossibleToPlay);
             }
         }
         return possibleReversals;
@@ -235,8 +234,16 @@ public class Deck
         return reversal;
     }
 
-    private void AddPossibleReversal(Card card, int fortitude, ref List<Card> possibleReversals,
-                                     Card oponentCard)
+    private void AddPossibleReversal(ref List<Card> possibleReversals, Card card, bool isReversalPossibleToPlay)
+    {
+        if (isReversalPossibleToPlay)
+        {
+            Reversal reversal = Initializer.InitReversalByTitle(card);
+            possibleReversals.Add(reversal);
+        }
+    }
+
+    private bool CheckReversalIsPossibleToPlay(Card card, int fortitude, Card oponentCard)
     {
         Reversal reversal;
         try {
@@ -244,23 +251,21 @@ public class Deck
         }
         catch (Exception e)
         {
-            return;
+            return false;
         }
         if (reversal.CanReverse(oponentCard, fortitude, Player.Oponent))
         {
-            possibleReversals.Add(card.PlayCardAs("Reversal"));
+            return true;
+        }
+        else
+        {
+            return false;
         }
     }
 
     public bool CanReverseCard(Card card, int fortitude)
     {
         return GetPossibleReversals(card, fortitude).Any();
-    }
-
-    public void PutReversedCardIntoRingside(int cardId)
-    {
-        Card oponentCard = GetPossibleCardsToPlay()[cardId];
-        DrawCardFromPossibleCardsToRingsideById(cardId);
     }
 
     public void DrawCardFromArsenalToHand()

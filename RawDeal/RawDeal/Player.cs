@@ -123,7 +123,10 @@ public class Player
     public int SelectCardToPlay()
     {
         List<Card> possibleCards = Deck.GetPossibleCardsToPlay();
-        List<string> formattedPossibleCards = Formatter.GetFormattedCardList(possibleCards, NextPlay.PlayCard);
+        List<string> formattedPossibleCards = Formatter.GetFormattedCardList(
+            possibleCards,
+            NextPlay.PlayCard
+        );
         int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
         return idCardSelected;
     }
@@ -148,7 +151,10 @@ public class Player
             Deck.GetPossibleReversals(oponentCard, Fortitude),
             NextPlay.PlayCard
         );
-        int reversalSelected = Formatter.View.AskUserToSelectAReversal(Superstar.Name, formattedReversals);
+        int reversalSelected = Formatter.View.AskUserToSelectAReversal(
+            Superstar.Name,
+            formattedReversals
+        );
         if (reversalSelected != -1)
         {
             _wantsToReverseACard = true;
@@ -177,7 +183,10 @@ public class Player
     public void ReturnACard()
     {
         List<string> formattedHand = Formatter.GetFormattedCardList(Hand, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(Superstar.Name, formattedHand);
+        int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(
+            Superstar.Name,
+            formattedHand
+        );
         Deck.DrawCardFromHandToArsenalById(cardId);
     }
 
@@ -234,15 +243,29 @@ public class Player
 
     public void RecoverACard()
     {
-        List<string> formattedRingside = Formatter.GetFormattedCardList(Ringside, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(Superstar.Name, 1, formattedRingside);
+        List<string> formattedRingside = Formatter.GetFormattedCardList(
+            Ringside,
+            NextPlay.ShowCards
+        );
+        int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
+            Superstar.Name,
+            1,
+            formattedRingside
+        );
         Deck.DrawCardFromRingsideToArsenalById(cardId);
     }
 
     public void RetrieveACard()
     {
-        List<string> formattedRingside = Formatter.GetFormattedCardList(Ringside, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(Superstar.Name, 1, formattedRingside);
+        List<string> formattedRingside = Formatter.GetFormattedCardList(
+            Ringside,
+            NextPlay.ShowCards
+        );
+        int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(
+            Superstar.Name,
+            1,
+            formattedRingside
+        );
         Deck.DrawCardFromRingsideToHandById(cardId);
     }
 

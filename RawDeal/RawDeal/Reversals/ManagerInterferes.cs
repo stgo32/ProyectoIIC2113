@@ -21,7 +21,7 @@ public class ManagerInterferes : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void ReversalEffect(Play play)
+    protected override void UseReversalEffect(Play play)
     {
         play.Player.Oponent.DrawACard();
     }

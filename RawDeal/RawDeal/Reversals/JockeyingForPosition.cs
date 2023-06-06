@@ -20,7 +20,7 @@ public class JockeyingForPosition : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void ReversalEffect(Play play)
+    protected override void UseReversalEffect(Play play)
     {
         Player reversingPlayer = play.Player.Oponent;
         SelectedEffect selectedEffect = Formatter.View.AskUserToSelectAnEffectForJockeyForPosition(

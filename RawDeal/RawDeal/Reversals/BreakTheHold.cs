@@ -21,7 +21,7 @@ public class BreakTheHole : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void ReversalEffect(Play play) { return; }
+    protected override void UseReversalEffect(Play play) { return; }
 
     protected override void ApplyDamage(Play play) { return; }
 }

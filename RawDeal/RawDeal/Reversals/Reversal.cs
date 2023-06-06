@@ -26,7 +26,7 @@ public abstract class Reversal : Card
         return fortitude <= oponentFortitude;
     }
 
-    protected abstract void ReversalEffect(Play play);
+    protected abstract void UseReversalEffect(Play play);
     
     protected abstract void ApplyDamage(Play play);
 
@@ -37,7 +37,7 @@ public abstract class Reversal : Card
 
         SetDecksAfterReversingFromHand(play, playerReversing);
         Formatter.ReverseACard(this, playerReversing);
-        ReversalEffect(play);
+        UseReversalEffect(play);
         ApplyDamage(play);
         SetReversalState(playerReversing);
     }

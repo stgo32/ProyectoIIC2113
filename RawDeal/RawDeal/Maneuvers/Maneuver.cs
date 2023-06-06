@@ -1,6 +1,7 @@
-namespace RawDeal.Plays;
+namespace RawDeal.Maneuvers;
 
 
+using RawDeal.Plays;
 using RawDeal.Reversals;
 
 
