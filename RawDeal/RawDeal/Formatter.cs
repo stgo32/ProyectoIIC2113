@@ -24,7 +24,7 @@ public static class Formatter
                 player.Superstar.Name,
                 player.Fortitude,
                 player.Hand.Count,
-                player.Arsenal.Count
+                player.Arsenal.Count()
             );
             playersInfo.Add(info);
         }

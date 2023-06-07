@@ -3,6 +3,7 @@ namespace RawDeal.Maneuvers;
 
 using RawDeal.Plays;
 using RawDeal.Reversals;
+using RawDeal.Initialize;
 
 
 public class Maneuver : Play
@@ -20,7 +21,8 @@ public class Maneuver : Play
 
     private void Stop(Card card, int gapDamage)
     {
-        Reversal reversal = Initializer.InitReversalByTitle(card);
+        // Reversal reversal = Initializer.InitReversalByTitle(card);
+        Reversal reversal = ReversalFactory.GetReversal(card);
         reversal.ReverseByDeck(this, gapDamage);
     }
 
@@ -52,7 +54,7 @@ public class Maneuver : Play
         }
         for (int i = 0; i < damage; i++)
         {
-            if (oponent.Arsenal.Count == 0)
+            if (oponent.Arsenal.IsEmpty())
             {
                 Player.HasWonByPinVictory(); 
                 break;
@@ -80,7 +82,8 @@ public class Maneuver : Play
         {
             Reversal reversal;
             try {
-                reversal = Initializer.InitReversalByTitle(cardOvertuned);
+                // reversal = Initializer.InitReversalByTitle(cardOvertuned);
+                reversal = ReversalFactory.GetReversal(cardOvertuned);
             } catch (Exception e) {
                 return canBeReversed;
             }

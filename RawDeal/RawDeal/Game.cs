@@ -160,11 +160,11 @@ public class Game
         {
             HasWon(_oponent);
         }
-        else if (_playerAtTurn.Arsenal.Count == 0 && _oponent.HasReversedACard)
+        else if (_playerAtTurn.Arsenal.IsEmpty() && _oponent.HasReversedACard)
         {
             HasWon(_oponent);
         }
-        else if (_oponent.Arsenal.Count == 0 && _oponent.HasReversedACard)
+        else if (_oponent.Arsenal.IsEmpty() && _oponent.HasReversedACard)
         {
             HasWon(_playerAtTurn);
         }

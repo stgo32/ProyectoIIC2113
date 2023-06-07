@@ -11,7 +11,7 @@ public class StoneCold:Superstar
             {
                 return false;
             }
-            return Player.Arsenal.Count >= 1;
+            return Player.Arsenal.ContainsMoreOrEqualThan(1);
         }
     }
 

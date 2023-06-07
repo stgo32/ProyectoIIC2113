@@ -25,7 +25,7 @@ public class ManKind : Superstar
 
     public override void UseAbility()
     {
-        if (Player.Arsenal.Count > 0)
+        if (Player.Arsenal.Any())
         {
             Player.Deck.DrawCardFromArsenalToHand();
         }

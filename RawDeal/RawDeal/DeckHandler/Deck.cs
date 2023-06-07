@@ -2,14 +2,15 @@ namespace RawDeal.DeckHandler;
 
 
 using RawDeal.Reversals;
+using RawDeal.Initialize;
 
 
 public class Deck
 {
     private List<Card> _deck;
 
-    private List<Card> _arsenal;
-    public List<Card> Arsenal { get { return _arsenal; } set { _arsenal = value; } }
+    private CardSet _arsenal;
+    public CardSet Arsenal { get { return _arsenal; } set { _arsenal = value; } }
 
     private List<Card> _hand;
     public List<Card> Hand { get { return _hand; } set { _hand = value; } }
@@ -52,7 +53,9 @@ public class Deck
         {
             if (superstarInfo.Name == superstarName)
             {           
-                _superstar = Initializer.InitSuperstarByName(superstarInfo);
+                // _superstar = Initializer.InitSuperstarByName(superstarInfo);
+                _superstar = SuperstarFactory.GetSuperstar(superstarInfo);
+                _superstar = (superstarInfo);
                 SetSuperstarInfo(superstarInfo);
                 break;
             }
@@ -90,8 +93,8 @@ public class Deck
 
     private void SetStartingArsenal()
     {
-        _arsenal = new List<Card>();
-        _arsenal = _deck;
+        _arsenal = new Arsenal();
+        _arsenal.Cards = _deck;
     }
 
     private void SetStartingHand()
@@ -229,7 +232,8 @@ public class Deck
     public Reversal GetReversalById(int cardId, Card oponentCard, int fortitude)
     {
         Card card = GetPossibleReversals(oponentCard, fortitude)[cardId];
-        Reversal reversal = Initializer.InitReversalByTitle(card);
+        // Reversal reversal = Initializer.InitReversalByTitle(card);
+        Reversal reversal = ReversalFactory.GetReversal(card);
         reversal.ReversalId = cardId;
         return reversal;
     }
@@ -238,7 +242,8 @@ public class Deck
     {
         if (isReversalPossibleToPlay)
         {
-            Reversal reversal = Initializer.InitReversalByTitle(card);
+            Reversal reversal = ReversalFactory.GetReversal(card);
+            // Reversal reversal = Initializer.InitReversalByTitle(card);
             possibleReversals.Add(reversal);
         }
     }
@@ -247,7 +252,8 @@ public class Deck
     {
         Reversal reversal;
         try {
-            reversal = Initializer.InitReversalByTitle(card);
+            // reversal = Initializer.InitReversalByTitle(card);
+            reversal = ReversalFactory.GetReversal(card);
         }
         catch (Exception e)
         {
@@ -270,8 +276,9 @@ public class Deck
 
     public void DrawCardFromArsenalToHand()
     {
-        Card card = _arsenal[_arsenal.Count - 1];
-        _arsenal.RemoveAt(_arsenal.Count - 1);
+        // Card card = _arsenal[_arsenal.Count - 1];
+        Card card = _arsenal.RemoveCard();
+        // _arsenal.RemoveAt(_arsenal.Count - 1);
         _hand.Add(card);
     }
 
@@ -312,13 +319,15 @@ public class Deck
     {
         Card card = _hand[cardId];
         _hand.RemoveAt(cardId);
-        _arsenal.Insert(0, card);
+        // _arsenal.Insert(0, card);
+        _arsenal.AddCard(card);
     }
 
     public Card DrawCardFromArsenalToRingside()
     {
-        Card card = _arsenal[_arsenal.Count - 1];
-        _arsenal.RemoveAt(_arsenal.Count - 1);
+        // Card card = _arsenal[_arsenal.Count - 1];
+        // _arsenal.RemoveAt(_arsenal.Count - 1);
+        Card card = _arsenal.RemoveCard();
         _ringside.Add(card);
         return card;
     }
@@ -327,7 +336,8 @@ public class Deck
     {
         Card card = _ringside[cardId];
         _ringside.RemoveAt(cardId);
-        _arsenal.Insert(0, card);
+        // _arsenal.Insert(0, card);
+        _arsenal.AddCard(card);
         return card;
     }
 

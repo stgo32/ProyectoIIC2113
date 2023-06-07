@@ -75,11 +75,11 @@ public class TurnHandler
 
     private void CheckCountOutVictory()
     {
-        if (oponent.Arsenal.Count == 0)
+        if (oponent.Arsenal.IsEmpty())
         {
             playerAtTurn.HasWonByCountOutVictory();
         }
-        else if (playerAtTurn.Arsenal.Count == 0)
+        else if (playerAtTurn.Arsenal.IsEmpty())
         {
             oponent.HasWonByCountOutVictory();
         }

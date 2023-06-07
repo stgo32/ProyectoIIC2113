@@ -51,7 +51,7 @@ public class KneeToTheGut : Reversal
         }
         for (int i = 0; i < damage; i++)
         {
-            if (oponent.Arsenal.Count == 0)
+            if (oponent.Arsenal.IsEmpty())
             {
                 break;
             }

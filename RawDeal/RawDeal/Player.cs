@@ -83,7 +83,7 @@ public class Player
 
     public List<Card> Hand { get { return Deck.Hand; } }
 
-    public List<Card> Arsenal { get { return Deck.Arsenal; } }
+    public DeckHandler.CardSet Arsenal { get { return Deck.Arsenal; } }
 
     public List<Card> RingArea { get { return Deck.RingArea; } }
 
