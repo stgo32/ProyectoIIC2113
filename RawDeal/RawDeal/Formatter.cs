@@ -44,7 +44,7 @@ public static class Formatter
         }
         else if (cardsToSee == CardSet.RingsidePile)
         {
-            View.ShowCards(GetFormattedCardList(playerAtTurn.Ringside, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(playerAtTurn.Ringside.Cards, NextPlay.ShowCards));
         }
         else if (cardsToSee == CardSet.OpponentsRingArea)
         {
@@ -52,7 +52,7 @@ public static class Formatter
         }
         else if (cardsToSee == CardSet.OpponentsRingsidePile)
         {
-            View.ShowCards(GetFormattedCardList(oponent.Ringside, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(oponent.Ringside.Cards, NextPlay.ShowCards));
         }
     }
 

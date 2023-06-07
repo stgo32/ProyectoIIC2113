@@ -21,7 +21,7 @@ public class TheRock : Superstar
     public override bool CanUseAbilityAtBeginOfTurn { 
         get {
             bool isValid = false;
-            if (Player.Ringside.Count > 0)
+            if (Player.Ringside.Any())
             {
                 isValid = true;
             }

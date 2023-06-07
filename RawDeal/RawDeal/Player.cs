@@ -87,7 +87,7 @@ public class Player
 
     public List<Card> RingArea { get { return Deck.RingArea; } }
 
-    public List<Card> Ringside { get { return Deck.Ringside; } }
+    public Ringside Ringside { get { return Deck.Ringside; } }
 
     private Player _oponent;
     public Player Oponent { 
@@ -244,7 +244,7 @@ public class Player
     public void RecoverACard()
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(
-            Ringside,
+            Ringside.Cards,
             NextPlay.ShowCards
         );
         int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
@@ -258,7 +258,7 @@ public class Player
     public void RetrieveACard()
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(
-            Ringside,
+            Ringside.Cards,
             NextPlay.ShowCards
         );
         int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(

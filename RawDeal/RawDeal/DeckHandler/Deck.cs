@@ -15,8 +15,8 @@ public class Deck
     private Hand _hand;
     public Hand Hand { get { return _hand; } set { _hand = value; } }
 
-    private List<Card> _ringside;
-    public List<Card> Ringside { get { return _ringside; } set { _ringside = value; } }
+    private Ringside _ringside;
+    public Ringside Ringside { get { return _ringside; } set { _ringside = value; } }
 
     private List<Card> _ringArea;
     public List<Card> RingArea { get { return _ringArea; } set { _ringArea = value; } }
@@ -108,7 +108,7 @@ public class Deck
 
     private void SetStartingRingside()
     {
-        _ringside = new List<Card>();
+        _ringside = new Ringside();
     }
 
     private void SetStartingRingArea()
@@ -328,14 +328,14 @@ public class Deck
         // Card card = _arsenal[_arsenal.Count - 1];
         // _arsenal.RemoveAt(_arsenal.Count - 1);
         Card card = _arsenal.RemoveCard();
-        _ringside.Add(card);
+        _ringside.AddCard(card);
         return card;
     }
 
     public Card DrawCardFromRingsideToArsenalById(int cardId)
     {
-        Card card = _ringside[cardId];
-        _ringside.RemoveAt(cardId);
+        // Card card = _ringside[cardId];
+        Card card = _ringside.RemoveAt(cardId);
         // _arsenal.Insert(0, card);
         _arsenal.AddCard(card);
         return card;
@@ -345,13 +345,13 @@ public class Deck
     {
         // Card card = _hand[cardId];
         Card card = _hand.RemoveAt(cardId);
-        _ringside.Add(card);
+        _ringside.AddCard(card);
     }
 
     public void DrawCardFromRingsideToHandById(int cardId)
     {
-        Card card = _ringside[cardId];
-        _ringside.RemoveAt(cardId);
+        // Card card = _ringside[cardId];
+        Card card = _ringside.RemoveAt(cardId);
         _hand.AddCard(card);
     }
 }
