@@ -3,7 +3,7 @@ namespace RawDeal.DeckHandler;
 
 public abstract class CardSet
 {
-    public List<Card> Cards { get; set; }
+    public List<Card> Cards { get; set; } = new List<Card>();
 
     public abstract void AddCard(Card card);
 
@@ -14,9 +14,11 @@ public abstract class CardSet
         return Cards[index];
     }
 
-    public void RemoveAt(int index)
+    public Card RemoveAt(int index)
     {
+        Card card = GetCard(index);
         Cards.RemoveAt(index);
+        return card;
     }
 
     public bool IsEmpty()

@@ -13,7 +13,7 @@ public class Undertaker : Superstar
             {
                 return false;
             }
-            return Player.Hand.Count >= 2;
+            return Player.Hand.ContainsMoreOrEqualThan(2);
         }
     }
 

@@ -9,11 +9,11 @@ public class Deck
 {
     private List<Card> _deck;
 
-    private CardSet _arsenal;
-    public CardSet Arsenal { get { return _arsenal; } set { _arsenal = value; } }
+    private Arsenal _arsenal;
+    public Arsenal Arsenal { get { return _arsenal; } set { _arsenal = value; } }
 
-    private List<Card> _hand;
-    public List<Card> Hand { get { return _hand; } set { _hand = value; } }
+    private Hand _hand;
+    public Hand Hand { get { return _hand; } set { _hand = value; } }
 
     private List<Card> _ringside;
     public List<Card> Ringside { get { return _ringside; } set { _ringside = value; } }
@@ -99,7 +99,7 @@ public class Deck
 
     private void SetStartingHand()
     {
-        _hand = new List<Card>();
+        _hand = new Hand();
         for (int i = 0; i < _superstar.HandSize; i++)
         {
             DrawCardFromArsenalToHand();
@@ -120,7 +120,7 @@ public class Deck
     public List<Card> GetPossibleCardsToPlay()
     {
         List<Card> possibleCards = new List<Card>();
-        foreach (Card card in _hand)
+        foreach (Card card in _hand.Cards)
         {
             if (card.IsPossibleToPlay(Player.Fortitude))
             {
@@ -145,9 +145,9 @@ public class Deck
     private int FindCardIdAtHandByCountInPossibleCardsToPlay(int cardCount, Card card)
     {
         int idCardAtHand = 0;
-        for (int i = 0; i < _hand.Count; i++)
+        for (int i = 0; i < _hand.Count(); i++)
         {
-            if (_hand[i].Title != card.Title)
+            if (_hand.GetCard(i).Title != card.Title)
             {
                 continue;
             }
@@ -218,7 +218,7 @@ public class Deck
     public List<Card> GetPossibleReversals(Card oponentCard, int fortitude)
     {
         List<Card> possibleReversals = new List<Card>();
-        foreach (Card card in _hand)
+        foreach (Card card in _hand.Cards)
         {
             if (card.Types.Contains("Reversal"))
             {
@@ -279,7 +279,7 @@ public class Deck
         // Card card = _arsenal[_arsenal.Count - 1];
         Card card = _arsenal.RemoveCard();
         // _arsenal.RemoveAt(_arsenal.Count - 1);
-        _hand.Add(card);
+        _hand.AddCard(card);
     }
 
     public Card DrawCardFromPossibleCardsToRingAreaById(int cardId)
@@ -310,15 +310,15 @@ public class Deck
     
     public void DrawCardFromHandToRingAreaById(int cardId)
     {
-        Card card = _hand[cardId];
-        _hand.RemoveAt(cardId);
+        // Card card = _hand[cardId];
+        Card card = _hand.RemoveAt(cardId);
         _ringArea.Add(card);
     }
 
     public void DrawCardFromHandToArsenalById(int cardId)
     {
-        Card card = _hand[cardId];
-        _hand.RemoveAt(cardId);
+        // Card card = _hand[cardId];
+        Card card = _hand.RemoveAt(cardId);
         // _arsenal.Insert(0, card);
         _arsenal.AddCard(card);
     }
@@ -343,8 +343,8 @@ public class Deck
 
     public void DrawCardFromHandToRingsideById(int cardId)
     {
-        Card card = _hand[cardId];
-        _hand.RemoveAt(cardId);
+        // Card card = _hand[cardId];
+        Card card = _hand.RemoveAt(cardId);
         _ringside.Add(card);
     }
 
@@ -352,6 +352,6 @@ public class Deck
     {
         Card card = _ringside[cardId];
         _ringside.RemoveAt(cardId);
-        _hand.Add(card);
+        _hand.AddCard(card);
     }
 }

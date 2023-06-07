@@ -81,9 +81,9 @@ public class Player
         get { return Deck.Superstar; }
     } 
 
-    public List<Card> Hand { get { return Deck.Hand; } }
+    public Hand Hand { get { return Deck.Hand; } }
 
-    public DeckHandler.CardSet Arsenal { get { return Deck.Arsenal; } }
+    public Arsenal Arsenal { get { return Deck.Arsenal; } }
 
     public List<Card> RingArea { get { return Deck.RingArea; } }
 
@@ -182,7 +182,7 @@ public class Player
 
     public void ReturnACard()
     {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand, NextPlay.ShowCards);
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
         int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(
             Superstar.Name,
             formattedHand
@@ -213,7 +213,7 @@ public class Player
 
     private int SelectCardToDiscard(int iter)
     {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand, NextPlay.ShowCards);
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
         int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
             formattedHand,
             Superstar.Name,

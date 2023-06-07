@@ -14,7 +14,7 @@ public class Jericho : Superstar
             {
                 return false;
             }
-            return Player.Hand.Count >= 1;
+            return Player.Hand.ContainsMoreOrEqualThan(1);
         }
     }
 

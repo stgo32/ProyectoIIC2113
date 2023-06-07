@@ -23,7 +23,7 @@ public static class Formatter
             PlayerInfo info = new PlayerInfo(
                 player.Superstar.Name,
                 player.Fortitude,
-                player.Hand.Count,
+                player.Hand.Count(),
                 player.Arsenal.Count()
             );
             playersInfo.Add(info);
@@ -36,7 +36,7 @@ public static class Formatter
         CardSet cardsToSee = View.AskUserWhatSetOfCardsHeWantsToSee();
         if (cardsToSee == CardSet.Hand)
         {
-            View.ShowCards(GetFormattedCardList(playerAtTurn.Hand, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(playerAtTurn.Hand.Cards, NextPlay.ShowCards));
         }
         else if (cardsToSee == CardSet.RingArea)
         {
