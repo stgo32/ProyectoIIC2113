@@ -3,20 +3,12 @@ namespace RawDeal.Plays;
 
 using RawDeal.Reversals;
 using RawDeal.Initialize;
+using RawDeal.Effects;
 
 
 public class Maneuver : Play
 {
     public Maneuver(int cardId, Player player) : base(cardId, player) { }
-
-    public override void Start()
-    {
-        Formatter.PlayCard(Card, Player);
-        if (!IsBeingReversedByHand())
-        {
-            Attack();
-        }
-    }
 
     private void Stop(Card card, int gapDamage)
     {
@@ -24,12 +16,19 @@ public class Maneuver : Play
         reversal.ReverseByDeck(this, gapDamage);
     }
 
-    protected override void Attack()
+    protected override void SuccessfullyPlayed()
     {
-        base.Attack();
-        Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+        base.SuccessfullyPlayed();
+        UseEffect();
         int damage = HandleDamage();
         DeliverDamage(damage);
+    }
+
+    protected override void UseEffect()
+    {
+        Effect effect = EffectFactory.GetEffect(_cardId, Player);
+        Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+        effect.Resolve();
     }
 
     private int HandleDamage()

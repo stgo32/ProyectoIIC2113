@@ -1,0 +1,1319 @@
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 34
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 35
+--------------------------------------------
+Comienza el turno de THE ROCK.
+--------------------------------------------
+THE ROCK: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+MANKIND: 0F, tiene 2 cartas en la mano y 58 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+THE ROCK recibe 2 de daño.
+-------------------------------- 1/2
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/2
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 2F, tiene 3 cartas en la mano y 56 en el arsenal.
+THE ROCK: 0F, tiene 5 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+THE ROCK tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 2F, tiene 5 cartas en la mano y 52 en el arsenal.
+MANKIND: 2F, tiene 2 cartas en la mano y 55 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, THE ROCK se pega 1 de daño colateral a si mismo.
+THE ROCK recibe 1 de daño.
+-------------------------------- 1/1
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+-------------------------------- 2/4
+*Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+-------------------------------- 3/4
+*Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+--------------------------------------------
+MANKIND revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 2F, tiene 4 cartas en la mano y 50 en el arsenal.
+THE ROCK: 7F, tiene 4 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 7F, tiene 5 cartas en la mano y 51 en el arsenal.
+MANKIND: 2F, tiene 4 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+3- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+THE ROCK recibe 4 de daño.
+-------------------------------- 1/4
+*Offer Handshake*. Info: 2F/0D, Action, Face. Effect: Draw up to 3 cards, then discard 1 card.
+-------------------------------- 2/4
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 4/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 6F, tiene 5 cartas en la mano y 48 en el arsenal.
+THE ROCK: 7F, tiene 4 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+1- [MANEUVER] *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+2- [MANEUVER] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+--------------------------------------------
+THE ROCK tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK revierte la carta usando:
+[REVERSAL] *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+-------------------------------- 2/5
+*Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 3/5
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/5
+*Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+-------------------------------- 5/5
+*Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+2- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Offer Handshake*. Info: 2F/0D, Action, Face. Effect: Draw up to 3 cards, then discard 1 card.
+4- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+5- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+6- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 13F, tiene 4 cartas en la mano y 47 en el arsenal.
+MANKIND: 6F, tiene 4 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+1- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+2- [MANEUVER] *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+3- [MANEUVER] *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+THE ROCK recibe 5 de daño.
+-------------------------------- 1/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 4/5
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 11F, tiene 5 cartas en la mano y 41 en el arsenal.
+THE ROCK: 13F, tiene 3 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+1- [MANEUVER] *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+--------------------------------------------
+THE ROCK tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK revierte la carta usando:
+[REVERSAL] *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 2/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 4/5
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Offer Handshake*. Info: 2F/0D, Action, Face. Effect: Draw up to 3 cards, then discard 1 card.
+3- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+5- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+9- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+10- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 19F, tiene 3 cartas en la mano y 42 en el arsenal.
+MANKIND: 11F, tiene 4 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+1- [MANEUVER] *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+THE ROCK recibe 7 de daño.
+-------------------------------- 1/7
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 2/7
+*Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 3/7
+*Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+-------------------------------- 4/7
+*DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+-------------------------------- 5/7
+*Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+-------------------------------- 6/7
+*Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+-------------------------------- 7/7
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 18F, tiene 5 cartas en la mano y 34 en el arsenal.
+THE ROCK: 19F, tiene 2 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Offer Handshake*. Info: 2F/0D, Action, Face. Effect: Draw up to 3 cards, then discard 1 card.
+2- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+3- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+6- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+7- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+8- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+9- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+10- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+11- *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+12- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+13- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+14- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+15- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+16- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+17- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+18- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 18)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 19F, tiene 3 cartas en la mano y 35 en el arsenal.
+MANKIND: 18F, tiene 5 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+1- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+THE ROCK: 19F, tiene 2 cartas en la mano y 35 en el arsenal.
+MANKIND: 18F, tiene 5 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+1- [MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Double Arm DDT*. Info: 15F/15D/2SV, Maneuver/Reversal, Grapple/ReversalSpecial/Mankind/Unique. Effect: May only reverse the maneuver titled Back Body Drop.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Double Arm DDT*. Info: 15F/15D/2SV, Maneuver/Reversal, Grapple/ReversalSpecial/Mankind/Unique. Effect: May only reverse the maneuver titled Back Body Drop.
+THE ROCK recibe 15 de daño.
+-------------------------------- 1/15
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 2/15
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/15
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 4/15
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 5/15
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 6/15
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 7/15
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 8/15
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 9/15
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 10/15
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 11/15
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 12/15
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 13/15
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 14/15
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 15/15
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 33F, tiene 6 cartas en la mano y 32 en el arsenal.
+THE ROCK: 19F, tiene 1 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+1- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 5 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+3- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+4- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+5- *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+6- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+7- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+8- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+9- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+10- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+11- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+12- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+13- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+14- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+15- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+16- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 16)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 4 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+1- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+2- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+3- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+4- *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+5- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+6- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+7- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+8- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+9- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+10- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+11- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+12- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+13- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+14- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+15- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 15)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 3 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+1- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+3- *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+4- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+5- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+6- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+7- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+8- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+9- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+10- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+11- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+12- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+13- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+14- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 14)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+1- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+2- *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+3- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+4- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+6- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+7- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+8- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+9- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+10- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+11- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+12- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+13- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 13)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+1- *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+2- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+3- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+6- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+7- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+8- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+9- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+11- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+12- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 12)
+INPUT: 0
+MANKIND roba 2 carta(s).
+--------------------------------------------
+MANKIND: 33F, tiene 7 cartas en la mano y 35 en el arsenal.
+THE ROCK: 19F, tiene 1 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+3- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Vertical Suplex*. Info: 6F/6D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Vertical Suplex.
+1- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+2- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+5- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+6- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+9- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+10- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+11- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+1- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+3- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+4- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+5- *Drop Kick*. Info: 6F/6D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Drop Kick.
+6- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+7- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+8- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+9- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+10- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 0
+THE ROCK recibe 7 de daño.
+-------------------------------- 1/7
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+THE ROCK revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Offer Handshake*. Info: 2F/0D, Action, Face. Effect: Draw up to 3 cards, then discard 1 card.
+1- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+3- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+5- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+8- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+9- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+10- *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+11- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+12- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+13- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+14- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+15- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+16- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+17- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+18- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+19- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+20- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+21- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+22- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+23- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+24- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+25- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+26- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+27- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+28- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+29- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+30- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+31- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+32- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+33- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+34- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 34)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 19F, tiene 2 cartas en la mano y 19 en el arsenal.
+MANKIND: 40F, tiene 6 cartas en la mano y 37 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+THE ROCK recibe 3 de daño.
+-------------------------------- 1/3
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/3
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 3/3
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 40F, tiene 7 cartas en la mano y 35 en el arsenal.
+THE ROCK: 19F, tiene 1 cartas en la mano y 16 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+5- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 4
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 5 de daño.
+-------------------------------- 1/5
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+THE ROCK revierte la carta desde el mazo.
+--------------------------------------------
+MANKIND puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+1- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+4- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+5- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+6- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+7- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+8- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+9- *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+10- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+11- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+12- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+13- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+14- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+15- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+16- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+17- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+18- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+19- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+20- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+21- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+22- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+23- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+24- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+25- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+26- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+27- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+28- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+29- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+30- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+31- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+32- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+33- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+34- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+35- *Punch*. Info: 0F/3D, Maneuver, Strike.
+36- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+37- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+38- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+39- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 39)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 19F, tiene 2 cartas en la mano y 14 en el arsenal.
+MANKIND: 45F, tiene 6 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE ROCK: 19F, tiene 2 cartas en la mano y 14 en el arsenal.
+MANKIND: 45F, tiene 6 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 45F, tiene 8 cartas en la mano y 33 en el arsenal.
+THE ROCK: 19F, tiene 2 cartas en la mano y 14 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+5- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 7
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 4/6
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+THE ROCK revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+6- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+7- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+8- *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+9- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+10- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+11- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+12- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+13- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+14- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+15- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+16- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+17- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+18- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+19- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+20- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+21- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+22- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+23- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+24- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+25- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+26- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+27- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+28- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+29- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+30- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+31- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+32- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+33- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+34- *Punch*. Info: 0F/3D, Maneuver, Strike.
+35- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+36- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+37- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+38- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+39- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+40- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+41- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+42- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 42)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 19F, tiene 3 cartas en la mano y 10 en el arsenal.
+MANKIND: 51F, tiene 7 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 3 de daño.
+-------------------------------- 1/3
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+MANKIND revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 51F, tiene 9 cartas en la mano y 30 en el arsenal.
+THE ROCK: 23F, tiene 2 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+5- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 4
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE ROCK tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de THE ROCK.
+THE ROCK: ¿Quieres usar tu habilidad? (Y/N).
+INPUT: Y
+
+--------------------------------------------
+THE ROCK debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Belly to Belly Suplex*. Info: 4F/5D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Belly Suplex.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+6- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+7- *Belly to Back Suplex*. Info: 8F/7D, Maneuver/Reversal, Grapple/ReversalSpecial. Effect: May only reverse the maneuver titled Belly to Back Suplex.
+8- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+9- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+10- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+11- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+12- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+13- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+14- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+15- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+16- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+17- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+18- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+19- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+20- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+21- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+22- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+23- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+24- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+25- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+26- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+27- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+28- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+29- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+30- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+31- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+32- *Ensugiri*. Info: 2F/4D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: May only reverse the maneuver titled Kick.
+33- *Punch*. Info: 0F/3D, Maneuver, Strike.
+34- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+35- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+36- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+37- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+38- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+39- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+40- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+41- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 41)
+INPUT: 0
+--------------------------------------------
+THE ROCK: 23F, tiene 2 cartas en la mano y 10 en el arsenal.
+MANKIND: 51F, tiene 8 cartas en la mano y 30 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE ROCK intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+THE ROCK recibe 4 de daño.
+-------------------------------- 1/4
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 2/4
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 51F, tiene 9 cartas en la mano y 28 en el arsenal.
+THE ROCK: 23F, tiene 1 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+7- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 7
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE ROCK recibe 6 de daño.
+-------------------------------- 1/6
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 2/6
+*Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 3/6
+*Offer Handshake*. Info: 2F/0D, Action, Face. Effect: Draw up to 3 cards, then discard 1 card.
+-------------------------------- 4/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 5/6
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 6/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND: 57F, tiene 8 cartas en la mano y 28 en el arsenal.
+THE ROCK: 23F, tiene 1 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+
+--------------------------------------------
+Felicidades, gana MANKIND.

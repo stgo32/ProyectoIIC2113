@@ -1,0 +1,664 @@
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 27
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 28
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+CHRIS JERICHO recibe 5 de daño.
+-------------------------------- 1/5
+*Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+-------------------------------- 2/5
+*Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+-------------------------------- 3/5
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 49 en el arsenal.
+HHH: 5F, tiene 10 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, CHRIS JERICHO se pega 1 de daño colateral a si mismo.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+-------------------------------- 2/5
+*Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+-------------------------------- 3/5
+*Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+-------------------------------- 4/5
+*Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+-------------------------------- 5/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+CHRIS JERICHO: 5F, tiene 7 cartas en la mano y 48 en el arsenal.
+HHH: 5F, tiene 10 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+1- [REVERSAL] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+2- [REVERSAL] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 5F, tiene 10 cartas en la mano y 42 en el arsenal.
+CHRIS JERICHO: 5F, tiene 6 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+1- [MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+2- [ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+5- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+6- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, HHH debe elegir uno de los siguientes efectos:
+1- Robar cartas.
+2- Forzar al oponente a descartar cartas.
+(Ingresa un número entre 1 y 2)
+INPUT: 2
+CHRIS JERICHO debe descartar 2 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+1- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+2- *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+3- *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+4- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 5
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+1- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+2- *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+3- *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+4- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 4
+CHRIS JERICHO recibe 12 de daño.
+-------------------------------- 1/12
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/12
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 3/12
+*Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 4/12
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 5/12
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 6/12
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 7/12
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 8/12
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 9/12
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 10/12
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 11/12
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 12/12
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+HHH: 12F, tiene 9 cartas en la mano y 42 en el arsenal.
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+1- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+HHH: 12F, tiene 8 cartas en la mano y 42 en el arsenal.
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+1- [MANEUVER] *Leaping Knee to the Face*. Info: 8F/10D, Maneuver, Strike/HHH/Unique. Effect: May not be reversed. You must play the card titled Irish Whip before playing this card. When successfully played, opponent discards 1 card.
+2- [ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+6- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, HHH debe elegir uno de los siguientes efectos:
+1- Robar cartas.
+2- Forzar al oponente a descartar cartas.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+HHH roba 2 carta(s).
+CHRIS JERICHO recibe 12 de daño.
+-------------------------------- 1/12
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 2/12
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 3/12
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/12
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 5/12
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 6/12
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 7/12
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 8/12
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 9/12
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 10/12
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+HHH puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+HHH roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 5F, tiene 5 cartas en la mano y 25 en el arsenal.
+HHH: 19F, tiene 10 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 19F, tiene 10 cartas en la mano y 38 en el arsenal.
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+1- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, HHH debe elegir uno de los siguientes efectos:
+1- Robar cartas.
+2- Forzar al oponente a descartar cartas.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+HHH roba 2 carta(s).
+--------------------------------------------
+HHH: 19F, tiene 11 cartas en la mano y 36 en el arsenal.
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+HHH: 19F, tiene 10 cartas en la mano y 36 en el arsenal.
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 25 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Leaping Knee to the Face*. Info: 8F/10D, Maneuver, Strike/HHH/Unique. Effect: May not be reversed. You must play the card titled Irish Whip before playing this card. When successfully played, opponent discards 1 card.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Leaping Knee to the Face*. Info: 8F/10D, Maneuver, Strike/HHH/Unique. Effect: May not be reversed. You must play the card titled Irish Whip before playing this card. When successfully played, opponent discards 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+1- *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+2- *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 0
+CHRIS JERICHO recibe 18 de daño.
+-------------------------------- 1/18
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/18
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/18
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 4/18
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 5/18
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 6/18
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 7/18
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 8/18
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 9/18
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 10/18
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 11/18
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 12/18
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 13/18
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 14/18
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 15/18
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 16/18
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 17/18
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 18/18
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+HHH: 29F, tiene 9 cartas en la mano y 36 en el arsenal.
+CHRIS JERICHO: 5F, tiene 3 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+3- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 2
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 13 de daño.
+-------------------------------- 1/13
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/13
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/13
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+HHH puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+HHH roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 3 en el arsenal.
+HHH: 39F, tiene 9 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 3 en el arsenal.
+HHH: 39F, tiene 9 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 39F, tiene 10 cartas en la mano y 34 en el arsenal.
+CHRIS JERICHO: 5F, tiene 4 cartas en la mano y 3 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+CHRIS JERICHO recibe 6 de daño.
+-------------------------------- 1/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+
+--------------------------------------------
+Felicidades, gana HHH.

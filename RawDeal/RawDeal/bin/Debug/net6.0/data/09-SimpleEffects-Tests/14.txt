@@ -1,0 +1,2071 @@
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 13
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 15
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+HHH: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+MANKIND: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+HHH: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, MANKIND se pega 1 de daño colateral a si mismo.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 2/5
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 3/5
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 15 cartas en la mano y 41 en el arsenal.
+MANKIND: 5F, tiene 11 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/4
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 3/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/4
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+HHH: 5F, tiene 14 cartas en la mano y 40 en el arsenal.
+MANKIND: 5F, tiene 11 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+MANKIND recibe 5 de daño.
+-------------------------------- 1/5
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+MANKIND revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 5F, tiene 13 cartas en la mano y 40 en el arsenal.
+HHH: 11F, tiene 13 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+2- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+3- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: -1
+--------------------------------------------
+MANKIND: 5F, tiene 13 cartas en la mano y 40 en el arsenal.
+HHH: 11F, tiene 13 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+MANKIND: 5F, tiene 13 cartas en la mano y 40 en el arsenal.
+HHH: 11F, tiene 13 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+2- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+3- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+MANKIND roba 1 carta(s).
+--------------------------------------------
+MANKIND: 5F, tiene 13 cartas en la mano y 41 en el arsenal.
+HHH: 11F, tiene 13 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+2- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 0
+MANKIND roba 1 carta(s).
+--------------------------------------------
+MANKIND: 5F, tiene 13 cartas en la mano y 42 en el arsenal.
+HHH: 11F, tiene 13 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 0)
+INPUT: 0
+MANKIND roba 1 carta(s).
+--------------------------------------------
+MANKIND: 5F, tiene 13 cartas en la mano y 43 en el arsenal.
+HHH: 11F, tiene 13 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 11F, tiene 13 cartas en la mano y 38 en el arsenal.
+MANKIND: 5F, tiene 12 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+MANKIND debe descartar 2 carta(s).
+MANKIND elige una carta para descartar.
+--------------------------------------------
+0- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+4- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+5- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+6- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+7- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+8- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+9- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+10- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 11
+MANKIND debe descartar 1 carta(s).
+MANKIND elige una carta para descartar.
+--------------------------------------------
+0- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+4- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+5- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+6- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+7- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+8- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+9- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+10- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 8
+MANKIND recibe 8 de daño.
+-------------------------------- 1/8
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 2/8
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 3/8
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 4/8
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 5/8
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 6/8
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 7/8
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 8/8
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 20F, tiene 12 cartas en la mano y 37 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+5- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 4
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 9 de daño.
+-------------------------------- 1/9
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/9
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 3/9
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/9
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 5/9
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 6/9
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 7/9
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 8/9
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 9/9
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+HHH: 30F, tiene 11 cartas en la mano y 37 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+3- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+4- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+5- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 4
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 9 de daño.
+-------------------------------- 1/9
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/9
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 3/9
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 4/9
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 5/9
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 6/9
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 7/9
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 8/9
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 9/9
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+HHH: 40F, tiene 10 cartas en la mano y 37 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+3- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: -1
+--------------------------------------------
+HHH: 40F, tiene 10 cartas en la mano y 37 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 17 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 5F, tiene 12 cartas en la mano y 15 en el arsenal.
+HHH: 40F, tiene 10 cartas en la mano y 37 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 40F, tiene 11 cartas en la mano y 34 en el arsenal.
+MANKIND: 10F, tiene 11 cartas en la mano y 15 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 10F, tiene 13 cartas en la mano y 13 en el arsenal.
+HHH: 40F, tiene 11 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/3
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 40F, tiene 12 cartas en la mano y 31 en el arsenal.
+MANKIND: 13F, tiene 12 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 13F, tiene 14 cartas en la mano y 11 en el arsenal.
+HHH: 40F, tiene 12 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+4- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+3- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+4- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+9- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+12- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+13- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+14- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+15- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+16- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+17- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+18- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+19- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+20- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+21- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+22- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+23- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+24- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+25- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+26- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+27- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+28- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 28)
+INPUT: 22
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+3- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+4- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+9- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+12- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+13- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+14- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+15- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+16- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+17- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+18- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+19- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+20- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+21- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+22- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+23- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+24- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+25- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+26- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+27- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 27)
+INPUT: 23
+HHH recibe 7 de daño.
+-------------------------------- 1/7
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/7
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 3/7
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/7
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 40F, tiene 13 cartas en la mano y 26 en el arsenal.
+MANKIND: 20F, tiene 13 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 20F, tiene 15 cartas en la mano y 11 en el arsenal.
+HHH: 40F, tiene 13 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+3- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+4- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+5- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+6- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+7- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+1- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 5 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+3- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+4- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+8- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+9- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+11- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+12- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+13- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+14- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+15- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+16- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+17- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+18- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+19- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+20- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+21- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+22- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+23- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+24- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+25- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+26- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 26)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 4 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+2- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+4- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+5- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+7- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+11- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+12- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+13- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+14- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+15- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+16- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+17- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+18- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+19- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+20- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+21- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+22- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+23- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+24- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+25- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 25)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 3 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+2- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+3- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+4- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+5- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+6- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+7- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+9- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+11- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+12- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+13- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+14- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+15- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+16- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+17- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+18- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+19- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+20- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+21- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+22- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+23- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+24- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 24)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+2- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+3- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+5- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+6- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+8- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+10- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+11- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+12- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+13- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+14- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+15- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+16- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+17- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+18- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+19- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+20- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+21- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+22- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+23- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 23)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+1- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+2- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+5- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+7- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+9- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+11- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+12- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+13- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+14- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+15- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+16- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+17- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+18- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+19- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+20- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+21- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+22- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 22)
+INPUT: 0
+MANKIND roba 2 carta(s).
+--------------------------------------------
+MANKIND: 20F, tiene 16 cartas en la mano y 14 en el arsenal.
+HHH: 40F, tiene 13 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+4- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+5- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+6- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+7- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+1- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 5 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+1- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+4- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+6- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+8- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+10- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+11- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+14- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+15- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+16- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+17- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+18- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+19- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+20- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+21- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 21)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 4 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+3- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+5- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+7- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+9- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+10- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+13- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+14- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+15- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+16- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+17- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+18- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+19- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+20- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 20)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 3 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+2- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+4- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+6- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+8- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+9- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+12- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+13- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+14- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+15- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+16- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+17- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+18- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+19- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 19)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+3- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+5- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+7- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+8- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+9- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+10- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+11- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+12- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+13- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+14- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+15- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+16- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+17- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+18- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 18)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+2- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+4- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+6- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+7- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+8- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+9- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+10- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+11- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+12- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+13- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+14- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+15- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+16- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+17- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 17)
+INPUT: 0
+MANKIND roba 2 carta(s).
+--------------------------------------------
+MANKIND: 20F, tiene 17 cartas en la mano y 17 en el arsenal.
+HHH: 40F, tiene 13 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+3- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+4- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+5- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+7- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 2
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+1- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 5 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+1- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+3- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+7- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+9- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+10- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+11- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+12- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+13- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+14- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+15- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+16- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 16)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 4 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+5- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+6- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+7- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+8- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+9- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+10- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+11- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+12- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+13- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+14- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+15- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 15)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 3 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+1- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+4- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+5- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+6- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+7- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+8- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+9- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+10- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+11- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+12- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+13- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+14- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 14)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+1- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+4- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+5- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+6- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+7- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+8- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+9- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+10- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+12- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+13- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 13)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+2- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+3- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+4- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+5- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+6- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+7- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+8- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+9- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+10- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+11- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+12- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 12)
+INPUT: 0
+MANKIND roba 2 carta(s).
+--------------------------------------------
+MANKIND: 20F, tiene 18 cartas en la mano y 20 en el arsenal.
+HHH: 40F, tiene 13 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+4- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+5- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+6- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+8- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+9- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+2- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+3- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+4- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+5- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+7- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+8- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+9- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+10- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+11- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+3- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+4- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+6- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+7- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+8- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+9- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+10- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 0
+HHH recibe 7 de daño.
+-------------------------------- 1/7
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 2/7
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/7
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 4/7
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/7
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 6/7
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 7/7
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+MANKIND: 27F, tiene 17 cartas en la mano y 22 en el arsenal.
+HHH: 40F, tiene 13 cartas en la mano y 19 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+3- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+6- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+7- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+8- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 40F, tiene 13 cartas en la mano y 18 en el arsenal.
+MANKIND: 27F, tiene 16 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+3- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+8- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+10- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 2
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 27F, tiene 17 cartas en la mano y 20 en el arsenal.
+HHH: 40F, tiene 12 cartas en la mano y 18 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+1- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+2- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+5- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+8- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+9- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 10 de daño.
+-------------------------------- 1/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/10
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 3/10
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 4/10
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+MANKIND puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+MANKIND roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 40F, tiene 13 cartas en la mano y 13 en el arsenal.
+MANKIND: 37F, tiene 17 cartas en la mano y 19 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+3- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+9- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+10- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 8
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, HHH debe elegir uno de los siguientes efectos:
+1- Tu siguiente carta, si es un Grapple, tiene +4D.
+2- Tu siguiente carta, si es un Grapple, tu oponente requiere +8F para revertirla.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+--------------------------------------------
+HHH: 40F, tiene 12 cartas en la mano y 13 en el arsenal.
+MANKIND: 37F, tiene 17 cartas en la mano y 19 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+3- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+HHH puede robar hasta 1 cartas debido al efecto de la carta. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+HHH roba 1 carta(s).
+MANKIND recibe 13 de daño.
+-------------------------------- 1/13
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+MANKIND revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 37F, tiene 19 cartas en la mano y 16 en el arsenal.
+HHH: 50F, tiene 12 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+7- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+8- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 6
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/4
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 3/4
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 4/4
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 50F, tiene 12 cartas en la mano y 10 en el arsenal.
+MANKIND: 37F, tiene 18 cartas en la mano y 12 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+9- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+HHH recibe 2 de daño.
+-------------------------------- 1/2
+*Chyna Interferes*. Info: 5F/3D, Reversal, ReversalSpecial/HHH/Unique. Effect: Reverses any maneuver and ends your opponent's turn. If played from your hand, draw 2 cards.
+-------------------------------- 2/2
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 39F, tiene 19 cartas en la mano y 10 en el arsenal.
+HHH: 50F, tiene 11 cartas en la mano y 8 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+10- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 9
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, MANKIND se pega 1 de daño colateral a si mismo.
+MANKIND recibe 1 de daño.
+-------------------------------- 1/1
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 2/6
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 50F, tiene 12 cartas en la mano y 5 en el arsenal.
+MANKIND: 45F, tiene 18 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+1- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+7- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+8- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+9- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 6
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+2- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 45F, tiene 19 cartas en la mano y 7 en el arsenal.
+HHH: 50F, tiene 11 cartas en la mano y 5 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+3- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+4- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+10- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+11- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+12- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 12)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/6
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+MANKIND puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 50F, tiene 12 cartas en la mano y 2 en el arsenal.
+MANKIND: 51F, tiene 18 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+1- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+5- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+6- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+7- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+8- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+9- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 9)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 51F, tiene 19 cartas en la mano y 5 en el arsenal.
+HHH: 50F, tiene 11 cartas en la mano y 2 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+3- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+4- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+9- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+10- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+11- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+12- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+13- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+14- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 14)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 2/5
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+
+--------------------------------------------
+Felicidades, gana MANKIND.

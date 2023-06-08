@@ -18,19 +18,26 @@ public abstract class Play
     public Play(int cardId, Player player)
     {
         _cardId = cardId;
-        // Card = player.Deck.GetPossibleCardsToPlay()[cardId];
         Card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
         Player = player;
     }
 
-    public abstract void Start();
+    public void Start()
+    {
+        Formatter.PlayCard(Card, Player);
+        if (!IsBeingReversedByHand())
+        {
+            SuccessfullyPlayed();
+        }
+    }
 
-    protected virtual void Attack()
+    protected virtual void SuccessfullyPlayed()
     {
         Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
     }
+    protected abstract void UseEffect();
 
-    public bool IsBeingReversedByHand()
+    protected bool IsBeingReversedByHand()
     {
         Player reversingPlayer = Player.Oponent;
         bool willBeReversed = false;

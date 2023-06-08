@@ -10,14 +10,14 @@ public class Maneuver : Play
 {
     public Maneuver(int cardId, Player player) : base(cardId, player) { }
 
-    public override void Start()
-    {
-        Formatter.PlayCard(Card, Player);
-        if (!IsBeingReversedByHand())
-        {
-            Attack();
-        }
-    }
+    // public override void Start()
+    // {
+    //     Formatter.PlayCard(Card, Player);
+    //     if (!IsBeingReversedByHand())
+    //     {
+    //         Attack();
+    //     }
+    // }
 
     private void Stop(Card card, int gapDamage)
     {
@@ -26,13 +26,13 @@ public class Maneuver : Play
         reversal.ReverseByDeck(this, gapDamage);
     }
 
-    protected override void Attack()
-    {
-        base.Attack();
-        Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
-        int damage = HandleDamage();
-        DeliverDamage(damage);
-    }
+    // protected override void Attack()
+    // {
+    //     base.Attack();
+    //     Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+    //     int damage = HandleDamage();
+    //     DeliverDamage(damage);
+    // }
 
     private int HandleDamage()
     {
@@ -66,6 +66,10 @@ public class Maneuver : Play
                 break;
             }
         }
+    }
+
+    protected override void UseEffect()
+    {
     }
 
     private Card OverTurnCard(Player oponent, int iter, int damage)

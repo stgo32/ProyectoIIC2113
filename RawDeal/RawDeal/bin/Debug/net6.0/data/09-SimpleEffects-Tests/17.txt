@@ -1,0 +1,604 @@
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 18
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 16
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 2/3
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 3/3
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO: 3F, tiene 7 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, CHRIS JERICHO se pega 1 de daño colateral a si mismo.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 2/5
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 3/5
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 5/5
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+CHRIS JERICHO: 8F, tiene 6 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 41 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- [MANEUVER] *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 3 de daño.
+-------------------------------- 1/3
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/3
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 3/3
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 5 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+1- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 4 de daño.
+-------------------------------- 1/4
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/4
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 3/4
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 12 cartas en la mano y 34 en el arsenal.
+CHRIS JERICHO: 15F, tiene 4 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 15F, tiene 5 cartas en la mano y 50 en el arsenal.
+HHH: 0F, tiene 12 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+3- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 6 de daño.
+-------------------------------- 1/6
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 13 cartas en la mano y 32 en el arsenal.
+CHRIS JERICHO: 21F, tiene 4 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 21F, tiene 5 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 13 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, CHRIS JERICHO debe elegir uno de los siguientes efectos:
+1- Tu siguiente carta, si es un Grapple, tiene +4D.
+2- Tu siguiente carta, si es un Grapple, tu oponente requiere +8F para revertirla.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO: 21F, tiene 4 cartas en la mano y 49 en el arsenal.
+HHH: 0F, tiene 13 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+1- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 7 de daño.
+-------------------------------- 1/7
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/7
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/7
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 4/7
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 5/7
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 6/7
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 7/7
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 14 cartas en la mano y 24 en el arsenal.
+CHRIS JERICHO: 24F, tiene 3 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 24F, tiene 4 cartas en la mano y 48 en el arsenal.
+HHH: 0F, tiene 14 cartas en la mano y 24 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 4 de daño.
+-------------------------------- 1/4
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 2/4
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/4
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 15 cartas en la mano y 20 en el arsenal.
+CHRIS JERICHO: 28F, tiene 3 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 28F, tiene 4 cartas en la mano y 47 en el arsenal.
+HHH: 0F, tiene 15 cartas en la mano y 20 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 10 de daño.
+-------------------------------- 1/10
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 2/10
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 3/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 4/10
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/10
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 6/10
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 7/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 8/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 9/10
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 10/10
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 3 cartas en la mano y 47 en el arsenal.
+HHH: 0F, tiene 15 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+1- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 3 cartas en la mano y 47 en el arsenal.
+HHH: 0F, tiene 15 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+CHRIS JERICHO usa su habilidad: Once during your turn, you may discard a card from your hand to force your opponent to discard a card from his hand.
+CHRIS JERICHO debe descartar 1 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+1- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+2- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 1
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+4- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+5- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+6- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+7- *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+8- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+11- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+12- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+13- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+14- *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 14)
+INPUT: 14
+--------------------------------------------
+CHRIS JERICHO: 38F, tiene 2 cartas en la mano y 47 en el arsenal.
+HHH: 0F, tiene 14 cartas en la mano y 10 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+1- [MANEUVER] *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+4- *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+5- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+6- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+7- *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+8- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- *Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+10- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+11- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+12- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+13- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 13)
+INPUT: 0
+HHH recibe 12 de daño.
+-------------------------------- 1/12
+*Chyna Interferes*. Info: 5F/3D, Reversal, ReversalSpecial/HHH/Unique. Effect: Reverses any maneuver and ends your opponent's turn. If played from your hand, draw 2 cards.
+-------------------------------- 2/12
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 3/12
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 4/12
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 5/12
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 6/12
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 7/12
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 8/12
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 9/12
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 10/12
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+
+--------------------------------------------
+Felicidades, gana CHRIS JERICHO.

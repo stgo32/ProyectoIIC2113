@@ -15,6 +15,18 @@ public static class EffectFactory
         {
             effect = new JockeyingForPosition(cardId, player);
         }
+        else if (card.Title == "Head Butt")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
+        }
+        else if (card.Title == "Arm Drag")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
+        }
+        else if (card.Title == "Arm Bar")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)
@@ -26,6 +38,9 @@ public static class EffectFactory
                 effect = new NoEffect(cardId, player);
             }
         }
+        Console.WriteLine($"Card: {card.Title}");
+        Console.WriteLine($"Card.PlayAs: {card.PlayAs}");
+        Console.WriteLine($"EffectFactory.GetEffect: {effect.GetType().Name}");
         return effect;
     }
 }

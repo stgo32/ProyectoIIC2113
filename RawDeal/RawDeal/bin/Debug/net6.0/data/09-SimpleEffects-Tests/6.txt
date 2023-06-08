@@ -1,0 +1,903 @@
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 6
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 7
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, THE UNDERTAKER se pega 1 de daño colateral a si mismo.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+KANE recibe 5 de daño.
+-------------------------------- 1/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/5
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+KANE revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+KANE: 0F, tiene 8 cartas en la mano y 50 en el arsenal.
+THE UNDERTAKER: 5F, tiene 6 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Samoan Drop*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Samoan Drop*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 4
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 2/4
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 6 cartas en la mano y 48 en el arsenal.
+KANE: 4F, tiene 7 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 2
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, THE UNDERTAKER se pega 1 de daño colateral a si mismo.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+KANE recibe 6 de daño.
+-------------------------------- 1/6
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 2/6
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 3/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 4/6
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 6/6
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+KANE revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+KANE: 4F, tiene 8 cartas en la mano y 43 en el arsenal.
+THE UNDERTAKER: 11F, tiene 5 cartas en la mano y 46 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Spinning Heel Kick*. Info: 2F/5D, Maneuver, Strike. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Spinning Heel Kick*. Info: 2F/5D, Maneuver, Strike. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 4
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/5
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/5
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 11F, tiene 5 cartas en la mano y 42 en el arsenal.
+KANE: 9F, tiene 7 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+4- [MANEUVER] *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+KANE tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+KANE: 9F, tiene 7 cartas en la mano y 42 en el arsenal.
+THE UNDERTAKER: 11F, tiene 4 cartas en la mano y 41 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Choke Hold*. Info: 6F/5D, Maneuver, Submission/Heel. Effect: When successfully played, opponent must discard 1 card.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Choke Hold*. Info: 6F/5D, Maneuver, Submission/Heel. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 3
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 2/5
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 3/5
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 4/5
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/5
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+KANE: 14F, tiene 6 cartas en la mano y 42 en el arsenal.
+THE UNDERTAKER: 11F, tiene 3 cartas en la mano y 36 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Boston Crab*. Info: 10F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card.
+1- [MANEUVER] *Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Boston Crab*. Info: 10F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 0
+THE UNDERTAKER recibe 8 de daño.
+-------------------------------- 1/8
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/8
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 3/8
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 4/8
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 5/8
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 6/8
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 7/8
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 8/8
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+KANE: 22F, tiene 5 cartas en la mano y 42 en el arsenal.
+THE UNDERTAKER: 11F, tiene 2 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Figure Four Leg Lock*. Info: 19F/12D/1SV, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card.
+1- [MANEUVER] *Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+2- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 12 de daño.
+-------------------------------- 1/12
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/12
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/12
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 4/12
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 5/12
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 6/12
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+KANE puede robar hasta 2 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 2)
+INPUT: 2
+KANE roba 2 carta(s).
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 11F, tiene 3 cartas en la mano y 21 en el arsenal.
+KANE: 34F, tiene 6 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+KANE tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE revierte la carta usando:
+[REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+KANE roba 1 carta(s).
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+KANE: 35F, tiene 7 cartas en la mano y 38 en el arsenal.
+THE UNDERTAKER: 11F, tiene 2 cartas en la mano y 19 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Figure Four Leg Lock*. Info: 19F/12D/1SV, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card.
+1- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+2- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+3- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+4- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Figure Four Leg Lock*. Info: 19F/12D/1SV, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+THE UNDERTAKER recibe 12 de daño.
+-------------------------------- 1/12
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 2/12
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 3/12
+*Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+-------------------------------- 4/12
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+KANE puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+KANE roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 11F, tiene 2 cartas en la mano y 14 en el arsenal.
+KANE: 47F, tiene 7 cartas en la mano y 37 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+KANE recibe 10 de daño.
+-------------------------------- 1/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/10
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 4/10
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 5/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 7/10
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 8/10
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 9/10
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 10/10
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+KANE revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+--------------------------------------------
+KANE: 47F, tiene 8 cartas en la mano y 26 en el arsenal.
+THE UNDERTAKER: 21F, tiene 1 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+2- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+3- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, KANE debe elegir uno de los siguientes efectos:
+1- Tu siguiente carta, si es un Grapple, tiene +4D.
+2- Tu siguiente carta, si es un Grapple, tu oponente requiere +8F para revertirla.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+--------------------------------------------
+KANE: 47F, tiene 7 cartas en la mano y 26 en el arsenal.
+THE UNDERTAKER: 21F, tiene 1 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+1- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+2- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 9 de daño.
+-------------------------------- 1/9
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 21F, tiene 2 cartas en la mano y 11 en el arsenal.
+KANE: 52F, tiene 6 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 21F, tiene 2 cartas en la mano y 11 en el arsenal.
+KANE: 52F, tiene 6 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 0
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 0)
+INPUT: 0
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+2- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+5- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+6- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+7- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+8- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+12- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+13- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+14- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+15- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+16- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+17- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+18- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+19- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+20- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+21- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+22- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+23- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+24- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+25- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+26- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+27- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+28- *Punch*. Info: 0F/3D, Maneuver, Strike.
+29- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+30- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+31- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+32- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+33- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+34- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+35- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+36- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+37- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+38- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+39- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+40- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+41- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+42- *Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+43- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+44- *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+45- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre 0 y 45)
+INPUT: 40
+--------------------------------------------
+THE UNDERTAKER: 21F, tiene 1 cartas en la mano y 11 en el arsenal.
+KANE: 52F, tiene 6 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+KANE tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+KANE revierte la carta usando:
+[REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+KANE roba 1 carta(s).
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+KANE: 53F, tiene 7 cartas en la mano y 24 en el arsenal.
+THE UNDERTAKER: 21F, tiene 0 cartas en la mano y 9 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+3- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 7 de daño.
+-------------------------------- 1/7
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 21F, tiene 1 cartas en la mano y 7 en el arsenal.
+KANE: 60F, tiene 6 cartas en la mano y 24 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+KANE tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 2/6
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/6
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 4/6
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/6
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 6/6
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+THE UNDERTAKER recibe 1 de daño.
+-------------------------------- 1/1
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+--------------------------------------------
+KANE: 60F, tiene 6 cartas en la mano y 23 en el arsenal.
+THE UNDERTAKER: 21F, tiene 0 cartas en la mano y 0 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+1- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+2- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 4 de daño.
+
+--------------------------------------------
+Felicidades, gana KANE.

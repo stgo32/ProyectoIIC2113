@@ -1,0 +1,544 @@
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 1
+-------------------------
+Elige un mazo
+1- data/09-SimpleEffects/01_HHH.txt
+2- data/09-SimpleEffects/02_StoneCold.txt
+3- data/09-SimpleEffects/03_TheRock.txt
+4- data/09-SimpleEffects/04_Mankind.txt
+5- data/09-SimpleEffects/05_Jericho.txt
+6- data/09-SimpleEffects/06_Kane.txt
+7- data/09-SimpleEffects/07_Undertaker.txt
+8- data/09-SimpleEffects/08_HHH.txt
+9- data/09-SimpleEffects/09_StoneCold.txt
+10- data/09-SimpleEffects/10_TheRock.txt
+11- data/09-SimpleEffects/11_Undertaker.txt
+12- data/09-SimpleEffects/12_TheRock.txt
+13- data/09-SimpleEffects/13_HHH.txt
+14- data/09-SimpleEffects/14_Jericho.txt
+15- data/09-SimpleEffects/15_Mankind.txt
+16- data/09-SimpleEffects/16_Jericho.txt
+17- data/09-SimpleEffects/17_Mankind.txt
+18- data/09-SimpleEffects/18_HHH.txt
+19- data/09-SimpleEffects/19_Mankind.txt
+20- data/09-SimpleEffects/20_StoneCold.txt
+21- data/09-SimpleEffects/21_HHH.txt
+22- data/09-SimpleEffects/22_Kane.txt
+23- data/09-SimpleEffects/23_StoneCold.txt
+24- data/09-SimpleEffects/24_Jericho.txt
+25- data/09-SimpleEffects/25_HHH.txt
+26- data/09-SimpleEffects/26_Jericho.txt
+27- data/09-SimpleEffects/27_HHH.txt
+28- data/09-SimpleEffects/28_Jericho.txt
+29- data/09-SimpleEffects/29_HHH.txt
+30- data/09-SimpleEffects/30_StoneCold.txt
+31- data/09-SimpleEffects/31_HHH.txt
+32- data/09-SimpleEffects/32_StoneCold.txt
+33- data/09-SimpleEffects/33_StoneCold.txt
+34- data/09-SimpleEffects/34_TheRock.txt
+35- data/09-SimpleEffects/35_Mankind.txt
+36- data/09-SimpleEffects/36_TheRock.txt
+37- data/09-SimpleEffects/37_Mankind.txt
+38- data/09-SimpleEffects/38_HHH.txt
+39- data/09-SimpleEffects/39_StoneCold.txt
+40- data/09-SimpleEffects/40_Kane.txt
+41- data/09-SimpleEffects/41_Mankind.txt
+42- data/09-SimpleEffects/42_Kane.txt
+43- data/09-SimpleEffects/43_Mankind.txt
+44- data/09-SimpleEffects/44_Kane.txt
+45- data/09-SimpleEffects/45_Mankind.txt
+46- data/09-SimpleEffects/46_TheRock.txt
+47- data/09-SimpleEffects/47_Undertaker.txt
+(Ingresa un número entre 1 y 47)
+INPUT: 2
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Arm Bar*. Info: 0F/3D, Maneuver, Submission. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- [MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+2- [MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+3- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar*. Info: 0F/3D, Maneuver, Submission. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+2- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 1
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 10 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Arm Bar*. Info: 0F/3D, Maneuver, Submission. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- [MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+2- [MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Arm Bar*. Info: 0F/3D, Maneuver, Submission. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+2- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+4- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+5- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+6- *Clean Break*. Info: 0F/0D, Reversal, ReversalSpecial/Face. Effect: If played from your hand, may reverse the card titled Jockeying for Position. Opponent must discard 4 cards. End your opponent's turn. Draw 1 card.
+7- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+8- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 2
+STONE COLD STEVE AUSTIN recibe 3 de daño.
+-------------------------------- 1/3
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 2/3
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/3
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+HHH: 3F, tiene 8 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+4- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+5- *Clean Break*. Info: 0F/0D, Reversal, ReversalSpecial/Face. Effect: If played from your hand, may reverse the card titled Jockeying for Position. Opponent must discard 4 cards. End your opponent's turn. Draw 1 card.
+6- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+7- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+--------------------------------------------
+HHH: 3F, tiene 8 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+HHH: 3F, tiene 8 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- [MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+2- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+3- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+4- *Clean Break*. Info: 0F/0D, Reversal, ReversalSpecial/Face. Effect: If played from your hand, may reverse the card titled Jockeying for Position. Opponent must discard 4 cards. End your opponent's turn. Draw 1 card.
+5- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+6- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 4
+STONE COLD STEVE AUSTIN recibe 4 de daño.
+-------------------------------- 1/4
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/4
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+--------------------------------------------
+HHH: 7F, tiene 6 cartas en la mano y 49 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+STONE COLD STEVE AUSTIN tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+2- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+4- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 4
+STONE COLD STEVE AUSTIN recibe 4 de daño.
+-------------------------------- 1/4
+*Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/4
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 3/4
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 4/4
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+STONE COLD STEVE AUSTIN revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 40 en el arsenal.
+HHH: 11F, tiene 4 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- [MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+2- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 48 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 40 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 39 en el arsenal.
+HHH: 11F, tiene 4 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- [ACTION] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+HHH revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+2- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+3- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+No hay cartas aquí
+--------------------------------------------
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Arm Bar*. Info: 0F/3D, Maneuver, Submission. Effect: When successfully played, discard 1 card of your choice from your hand.
+2- *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+3- *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+5- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- *Clean Break*. Info: 0F/0D, Reversal, ReversalSpecial/Face. Effect: If played from your hand, may reverse the card titled Jockeying for Position. Opponent must discard 4 cards. End your opponent's turn. Draw 1 card.
+2- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 5
+--------------------------------------------
+0- *Arm Bar*. Info: 0F/3D, Maneuver, Submission. Effect: When successfully played, discard 1 card of your choice from your hand.
+1- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+2- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+3- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+4- *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+6- *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+7- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+8- *Collar & Elbow Lockup*. Info: 0F/1D, Action/Maneuver, Submission. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+9- *Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+10- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+11- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+12- *Arm Drag*. Info: 0F/4D, Maneuver, Grapple. Effect: When successfully played, discard 1 card of your choice from your hand.
+13- *Head Butt*. Info: 0F/4D, Maneuver, Strike. Effect: When successfully played, discard 1 card of your choice from your hand.
+--------------------------------------------
+--------------------------------------------
+HHH: 11F, tiene 4 cartas en la mano y 47 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 4
+
+--------------------------------------------
+Felicidades, gana STONE COLD STEVE AUSTIN.

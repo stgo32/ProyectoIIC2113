@@ -1,64 +1,22 @@
 namespace RawDeal.Plays;
 
 
-using RawDeal.Effects;
 using RawDeal.Initialize;
-using RawDealView.Options;
-
+using RawDeal.Effects;
 
 public class Action : Play
 {
     public Action(int cardId, Player player) : base(cardId, player) { }
 
-    public override void Start()
+    protected override void SuccessfullyPlayed()
     {
-        Formatter.PlayCard(Card, Player);
-        if (!IsBeingReversedByHand())
-        {
-            Attack();
-        }
+        base.SuccessfullyPlayed();
+        UseEffect();
     }
 
-    protected override void Attack()
+    protected override void UseEffect()
     {
-        base.Attack();
-        // if (Card.Title == "Jockeying for Position")
-        // {
-        //     Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
-        //     JockeyingForPositionEffect();
-        // }
-        // else
-        // {
-        //     Player.DiscardPossibleCardById(_cardId);
-        //     Player.DrawACard();
-        // }
         Effect effect = EffectFactory.GetEffect(_cardId, Player);
         effect.Resolve();
-    }
-
-    private void JockeyingForPositionEffect()
-    {
-        SelectedEffect selectedEffect = Formatter.View.AskUserToSelectAnEffectForJockeyForPosition(
-            Player.Superstar.Name
-        );
-        if (selectedEffect == SelectedEffect.NextGrappleIsPlus4D)
-        {
-            NextGrappleIsPlus4D();
-        }
-        else if (selectedEffect == SelectedEffect.NextGrapplesReversalIsPlus8F)
-        {
-            NextGrapplesReversalIsPlus8F();
-        }
-        Player.PlayedJockeyingForPositionLast = true;
-    }
-
-    private void NextGrappleIsPlus4D()
-    {
-        Player.NextGrappleIsPlus4D = true;
-    }
-
-    private void NextGrapplesReversalIsPlus8F()
-    {
-        Player.NextGrapplesReversalIsPlus8F = true;
     }
 }
