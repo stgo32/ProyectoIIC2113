@@ -29,6 +29,10 @@ public class DrawCards : Effect
         {
             target = _player.Oponent;
         }
-        target.DrawCards(howManyToDraw);
+        Formatter.View.SayThatPlayerDrawCards(target.Superstar.Name, howManyToDraw);
+        for (int i = howManyToDraw; i > 0; i--)
+        {
+            target.Deck.DrawCardFromArsenalToHand();
+        }
     }
 }

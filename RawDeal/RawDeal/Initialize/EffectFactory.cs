@@ -39,6 +39,10 @@ public static class EffectFactory
         {
             effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
         }
+        else if (card.Title == "Spinning Heel Kick")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
         else if (card.Title == "Pump Handle Slam")
         {
             effect = new DiscardCards(2, PlayerTarget.Oponent, cardId, player);
