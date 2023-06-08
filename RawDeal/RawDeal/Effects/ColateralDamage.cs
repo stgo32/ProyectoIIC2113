@@ -10,10 +10,13 @@ public class ColateralDamage : Effect
 
     public override void Resolve()
     {
-        Card cardOverturend = _player.RecieveDamage();
         Formatter.View.SayThatPlayerDamagedHimself(_player.Superstar.Name, 1);
         Formatter.View.SayThatSuperstarWillTakeSomeDamage(_player.Superstar.Name, 1);
-        Formatter.PrintCardOverturned(cardOverturend, 1, 1);
+        if (_player.Arsenal.Any())
+        {
+            Card cardOverturend = _player.RecieveDamage();
+            Formatter.PrintCardOverturned(cardOverturend, 1, 1);
+        }
         if (_player.Arsenal.IsEmpty())
         {
             Formatter.View.SayThatPlayerLostDueToSelfDamage(_player.Superstar.Name);

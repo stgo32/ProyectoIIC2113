@@ -20,14 +20,17 @@ public class Maneuver : Play
     {
         base.SuccessfullyPlayed();
         UseEffect();
-        int damage = HandleDamage();
-        DeliverDamage(damage);
+        if (!Player.Oponent.HasWon)
+        {
+            int damage = HandleDamage();
+            DeliverDamage(damage);
+        }
     }
 
     protected override void UseEffect()
     {
         Effect effect = EffectFactory.GetEffect(_cardId, Player);
-        Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+        Card card = Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
         effect.Resolve();
     }
 

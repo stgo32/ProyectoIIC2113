@@ -35,7 +35,7 @@ public static class EffectFactory
         {
             effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
         }
-        else if (card.Title == "Anckle Lock")
+        else if (card.Title == "Ankle Lock")
         {
             effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
         }
@@ -94,6 +94,63 @@ public static class EffectFactory
         else if (card.Title == "Standing Side Headlock")
         {
             effect = new DrawCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        // else if (card.Title == "Undertaker's Tombstone Piledriver")
+        // {
+        //     // Effect[] effects = {
+        //     //     new DiscardCards(1, PlayerTarget.Self, cardId, player),
+        //     //     new DrawCards(1, PlayerTarget.Self, cardId, player)
+        //     // };
+        //     // effect = new MultipleEffects(effects, cardId, player);
+        //     effect = new StandardActionEffect(cardId, player);
+        // }
+        else if (card.Title == "Offer Handshake")
+        {
+            Effect[] effects = {
+                new DrawCards(3, PlayerTarget.Self, cardId, player),
+                new DiscardCards(1, PlayerTarget.Self, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Press Slam")
+        {
+            Effect[] effects = {
+                new ColateralDamage(cardId, player),
+                new DiscardCards(2, PlayerTarget.Oponent, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Fisherman's Suplex")
+        {
+            Effect[] effects = {
+                new ColateralDamage(cardId, player),
+                new DrawCards(1, PlayerTarget.Self, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "DDT")
+        {
+            Effect[] effects = {
+                new ColateralDamage(cardId, player),
+                new DiscardCards(2, PlayerTarget.Oponent, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Guillotine Stretch")
+        {
+            Effect[] effects = {
+                new DiscardCards(1, PlayerTarget.Oponent, cardId, player),
+                new DrawCards(1, PlayerTarget.Self, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Spit At Opponent")
+        {
+            Effect[] effects = {
+                new DiscardCards(1, PlayerTarget.Self, cardId, player),
+                new DiscardCards(4, PlayerTarget.Oponent, cardId, player),
+            };
+            effect = new MultipleEffects(effects, cardId, player);
         }
         else
         {

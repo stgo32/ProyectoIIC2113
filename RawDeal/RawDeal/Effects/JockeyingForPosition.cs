@@ -11,7 +11,6 @@ public class JockeyingForPosition : Effect
 
     public override void Resolve()
     {
-        _player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
         SelectedEffect selectedEffect = Formatter.View.AskUserToSelectAnEffectForJockeyForPosition(
             _player.Superstar.Name
         );
