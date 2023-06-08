@@ -28,7 +28,7 @@ public class ElbowToTheFace : Reversal
         {
             damage += 4;
         }
-        return card.PlayAs == "Maneuver" && damage <= 7;
+        return card.PlayAs == PlayAs.Maneuver && damage <= 7;
     }
 
     protected override void UseReversalEffect(Play play) { return; }

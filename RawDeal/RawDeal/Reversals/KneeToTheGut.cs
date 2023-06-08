@@ -32,7 +32,10 @@ public class KneeToTheGut : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        return card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver" && card.GetDamage() <= 7;
+        bool damageRestriction = card.ContainsSubtype("Strike") && 
+                                 card.PlayAs == PlayAs.Maneuver &&
+                                 card.GetDamage() <= 7;
+        return damageRestriction;
     }
     
     protected override void UseReversalEffect(Play play) { return; }

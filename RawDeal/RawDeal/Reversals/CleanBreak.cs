@@ -17,7 +17,8 @@ public class CleanBreak : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = card.PlayAs == "Action" && card.Title == "Jockeying for Position";
+        bool reversalRestriction = card.PlayAs == PlayAs.Action && 
+                                                  card.Title == "Jockeying for Position";
         return fortitudeRestriction && reversalRestriction;
     }
 

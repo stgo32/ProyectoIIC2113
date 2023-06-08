@@ -17,7 +17,8 @@ public class BreakTheHole : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = card.ContainsSubtype("Submission") && card.PlayAs == "Maneuver";
+        bool reversalRestriction = card.ContainsSubtype("Submission") && 
+                                   card.PlayAs == PlayAs.Maneuver;
         return fortitudeRestriction && reversalRestriction;
     }
 

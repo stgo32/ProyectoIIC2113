@@ -15,7 +15,7 @@ public class JockeyingForPosition : Reversal
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
-        bool reversalRestriction = card.PlayAs == "Action"
+        bool reversalRestriction = card.PlayAs == PlayAs.Action
                                    && card.Title == "Jockeying for Position";
         return fortitudeRestriction && reversalRestriction;
     }

@@ -14,7 +14,7 @@ public class ChynaInterferes : Reversal
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
-        bool reversalRestriction = card.PlayAs == "Maneuver";
+        bool reversalRestriction = card.PlayAs == PlayAs.Maneuver;
         return fortitudeRestriction && reversalRestriction;
     }
 

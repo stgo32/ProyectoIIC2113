@@ -1,6 +1,7 @@
 namespace RawDeal;
 
 
+using RawDeal.Plays;
 using RawDealView.Formatters;
 
 
@@ -20,8 +21,8 @@ public class Card : IViewableCardInfo
 
     public string CardEffect { get; set; }
 
-    private string _playAs;
-    public string PlayAs { get { return _playAs; } set { _playAs = value; } }
+    private PlayAs _playAs;
+    public PlayAs PlayAs { get { return _playAs; } set { _playAs = value; } }
 
     public bool isHibrid { get { return Types.Contains("Maneuver") && Types.Contains("Action"); } }
     
@@ -89,7 +90,7 @@ public class Card : IViewableCardInfo
     public Card PlayCardAs(string type)
     {
         Card card = MemberwiseClone() as Card;
-        card._playAs = type;
+        card._playAs = (PlayAs)Enum.Parse(typeof(PlayAs), type);
         return card;
     }
 }

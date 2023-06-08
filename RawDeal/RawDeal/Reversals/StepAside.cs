@@ -17,7 +17,7 @@ public class StepAside : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = card.ContainsSubtype("Strike") && card.PlayAs == "Maneuver";
+        bool reversalRestriction = card.ContainsSubtype("Strike") && card.PlayAs == PlayAs.Maneuver;
         return fortitudeRestriction && reversalRestriction;
     }
 

@@ -17,7 +17,8 @@ public class EscapeMove : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = card.ContainsSubtype("Grapple") && card.PlayAs == "Maneuver";
+        bool reversalRestriction = card.ContainsSubtype("Grapple") && 
+                                   card.PlayAs == PlayAs.Maneuver;
         return fortitudeRestriction && reversalRestriction;
     }
 

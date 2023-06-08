@@ -1,6 +1,8 @@
 namespace RawDeal.Plays;
 
 
+using RawDeal.Effects;
+using RawDeal.Initialize;
 using RawDealView.Options;
 
 
@@ -20,16 +22,18 @@ public class Action : Play
     protected override void Attack()
     {
         base.Attack();
-        if (Card.Title == "Jockeying for Position")
-        {
-            Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
-            JockeyingForPositionEffect();
-        }
-        else
-        {
-            Player.DiscardPossibleCardById(_cardId);
-            Player.DrawACard();
-        }
+        // if (Card.Title == "Jockeying for Position")
+        // {
+        //     Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
+        //     JockeyingForPositionEffect();
+        // }
+        // else
+        // {
+        //     Player.DiscardPossibleCardById(_cardId);
+        //     Player.DrawACard();
+        // }
+        Effect effect = EffectFactory.GetEffect(_cardId, Player);
+        effect.Resolve();
     }
 
     private void JockeyingForPositionEffect()

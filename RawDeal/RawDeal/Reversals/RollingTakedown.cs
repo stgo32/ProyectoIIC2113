@@ -32,7 +32,7 @@ public class RollingTakedown : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        return card.ContainsSubtype("Grapple") && card.PlayAs == "Maneuver" && damage <= 7;
+        return card.ContainsSubtype("Grapple") && card.PlayAs == PlayAs.Maneuver && damage <= 7;
     }
 
     protected override void UseReversalEffect(Play play) { return; }

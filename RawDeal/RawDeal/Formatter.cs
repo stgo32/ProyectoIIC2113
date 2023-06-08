@@ -83,7 +83,8 @@ public static class Formatter
 
     private static string PlayCardFormat(Card card)
     {
-        ViewablePlayInfo play = new ViewablePlayInfo(card, card.PlayAs.ToUpper());
+        string playAs = card.PlayAs.ToString().ToUpper();
+        ViewablePlayInfo play = new ViewablePlayInfo(card, playAs);
         string formattedCard = RawDealView.Formatters.Formatter.PlayToString(play);
         return formattedCard;
     }

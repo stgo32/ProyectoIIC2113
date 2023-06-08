@@ -17,7 +17,7 @@ public class ManagerInterferes : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = card.PlayAs == "Maneuver";
+        bool reversalRestriction = card.PlayAs == PlayAs.Maneuver;
         return fortitudeRestriction && reversalRestriction;
     }
 

@@ -69,7 +69,7 @@ public static class ReversalFactory
         {
             throw new Exception("Reversal not found");
         }
-        reversal.PlayAs = "Reversal";
+        reversal.PlayAs = Plays.PlayAs.Reversal;
         return reversal;
     }
 }

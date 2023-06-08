@@ -17,7 +17,7 @@ public class NoChanceInHell : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = card.PlayAs == "Action";
+        bool reversalRestriction = card.PlayAs == PlayAs.Action;
         return fortitudeRestriction && reversalRestriction;
     }
 

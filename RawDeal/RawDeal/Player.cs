@@ -3,6 +3,7 @@ namespace RawDeal;
 
 using RawDeal.DeckHandler;
 using RawDeal.Plays;
+using RawDeal.Initialize;
 using RawDealView.Options;
 
 
@@ -124,7 +125,7 @@ public class Player
 
     public void PlayCard(int idCardSelected)
     {
-        Play = Initializer.InitPlayByType(idCardSelected, this);
+        Play = PlayFactory.GetPlay(idCardSelected, this);
         if (!Play.Card.ContainsSubtype("Grapple") || !_playedJockeyingForPositionLast)
         {
             ResetJockeyingForPosition();
@@ -197,7 +198,6 @@ public class Player
 
     public void DiscardPossibleCardById(int cardId)
     {
-        // string cardTitle = Deck.GetPossibleCardsToPlay()[cardId].Title;
         string cardTitle = Deck.GetPossibleCardsToPlay().GetCard(cardId).Title;
         Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
         Deck.DrawCardFromPossibleCardsToRingsideById(cardId);
