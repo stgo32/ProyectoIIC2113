@@ -190,12 +190,29 @@ public class Player
         }
     }
 
+    public void DiscardCardsFromOponentHand(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            DiscardACardFromOponentHand(i);
+        }
+    }
+
     public void DiscardACard(int iter = 1)
     {
         if (Hand.Any())
         {
             int discardCardId = SelectCardToDiscard(iter);
             Deck.DrawCardFromHandToRingsideById(discardCardId);
+        }
+    }
+
+    public void DiscardACardFromOponentHand(int iter = 1)
+    {
+        if (Oponent.Hand.Any())
+        {
+            int discardCardId = SelectCardFromOponentHandToDiscard(iter);
+            Oponent.Deck.DrawCardFromHandToRingsideById(discardCardId);
         }
     }
 
@@ -213,6 +230,21 @@ public class Player
             formattedHand,
             Superstar.Name,
             Superstar.Name, 
+            iter
+        );
+        return discardCardId;
+    }
+
+    private int SelectCardFromOponentHandToDiscard(int iter)
+    {
+        List<string> formattedHand = Formatter.GetFormattedCardList(
+            Oponent.Hand.Cards,
+            NextPlay.ShowCards
+        );
+        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
+            formattedHand,
+            Oponent.Superstar.Name,
+            Superstar.Name,
             iter
         );
         return discardCardId;

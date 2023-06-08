@@ -19,9 +19,14 @@ public class DiscardCards : Effect
         {
             _player.DiscardCards(_quantity);
         }
-        else
+        else if (_target == PlayerTarget.Oponent)
         {
             _player.Oponent.DiscardCards(_quantity);
+        }
+        else if (_target == PlayerTarget.Both)
+        {
+            _player.DiscardCards(_quantity);
+            _player.DiscardCardsFromOponentHand(_quantity);
         }
     }
 }

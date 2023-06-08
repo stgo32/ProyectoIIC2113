@@ -63,6 +63,34 @@ public static class EffectFactory
         {
             effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
         }
+        else if (card.Title == "Bulldog")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Both, cardId, player);
+        }
+        else if (card.Title == "Kick")
+        {
+            effect = new ColateralDamage(cardId, player);
+        }
+        else if (card.Title == "Running Elbow Smash")
+        {
+            effect = new ColateralDamage(cardId, player);
+        }
+        else if (card.Title == "Double Leg Takedown")
+        {
+            effect = new DrawCards(1, PlayerTarget.Self, cardId, player);
+        }
+        else if (card.Title == "Reverse DDT")
+        {
+            effect = new DrawCards(1, PlayerTarget.Self, cardId, player);
+        }
+        else if (card.Title == "Headlock Takedown")
+        {
+            effect = new DrawCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Standing Side Headlock")
+        {
+            effect = new DrawCards(1, PlayerTarget.Oponent, cardId, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)
