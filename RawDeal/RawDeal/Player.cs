@@ -192,8 +192,11 @@ public class Player
 
     public void DiscardACard(int iter = 1)
     {
-        int discardCardId = SelectCardToDiscard(iter);
-        Deck.DrawCardFromHandToRingsideById(discardCardId);
+        if (Hand.Any())
+        {
+            int discardCardId = SelectCardToDiscard(iter);
+            Deck.DrawCardFromHandToRingsideById(discardCardId);
+        }
     }
 
     public void DiscardPossibleCardById(int cardId)

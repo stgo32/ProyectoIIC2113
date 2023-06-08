@@ -27,6 +27,42 @@ public static class EffectFactory
         {
             effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
         }
+        else if (card.Title == "Bear Hug")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Choke Hold")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Anckle Lock")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Pump Handle Slam")
+        {
+            effect = new DiscardCards(2, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Samoan Drop")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Power Slam")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Boston Crab")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Torture Rack")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Figure Four Leg Lock")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)
