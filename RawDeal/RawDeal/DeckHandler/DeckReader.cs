@@ -5,54 +5,46 @@ using RawDeal.Initialize;
 
 public class DeckReader
 {
-    private List<Card> _deck;
-    public List<Card> Deck { get { return _deck; } }
+    private List<Superstar> _superstars;
+
+    private List<Card> _cards;
+
+    private string[] _fileLines;
 
     public DeckReader(string filePath, List<Superstar> superstars, List<Card> cards)
     {
-        ReadDeckFromFile(filePath, superstars, cards);
+        _fileLines = File.ReadAllLines(filePath);
+        _superstars = superstars;
+        _cards = cards;
     }
 
-    public void ReadDeckFromFile(string filePath, List<Superstar> superstars, List<Card> cards)
+    public Superstar ReadSuperstar(Player player)
     {
-        _deck = new List<Card>();
-        string[] lines = File.ReadAllLines(filePath);
-        SetSuperstarInfo(lines, superstars);
-        SetCards(lines, cards);
-    }
-
-
-    private void SetSuperstarInfo(string[] fileLines, List<Superstar> superstars)
-    {
-        string superstarName = fileLines[0];
+        string superstarName = _fileLines[0];
         superstarName = superstarName.Split('(')[0].Trim();
-        foreach (Superstar superstarInfo in superstars)
+        int supearstarIndex = 0;
+        for (int i = 0; i < _superstars.Count; i++)
         {
-            if (superstarInfo.Name == superstarName)
-            {           
-                SetSuperstar(superstarInfo);
+            if (_superstars[i].Name == superstarName)
+            {
+                supearstarIndex = i;
                 break;
             }
         }
+        Superstar superstar = SuperstarFactory.GetSuperstar(_superstars[supearstarIndex]);
+        superstar.Player = player;
+        return superstar;
     }
 
-    private void SetCards(string[] fileLines, List<Card> cards)
+    public List<Card> ReadCards()
     {
-        fileLines = fileLines.Skip(1).ToArray(); 
-        foreach (string cardTitle in fileLines)
+        List<Card> deck = new List<Card>();
+        _fileLines = _fileLines.Skip(1).ToArray(); 
+        foreach (string cardTitle in _fileLines)
         {
-            Card card = cards.Find(c => c.Title == cardTitle);
-            _deck.Add(card);
+            Card card = _cards.Find(c => c.Title == cardTitle);
+            deck.Add(card);
         }
-    }
-
-    private void SetSuperstar(Superstar superstarInfo)
-    {
-        Superstar superstar = SuperstarFactory.GetSuperstar(superstarInfo);
-        superstar.Name = superstarInfo.Name;
-        superstar.Logo = superstarInfo.Logo;
-        superstar.HandSize = superstarInfo.HandSize;
-        superstar.SuperstarValue = superstarInfo.SuperstarValue;
-        superstar.SuperstarAbility = superstarInfo.SuperstarAbility;
+        return deck;
     }
 }

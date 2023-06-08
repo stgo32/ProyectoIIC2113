@@ -42,6 +42,11 @@ public static class SuperstarFactory
         {
             throw new Exception("Superstar not found");
         }
+        superstar.Name = superstarInfo.Name;
+        superstar.Logo = superstarInfo.Logo;
+        superstar.HandSize = superstarInfo.HandSize;
+        superstar.SuperstarValue = superstarInfo.SuperstarValue;
+        superstar.SuperstarAbility = superstarInfo.SuperstarAbility;
         return superstar;
     }
 }

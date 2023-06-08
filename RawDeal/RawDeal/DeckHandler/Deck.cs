@@ -34,14 +34,8 @@ public class Deck
     public void ReadCardsFromFile(string filePath, List<Superstar> superstars, List<Card> cards)
     {
         DeckReader deckReader = new DeckReader(filePath, superstars, cards);
-        SetSuperstar(deckReader.SuperstarInfo);
-        _deck = deckReader.Deck;
-    }
-
-    private void SetSuperstar(Superstar superstar)
-    {
-        _superstar = superstar;
-        _superstar.Player = Player;
+        _superstar = deckReader.ReadSuperstar(_player);
+        _deck = deckReader.ReadCards();
     }
 
     public bool CheckCorrectness(List<Superstar> superstars)
@@ -97,7 +91,7 @@ public class Deck
 
     public PossibleCardsToPlay GetPossibleCardsToPlay()
     {
-        return _possibleCardsToPlay.Get(Player.Fortitude, _hand);
+        return _possibleCardsToPlay.Get(_player.Fortitude, _hand);
     }
 
     public PossibleReversalsToPlay GetPossibleReversals(Card oponentCard, int fortitude)
