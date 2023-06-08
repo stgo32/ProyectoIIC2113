@@ -33,45 +33,14 @@ public class Deck
 
     public void ReadCardsFromFile(string filePath, List<Superstar> superstars, List<Card> cards)
     {
-        _deck = new List<Card>();
-        string[] lines = File.ReadAllLines(filePath);
-        SetSuperstar(lines, superstars);
-        SetCards(lines, cards);
+        DeckReader deckReader = new DeckReader(filePath, superstars, cards);
+        SetSuperstar(deckReader.SuperstarInfo);
+        _deck = deckReader.Deck;
     }
 
-
-    private void SetSuperstar(string[] fileLines, List<Superstar> superstars)
+    private void SetSuperstar(Superstar superstar)
     {
-        string superstarName = fileLines[0];
-        superstarName = superstarName.Split('(')[0].Trim();
-        foreach (Superstar superstarInfo in superstars)
-        {
-            if (superstarInfo.Name == superstarName)
-            {           
-                _superstar = SuperstarFactory.GetSuperstar(superstarInfo);
-                SetSuperstarInfo(superstarInfo);
-                break;
-            }
-        }
-    }
-
-    private void SetCards(string[] fileLines, List<Card> cards)
-    {
-        fileLines = fileLines.Skip(1).ToArray(); 
-        foreach (string cardTitle in fileLines)
-        {
-            Card card = cards.Find(c => c.Title == cardTitle);
-            _deck.Add(card);
-        }
-    }
-
-    private void SetSuperstarInfo(Superstar superstarInfo)
-    {
-        _superstar.Name = superstarInfo.Name;
-        _superstar.Logo = superstarInfo.Logo;
-        _superstar.HandSize = superstarInfo.HandSize;
-        _superstar.SuperstarValue = superstarInfo.SuperstarValue;
-        _superstar.SuperstarAbility = superstarInfo.SuperstarAbility;
+        _superstar = superstar;
         _superstar.Player = Player;
     }
 
