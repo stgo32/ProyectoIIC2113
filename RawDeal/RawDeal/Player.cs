@@ -15,16 +15,7 @@ public class Player
         set { _hasWon = value; }
     }
 
-    public int Fortitude { 
-        get {
-            int fortitude = 0;
-            foreach (Card card in Deck.RingArea)
-            {
-                fortitude += card.GetDamage();
-            }
-            return fortitude;
-        } 
-    }
+    public int Fortitude { get { return RingArea.CalculatePlayerFortitude(); } }
 
     private bool _needToAskToUseAbility = false;
     public bool NeedToAskToUseAbility {
@@ -85,9 +76,9 @@ public class Player
 
     public Arsenal Arsenal { get { return Deck.Arsenal; } }
 
-    public List<Card> RingArea { get { return Deck.RingArea; } }
+    public RingArea RingArea { get { return Deck.RingArea; } }
 
-    public Ringside Ringside { get { return Deck.Ringside; } }
+    public DeckHandler.CardSet Ringside { get { return Deck.Ringside; } }
 
     private Player _oponent;
     public Player Oponent { 
@@ -122,9 +113,9 @@ public class Player
 
     public int SelectCardToPlay()
     {
-        List<Card> possibleCards = Deck.GetPossibleCardsToPlay();
+        PossibleCardsToPlay possibleCards = Deck.GetPossibleCardsToPlay();
         List<string> formattedPossibleCards = Formatter.GetFormattedCardList(
-            possibleCards,
+            possibleCards.Cards,
             NextPlay.PlayCard
         );
         int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
@@ -148,7 +139,7 @@ public class Player
     public int SelectReversal(Card oponentCard)
     {
         List<string> formattedReversals = Formatter.GetFormattedCardList(
-            Deck.GetPossibleReversals(oponentCard, Fortitude),
+            Deck.GetPossibleReversals(oponentCard, Fortitude).Cards,
             NextPlay.PlayCard
         );
         int reversalSelected = Formatter.View.AskUserToSelectAReversal(
@@ -206,7 +197,8 @@ public class Player
 
     public void DiscardPossibleCardById(int cardId)
     {
-        string cardTitle = Deck.GetPossibleCardsToPlay()[cardId].Title;
+        // string cardTitle = Deck.GetPossibleCardsToPlay()[cardId].Title;
+        string cardTitle = Deck.GetPossibleCardsToPlay().GetCard(cardId).Title;
         Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
         Deck.DrawCardFromPossibleCardsToRingsideById(cardId);
     }

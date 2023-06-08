@@ -18,7 +18,8 @@ public abstract class Play
     public Play(int cardId, Player player)
     {
         _cardId = cardId;
-        Card = player.Deck.GetPossibleCardsToPlay()[cardId];
+        // Card = player.Deck.GetPossibleCardsToPlay()[cardId];
+        Card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
         Player = player;
     }
 
@@ -55,11 +56,7 @@ public abstract class Play
 
     private void ReverseFromHand(int reversalSelectedId, Player reversingPlayer)
     {
-        Reversal reversal = reversingPlayer.Deck.GetReversalById(
-            reversalSelectedId,
-            Card,
-            reversingPlayer.Fortitude
-        );
+        Reversal reversal = reversingPlayer.Deck.GetReversalById(reversalSelectedId);
         reversal.ReverseFromHand(this);
     }
 }

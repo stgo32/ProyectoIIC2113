@@ -1,13 +1,21 @@
 namespace RawDeal.DeckHandler;
 
 
-public abstract class CardSet
+public class CardSet
 {
     public List<Card> Cards { get; set; } = new List<Card>();
 
-    public abstract void AddCard(Card card);
+    public virtual void AddCard(Card card)
+    {
+        Cards.Add(card);
+    }
 
-    public abstract Card RemoveCard();
+    public virtual Card RemoveCard()
+    {
+        Card card = GetCard(0);
+        Cards.RemoveAt(0);
+        return card;
+    }
 
     public Card GetCard(int index)
     {
@@ -39,5 +47,28 @@ public abstract class CardSet
     public int Count()
     {
         return Cards.Count;
+    }
+
+    protected void Clear()
+    {
+        Cards.Clear();
+    }
+
+    protected void ManageCountersOptionsForCardAppearances(Card possibleCard, ref int cardCount, 
+                                                         ref int hibridCounter)
+    {
+        if (possibleCard.isHibrid && hibridCounter == 0)
+        {
+            hibridCounter++;
+        }
+        else if (possibleCard.isHibrid && hibridCounter == 1)
+        {
+            cardCount++;
+            hibridCounter = 0;
+        }
+        else
+        {
+            cardCount++;
+        }
     }
 }

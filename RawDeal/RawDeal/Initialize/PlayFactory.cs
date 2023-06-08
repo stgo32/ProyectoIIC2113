@@ -9,7 +9,8 @@ public static class PlayFactory
 {
     public static Play GetPlay(int cardId, Player player)
     {
-        Card card = player.Deck.GetPossibleCardsToPlay()[cardId];
+        // Card card = player.Deck.GetPossibleCardsToPlay()[cardId];
+        Card card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
         Play play;
         if (card.PlayAs == "Maneuver")
         {
