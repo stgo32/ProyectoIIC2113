@@ -2,6 +2,8 @@ namespace RawDeal;
 
 
 using RawDeal.Plays;
+using RawDeal.Initialize;
+using RawDeal.Preconditions;
 using RawDealView.Formatters;
 
 
@@ -72,13 +74,15 @@ public class Card : IViewableCardInfo
     public bool IsPossibleToPlay(int fortitude)
     {
         bool isPossible = false;
-        if (
-            GetFortitude() <= fortitude &&
-            (Types.Contains("Action") || Types.Contains("Maneuver"))
-        )
-        {
-            isPossible = true;
-        }
+        // if (
+        //     GetFortitude() <= fortitude &&
+        //     (Types.Contains("Action") || Types.Contains("Maneuver"))
+        // )
+        // {
+        //     isPossible = true;
+        // }
+        Precondition precondition = PreconditionFactory.GetPrecondition(this);
+        isPossible = precondition.IsPossibleToPlay(fortitude);
         return isPossible;
     }
 
