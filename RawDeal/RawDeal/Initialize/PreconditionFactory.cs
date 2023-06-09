@@ -9,7 +9,14 @@ public static class PreconditionFactory
     public static Precondition GetPrecondition(Card card)
     {
         Precondition precondition;
-        precondition = new StandardPrecondition(card);
+        if (card.Title == "Undertaker's Tombstone Piledriver")
+        {
+            return new DoesNotRequireFortitudeWhenPlayedAsAction(card);
+        }
+        else
+        {
+            return new StandardPrecondition(card);
+        }
         return precondition;
     }
 }
