@@ -3,29 +3,26 @@ namespace RawDeal.DeckHandler;
 
 public class PossibleCardsToPlay : CardSet
 {
-    public override void AddCard(Card card)
-    {
-        foreach (string type in card.Types)
-        {
-            if (type == "Action" || type == "Maneuver")
-            {
-                Card cardToAdd = card.PlayCardAs(type);
-                Cards.Add(cardToAdd);   
-            }
-        }
-    }
-
     public PossibleCardsToPlay Get(int fortitude, Hand hand)
     {
         Clear();
         foreach (Card card in hand.Cards)
         {
-            if (card.IsPossibleToPlay(fortitude))
+            foreach (string type in card.Types)
             {
-                AddCard(card);
+                Card cardToAdd = card.PlayCardAs(type);
+                AddCardInCaseIsPossible(cardToAdd, fortitude);
             }
         }
         return this;
+    }
+
+    private void AddCardInCaseIsPossible(Card card, int fortitude)
+    {
+        if (card.IsPossibleToPlay(fortitude))
+        {
+            AddCard(card);
+        }
     }
 
     public int CountCardAppearances(int cardId)
