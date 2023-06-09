@@ -95,15 +95,6 @@ public static class EffectFactory
         {
             effect = new DrawCards(1, PlayerTarget.Oponent, cardId, player);
         }
-        // else if (card.Title == "Undertaker's Tombstone Piledriver")
-        // {
-        //     // Effect[] effects = {
-        //     //     new DiscardCards(1, PlayerTarget.Self, cardId, player),
-        //     //     new DrawCards(1, PlayerTarget.Self, cardId, player)
-        //     // };
-        //     // effect = new MultipleEffects(effects, cardId, player);
-        //     effect = new StandardActionEffect(cardId, player);
-        // }
         else if (card.Title == "Offer Handshake")
         {
             Effect[] effects = {

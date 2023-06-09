@@ -1,6 +1,5 @@
 ﻿using RawDeal;
 using RawDealView;
-
 // string folder = "02-InvalidDecks";
 // string folder = "04-NoEffects";
 // string folder = "05-SuperstarAbilities";
@@ -8,7 +7,7 @@ using RawDealView;
 // string folder = "07-NoEffectReversals";
 // string folder = "08-Reversals";
 string folder = "09-SimpleEffects";
-int idTest = 13;
+int idTest = 10;
 string pathToTest = Path.Combine("data", $"{folder}-Tests", $"{idTest}.txt");
 
 // Esta vista permite verificar el comportamiento de un test particular.
