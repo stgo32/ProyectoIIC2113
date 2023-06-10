@@ -17,17 +17,23 @@ public class ElbowToTheFace : Reversal
             fortitude,
             oponent.NextGrapplesReversalIsPlus8F
         );
-        bool reversalRestriction = CalculateDamageRestriction(card, oponent.NextGrappleIsPlus4D);
+        bool reversalRestriction = CalculateDamageRestriction(card, oponent);
         return fortitudeRestriction && reversalRestriction;
     }
 
-    private bool CalculateDamageRestriction(Card card, bool nextGrappleIsPlus4D)
+    private bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
-        if (nextGrappleIsPlus4D)
+        if (oponent.NextGrappleIsPlus4D)
         {
             damage += 4;
         }
+        if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
+        {
+            damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
+        }
+        Console.WriteLine("Card: " + Title);
+        Console.WriteLine("Damage: " + damage);
         return card.PlayAs == PlayAs.Maneuver && damage <= 7;
     }
 
