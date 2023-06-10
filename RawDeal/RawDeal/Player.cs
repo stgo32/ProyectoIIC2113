@@ -268,7 +268,15 @@ public class Player
         Formatter.View.SayThatPlayerDrawCards(Superstar.Name, 1);
     }
 
-    public void RecoverACard()
+    public void RecoverCards(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            RecoverACard(i);
+        }
+    }
+
+    public void RecoverACard(int iter = 1)
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(
             Ringside.Cards,
@@ -276,7 +284,7 @@ public class Player
         );
         int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
             Superstar.Name,
-            1,
+            iter,
             formattedRingside
         );
         Deck.DrawCardFromRingsideToArsenalById(cardId);

@@ -6,11 +6,14 @@ public class DrawCards : Effect
     private int _quantity;
     private PlayerTarget _target;
 
-    public DrawCards(int quantity, PlayerTarget target, int cardId, Player player) 
+    private bool _mayChooseHowMany;
+
+    public DrawCards(int quantity, PlayerTarget target, bool mayChooseHowMany, int cardId, Player player) 
                      : base(cardId, player) 
     { 
         _quantity = quantity;
         _target = target;
+        _mayChooseHowMany = mayChooseHowMany;
     }
 
 
@@ -18,7 +21,7 @@ public class DrawCards : Effect
     {
         Player target = _player;
         int howManyToDraw = _quantity;
-        if (_target == PlayerTarget.Self)
+        if (_mayChooseHowMany)
         {
             howManyToDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfACardEffect(
                 _player.Superstar.Name,

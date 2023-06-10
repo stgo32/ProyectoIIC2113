@@ -91,7 +91,7 @@ public class Deck
 
     public PossibleCardsToPlay GetPossibleCardsToPlay()
     {
-        return _possibleCardsToPlay.Get(_player.Fortitude, _hand);
+        return _possibleCardsToPlay.Get(_player);
     }
 
     public PossibleReversalsToPlay GetPossibleReversals(Card oponentCard, int fortitude)

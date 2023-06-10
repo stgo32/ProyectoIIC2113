@@ -3,23 +3,23 @@ namespace RawDeal.DeckHandler;
 
 public class PossibleCardsToPlay : CardSet
 {
-    public PossibleCardsToPlay Get(int fortitude, Hand hand)
+    public PossibleCardsToPlay Get(Player player)
     {
         Clear();
-        foreach (Card card in hand.Cards)
+        foreach (Card card in player.Hand.Cards)
         {
             foreach (string type in card.Types)
             {
                 Card cardToAdd = card.PlayCardAs(type);
-                AddCardInCaseIsPossible(cardToAdd, fortitude);
+                AddCardInCaseIsPossible(cardToAdd, player);
             }
         }
         return this;
     }
 
-    private void AddCardInCaseIsPossible(Card card, int fortitude)
+    private void AddCardInCaseIsPossible(Card card, Player player)
     {
-        if (card.IsPossibleToPlay(fortitude))
+        if (card.IsPossibleToPlay(player))
         {
             AddCard(card);
         }

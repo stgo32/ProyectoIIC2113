@@ -6,9 +6,9 @@ public class DoesNotRequireFortitudeWhenPlayedAsAction : Precondition
 {
     public DoesNotRequireFortitudeWhenPlayedAsAction(Card card) : base(card) { }
 
-    public override bool IsPossibleToPlay(int fortitude)
+    public override bool IsPossibleToPlay(Player player)
     {
-        return fortitudePrecodition(fortitude) && PlayAsPrecondition();
+        return fortitudePrecodition(player.Fortitude) && PlayAsPrecondition();
     }
 
     protected override bool fortitudePrecodition(int fortitude)

@@ -13,7 +13,7 @@ public abstract class Precondition
         _card = card;
     }
 
-    public abstract bool IsPossibleToPlay(int fortitude);
+    public abstract bool IsPossibleToPlay(Player player);
 
     protected virtual bool fortitudePrecodition(int fortitude)
     {

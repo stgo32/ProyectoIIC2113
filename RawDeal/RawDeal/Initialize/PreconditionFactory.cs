@@ -11,11 +11,15 @@ public static class PreconditionFactory
         Precondition precondition;
         if (card.Title == "Undertaker's Tombstone Piledriver")
         {
-            return new DoesNotRequireFortitudeWhenPlayedAsAction(card);
+            precondition = new DoesNotRequireFortitudeWhenPlayedAsAction(card);
+        }
+        else if (card.Title == "Spit At Opponent")
+        {
+            precondition = new NeedsSomeNumberOfCardsInHand(2, card);
         }
         else
         {
-            return new StandardPrecondition(card);
+            precondition = new StandardPrecondition(card);
         }
         return precondition;
     }

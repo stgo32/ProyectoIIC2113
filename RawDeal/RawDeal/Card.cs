@@ -71,7 +71,7 @@ public class Card : IViewableCardInfo
         return stunValue;
     }
 
-    public bool IsPossibleToPlay(int fortitude)
+    public bool IsPossibleToPlay(Player player)
     {
         bool isPossible = false;
         // if (
@@ -82,7 +82,7 @@ public class Card : IViewableCardInfo
         //     isPossible = true;
         // }
         Precondition precondition = PreconditionFactory.GetPrecondition(this);
-        isPossible = precondition.IsPossibleToPlay(fortitude);
+        isPossible = precondition.IsPossibleToPlay(player);
         return isPossible;
     }
 

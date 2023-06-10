@@ -81,24 +81,24 @@ public static class EffectFactory
         }
         else if (card.Title == "Double Leg Takedown")
         {
-            effect = new DrawCards(1, PlayerTarget.Self, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Self, true, cardId, player);
         }
         else if (card.Title == "Reverse DDT")
         {
-            effect = new DrawCards(1, PlayerTarget.Self, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Self, true, cardId, player);
         }
         else if (card.Title == "Headlock Takedown")
         {
-            effect = new DrawCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Oponent, false, cardId, player);
         }
         else if (card.Title == "Standing Side Headlock")
         {
-            effect = new DrawCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Oponent, false, cardId, player);
         }
         else if (card.Title == "Offer Handshake")
         {
             Effect[] effects = {
-                new DrawCards(3, PlayerTarget.Self, cardId, player),
+                new DrawCards(3, PlayerTarget.Self, true, cardId, player),
                 new DiscardCards(1, PlayerTarget.Self, cardId, player)
             };
             effect = new MultipleEffects(effects, cardId, player);
@@ -115,7 +115,7 @@ public static class EffectFactory
         {
             Effect[] effects = {
                 new ColateralDamage(cardId, player),
-                new DrawCards(1, PlayerTarget.Self, cardId, player)
+                new DrawCards(1, PlayerTarget.Self, true, cardId, player)
             };
             effect = new MultipleEffects(effects, cardId, player);
         }
@@ -131,7 +131,7 @@ public static class EffectFactory
         {
             Effect[] effects = {
                 new DiscardCards(1, PlayerTarget.Oponent, cardId, player),
-                new DrawCards(1, PlayerTarget.Self, cardId, player)
+                new DrawCards(1, PlayerTarget.Self, true, cardId, player)
             };
             effect = new MultipleEffects(effects, cardId, player);
         }
@@ -140,6 +140,26 @@ public static class EffectFactory
             Effect[] effects = {
                 new DiscardCards(1, PlayerTarget.Self, cardId, player),
                 new DiscardCards(4, PlayerTarget.Oponent, cardId, player),
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Chicken Wing")
+        {
+            effect = new RecoverCards(2, cardId, player);
+        }
+        else if (card.Title == "Puppies! Puppies!")
+        {
+            Effect[] effects = {
+                new RecoverCards(5, cardId, player),
+                new DrawCards(2, PlayerTarget.Self, false, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Recovery")
+        {
+            Effect[] effects = {
+                new RecoverCards(2, cardId, player),
+                new DrawCards(1, PlayerTarget.Self, false, cardId, player)
             };
             effect = new MultipleEffects(effects, cardId, player);
         }
