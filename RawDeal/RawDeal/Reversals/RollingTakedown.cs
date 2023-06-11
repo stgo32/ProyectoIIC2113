@@ -24,10 +24,7 @@ public class RollingTakedown : Reversal
     private bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
-        // if (oponent.NextGrappleIsPlus4D)
-        // {
-        //     damage += 4;
-        // }
+        damage += oponent.DamageBonusForRestOfTurn;
         damage += oponent.NextSubtypeIsPlusD;
         if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {

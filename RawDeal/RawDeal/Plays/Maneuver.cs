@@ -37,14 +37,11 @@ public class Maneuver : Play
     private int HandleDamage()
     {
         int damage = Card.GetDamage();
-        // if (Player.NextGrappleIsPlus4D && Card.ContainsSubtype("Grapple"))
-        // {
-        //     damage += 4;
-        // }
         if (Card.ContainsSubtype(Player.NextSubtypeDoesSomeEffect.ToString()))
         {
             damage += Player.NextSubtypeIsPlusD;
         }
+        damage += Player.DamageBonusForRestOfTurn;
         damage = Player.HandleDamage(damage);
         Player.PlayedAManeuverLast = true;
         Player.LastDamageInflicted = damage;

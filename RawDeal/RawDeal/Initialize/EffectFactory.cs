@@ -182,6 +182,18 @@ public static class EffectFactory
         {
             effect = new NextSubtypePlayedIsPlusDamage(card.Title, Subtype.Strike, 5, player);
         }
+        else if (card.Title == "I Am the Game")
+        {
+            Effect[] effects = {
+                new DamageBonusForRestOfTurn(3, player),
+                new ChooseBetweenDrawOrForcingOpponentToDiscard(2, false, player)
+            };
+            effect = new MultipleEffects(effects, player);
+        }
+        else if (card.Title == "Back Body Drop")
+        {
+            effect = new ChooseBetweenDrawOrForcingOpponentToDiscard(2, true, player);
+        }
         else if (card.Title == "Y2J")
         {
             effect = new ChooseBetweenDrawOrForcingOpponentToDiscard(5, true, player);
