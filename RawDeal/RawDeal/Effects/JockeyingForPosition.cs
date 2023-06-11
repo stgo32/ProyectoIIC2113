@@ -1,8 +1,9 @@
 namespace RawDeal.Effects;
 
 
-// using RawDeal;
 using RawDealView.Options;
+using RawDeal.Initialize;
+using RawDeal.Effects;
 
 
 public class JockeyingForPosition : Effect
@@ -16,25 +17,19 @@ public class JockeyingForPosition : Effect
         SelectedEffect selectedEffect = Formatter.View.AskUserToSelectAnEffectForJockeyForPosition(
             _player.Superstar.Name
         );
+        Effect effect = new NoEffect(_player);
         if (selectedEffect == SelectedEffect.NextGrappleIsPlus4D)
         {
-            NextGrappleIsPlus4D();
+            effect = new NextSubtypePlayedIsPlusDamage(
+                "Jockeying for Position", Subtype.Grapple, 4, _player
+            );
         }
         else if (selectedEffect == SelectedEffect.NextGrapplesReversalIsPlus8F)
         {
-            NextGrapplesReversalIsPlus8F();
+            effect = new NextSubtypeReversalIsPlusFortitude(
+                "Jockeying for Position", Subtype.Grapple, 8, _player
+            );
         }
-        _player.NextSubtypeDoesSomeEffect = Subtype.Grapple;
-        _player.LastCardPlayed = "Jockeying for Position";
-    }
-
-    private void NextGrappleIsPlus4D()
-    {
-        _player.NextSubtypeIsPlusD = 4;
-    }
-
-    private void NextGrapplesReversalIsPlus8F()
-    {
-        _player.NextSubtypeReversalIsPlusF = 8;
+        effect.Resolve();
     }
 }

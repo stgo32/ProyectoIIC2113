@@ -42,24 +42,6 @@ public class Player
         set { _hasReversedACard = value; }
     }
 
-    // private bool _nextGrappleIsPlus4D = false;
-    // public bool NextGrappleIsPlus4D {
-    //     get { return _nextGrappleIsPlus4D; }
-    //     set { _nextGrappleIsPlus4D = value; }
-    // }
-
-    // private bool _nextGrapplesReversalIsPlus8F = false;
-    // public bool NextGrapplesReversalIsPlus8F {
-    //     get { return _nextGrapplesReversalIsPlus8F; }
-    //     set { _nextGrapplesReversalIsPlus8F = value; }
-    // }
-
-    // private bool _playedJockeyingForPositionLast = false;
-    // public bool PlayedJockeyingForPositionLast {
-    //     get { return _playedJockeyingForPositionLast; }
-    //     set { _playedJockeyingForPositionLast = value; }
-    // }
-
     private bool _playedAManeuverLast = false;
     public bool PlayedAManeuverLast {
         get { return _playedAManeuverLast; }
@@ -141,13 +123,6 @@ public class Player
         _hasWon = true;
     }
 
-    // private void ResetJockeyingForPosition()
-    // {
-    //     _nextGrappleIsPlus4D = false;
-    //     _nextGrapplesReversalIsPlus8F = false;
-    //     _playedJockeyingForPositionLast = false;
-    // }
-
     public int SelectCardToPlay()
     {
         PossibleCardsToPlay possibleCards = Deck.GetPossibleCardsToPlay();
@@ -162,15 +137,10 @@ public class Player
     public void PlayCard(int idCardSelected)
     {
         Play = PlayFactory.GetPlay(idCardSelected, this);
-        // if (!Play.Card.ContainsSubtype(_nextSubtypeDoesSomeEffect.ToString()) || !_playedJockeyingForPositionLast)
-        // {
-        //     ResetJockeyingForPosition();
-        // }
         CheckNextSubtypeIs(Play);
         Play.Start();
         if (Play.Card.Title != _lastCardPlayed)
         {
-            // ResetJockeyingForPosition();
             ResetNextSubtypeIs();
         }
     }
@@ -357,7 +327,6 @@ public class Player
 
     public void ResetPlayProgress()
     {
-        // ResetJockeyingForPosition();
         _playedAManeuverLast = false;
         _lastDamageInflicted = 0;
         _nextSubtypeIsPlusD = 0;
@@ -367,10 +336,6 @@ public class Player
 
     public void CheckNextSubtypeIs(Play play)
     {
-        // if (!Play.Card.ContainsSubtype(_nextSubtypeDoesSomeEffect.ToString()) || !_playedJockeyingForPositionLast)
-        // {
-        //     ResetJockeyingForPosition();
-        // }
         Console.WriteLine("Next subtype is " + _nextSubtypeDoesSomeEffect);
         Console.WriteLine("Next subtype is plus D " + _nextSubtypeIsPlusD);
         Console.WriteLine("Next subtype reversal is plus F " + _nextSubtypeReversalIsPlusF);

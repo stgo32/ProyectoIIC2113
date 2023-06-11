@@ -24,10 +24,6 @@ public class KneeToTheGut : Reversal
     private bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
-        // if (oponent.NextGrappleIsPlus4D)
-        // {
-        //     damage += 4;
-        // }
         damage += oponent.NextSubtypeIsPlusD;
         if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
@@ -35,7 +31,7 @@ public class KneeToTheGut : Reversal
         }
         bool damageRestriction = card.ContainsSubtype("Strike") && 
                                  card.PlayAs == PlayAs.Maneuver &&
-                                 card.GetDamage() <= 7;
+                                 damage <= 7;
         return damageRestriction;
     }
     

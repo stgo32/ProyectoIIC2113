@@ -65,6 +65,11 @@ public static class ReversalFactory
             reversal = new JockeyingForPosition(card.Title, card.Types, card.Subtypes, card.Fortitude,
                                                 card.Damage, card.StunValue, card.CardEffect);
         }
+        else if (reversalTitle == "Irish Whip")
+        {
+            reversal = new IrishWhip(card.Title, card.Types, card.Subtypes, card.Fortitude,
+                                     card.Damage, card.StunValue, card.CardEffect);
+        }
         else
         {
             throw new Exception("Reversal not found");

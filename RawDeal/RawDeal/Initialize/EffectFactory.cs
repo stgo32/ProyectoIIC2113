@@ -178,6 +178,10 @@ public static class EffectFactory
         {
             effect = new MayNotBeReversed(player);
         }
+        else if (card.Title == "Irish Whip")
+        {
+            effect = new NextSubtypePlayedIsPlusDamage(card.Title, Subtype.Strike, 5, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)

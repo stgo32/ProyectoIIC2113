@@ -6,9 +6,9 @@ using RawDeal.Initialize;
 using RawDeal.Effects;
 
 
-public class JockeyingForPosition : Reversal
+public class IrishWhip : Reversal
 {
-    public JockeyingForPosition(string title, List<string> types, List<string> subtypes, string fortitude,
+    public IrishWhip(string title, List<string> types, List<string> subtypes, string fortitude,
                       string damage, string stunValue, string cardEffect)
                       : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}

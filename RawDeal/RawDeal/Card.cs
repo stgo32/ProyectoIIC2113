@@ -74,13 +74,6 @@ public class Card : IViewableCardInfo
     public bool IsPossibleToPlay(Player player)
     {
         bool isPossible = false;
-        // if (
-        //     GetFortitude() <= fortitude &&
-        //     (Types.Contains("Action") || Types.Contains("Maneuver"))
-        // )
-        // {
-        //     isPossible = true;
-        // }
         Precondition precondition = PreconditionFactory.GetPrecondition(this);
         isPossible = precondition.IsPossibleToPlay(player);
         return isPossible;

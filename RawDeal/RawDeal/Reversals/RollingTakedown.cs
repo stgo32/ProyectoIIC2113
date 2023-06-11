@@ -41,10 +41,6 @@ public class RollingTakedown : Reversal
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
-        // if (play.Player.NextGrappleIsPlus4D)
-        // {
-        //     damage += 4;
-        // }
         damage += play.Player.NextSubtypeIsPlusD;
         DeliverDamage(play.Player, damage);
     }

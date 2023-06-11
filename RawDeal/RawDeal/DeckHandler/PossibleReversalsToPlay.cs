@@ -82,11 +82,4 @@ public class PossibleReversalsToPlay : CardSet
         }
         return cardCount;
     }
-
-    // protected bool CheckCantBeReversedEffect()
-    // {
-    //     Effect effect = EffectFactory.GetEffect(_cardId, Player);
-    //     Console.WriteLine("Card" + Card.Title + " cant be reversed: " + effect.CantBeReversed);
-    //     return effect.CantBeReversed;
-    // }
 }
