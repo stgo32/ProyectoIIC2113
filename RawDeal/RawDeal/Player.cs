@@ -60,6 +60,18 @@ public class Player
         set { _playedJockeyingForPositionLast = value; }
     }
 
+    private bool _playedAManeuverLast = false;
+    public bool PlayedAManeuverLast {
+        get { return _playedAManeuverLast; }
+        set { _playedAManeuverLast = value; }
+    }
+
+    int _lastDamageInflicted = 0;
+    public int LastDamageInflicted {
+        get { return _lastDamageInflicted; }
+        set { _lastDamageInflicted = value; }
+    }
+
     private Deck _deck = new Deck();
     public Deck Deck { 
         get { return _deck; }
@@ -105,7 +117,7 @@ public class Player
         _hasWon = true;
     }
 
-    public void ResetJockeyingForPosition()
+    private void ResetJockeyingForPosition()
     {
         _nextGrappleIsPlus4D = false;
         _nextGrapplesReversalIsPlus8F = false;
@@ -315,5 +327,12 @@ public class Player
             );
             DrawCards(howManyWillDraw);
         }
+    }
+
+    public void ResetPlayProgress()
+    {
+        ResetJockeyingForPosition();
+        _playedAManeuverLast = false;
+        _lastDamageInflicted = 0;
     }
 }

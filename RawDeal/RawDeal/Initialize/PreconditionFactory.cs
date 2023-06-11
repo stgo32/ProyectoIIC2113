@@ -17,6 +17,10 @@ public static class PreconditionFactory
         {
             precondition = new NeedsSomeNumberOfCardsInHand(2, card);
         }
+        else if (card.Title == "Lionsault")
+        {
+            precondition = new NeedsSomeDamageInflictedBefore(4, card);
+        }
         else
         {
             precondition = new StandardPrecondition(card);

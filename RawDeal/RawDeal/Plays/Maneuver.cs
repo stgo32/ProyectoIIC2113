@@ -42,6 +42,8 @@ public class Maneuver : Play
             damage += 4;
         }
         damage = Player.HandleDamage(damage);
+        Player.PlayedAManeuverLast = true;
+        Player.LastDamageInflicted = damage;
         return damage;
     }
 

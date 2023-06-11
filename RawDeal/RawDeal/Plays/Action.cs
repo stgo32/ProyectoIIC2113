@@ -12,6 +12,7 @@ public class Action : Play
     {
         base.SuccessfullyPlayed();
         UseEffect();
+        Player.PlayedAManeuverLast = false;
     }
 
     protected override void UseEffect()
