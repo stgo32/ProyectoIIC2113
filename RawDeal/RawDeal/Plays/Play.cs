@@ -2,6 +2,8 @@ namespace RawDeal.Plays;
 
 
 using RawDeal.Reversals;
+using RawDeal.Initialize;
+using RawDeal.Effects;
 
 
 public abstract class Play
@@ -15,11 +17,14 @@ public abstract class Play
     private Player _player;
     public Player Player { get { return _player; } set { _player = value; } }
 
+    protected bool _mayNotBeReversedEffect = false;
+
     public Play(int cardId, Player player)
     {
         _cardId = cardId;
         Card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
         Player = player;
+        _mayNotBeReversedEffect = CheckMayNotBeReversedEffect();
     }
 
     public void Start()
@@ -41,11 +46,14 @@ public abstract class Play
     {
         Player reversingPlayer = Player.Oponent;
         bool willBeReversed = false;
-        int reversalSelectedId = SelectReversal(reversingPlayer);
-        if (Player.Oponent.WantsToReverseACard)
+        if (!_mayNotBeReversedEffect)
         {
-            ReverseFromHand(reversalSelectedId, reversingPlayer);
-            willBeReversed = true;
+            int reversalSelectedId = SelectReversal(reversingPlayer);
+            if (Player.Oponent.WantsToReverseACard)
+            {
+                ReverseFromHand(reversalSelectedId, reversingPlayer);
+                willBeReversed = true;
+            }
         }
         return willBeReversed;
     }
@@ -65,5 +73,11 @@ public abstract class Play
     {
         Reversal reversal = reversingPlayer.Deck.GetReversalById(reversalSelectedId);
         reversal.ReverseFromHand(this);
+    }
+
+    protected bool CheckMayNotBeReversedEffect()
+    {
+        Effect effect = EffectFactory.GetEffect(_cardId, Player);
+        return effect.CantBeReversed;
     }
 }

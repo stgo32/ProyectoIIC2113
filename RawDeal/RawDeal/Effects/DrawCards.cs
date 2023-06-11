@@ -4,9 +4,12 @@ namespace RawDeal.Effects;
 public class DrawCards : Effect
 {
     private int _quantity;
+    
     private PlayerTarget _target;
 
     private bool _mayChooseHowMany;
+
+    public override bool CantBeReversed { get { return false; } }
 
     public DrawCards(int quantity, PlayerTarget target, bool mayChooseHowMany, int cardId, Player player) 
                      : base(cardId, player) 

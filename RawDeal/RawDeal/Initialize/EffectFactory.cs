@@ -163,6 +163,22 @@ public static class EffectFactory
             };
             effect = new MultipleEffects(effects, cardId, player);
         }
+        else if (card.Title == "Lionsault")
+        {
+            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+        }
+        else if (card.Title == "Tree of Woe")
+        {
+            Effect[] effects = {
+                new MayNotBeReversed(cardId, player),
+                new DiscardCards(2, PlayerTarget.Oponent, cardId, player)
+            };
+            effect = new MultipleEffects(effects, cardId, player);
+        }
+        else if (card.Title == "Austin Elbow Smash")
+        {
+            effect = new MayNotBeReversed(cardId, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)

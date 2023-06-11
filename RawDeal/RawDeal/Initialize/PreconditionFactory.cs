@@ -21,6 +21,10 @@ public static class PreconditionFactory
         {
             precondition = new NeedsSomeDamageInflictedBefore(4, card);
         }
+        else if (card.Title == "Austin Elbow Smash")
+        {
+            precondition = new NeedsSomeDamageInflictedBefore(5, card);
+        }
         else
         {
             precondition = new StandardPrecondition(card);

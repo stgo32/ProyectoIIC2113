@@ -4,7 +4,10 @@ namespace RawDeal.Effects;
 public class ColateralDamage : Effect
 {
     private int _quantity;
+    
     private PlayerTarget _target;
+
+    public override bool CantBeReversed { get { return false; } }
 
     public ColateralDamage(int cardId, Player player) : base(cardId, player) { }
 

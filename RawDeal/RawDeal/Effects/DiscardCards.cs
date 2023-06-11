@@ -4,7 +4,10 @@ namespace RawDeal.Effects;
 public class DiscardCards : Effect
 {
     private int _quantity;
+
     private PlayerTarget _target;
+    
+    public override bool CantBeReversed { get { return false; } }
 
     public DiscardCards(int quantity, PlayerTarget target, int cardId, Player player) 
                         : base(cardId, player) 

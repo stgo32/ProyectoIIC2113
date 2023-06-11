@@ -7,6 +7,8 @@ public abstract class Effect
 
     protected Player _player;
 
+    public abstract bool CantBeReversed { get; }
+
     public Effect(int cardId, Player player)
     {
         _cardId = cardId;

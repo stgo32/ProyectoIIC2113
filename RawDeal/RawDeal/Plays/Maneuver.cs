@@ -80,11 +80,10 @@ public class Maneuver : Play
     private bool CanBeReversedByDeck(Card cardOvertuned)
     {   
         bool canBeReversed = false;
-        if (cardOvertuned.Types.Contains("Reversal"))
+        if (!_mayNotBeReversedEffect && cardOvertuned.Types.Contains("Reversal"))
         {
             Reversal reversal;
             try {
-                // reversal = Initializer.InitReversalByTitle(cardOvertuned);
                 reversal = ReversalFactory.GetReversal(cardOvertuned);
             } catch (Exception e) {
                 return canBeReversed;

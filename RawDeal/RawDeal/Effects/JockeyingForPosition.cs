@@ -7,6 +7,8 @@ using RawDealView.Options;
 
 public class JockeyingForPosition : Effect
 {
+    public override bool CantBeReversed { get { return false; } }
+    
     public JockeyingForPosition(int cardId, Player player) : base(cardId, player) { }
 
     public override void Resolve()
