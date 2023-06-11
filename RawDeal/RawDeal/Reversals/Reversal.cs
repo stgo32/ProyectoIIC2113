@@ -16,13 +16,15 @@ public abstract class Reversal : Card
 
     public abstract bool CanReverse(Card card, int fortitude, Player oponent);
 
-    protected bool CalculateFortitudeRestriction(int oponentFortitude, bool nextGrapplesReversalIsPlus8F)
+    protected bool CalculateFortitudeRestriction(int oponentFortitude, 
+                                                 int NextSubtypeReversalIsPlusF)
     {
         int fortitude = GetFortitude();
-        if (nextGrapplesReversalIsPlus8F)
-        {
-            fortitude += 8; 
-        }
+        // if (nextGrapplesReversalIsPlus8F)
+        // {
+        //     fortitude += 8; 
+        // }
+        fortitude += NextSubtypeReversalIsPlusF;
         return fortitude <= oponentFortitude;
     }
 

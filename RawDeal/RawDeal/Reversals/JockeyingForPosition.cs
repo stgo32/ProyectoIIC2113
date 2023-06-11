@@ -2,7 +2,6 @@ namespace RawDeal.Reversals;
 
 
 using RawDeal.Plays;
-using RawDealView.Options;
 using RawDeal.Initialize;
 using RawDeal.Effects;
 
@@ -16,7 +15,10 @@ public class JockeyingForPosition : Reversal
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
-        bool fortitudeRestriction = CalculateFortitudeRestriction(fortitude, oponent.NextGrapplesReversalIsPlus8F);
+        bool fortitudeRestriction = CalculateFortitudeRestriction(
+            fortitude,
+            oponent.NextSubtypeReversalIsPlusF
+        );
         bool reversalRestriction = card.PlayAs == PlayAs.Action
                                    && card.Title == "Jockeying for Position";
         return fortitudeRestriction && reversalRestriction;
@@ -24,7 +26,7 @@ public class JockeyingForPosition : Reversal
 
     protected override void UseReversalEffect(Play play)
     {
-        Effect effect = EffectFactory.GetEffect(this, 0, play.Player.Oponent);
+        Effect effect = EffectFactory.GetEffect(this, -1, play.Player.Oponent);
         effect.Resolve();
     }
 

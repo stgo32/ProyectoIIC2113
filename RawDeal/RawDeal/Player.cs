@@ -42,23 +42,23 @@ public class Player
         set { _hasReversedACard = value; }
     }
 
-    private bool _nextGrappleIsPlus4D = false;
-    public bool NextGrappleIsPlus4D {
-        get { return _nextGrappleIsPlus4D; }
-        set { _nextGrappleIsPlus4D = value; }
-    }
+    // private bool _nextGrappleIsPlus4D = false;
+    // public bool NextGrappleIsPlus4D {
+    //     get { return _nextGrappleIsPlus4D; }
+    //     set { _nextGrappleIsPlus4D = value; }
+    // }
 
-    private bool _nextGrapplesReversalIsPlus8F = false;
-    public bool NextGrapplesReversalIsPlus8F {
-        get { return _nextGrapplesReversalIsPlus8F; }
-        set { _nextGrapplesReversalIsPlus8F = value; }
-    }
+    // private bool _nextGrapplesReversalIsPlus8F = false;
+    // public bool NextGrapplesReversalIsPlus8F {
+    //     get { return _nextGrapplesReversalIsPlus8F; }
+    //     set { _nextGrapplesReversalIsPlus8F = value; }
+    // }
 
-    private bool _playedJockeyingForPositionLast = false;
-    public bool PlayedJockeyingForPositionLast {
-        get { return _playedJockeyingForPositionLast; }
-        set { _playedJockeyingForPositionLast = value; }
-    }
+    // private bool _playedJockeyingForPositionLast = false;
+    // public bool PlayedJockeyingForPositionLast {
+    //     get { return _playedJockeyingForPositionLast; }
+    //     set { _playedJockeyingForPositionLast = value; }
+    // }
 
     private bool _playedAManeuverLast = false;
     public bool PlayedAManeuverLast {
@@ -70,6 +70,30 @@ public class Player
     public int LastDamageInflicted {
         get { return _lastDamageInflicted; }
         set { _lastDamageInflicted = value; }
+    }
+
+    private int _nextSubtypeIsPlusD = 0;
+    public int NextSubtypeIsPlusD {
+        get { return _nextSubtypeIsPlusD; }
+        set { _nextSubtypeIsPlusD = value; }
+    }
+
+    private int _nextSubtypeReversalIsPlusF = 0;
+    public int NextSubtypeReversalIsPlusF {
+        get { return _nextSubtypeReversalIsPlusF; }
+        set { _nextSubtypeReversalIsPlusF = value; }
+    }
+
+    private Subtype _nextSubtypeDoesSomeEffect = Subtype.None;
+    public Subtype NextSubtypeDoesSomeEffect {
+        get { return _nextSubtypeDoesSomeEffect; }
+        set { _nextSubtypeDoesSomeEffect = value; }
+    }
+
+    private string _lastCardPlayed = "";
+    public string LastCardPlayed {
+        get { return _lastCardPlayed; }
+        set { _lastCardPlayed = value; }
     }
 
     private Deck _deck = new Deck();
@@ -117,12 +141,12 @@ public class Player
         _hasWon = true;
     }
 
-    private void ResetJockeyingForPosition()
-    {
-        _nextGrappleIsPlus4D = false;
-        _nextGrapplesReversalIsPlus8F = false;
-        _playedJockeyingForPositionLast = false;
-    }
+    // private void ResetJockeyingForPosition()
+    // {
+    //     _nextGrappleIsPlus4D = false;
+    //     _nextGrapplesReversalIsPlus8F = false;
+    //     _playedJockeyingForPositionLast = false;
+    // }
 
     public int SelectCardToPlay()
     {
@@ -138,14 +162,16 @@ public class Player
     public void PlayCard(int idCardSelected)
     {
         Play = PlayFactory.GetPlay(idCardSelected, this);
-        if (!Play.Card.ContainsSubtype("Grapple") || !_playedJockeyingForPositionLast)
-        {
-            ResetJockeyingForPosition();
-        }
+        // if (!Play.Card.ContainsSubtype(_nextSubtypeDoesSomeEffect.ToString()) || !_playedJockeyingForPositionLast)
+        // {
+        //     ResetJockeyingForPosition();
+        // }
+        CheckNextSubtypeIs(Play);
         Play.Start();
-        if (Play.Card.Title != "Jockeying for Position" && _playedJockeyingForPositionLast)
+        if (Play.Card.Title != _lastCardPlayed)
         {
-            ResetJockeyingForPosition();
+            // ResetJockeyingForPosition();
+            ResetNextSubtypeIs();
         }
     }
 
@@ -331,8 +357,35 @@ public class Player
 
     public void ResetPlayProgress()
     {
-        ResetJockeyingForPosition();
+        // ResetJockeyingForPosition();
         _playedAManeuverLast = false;
         _lastDamageInflicted = 0;
+        _nextSubtypeIsPlusD = 0;
+        _nextSubtypeReversalIsPlusF = 0;
+        _nextSubtypeDoesSomeEffect = Subtype.None;
+    }
+
+    public void CheckNextSubtypeIs(Play play)
+    {
+        // if (!Play.Card.ContainsSubtype(_nextSubtypeDoesSomeEffect.ToString()) || !_playedJockeyingForPositionLast)
+        // {
+        //     ResetJockeyingForPosition();
+        // }
+        Console.WriteLine("Next subtype is " + _nextSubtypeDoesSomeEffect);
+        Console.WriteLine("Next subtype is plus D " + _nextSubtypeIsPlusD);
+        Console.WriteLine("Next subtype reversal is plus F " + _nextSubtypeReversalIsPlusF);
+        if (!play.Card.Subtypes.Contains(_nextSubtypeDoesSomeEffect.ToString()))
+        {
+            ResetNextSubtypeIs();
+        }
+        Console.WriteLine("Next subtype is plus D " + _nextSubtypeIsPlusD);
+        Console.WriteLine("Next subtype reversal is plus F " + _nextSubtypeReversalIsPlusF);
+    }
+
+    private void ResetNextSubtypeIs()
+    {
+        _nextSubtypeIsPlusD = 0;
+        _nextSubtypeReversalIsPlusF = 0;
+        _nextSubtypeDoesSomeEffect = Subtype.None;
     }
 }

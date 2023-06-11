@@ -24,16 +24,17 @@ public class JockeyingForPosition : Effect
         {
             NextGrapplesReversalIsPlus8F();
         }
-        _player.PlayedJockeyingForPositionLast = true;
+        _player.NextSubtypeDoesSomeEffect = Subtype.Grapple;
+        _player.LastCardPlayed = "Jockeying for Position";
     }
 
     private void NextGrappleIsPlus4D()
     {
-        _player.NextGrappleIsPlus4D = true;
+        _player.NextSubtypeIsPlusD = 4;
     }
 
     private void NextGrapplesReversalIsPlus8F()
     {
-        _player.NextGrapplesReversalIsPlus8F = true;
+        _player.NextSubtypeReversalIsPlusF = 8;
     }
 }

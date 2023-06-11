@@ -15,7 +15,7 @@ public class BreakTheHole : Reversal
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(
             fortitude,
-            oponent.NextGrapplesReversalIsPlus8F
+            oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.ContainsSubtype("Submission") && 
                                    card.PlayAs == PlayAs.Maneuver;

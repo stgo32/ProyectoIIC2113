@@ -15,7 +15,7 @@ public class EscapeMove : Reversal
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(
             fortitude,
-            oponent.NextGrapplesReversalIsPlus8F
+            oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.ContainsSubtype("Grapple") && 
                                    card.PlayAs == PlayAs.Maneuver;

@@ -9,7 +9,6 @@ public static class EffectFactory
 {
     public static Effect GetEffect(Card card, int cardId, Player player)
     {
-        // Card card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
         Effect effect;
         if (card.Title == "Jockeying for Position")
         {

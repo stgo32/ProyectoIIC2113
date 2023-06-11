@@ -15,7 +15,7 @@ public class NoChanceInHell : Reversal
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(
             fortitude,
-            oponent.NextGrapplesReversalIsPlus8F
+            oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.PlayAs == PlayAs.Action;
         return fortitudeRestriction && reversalRestriction;

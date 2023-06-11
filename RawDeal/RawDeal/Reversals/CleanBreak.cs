@@ -15,7 +15,7 @@ public class CleanBreak : Reversal
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(
             fortitude,
-            oponent.NextGrapplesReversalIsPlus8F
+            oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.PlayAs == PlayAs.Action && 
                                                   card.Title == "Jockeying for Position";

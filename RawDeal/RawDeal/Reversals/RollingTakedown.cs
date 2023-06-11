@@ -15,7 +15,7 @@ public class RollingTakedown : Reversal
     {
         bool fortitudeRestriction = CalculateFortitudeRestriction(
             fortitude,
-            oponent.NextGrapplesReversalIsPlus8F
+            oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = CalculateDamageRestriction(card, oponent);
         return fortitudeRestriction && reversalRestriction;
@@ -24,10 +24,11 @@ public class RollingTakedown : Reversal
     private bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
-        if (oponent.NextGrappleIsPlus4D)
-        {
-            damage += 4;
-        }
+        // if (oponent.NextGrappleIsPlus4D)
+        // {
+        //     damage += 4;
+        // }
+        damage += oponent.NextSubtypeIsPlusD;
         if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
@@ -40,10 +41,11 @@ public class RollingTakedown : Reversal
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
-        if (play.Player.NextGrappleIsPlus4D)
-        {
-            damage += 4;
-        }
+        // if (play.Player.NextGrappleIsPlus4D)
+        // {
+        //     damage += 4;
+        // }
+        damage += play.Player.NextSubtypeIsPlusD;
         DeliverDamage(play.Player, damage);
     }
 
