@@ -17,7 +17,7 @@ public class Action : Play
 
     protected override void UseEffect()
     {
-        Effect effect = EffectFactory.GetEffect(_cardId, Player);
+        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
         if (effect.GetType().Name != "StandardActionEffect")
         {
             Card card = Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);

@@ -7,177 +7,177 @@ using RawDeal.Plays;
 
 public static class EffectFactory
 {
-    public static Effect GetEffect(int cardId, Player player)
+    public static Effect GetEffect(Card card, int cardId, Player player)
     {
-        Card card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
+        // Card card = player.Deck.GetPossibleCardsToPlay().GetCard(cardId);
         Effect effect;
         if (card.Title == "Jockeying for Position")
         {
-            effect = new JockeyingForPosition(cardId, player);
+            effect = new JockeyingForPosition(player);
         }
         else if (card.Title == "Head Butt")
         {
-            effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Self, player);
         }
         else if (card.Title == "Arm Drag")
         {
-            effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Self, player);
         }
         else if (card.Title == "Arm Bar")
         {
-            effect = new DiscardCards(1, PlayerTarget.Self, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Self, player);
         }
         else if (card.Title == "Bear Hug")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Choke Hold")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Ankle Lock")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Spinning Heel Kick")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Pump Handle Slam")
         {
-            effect = new DiscardCards(2, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(2, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Samoan Drop")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Power Slam")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Boston Crab")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Torture Rack")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Figure Four Leg Lock")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Bulldog")
         {
-            effect = new DiscardCards(1, PlayerTarget.Both, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Both, player);
         }
         else if (card.Title == "Kick")
         {
-            effect = new ColateralDamage(cardId, player);
+            effect = new ColateralDamage(player);
         }
         else if (card.Title == "Running Elbow Smash")
         {
-            effect = new ColateralDamage(cardId, player);
+            effect = new ColateralDamage(player);
         }
         else if (card.Title == "Double Leg Takedown")
         {
-            effect = new DrawCards(1, PlayerTarget.Self, true, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Self, true, player);
         }
         else if (card.Title == "Reverse DDT")
         {
-            effect = new DrawCards(1, PlayerTarget.Self, true, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Self, true, player);
         }
         else if (card.Title == "Headlock Takedown")
         {
-            effect = new DrawCards(1, PlayerTarget.Oponent, false, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Oponent, false, player);
         }
         else if (card.Title == "Standing Side Headlock")
         {
-            effect = new DrawCards(1, PlayerTarget.Oponent, false, cardId, player);
+            effect = new DrawCards(1, PlayerTarget.Oponent, false, player);
         }
         else if (card.Title == "Offer Handshake")
         {
             Effect[] effects = {
-                new DrawCards(3, PlayerTarget.Self, true, cardId, player),
-                new DiscardCards(1, PlayerTarget.Self, cardId, player)
+                new DrawCards(3, PlayerTarget.Self, true, player),
+                new DiscardCards(1, PlayerTarget.Self, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Press Slam")
         {
             Effect[] effects = {
-                new ColateralDamage(cardId, player),
-                new DiscardCards(2, PlayerTarget.Oponent, cardId, player)
+                new ColateralDamage(player),
+                new DiscardCards(2, PlayerTarget.Oponent, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Fisherman's Suplex")
         {
             Effect[] effects = {
-                new ColateralDamage(cardId, player),
-                new DrawCards(1, PlayerTarget.Self, true, cardId, player)
+                new ColateralDamage(player),
+                new DrawCards(1, PlayerTarget.Self, true, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "DDT")
         {
             Effect[] effects = {
-                new ColateralDamage(cardId, player),
-                new DiscardCards(2, PlayerTarget.Oponent, cardId, player)
+                new ColateralDamage(player),
+                new DiscardCards(2, PlayerTarget.Oponent, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Guillotine Stretch")
         {
             Effect[] effects = {
-                new DiscardCards(1, PlayerTarget.Oponent, cardId, player),
-                new DrawCards(1, PlayerTarget.Self, true, cardId, player)
+                new DiscardCards(1, PlayerTarget.Oponent, player),
+                new DrawCards(1, PlayerTarget.Self, true, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Spit At Opponent")
         {
             Effect[] effects = {
-                new DiscardCards(1, PlayerTarget.Self, cardId, player),
-                new DiscardCards(4, PlayerTarget.Oponent, cardId, player),
+                new DiscardCards(1, PlayerTarget.Self, player),
+                new DiscardCards(4, PlayerTarget.Oponent, player),
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Chicken Wing")
         {
-            effect = new RecoverCards(2, cardId, player);
+            effect = new RecoverCards(2, player);
         }
         else if (card.Title == "Puppies! Puppies!")
         {
             Effect[] effects = {
-                new RecoverCards(5, cardId, player),
-                new DrawCards(2, PlayerTarget.Self, false, cardId, player)
+                new RecoverCards(5, player),
+                new DrawCards(2, PlayerTarget.Self, false, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Recovery")
         {
             Effect[] effects = {
-                new RecoverCards(2, cardId, player),
-                new DrawCards(1, PlayerTarget.Self, false, cardId, player)
+                new RecoverCards(2, player),
+                new DrawCards(1, PlayerTarget.Self, false, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Lionsault")
         {
-            effect = new DiscardCards(1, PlayerTarget.Oponent, cardId, player);
+            effect = new DiscardCards(1, PlayerTarget.Oponent, player);
         }
         else if (card.Title == "Tree of Woe")
         {
             Effect[] effects = {
-                new MayNotBeReversed(cardId, player),
-                new DiscardCards(2, PlayerTarget.Oponent, cardId, player)
+                new MayNotBeReversed(player),
+                new DiscardCards(2, PlayerTarget.Oponent, player)
             };
-            effect = new MultipleEffects(effects, cardId, player);
+            effect = new MultipleEffects(effects, player);
         }
         else if (card.Title == "Austin Elbow Smash")
         {
-            effect = new MayNotBeReversed(cardId, player);
+            effect = new MayNotBeReversed(player);
         }
         else
         {
@@ -187,7 +187,7 @@ public static class EffectFactory
             }
             else
             {
-                effect = new NoEffect(cardId, player);
+                effect = new NoEffect(player);
             }
         }
         Console.WriteLine($"Card: {card.Title}");

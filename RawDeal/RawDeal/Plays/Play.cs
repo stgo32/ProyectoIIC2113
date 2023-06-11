@@ -77,7 +77,7 @@ public abstract class Play
 
     protected bool CheckMayNotBeReversedEffect()
     {
-        Effect effect = EffectFactory.GetEffect(_cardId, Player);
+        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
         return effect.CantBeReversed;
     }
 }

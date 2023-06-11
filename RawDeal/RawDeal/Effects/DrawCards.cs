@@ -11,8 +11,8 @@ public class DrawCards : Effect
 
     public override bool CantBeReversed { get { return false; } }
 
-    public DrawCards(int quantity, PlayerTarget target, bool mayChooseHowMany, int cardId, Player player) 
-                     : base(cardId, player) 
+    public DrawCards(int quantity, PlayerTarget target, bool mayChooseHowMany, Player player) 
+                     : base(player) 
     { 
         _quantity = quantity;
         _target = target;

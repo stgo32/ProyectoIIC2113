@@ -9,7 +9,7 @@ public class ColateralDamage : Effect
 
     public override bool CantBeReversed { get { return false; } }
 
-    public ColateralDamage(int cardId, Player player) : base(cardId, player) { }
+    public ColateralDamage(Player player) : base(player) { }
 
     public override void Resolve()
     {

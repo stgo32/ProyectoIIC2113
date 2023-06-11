@@ -3,6 +3,8 @@ namespace RawDeal.Reversals;
 
 using RawDeal.Plays;
 using RawDealView.Options;
+using RawDeal.Initialize;
+using RawDeal.Effects;
 
 
 public class JockeyingForPosition : Reversal
@@ -22,19 +24,8 @@ public class JockeyingForPosition : Reversal
 
     protected override void UseReversalEffect(Play play)
     {
-        Player reversingPlayer = play.Player.Oponent;
-        SelectedEffect selectedEffect = Formatter.View.AskUserToSelectAnEffectForJockeyForPosition(
-            reversingPlayer.Superstar.Name
-        );
-        if (selectedEffect == SelectedEffect.NextGrappleIsPlus4D)
-        {
-            reversingPlayer.NextGrappleIsPlus4D = true;
-        }
-        else if (selectedEffect == SelectedEffect.NextGrapplesReversalIsPlus8F)
-        {
-            reversingPlayer.NextGrapplesReversalIsPlus8F = true;
-        }
-        reversingPlayer.PlayedJockeyingForPositionLast = true;
+        Effect effect = EffectFactory.GetEffect(this, 0, play.Player.Oponent);
+        effect.Resolve();
     }
 
     protected override void ApplyDamage(Play play) { return; }

@@ -9,7 +9,7 @@ public class JockeyingForPosition : Effect
 {
     public override bool CantBeReversed { get { return false; } }
     
-    public JockeyingForPosition(int cardId, Player player) : base(cardId, player) { }
+    public JockeyingForPosition(Player player) : base(player) { }
 
     public override void Resolve()
     {

@@ -29,7 +29,7 @@ public class Maneuver : Play
 
     protected override void UseEffect()
     {
-        Effect effect = EffectFactory.GetEffect(_cardId, Player);
+        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
         Card card = Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
         effect.Resolve();
     }

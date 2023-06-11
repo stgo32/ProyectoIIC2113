@@ -9,8 +9,8 @@ public class DiscardCards : Effect
     
     public override bool CantBeReversed { get { return false; } }
 
-    public DiscardCards(int quantity, PlayerTarget target, int cardId, Player player) 
-                        : base(cardId, player) 
+    public DiscardCards(int quantity, PlayerTarget target, Player player) 
+                        : base(player) 
     { 
         _quantity = quantity;
         _target = target;
