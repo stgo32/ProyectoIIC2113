@@ -182,6 +182,10 @@ public static class EffectFactory
         {
             effect = new NextSubtypePlayedIsPlusDamage(card.Title, Subtype.Strike, 5, player);
         }
+        else if (card.Title == "Y2J")
+        {
+            effect = new ChooseBetweenDrawOrForcingOpponentToDiscard(5, true, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)
