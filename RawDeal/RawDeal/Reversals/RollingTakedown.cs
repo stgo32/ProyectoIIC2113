@@ -39,27 +39,4 @@ public class RollingTakedown : Reversal
         damage += play.Player.NextSubtypeIsPlusD;
         DeliverDamage(play.Player, damage);
     }
-
-    private void DeliverDamage(Player oponent, int damage)
-    {
-        if (damage > 0)
-        {
-            Formatter.View.SayThatSuperstarWillTakeSomeDamage(oponent.Superstar.Name, damage);
-        }
-        for (int i = 0; i < damage; i++)
-        {
-            if (oponent.Arsenal.IsEmpty())
-            {
-                break;
-            }
-            Card cardOverturned = OverTurnCard(oponent, i, damage);
-        }
-    }
-
-    private Card OverTurnCard(Player oponent, int iter, int damage)
-    {
-        Card cardOverTurned = oponent.RecieveDamage();
-        Formatter.PrintCardOverturned(cardOverTurned, iter+1, damage);
-        return cardOverTurned;
-    }
 }

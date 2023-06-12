@@ -7,8 +7,8 @@ using RawDeal.Plays;
 public class Ensugiri : Reversal
 {
     public Ensugiri(string title, List<string> types, List<string> subtypes, string fortitude,
-                      string damage, string stunValue, string cardEffect)
-                      : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
+                    string damage, string stunValue, string cardEffect)
+                    : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
     {}
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
@@ -22,5 +22,9 @@ public class Ensugiri : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void ApplyDamage(Play play) { return; }
+    protected override void ApplyDamage(Play play)
+    {
+        int damage = play.Player.Oponent.HandleDamage(GetDamage());
+        DeliverDamage(play.Player, damage);
+    }
 }

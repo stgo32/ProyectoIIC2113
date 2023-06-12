@@ -60,6 +60,29 @@ public abstract class Reversal : Card
         SetReversalState(playerReversing);
     }
 
+    protected void DeliverDamage(Player oponent, int damage)
+    {
+        if (damage > 0)
+        {
+            Formatter.View.SayThatSuperstarWillTakeSomeDamage(oponent.Superstar.Name, damage);
+        }
+        for (int i = 0; i < damage; i++)
+        {
+            if (oponent.Arsenal.IsEmpty())
+            {
+                break;
+            }
+            Card cardOverturned = OverTurnCard(oponent, i, damage);
+        }
+    }
+
+    protected Card OverTurnCard(Player oponent, int iter, int damage)
+    {
+        Card cardOverTurned = oponent.RecieveDamage();
+        Formatter.PrintCardOverturned(cardOverTurned, iter+1, damage);
+        return cardOverTurned;
+    }
+
     private void SetReversalState(Player player)
     {
         player.HasReversedACard = true;
