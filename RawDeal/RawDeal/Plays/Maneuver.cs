@@ -38,11 +38,18 @@ public class Maneuver : Play
     private int HandleDamage()
     {
         int damage = Card.GetDamage();
+        Console.WriteLine("1. Damage: " + damage);
         if (Card.ContainsSubtype(Player.NextSubtypeDoesSomeEffect.ToString()))
         {
             damage += Player.NextSubtypeIsPlusD;
         }
-        damage += Player.DamageBonusForRestOfTurn;
+        Console.WriteLine("2. Damage: " + damage);
+        if (Card.ContainsSubtype(Player.DamageBonusForRestOfTurnSubtype.ToString()) || 
+            Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
+        {
+            damage += Player.DamageBonusForRestOfTurn;
+        }
+        Console.WriteLine("3. Damage: " + damage);
         damage = Player.HandleDamage(damage);
         Player.PlayedAManeuverLast = true;
         Player.LastDamageInflicted = damage;

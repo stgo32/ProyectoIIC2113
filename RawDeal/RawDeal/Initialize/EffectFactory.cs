@@ -201,7 +201,7 @@ public static class EffectFactory
         else if (card.Title == "I Am the Game")
         {
             Effect[] effects = {
-                new DamageBonusForRestOfTurn(3, player),
+                new DamageBonusForRestOfTurn(3, Subtype.All, player),
                 new ChooseBetweenDrawOrForcingOpponentToDiscard(2, false, player)
             };
             effect = new MultipleEffects(effects, player);
@@ -234,6 +234,14 @@ public static class EffectFactory
         {
             effect = new DiscardToRetrieveSomeNumberOfCards(2, player);
         }
+        else if (card.Title == "Haymaker")
+        {
+            effect = new DamageBonusForRestOfTurn(1, Subtype.Strike, player);
+        }
+        // else if (card.Title == "Superkick")
+        // {
+        //     effect = new NextSubtypePlayedIsPlusDamage(card.Title, Subtype.Strike, 5, player);
+        // }
         else
         {
             if (card.PlayAs == PlayAs.Action)

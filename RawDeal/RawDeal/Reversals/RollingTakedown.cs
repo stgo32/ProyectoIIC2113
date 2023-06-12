@@ -24,8 +24,12 @@ public class RollingTakedown : Reversal
     private bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
-        damage += oponent.DamageBonusForRestOfTurn;
         damage += oponent.NextSubtypeIsPlusD;
+        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype.ToString()) || 
+            oponent.DamageBonusForRestOfTurnSubtype == Subtype.All)
+        {
+            damage += oponent.DamageBonusForRestOfTurn;
+        }
         if (oponent.Oponent.Superstar.CanUseAbilityBeforeTakingDamage)
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
@@ -36,6 +40,11 @@ public class RollingTakedown : Reversal
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
+        if (play.Card.ContainsSubtype(play.Player.DamageBonusForRestOfTurnSubtype.ToString()) || 
+            play.Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
+        {
+            damage += play.Player.DamageBonusForRestOfTurn;
+        }
         damage += play.Player.NextSubtypeIsPlusD;
         DeliverDamage(play.Player, damage);
     }

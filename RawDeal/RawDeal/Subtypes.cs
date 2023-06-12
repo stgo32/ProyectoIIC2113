@@ -4,5 +4,6 @@ public enum Subtype
 {
     Grapple,
     Strike,
-    None
+    None,
+    All
 }

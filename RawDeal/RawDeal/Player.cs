@@ -72,6 +72,12 @@ public class Player
         set { _damageBonusForRestOfTurn = value; }
     }
 
+    private Subtype _damageBonusForRestOfTurnSubtype = Subtype.None;
+    public Subtype DamageBonusForRestOfTurnSubtype {
+        get { return _damageBonusForRestOfTurnSubtype; }
+        set { _damageBonusForRestOfTurnSubtype = value; }
+    }
+
     private Subtype _nextSubtypeDoesSomeEffect = Subtype.None;
     public Subtype NextSubtypeDoesSomeEffect {
         get { return _nextSubtypeDoesSomeEffect; }
@@ -348,6 +354,7 @@ public class Player
         _nextSubtypeReversalIsPlusF = 0;
         _nextSubtypeDoesSomeEffect = Subtype.None;
         _damageBonusForRestOfTurn = 0;
+        _damageBonusForRestOfTurnSubtype = Subtype.None;
         _lastCardPlayed = "";
     }
 
