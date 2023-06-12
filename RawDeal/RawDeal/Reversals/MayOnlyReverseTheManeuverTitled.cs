@@ -4,12 +4,17 @@ namespace RawDeal.Reversals;
 using RawDeal.Plays;
 
 
-public class Ensugiri : Reversal
+public class MayOnlyReverseTheManeuverTitled : Reversal
 {
-    public Ensugiri(string title, List<string> types, List<string> subtypes, string fortitude,
-                    string damage, string stunValue, string cardEffect)
-                    : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
-    {}
+    private string _maneuverToReverseTitle;
+
+    public MayOnlyReverseTheManeuverTitled(
+        string maneuverToReverseTitle, string title, List<string> types, List<string> subtypes,
+        string fortitude, string damage, string stunValue, string cardEffect)
+        : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
+    {
+        _maneuverToReverseTitle = maneuverToReverseTitle;
+    }
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
@@ -18,7 +23,7 @@ public class Ensugiri : Reversal
             oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.PlayAs == PlayAs.Maneuver && 
-                                                  card.Title == "Kick";
+                                                  card.Title == _maneuverToReverseTitle;
         return fortitudeRestriction && reversalRestriction;
     }
 

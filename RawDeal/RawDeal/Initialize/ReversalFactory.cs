@@ -105,33 +105,57 @@ public static class ReversalFactory
             );
         else if (reversalTitle == "Belly to Belly Suplex")
         {
-            reversal = new BellyToBellySuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                              card.Damage, card.StunValue, card.CardEffect);
+            // reversal = new BellyToBellySuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
+            //                                   card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheManeuverTitled(
+                "Belly to Belly Suplex", card.Title, card.Types, card.Subtypes, card.Fortitude,
+                card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Vertical Suplex")
         {
-            reversal = new VerticalSuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                          card.Damage, card.StunValue, card.CardEffect);
+            // reversal = new VerticalSuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
+            //                               card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheManeuverTitled(
+                "Vertical Suplex", card.Title, card.Types, card.Subtypes, card.Fortitude,
+                card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Belly to Back Suplex")
         {
-            reversal = new BellyToBackSuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                             card.Damage, card.StunValue, card.CardEffect);
+            // reversal = new BellyToBackSuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
+            //                                  card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheManeuverTitled(
+                "Belly to Back Suplex", card.Title, card.Types, card.Subtypes, card.Fortitude,
+                card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Ensugiri")
         {
-            reversal = new Ensugiri(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                    card.Damage, card.StunValue, card.CardEffect);
+            // reversal = new Ensugiri(card.Title, card.Types, card.Subtypes, card.Fortitude,
+            //                         card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheManeuverTitled(
+                "Kick", card.Title, card.Types, card.Subtypes, card.Fortitude,
+                card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Drop Kick")
         {
-            reversal = new DropKick(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                    card.Damage, card.StunValue, card.CardEffect);
+            // reversal = new DropKick(card.Title, card.Types, card.Subtypes, card.Fortitude,
+            //                         card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheManeuverTitled(
+                "Drop Kick", card.Title, card.Types, card.Subtypes, card.Fortitude,
+                card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Double Arm DDT")
         {
-            reversal = new DoubleArmDDT(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                        card.Damage, card.StunValue, card.CardEffect);
+            // reversal = new DoubleArmDDT(card.Title, card.Types, card.Subtypes, card.Fortitude,
+            //                             card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheManeuverTitled(
+                "Back Body Drop", card.Title, card.Types, card.Subtypes, card.Fortitude,
+                card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else
         {
