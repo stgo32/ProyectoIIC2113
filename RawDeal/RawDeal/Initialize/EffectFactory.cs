@@ -192,11 +192,19 @@ public static class EffectFactory
         }
         else if (card.Title == "Back Body Drop")
         {
-            effect = new ChooseBetweenDrawOrForcingOpponentToDiscard(2, true, player);
+            effect = new ChooseBetweenDrawOrForcingOpponentToDiscard(2, false, player);
         }
         else if (card.Title == "Y2J")
         {
             effect = new ChooseBetweenDrawOrForcingOpponentToDiscard(5, true, player);
+        }
+        else if (card.Title == "Leaping Knee to the Face")
+        {
+            Effect[] effects = {
+                new MayNotBeReversed(player),
+                new DiscardCards(1, PlayerTarget.Oponent, player)
+            };
+            effect = new MultipleEffects(effects, player);
         }
         else
         {

@@ -38,6 +38,8 @@ public abstract class Play
 
     protected virtual void SuccessfullyPlayed()
     {
+        Console.WriteLine("SuccessfullyPlayed");
+        Console.WriteLine("Player.LastCardPlayed = " + Player.LastCardPlayed);
         Formatter.View.SayThatPlayerSuccessfullyPlayedACard();
     }
     protected abstract void UseEffect();

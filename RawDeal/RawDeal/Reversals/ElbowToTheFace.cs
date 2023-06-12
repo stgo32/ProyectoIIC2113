@@ -17,7 +17,9 @@ public class ElbowToTheFace : Reversal
             fortitude,
             oponent.NextSubtypeReversalIsPlusF
         );
+        Console.WriteLine("Fortitude restriction: " + fortitudeRestriction);
         bool reversalRestriction = CalculateDamageRestriction(card, oponent);
+        Console.WriteLine("Reversal restriction: " + reversalRestriction);
         return fortitudeRestriction && reversalRestriction;
     }
 

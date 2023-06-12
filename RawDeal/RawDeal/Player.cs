@@ -149,6 +149,7 @@ public class Player
         {
             ResetNextSubtypeIs();
         }
+        _lastCardPlayed = Play.Card.Title;
     }
 
     public int SelectReversal(Card oponentCard)
@@ -339,6 +340,7 @@ public class Player
         _nextSubtypeReversalIsPlusF = 0;
         _nextSubtypeDoesSomeEffect = Subtype.None;
         _damageBonusForRestOfTurn = 0;
+        _lastCardPlayed = "";
     }
 
     public void CheckNextSubtypeIs(Play play)

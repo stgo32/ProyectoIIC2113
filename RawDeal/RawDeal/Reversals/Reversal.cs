@@ -20,10 +20,6 @@ public abstract class Reversal : Card
                                                  int NextSubtypeReversalIsPlusF)
     {
         int fortitude = GetFortitude();
-        // if (nextGrapplesReversalIsPlus8F)
-        // {
-        //     fortitude += 8; 
-        // }
         fortitude += NextSubtypeReversalIsPlusF;
         return fortitude <= oponentFortitude;
     }
@@ -57,7 +53,7 @@ public abstract class Reversal : Card
     private void SetReversalState(Player player)
     {
         player.HasReversedACard = true;
-        player.WantsToReverseACard = false;        
+        player.WantsToReverseACard = false;
     }
 
     private void SetDecksAfterReversingFromHand(Play play, Player playerReversing)

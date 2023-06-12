@@ -25,6 +25,8 @@ public class Maneuver : Play
             int damage = HandleDamage();
             DeliverDamage(damage);
         }
+        // Player.LastCardPlayed = Card.Title;
+        Console.WriteLine("Player.LastCardPlayed = " + Player.LastCardPlayed);
     }
 
     protected override void UseEffect()

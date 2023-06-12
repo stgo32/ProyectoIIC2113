@@ -25,6 +25,14 @@ public static class PreconditionFactory
         {
             precondition = new NeedsSomeDamageInflictedBefore(5, card);
         }
+        else if (card.Title == "Back Body Drop")
+        {
+            precondition = new SomeCardHasToBePlayedBefore("Irish Whip", card);
+        }
+        else if (card.Title == "Leaping Knee to the Face")
+        {
+            precondition = new SomeCardHasToBePlayedBefore("Irish Whip", card);
+        }
         else
         {
             precondition = new StandardPrecondition(card);
