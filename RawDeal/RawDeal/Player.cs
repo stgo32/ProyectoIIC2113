@@ -305,7 +305,15 @@ public class Player
         Deck.DrawCardFromRingsideToArsenalById(cardId);
     }
 
-    public void RetrieveACard()
+    public void RetrieveCards(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            RetrieveACard(i);
+        }
+    }
+
+    public void RetrieveACard(int iter = 1)
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(
             Ringside.Cards,
@@ -313,7 +321,7 @@ public class Player
         );
         int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(
             Superstar.Name,
-            1,
+            iter,
             formattedRingside
         );
         Deck.DrawCardFromRingsideToHandById(cardId);

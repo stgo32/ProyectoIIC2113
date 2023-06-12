@@ -6,6 +6,8 @@ public class DiscardCards : Effect
     private int _quantity;
 
     private PlayerTarget _target;
+
+    private bool _mayChooseHowMany;
     
     public override bool CantBeReversed { get { return false; } }
 

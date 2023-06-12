@@ -230,6 +230,10 @@ public static class EffectFactory
         {
             effect = new DrawCards(1, PlayerTarget.Self, true, player);
         }
+        else if (card.Title == "Roll Out of the Ring")
+        {
+            effect = new DiscardToRetrieveSomeNumberOfCards(2, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)
