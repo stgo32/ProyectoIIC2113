@@ -24,11 +24,5 @@ public class IrishWhip : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void UseReversalEffect(Play play)
-    {
-        Effect effect = EffectFactory.GetEffect(this, -1, play.Player.Oponent);
-        effect.Resolve();
-    }
-
     protected override void ApplyDamage(Play play) { return; }
 }

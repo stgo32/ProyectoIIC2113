@@ -22,11 +22,5 @@ public class CleanBreak : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void UseReversalEffect(Play play)
-    {
-        play.Player.DiscardCards(4);
-        play.Player.Oponent.DrawACard();
-    }
-
     protected override void ApplyDamage(Play play) { return; }
 }

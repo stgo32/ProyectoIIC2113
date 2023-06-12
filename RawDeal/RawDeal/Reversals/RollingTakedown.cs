@@ -33,8 +33,6 @@ public class RollingTakedown : Reversal
         return card.ContainsSubtype("Grapple") && card.PlayAs == PlayAs.Maneuver && damage <= 7;
     }
 
-    protected override void UseReversalEffect(Play play) { return; }
-
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);

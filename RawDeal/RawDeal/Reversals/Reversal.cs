@@ -2,7 +2,8 @@ namespace RawDeal.Reversals;
 
 
 using RawDeal.Plays;
-
+using RawDeal.Initialize;
+using RawDeal.Effects;
 
 public abstract class Reversal : Card
 {
@@ -29,7 +30,11 @@ public abstract class Reversal : Card
         return fortitude <= oponentFortitude;
     }
 
-    protected abstract void UseReversalEffect(Play play);
+    protected void UseReversalEffect(Play play)
+    {
+        Effect effect = EffectFactory.GetEffect(this, -1, play.Player.Oponent);
+        effect.Resolve();  
+    }
     
     protected abstract void ApplyDamage(Play play);
 

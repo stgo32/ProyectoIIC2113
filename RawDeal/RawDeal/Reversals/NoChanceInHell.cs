@@ -21,7 +21,5 @@ public class NoChanceInHell : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void UseReversalEffect(Play play) { return; }
-
     protected override void ApplyDamage(Play play) { return; }
 }

@@ -21,11 +21,6 @@ public class ChynaInterferes : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void UseReversalEffect(Play play)
-    {
-        play.Player.Oponent.DrawCards(2);
-    }
-
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(GetDamage());

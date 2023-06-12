@@ -10,7 +10,23 @@ public static class EffectFactory
     public static Effect GetEffect(Card card, int cardId, Player player)
     {
         Effect effect;
-        if (card.Title == "Jockeying for Position")
+        if (card.Title == "Manager Interferes")
+        {
+            effect = new DrawCards(1, PlayerTarget.Self, false, player);
+        }
+        else if (card.Title == "Chyna Interferes")
+        {
+            effect = new DrawCards(2, PlayerTarget.Self, false, player);
+        }
+        else if (card.Title == "Clean Break")
+        {
+            Effect[] effects = {
+                new DiscardCards(4, PlayerTarget.Oponent, player),
+                new DrawCards(1, PlayerTarget.Self, false, player)
+            };
+            effect = new MultipleEffects(effects, player);
+        }
+        else if (card.Title == "Jockeying for Position")
         {
             effect = new JockeyingForPosition(player);
         }

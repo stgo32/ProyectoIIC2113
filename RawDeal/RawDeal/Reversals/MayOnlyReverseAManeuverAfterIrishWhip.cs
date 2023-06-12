@@ -32,12 +32,6 @@ public class MayOnlyReverseAManeuverAfterIrishWhip : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void UseReversalEffect(Play play)
-    {
-        Effect effect = EffectFactory.GetEffect(this, -1, play.Player.Oponent);
-        effect.Resolve();  
-    }
-
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(GetDamage());

@@ -36,8 +36,6 @@ public class KneeToTheGut : Reversal
         return damageRestriction;
     }
     
-    protected override void UseReversalEffect(Play play) { return; }
-
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
