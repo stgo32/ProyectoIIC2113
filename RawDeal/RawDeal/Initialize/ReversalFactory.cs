@@ -70,6 +70,39 @@ public static class ReversalFactory
             reversal = new IrishWhip(card.Title, card.Types, card.Subtypes, card.Fortitude,
                                      card.Damage, card.StunValue, card.CardEffect);
         }
+        else if (reversalTitle == "Shoulder Block")
+        {
+            reversal = new MayOnlyReverseAManeuverAfterIrishWhip(
+                true, card.Title, card.Types, card.Subtypes, card.Fortitude, card.Damage, 
+                card.StunValue, card.CardEffect
+            );
+        }
+        else if (reversalTitle == "Spear")
+        {
+            reversal = new MayOnlyReverseAManeuverAfterIrishWhip(
+                true, card.Title, card.Types, card.Subtypes, card.Fortitude, card.Damage, 
+                card.StunValue, card.CardEffect
+            );
+        }
+        else if (reversalTitle == "Facebuster")
+        {
+            reversal = new MayOnlyReverseAManeuverAfterIrishWhip(
+                false, card.Title, card.Types, card.Subtypes, card.Fortitude, card.Damage, 
+                card.StunValue, card.CardEffect
+            );
+        }
+        else if (reversalTitle == "Lou Thesz Press")
+        {
+            reversal = new MayOnlyReverseAManeuverAfterIrishWhip(
+                false, card.Title, card.Types, card.Subtypes, card.Fortitude, card.Damage, 
+                card.StunValue, card.CardEffect
+            );
+        }
+        else if (reversalTitle == "Cross Body Block")
+            reversal = new MayOnlyReverseAManeuverAfterIrishWhip(
+                true, card.Title, card.Types, card.Subtypes, card.Fortitude, card.Damage, 
+                card.StunValue, card.CardEffect
+            );
         else if (reversalTitle == "Belly to Belly Suplex")
         {
             reversal = new BellyToBellySuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,

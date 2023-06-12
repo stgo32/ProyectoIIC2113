@@ -206,6 +206,14 @@ public static class EffectFactory
             };
             effect = new MultipleEffects(effects, player);
         }
+        else if (card.Title == "Facebuster")
+        {
+            effect = new DrawCards(2, PlayerTarget.Self, true, player);
+        }
+        else if (card.Title == "Lou Thesz Press")
+        {
+            effect = new DrawCards(1, PlayerTarget.Self, true, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)

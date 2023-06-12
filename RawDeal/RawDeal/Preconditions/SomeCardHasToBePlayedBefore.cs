@@ -13,7 +13,8 @@ public class SomeCardHasToBePlayedBefore : Precondition
 
     public override bool IsPossibleToPlay(Player player)
     { 
-        bool isPossible = fortitudePrecodition(player.Fortitude) &&
+        bool isPossible = FortitudePrecodition(player.Fortitude) &&
+                          PlayAsPrecondition() &&
                           player.LastCardPlayed == _lastCardNeededTitle;
         return isPossible;
     }

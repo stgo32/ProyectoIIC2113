@@ -15,7 +15,7 @@ public abstract class Precondition
 
     public abstract bool IsPossibleToPlay(Player player);
 
-    protected virtual bool fortitudePrecodition(int fortitude)
+    protected virtual bool FortitudePrecodition(int fortitude)
     {
         return _card.GetFortitude() <= fortitude;
     }

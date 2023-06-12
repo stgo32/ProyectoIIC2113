@@ -33,6 +33,10 @@ public static class PreconditionFactory
         {
             precondition = new SomeCardHasToBePlayedBefore("Irish Whip", card);
         }
+        else if (card.Title == "Cross Body Block")
+        {
+            precondition = new SomeCardHasToBePlayedBefore("Irish Whip", card);
+        }
         else
         {
             precondition = new StandardPrecondition(card);

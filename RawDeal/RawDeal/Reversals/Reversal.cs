@@ -16,6 +16,11 @@ public abstract class Reversal : Card
 
     public abstract bool CanReverse(Card card, int fortitude, Player oponent);
 
+    public virtual bool CanReverseByDeck(Card card, int fortitude, Player oponent)
+    {
+        return CanReverse(card, fortitude, oponent);
+    }
+
     protected bool CalculateFortitudeRestriction(int oponentFortitude, 
                                                  int NextSubtypeReversalIsPlusF)
     {

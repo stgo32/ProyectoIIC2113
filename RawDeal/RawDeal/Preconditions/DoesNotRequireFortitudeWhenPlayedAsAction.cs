@@ -8,10 +8,10 @@ public class DoesNotRequireFortitudeWhenPlayedAsAction : Precondition
 
     public override bool IsPossibleToPlay(Player player)
     {
-        return fortitudePrecodition(player.Fortitude) && PlayAsPrecondition();
+        return FortitudePrecodition(player.Fortitude) && PlayAsPrecondition();
     }
 
-    protected override bool fortitudePrecodition(int fortitude)
+    protected override bool FortitudePrecodition(int fortitude)
     {
         if (_card.PlayAs == Plays.PlayAs.Action)
         {
@@ -19,7 +19,7 @@ public class DoesNotRequireFortitudeWhenPlayedAsAction : Precondition
         }
         else
         {
-            return base.fortitudePrecodition(fortitude);
+            return base.FortitudePrecodition(fortitude);
         }
     }
 }

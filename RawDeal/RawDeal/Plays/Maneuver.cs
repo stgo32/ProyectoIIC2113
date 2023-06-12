@@ -25,7 +25,6 @@ public class Maneuver : Play
             int damage = HandleDamage();
             DeliverDamage(damage);
         }
-        // Player.LastCardPlayed = Card.Title;
         Console.WriteLine("Player.LastCardPlayed = " + Player.LastCardPlayed);
     }
 
@@ -91,7 +90,7 @@ public class Maneuver : Play
             } catch (Exception e) {
                 return canBeReversed;
             }
-            if (reversal.CanReverse(Card, Player.Oponent.Fortitude, Player))
+            if (reversal.CanReverseByDeck(Card, Player.Oponent.Fortitude, Player))
             {
                 canBeReversed = true;
             }

@@ -8,6 +8,6 @@ public class StandardPrecondition : Precondition
 
     public override bool IsPossibleToPlay(Player player)
     {
-        return fortitudePrecodition(player.Fortitude) && PlayAsPrecondition();
+        return FortitudePrecodition(player.Fortitude) && PlayAsPrecondition();
     }
 }

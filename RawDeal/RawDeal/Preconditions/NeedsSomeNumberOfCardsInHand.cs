@@ -14,7 +14,7 @@ public class NeedsSomeNumberOfCardsInHand : Precondition
 
     public override bool IsPossibleToPlay(Player player)
     { 
-        bool isPossible = fortitudePrecodition(player.Fortitude) &&
+        bool isPossible = FortitudePrecodition(player.Fortitude) &&
                           PlayAsPrecondition() &&
                           NeedsSomeNumberOfCardsInHandPrecondition(player.Hand);
         return isPossible;
