@@ -2,7 +2,7 @@ namespace RawDeal.Initialize;
 
 
 using RawDeal.Reversals;
-
+using RawDeal.Plays;
 
 public static class ReversalFactory
 {
@@ -10,25 +10,33 @@ public static class ReversalFactory
     {
         string reversalTitle = card.Title;
         Reversal reversal;
-        if (reversalTitle == "Break the Hold")
+        if (reversalTitle == "Step Aside")
         {
-            reversal = new BreakTheHole(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                        card.Damage, card.StunValue, card.CardEffect);
+            reversal = new NoEffectReversal(
+                PlayAs.Maneuver, Subtype.Strike, card.Title, card.Types, card.Subtypes, 
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Escape Move")
         {
-            reversal = new EscapeMove(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                      card.Damage, card.StunValue, card.CardEffect);
+            reversal = new NoEffectReversal(
+                PlayAs.Maneuver, Subtype.Grapple, card.Title, card.Types, card.Subtypes, 
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
+        }
+        else if (reversalTitle == "Break the Hold")
+        {
+            reversal = new NoEffectReversal(
+                PlayAs.Maneuver, Subtype.Submission, card.Title, card.Types, card.Subtypes, 
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "No Chance in Hell")
         {
-            reversal = new NoChanceInHell(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                          card.Damage, card.StunValue, card.CardEffect);
-        }
-        else if (reversalTitle == "Step Aside")
-        {
-            reversal = new StepAside(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                     card.Damage, card.StunValue, card.CardEffect);
+            reversal = new NoEffectReversal(
+                PlayAs.Action, Subtype.All, card.Title, card.Types, card.Subtypes, 
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Rolling Takedown")
         {

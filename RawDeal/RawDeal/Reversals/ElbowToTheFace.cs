@@ -28,7 +28,7 @@ public class ElbowToTheFace : Reversal
         int damage = card.GetDamage();
         damage += oponent.NextSubtypeIsPlusD;
         damage += oponent.DamageBonusForPlayedAfterSomeDamage;
-        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype.ToString()) || 
+        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype) || 
             oponent.DamageBonusForRestOfTurnSubtype == Subtype.All)
         {
             damage += oponent.DamageBonusForRestOfTurn;

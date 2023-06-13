@@ -30,7 +30,7 @@ public class KneeToTheGut : Reversal
         Console.WriteLine("1. Damage: " + damage);
         Console.WriteLine("Damage Bonus: " + oponent.DamageBonusForRestOfTurn);
         Console.WriteLine("Damage Bonus subtype: " + oponent.DamageBonusForRestOfTurnSubtype);
-        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype.ToString()) || 
+        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype) || 
             oponent.DamageBonusForRestOfTurnSubtype == Subtype.All)
         {
             damage += oponent.DamageBonusForRestOfTurn;
@@ -41,7 +41,7 @@ public class KneeToTheGut : Reversal
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
         Console.WriteLine("3. Damage: " + damage);
-        bool damageRestriction = card.ContainsSubtype("Strike") && 
+        bool damageRestriction = card.ContainsSubtype(Subtype.Strike) && 
                                  card.PlayAs == PlayAs.Maneuver &&
                                  damage <= 7;
         return damageRestriction;
@@ -50,7 +50,7 @@ public class KneeToTheGut : Reversal
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
-        if (play.Card.ContainsSubtype(play.Player.DamageBonusForRestOfTurnSubtype.ToString()) || 
+        if (play.Card.ContainsSubtype(play.Player.DamageBonusForRestOfTurnSubtype) || 
             play.Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
         {
             damage += play.Player.DamageBonusForRestOfTurn;

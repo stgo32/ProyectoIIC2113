@@ -79,9 +79,13 @@ public class Card : IViewableCardInfo
         return isPossible;
     }
 
-    public bool ContainsSubtype(string subtype)
+    public bool ContainsSubtype(Subtype subtype)
     {
-        return this.Subtypes.Contains(subtype);
+        if (subtype == Subtype.All)
+        {
+            return true;
+        }
+        return this.Subtypes.Contains(subtype.ToString());
     }
 
     public Card PlayCardAs(string type)

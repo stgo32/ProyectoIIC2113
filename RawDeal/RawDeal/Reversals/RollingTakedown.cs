@@ -26,7 +26,7 @@ public class RollingTakedown : Reversal
         int damage = card.GetDamage();
         damage += oponent.NextSubtypeIsPlusD;
         damage += oponent.DamageBonusForPlayedAfterSomeDamage;
-        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype.ToString()) || 
+        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype) || 
             oponent.DamageBonusForRestOfTurnSubtype == Subtype.All)
         {
             damage += oponent.DamageBonusForRestOfTurn;
@@ -35,13 +35,13 @@ public class RollingTakedown : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        return card.ContainsSubtype("Grapple") && card.PlayAs == PlayAs.Maneuver && damage <= 7;
+        return card.ContainsSubtype(Subtype.Grapple) && card.PlayAs == PlayAs.Maneuver && damage <= 7;
     }
 
     protected override void ApplyDamage(Play play)
     {
         int damage = play.Player.Oponent.HandleDamage(play.Card.GetDamage(), true);
-        if (play.Card.ContainsSubtype(play.Player.DamageBonusForRestOfTurnSubtype.ToString()) || 
+        if (play.Card.ContainsSubtype(play.Player.DamageBonusForRestOfTurnSubtype) || 
             play.Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
         {
             damage += play.Player.DamageBonusForRestOfTurn;

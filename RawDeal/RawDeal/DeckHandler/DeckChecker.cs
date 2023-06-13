@@ -49,11 +49,11 @@ public class DeckChecker
         bool isValid = true;
         foreach (Card card in _deck)
         {
-            if (card.ContainsSubtype("Unique"))
+            if (card.ContainsSubtype(Subtype.Unique))
             {
                 isValid = CheckUniqueTypeCard(card, cardCount);
             }
-            else if (card.ContainsSubtype("SetUp"))
+            else if (card.ContainsSubtype(Subtype.SetUp))
             {
                 isValid = CheckSetUpTypeCard(card, cardCount);
             }
@@ -117,11 +117,11 @@ public class DeckChecker
         bool isValid = true;
         foreach (Card card in _deck)
         {
-            if (card.ContainsSubtype("Heel"))
+            if (card.ContainsSubtype(Subtype.Heel))
             {
                 isHeel = true;
             }
-            else if (card.ContainsSubtype("Face"))
+            else if (card.ContainsSubtype(Subtype.Face))
             {
                 isFace = true;
             }
