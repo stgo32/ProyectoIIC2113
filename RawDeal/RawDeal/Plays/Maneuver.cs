@@ -25,7 +25,6 @@ public class Maneuver : Play
             int damage = HandleDamage();
             DeliverDamage(damage);
         }
-        Console.WriteLine("Player.LastCardPlayed = " + Player.LastCardPlayed);
     }
 
     protected override void UseEffect()
@@ -38,47 +37,9 @@ public class Maneuver : Play
     private int HandleDamage()
     {
         int damage = Card.GetDamage();
-        Console.WriteLine("1. Damage: " + damage);
-        Console.WriteLine("Player.NextManeuverIsPlusD = " + Player.NextManeuverIsPlusD);
-        Console.WriteLine("Player.NextManeuverIsPlusDCounter = " + Player.NextManeuverIsPlusDCounter);
-        Console.WriteLine("Player.LastCardPlayed = " + Player.LastCardPlayed);
-        Console.WriteLine("Player.NextSubtypeDoesSomeEffect = " + Player.NextSubtypeDoesSomeEffect);
-        if (Card.ContainsSubtype(Player.NextSubtypeDoesSomeEffect.ToString()) || 
-            Player.NextSubtypeDoesSomeEffect == Subtype.All)
-        {
-            damage += Player.NextSubtypeIsPlusD;
-        }
-        if (Card.ContainsSubtype(Player.NextManeuverIsPlusDSubtype.ToString()) || 
-            Player.NextManeuverIsPlusDSubtype == Subtype.All)
-        {
-            if (Card.PlayAs == PlayAs.Maneuver && Player.NextManeuverIsPlusDCounter > 0 && Player.PlayedAManeuverLast)
-            {
-                damage += Player.NextManeuverIsPlusD;
-                Player.NextManeuverIsPlusDCounter --;
-            }
-        }
-        Console.WriteLine("2. Damage: " + damage);
-        if (Card.ContainsSubtype(Player.DamageBonusForRestOfTurnSubtype.ToString()) || 
-            Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
-        {
-            damage += Player.DamageBonusForRestOfTurn;
-        }
-        damage += Player.DamageBonusForPlayedAfterSomeDamage;
-        Console.WriteLine("3. Damage: " + damage);
+        damage += GetDamageBonus();
         damage = Player.HandleDamage(damage);
-        Player.PlayedAManeuverLast = true;
-        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
-        if (effect.GetType().Name == "NextManeuverPlayedIsPlusDamage")
-        {
-            Player.NextManeuverIsPlusDCounter ++;
-            Player.NextManeuverIsPlusDSubtype = effect.GetSubtypeDoesSomeEffect();
-            Console.WriteLine("AA Player.NextManeuverIsPlusDSubtype = " + Player.NextManeuverIsPlusDSubtype);
-        }
-        else 
-        {
-            Player.NextManeuverIsPlusDCounter = 0;
-        }
-        Player.LastDamageInflicted = damage;
+        ResetDamageBonusEffects(damage);
         return damage;
     }
 
@@ -130,5 +91,73 @@ public class Maneuver : Play
             }
         }
         return canBeReversed;
+    }
+
+    private int GetDamageBonus()
+    {
+        int damageBonus = 0;
+        damageBonus += CheckNextSubtypeDoesSomeEffect();
+        damageBonus += CheckNextManeuverIsPlusDamage();
+        damageBonus += CheckDamageBonusForRestOfTurn();
+        damageBonus += Player.DamageBonusForPlayedAfterSomeDamage;
+        return damageBonus;
+    }
+
+    private int CheckNextSubtypeDoesSomeEffect()
+    {
+        int damageBonus = 0;
+        if (Card.ContainsSubtype(Player.NextSubtypeDoesSomeEffect.ToString()) || 
+            Player.NextSubtypeDoesSomeEffect == Subtype.All)
+        {
+            damageBonus = Player.NextSubtypeIsPlusD;
+        }
+        return damageBonus;
+    }
+
+    private int CheckNextManeuverIsPlusDamage()
+    {
+        int damageBonus = 0;
+        if (Card.ContainsSubtype(Player.NextManeuverIsPlusDSubtype.ToString()) || 
+            Player.NextManeuverIsPlusDSubtype == Subtype.All)
+        {
+            if (Card.PlayAs == PlayAs.Maneuver && Player.NextManeuverIsPlusDCounter > 0 && Player.PlayedAManeuverLast)
+            {
+                damageBonus = Player.NextManeuverIsPlusD;
+                Player.NextManeuverIsPlusDCounter --;
+            }
+        }
+        return damageBonus;
+    }
+
+    private int CheckDamageBonusForRestOfTurn()
+    {
+        int damageBonus = 0;
+        if (Card.ContainsSubtype(Player.DamageBonusForRestOfTurnSubtype.ToString()) || 
+            Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
+        {
+            damageBonus = Player.DamageBonusForRestOfTurn;
+        }        
+        return damageBonus;
+    }
+
+    private void ResetDamageBonusEffects(int damage)
+    {
+        SetNextManeuverIsPlusDamage();
+        Player.PlayedAManeuverLast = true;
+        Player.LastDamageInflicted = damage;
+    }
+
+    private void SetNextManeuverIsPlusDamage()
+    {
+        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
+        if (effect.GetType().Name == "NextManeuverPlayedIsPlusDamage")
+        {
+            Player.NextManeuverIsPlusDCounter ++;
+            Player.NextManeuverIsPlusDSubtype = effect.GetSubtypeDoesSomeEffect();
+        }
+        else 
+        {
+            Player.NextManeuverIsPlusDCounter = 0;
+        }
     }
 }

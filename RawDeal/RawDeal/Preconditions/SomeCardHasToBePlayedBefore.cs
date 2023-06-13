@@ -15,7 +15,7 @@ public class SomeCardHasToBePlayedBefore : Precondition
     { 
         bool isPossible = FortitudePrecodition(player.Fortitude) &&
                           PlayAsPrecondition() &&
-                          player.LastCardPlayed == _lastCardNeededTitle;
+                          player.LastCardPlayedTitle == _lastCardNeededTitle;
         return isPossible;
     }
 }

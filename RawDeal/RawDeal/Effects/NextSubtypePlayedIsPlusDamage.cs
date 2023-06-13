@@ -21,6 +21,6 @@ public class NextSubtypePlayedIsPlusDamage : Effect
     {
         _player.NextSubtypeIsPlusD = _damage;
         _player.NextSubtypeDoesSomeEffect = _subtype;
-        _player.LastCardPlayed = _cardTitle;
+        _player.LastCardPlayedTitle = _cardTitle;
     }
 }

@@ -108,10 +108,10 @@ public class Player
         set { _nextSubtypeDoesSomeEffect = value; }
     }
 
-    private string _lastCardPlayed = "";
-    public string LastCardPlayed {
-        get { return _lastCardPlayed; }
-        set { _lastCardPlayed = value; }
+    private string _lastCardPlayedTitle = "";
+    public string LastCardPlayedTitle {
+        get { return _lastCardPlayedTitle; }
+        set { _lastCardPlayedTitle = value; }
     }
 
     private Deck _deck = new Deck();
@@ -175,12 +175,11 @@ public class Player
         Play = PlayFactory.GetPlay(idCardSelected, this);
         CheckNextSubtypeIs(Play);
         Play.Start();
-        if (Play.Card.Title != _lastCardPlayed)
+        if (Play.Card.Title != _lastCardPlayedTitle)
         {
-            Console.WriteLine($"AAAAAAAAAAAAAAAAAAAAAAAA");
             ResetNextSubtypeIs();
         }
-        _lastCardPlayed = Play.Card.Title;
+        _lastCardPlayedTitle = Play.Card.Title;
     }
 
     public int SelectReversal(Card oponentCard)
@@ -375,16 +374,11 @@ public class Player
     {
         _playedAManeuverLast = false;
         _lastDamageInflicted = 0;
-        _nextSubtypeIsPlusD = 0;
-        _nextSubtypeReversalIsPlusF = 0;
-        _nextSubtypeDoesSomeEffect = Subtype.None;
-        _damageBonusForRestOfTurn = 0;
-        _damageBonusForRestOfTurnSubtype = Subtype.None;
+        ResetNextSubtypeIs();
+        ResetDamageBonusForRestOfTurn();
         _damageBonusForPlayedAfterSomeDamage = 0;
-        _nextManeuverIsPlusD = 0;
-        _nextManeuverIsPlusDCounter = 0;
-        _nextManeuverIsPlusDSubtype = Subtype.None;
-        _lastCardPlayed = "";
+        ResetNextManeuverIsPlusD();
+        _lastCardPlayedTitle = "";
     }
 
     public void CheckNextSubtypeIs(Play play)
@@ -406,5 +400,18 @@ public class Player
         _nextSubtypeIsPlusD = 0;
         _nextSubtypeReversalIsPlusF = 0;
         _nextSubtypeDoesSomeEffect = Subtype.None;
+    }
+
+    private void ResetDamageBonusForRestOfTurn()
+    {
+        _damageBonusForRestOfTurn = 0;
+        _damageBonusForRestOfTurnSubtype = Subtype.None;
+    }
+
+    private void ResetNextManeuverIsPlusD()
+    {
+        _nextManeuverIsPlusD = 0;
+        _nextManeuverIsPlusDCounter = 0;
+        _nextManeuverIsPlusDSubtype = Subtype.None;
     }
 }

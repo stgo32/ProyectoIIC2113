@@ -26,9 +26,7 @@ public class MayOnlyReverseAManeuverAfterIrishWhip : Reversal
             oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.PlayAs == PlayAs.Maneuver && 
-                                                  oponent.LastCardPlayed == "Irish Whip";
-        Console.WriteLine($"ShoulderBlock.CanReverse: {fortitudeRestriction} && {reversalRestriction}");
-        Console.WriteLine("Oponent last card played: " + oponent.LastCardPlayed);
+                                                  oponent.LastCardPlayedTitle == "Irish Whip";
         return fortitudeRestriction && reversalRestriction;
     }
 

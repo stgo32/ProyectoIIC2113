@@ -21,6 +21,6 @@ public class NextSubtypeReversalIsPlusFortitude : Effect
     {
         _player.NextSubtypeReversalIsPlusF = _fortitude;
         _player.NextSubtypeDoesSomeEffect = _subtype;
-        _player.LastCardPlayed = _cardTitle;
+        _player.LastCardPlayedTitle = _cardTitle;
     }
 }
