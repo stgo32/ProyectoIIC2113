@@ -39,7 +39,7 @@ public static class PreconditionFactory
         }
         else
         {
-            precondition = new StandardPrecondition(card);
+            precondition = new FortitudeAndPlayAsPreconditions(card);
         }
         return precondition;
     }

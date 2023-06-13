@@ -24,7 +24,7 @@ public class Undertaker : Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        Player.DiscardCards(2);
+        Player.Deck.DiscardCards(2);
         Player.RetrieveACard();
         UsedAbilityThisTurn = true;
     }

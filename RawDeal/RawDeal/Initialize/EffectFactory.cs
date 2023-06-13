@@ -265,9 +265,6 @@ public static class EffectFactory
                 effect = new NoEffect(player);
             }
         }
-        Console.WriteLine($"Card: {card.Title}");
-        Console.WriteLine($"Card.PlayAs: {card.PlayAs}");
-        Console.WriteLine($"EffectFactory.GetEffect: {effect.GetType().Name}");
         return effect;
     }
 }

@@ -2,8 +2,6 @@ namespace RawDeal.Reversals;
 
 
 using RawDeal.Plays;
-using RawDeal.Initialize;
-using RawDeal.Effects;
 
 
 public class MayOnlyReverseAManeuverAfterIrishWhip : Reversal
@@ -26,7 +24,7 @@ public class MayOnlyReverseAManeuverAfterIrishWhip : Reversal
             oponent.NextSubtypeReversalIsPlusF
         );
         bool reversalRestriction = card.PlayAs == PlayAs.Maneuver && 
-                                                  oponent.LastCardPlayedTitle == "Irish Whip";
+                                   oponent.LastCardPlayedTitle == "Irish Whip";
         return fortitudeRestriction && reversalRestriction;
     }
 

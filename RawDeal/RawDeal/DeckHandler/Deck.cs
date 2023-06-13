@@ -2,8 +2,7 @@ namespace RawDeal.DeckHandler;
 
 
 using RawDeal.Reversals;
-using RawDeal.Initialize;
-
+using RawDealView.Options;
 
 public class Deck
 {
@@ -179,5 +178,82 @@ public class Deck
         int cardCount = _possibleReversalsToPlay.CountCardAppearances(reversedId, oponentCard, fortitude);
         int idCardAtHand = Hand.FindCardIdByCountInPossibleCardsToPlay(cardCount, card);
         DrawCardFromHandToRingAreaById(idCardAtHand);
+    }
+
+    public void ReturnACard()
+    {
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+        int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(
+            Superstar.Name,
+            formattedHand
+        );
+        DrawCardFromHandToArsenalById(cardId);
+    }
+    public void DiscardCards(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            DiscardACard(i);
+        }
+    }
+
+    public void DiscardCardsFromOponentHand(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            DiscardACardFromOponentHand(i);
+        }
+    }
+
+    public void DiscardACard(int iter = 1)
+    {
+        if (Hand.Any())
+        {
+            int discardCardId = SelectCardToDiscard(iter);
+            DrawCardFromHandToRingsideById(discardCardId);
+        }
+    }
+
+    public void DiscardACardFromOponentHand(int iter = 1)
+    {
+        if (_player.Oponent.Hand.Any())
+        {
+            int discardCardId = SelectCardFromOponentHandToDiscard(iter);
+            _player.Oponent.Deck.DrawCardFromHandToRingsideById(discardCardId);
+        }
+    }
+
+    public void DiscardPossibleCardById(int cardId)
+    {
+        string cardTitle = GetPossibleCardsToPlay().GetCard(cardId).Title;
+        Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
+        DrawCardFromPossibleCardsToRingsideById(cardId);
+    }
+
+    private int SelectCardToDiscard(int iter)
+    {
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
+            formattedHand,
+            Superstar.Name,
+            Superstar.Name, 
+            iter
+        );
+        return discardCardId;
+    }
+
+    private int SelectCardFromOponentHandToDiscard(int iter)
+    {
+        List<string> formattedHand = Formatter.GetFormattedCardList(
+            _player.Oponent.Hand.Cards,
+            NextPlay.ShowCards
+        );
+        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
+            formattedHand,
+            _player.Oponent.Superstar.Name,
+            Superstar.Name,
+            iter
+        );
+        return discardCardId;
     }
 }

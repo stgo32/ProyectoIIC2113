@@ -149,13 +149,11 @@ public class Player
 
     public void HasWonByPinVictory()
     {
-        Console.WriteLine($"{Superstar.Name} has won by pin victory!");
         _hasWon = true;
     }
 
     public void HasWonByCountOutVictory()
     {
-        Console.WriteLine($"{Superstar.Name} has won by count out victory!");
         _hasWon = true;
     }
 
@@ -217,83 +215,83 @@ public class Player
         return Deck.DrawCardFromArsenalToRingside();
     }
 
-    public void ReturnACard()
-    {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
-        int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(
-            Superstar.Name,
-            formattedHand
-        );
-        Deck.DrawCardFromHandToArsenalById(cardId);
-    }
+    // public void ReturnACard()
+    // {
+    //     List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+    //     int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(
+    //         Superstar.Name,
+    //         formattedHand
+    //     );
+    //     Deck.DrawCardFromHandToArsenalById(cardId);
+    // }
 
-    public void DiscardCards(int quantity)
-    {
-        for (int i = quantity; i > 0; i--)
-        {
-            DiscardACard(i);
-        }
-    }
+    // public void DiscardCards(int quantity)
+    // {
+    //     for (int i = quantity; i > 0; i--)
+    //     {
+    //         DiscardACard(i);
+    //     }
+    // }
 
-    public void DiscardCardsFromOponentHand(int quantity)
-    {
-        for (int i = quantity; i > 0; i--)
-        {
-            DiscardACardFromOponentHand(i);
-        }
-    }
+    // public void DiscardCardsFromOponentHand(int quantity)
+    // {
+    //     for (int i = quantity; i > 0; i--)
+    //     {
+    //         DiscardACardFromOponentHand(i);
+    //     }
+    // }
 
-    public void DiscardACard(int iter = 1)
-    {
-        if (Hand.Any())
-        {
-            int discardCardId = SelectCardToDiscard(iter);
-            Deck.DrawCardFromHandToRingsideById(discardCardId);
-        }
-    }
+    // public void DiscardACard(int iter = 1)
+    // {
+    //     if (Hand.Any())
+    //     {
+    //         int discardCardId = SelectCardToDiscard(iter);
+    //         Deck.DrawCardFromHandToRingsideById(discardCardId);
+    //     }
+    // }
 
-    public void DiscardACardFromOponentHand(int iter = 1)
-    {
-        if (Oponent.Hand.Any())
-        {
-            int discardCardId = SelectCardFromOponentHandToDiscard(iter);
-            Oponent.Deck.DrawCardFromHandToRingsideById(discardCardId);
-        }
-    }
+    // public void DiscardACardFromOponentHand(int iter = 1)
+    // {
+    //     if (Oponent.Hand.Any())
+    //     {
+    //         int discardCardId = SelectCardFromOponentHandToDiscard(iter);
+    //         Oponent.Deck.DrawCardFromHandToRingsideById(discardCardId);
+    //     }
+    // }
 
-    public void DiscardPossibleCardById(int cardId)
-    {
-        string cardTitle = Deck.GetPossibleCardsToPlay().GetCard(cardId).Title;
-        Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
-        Deck.DrawCardFromPossibleCardsToRingsideById(cardId);
-    }
+    // public void DiscardPossibleCardById(int cardId)
+    // {
+    //     string cardTitle = Deck.GetPossibleCardsToPlay().GetCard(cardId).Title;
+    //     Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
+    //     Deck.DrawCardFromPossibleCardsToRingsideById(cardId);
+    // }
 
-    private int SelectCardToDiscard(int iter)
-    {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
-        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
-            formattedHand,
-            Superstar.Name,
-            Superstar.Name, 
-            iter
-        );
-        return discardCardId;
-    }
+    // private int SelectCardToDiscard(int iter)
+    // {
+    //     List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+    //     int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
+    //         formattedHand,
+    //         Superstar.Name,
+    //         Superstar.Name, 
+    //         iter
+    //     );
+    //     return discardCardId;
+    // }
 
-    private int SelectCardFromOponentHandToDiscard(int iter)
-    {
-        List<string> formattedHand = Formatter.GetFormattedCardList(
-            Oponent.Hand.Cards,
-            NextPlay.ShowCards
-        );
-        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
-            formattedHand,
-            Oponent.Superstar.Name,
-            Superstar.Name,
-            iter
-        );
-        return discardCardId;
-    }
+    // private int SelectCardFromOponentHandToDiscard(int iter)
+    // {
+    //     List<string> formattedHand = Formatter.GetFormattedCardList(
+    //         Oponent.Hand.Cards,
+    //         NextPlay.ShowCards
+    //     );
+    //     int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
+    //         formattedHand,
+    //         Oponent.Superstar.Name,
+    //         Superstar.Name,
+    //         iter
+    //     );
+    //     return discardCardId;
+    // }
 
     public void DrawCards(int quantity)
     {
@@ -383,16 +381,11 @@ public class Player
 
     public void CheckNextSubtypeIs(Play play)
     {
-        Console.WriteLine("Next subtype is " + _nextSubtypeDoesSomeEffect);
-        Console.WriteLine("Next subtype is plus D " + _nextSubtypeIsPlusD);
-        Console.WriteLine("Next subtype reversal is plus F " + _nextSubtypeReversalIsPlusF);
         if (!play.Card.Subtypes.Contains(_nextSubtypeDoesSomeEffect.ToString()) || 
             (play.Player.NextSubtypeDoesSomeEffect == Subtype.All))
         {
             ResetNextSubtypeIs();
         }
-        Console.WriteLine("Next subtype is plus D " + _nextSubtypeIsPlusD);
-        Console.WriteLine("Next subtype reversal is plus F " + _nextSubtypeReversalIsPlusF);
     }
 
     private void ResetNextSubtypeIs()

@@ -22,16 +22,16 @@ public class DiscardCards : Effect
     {
         if (_target == PlayerTarget.Self)
         {
-            _player.DiscardCards(_quantity);
+            _player.Deck.DiscardCards(_quantity);
         }
         else if (_target == PlayerTarget.Oponent)
         {
-            _player.Oponent.DiscardCards(_quantity);
+            _player.Oponent.Deck.DiscardCards(_quantity);
         }
         else if (_target == PlayerTarget.Both)
         {
-            _player.DiscardCards(_quantity);
-            _player.DiscardCardsFromOponentHand(_quantity);
+            _player.Deck.DiscardCards(_quantity);
+            _player.Deck.DiscardCardsFromOponentHand(_quantity);
         }
     }
 }

@@ -25,8 +25,8 @@ public class Jericho : Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        Player.DiscardACard();
-        Player.Oponent.DiscardACard();
+        Player.Deck.DiscardACard();
+        Player.Oponent.Deck.DiscardACard();
         UsedAbilityThisTurn = true;
     }
     

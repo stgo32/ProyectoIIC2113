@@ -2,9 +2,9 @@ namespace RawDeal.Preconditions;
 
 
 
-public class StandardPrecondition : Precondition
+public class FortitudeAndPlayAsPreconditions : Precondition
 {
-    public StandardPrecondition(Card card) : base(card) { }
+    public FortitudeAndPlayAsPreconditions(Card card) : base(card) { }
 
     public override bool IsPossibleToPlay(Player player)
     {
