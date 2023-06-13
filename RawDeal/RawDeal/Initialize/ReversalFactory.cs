@@ -12,28 +12,28 @@ public static class ReversalFactory
         Reversal reversal;
         if (reversalTitle == "Step Aside")
         {
-            reversal = new NoEffectReversal(
+            reversal = new MayOnlyReverseACardThatContainsSubtype(
                 PlayAs.Maneuver, Subtype.Strike, card.Title, card.Types, card.Subtypes, 
                 card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Escape Move")
         {
-            reversal = new NoEffectReversal(
+            reversal = new MayOnlyReverseACardThatContainsSubtype(
                 PlayAs.Maneuver, Subtype.Grapple, card.Title, card.Types, card.Subtypes, 
                 card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Break the Hold")
         {
-            reversal = new NoEffectReversal(
+            reversal = new MayOnlyReverseACardThatContainsSubtype(
                 PlayAs.Maneuver, Subtype.Submission, card.Title, card.Types, card.Subtypes, 
                 card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "No Chance in Hell")
         {
-            reversal = new NoEffectReversal(
+            reversal = new MayOnlyReverseACardThatContainsSubtype(
                 PlayAs.Action, Subtype.All, card.Title, card.Types, card.Subtypes, 
                 card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
@@ -61,28 +61,38 @@ public static class ReversalFactory
         }
         else if (reversalTitle == "Manager Interferes")
         {
-            reversal = new ManagerInterferes(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                             card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseACardThatContainsSubtype(
+                PlayAs.Maneuver, Subtype.All, card.Title, card.Types, card.Subtypes, 
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Chyna Interferes")
         {
-            reversal = new ChynaInterferes(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                           card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseACardThatContainsSubtype(
+                PlayAs.Maneuver, Subtype.All, card.Title, card.Types, card.Subtypes, 
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Clean Break")
         {
-            reversal = new CleanBreak(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                      card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Jockeying for Position", PlayAs.Action, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Jockeying for Position")
         {
-            reversal = new JockeyingForPosition(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                                card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Jockeying for Position", PlayAs.Action, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Irish Whip")
         {
-            reversal = new IrishWhip(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                     card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Irish Whip", PlayAs.Action, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Shoulder Block")
         {
@@ -119,56 +129,44 @@ public static class ReversalFactory
             );
         else if (reversalTitle == "Belly to Belly Suplex")
         {
-            // reversal = new BellyToBellySuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
-            //                                   card.Damage, card.StunValue, card.CardEffect);
-            reversal = new MayOnlyReverseTheManeuverTitled(
-                "Belly to Belly Suplex", card.Title, card.Types, card.Subtypes, card.Fortitude,
-                card.Damage, card.StunValue, card.CardEffect
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Belly to Belly Suplex", PlayAs.Maneuver, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Vertical Suplex")
         {
-            // reversal = new VerticalSuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
-            //                               card.Damage, card.StunValue, card.CardEffect);
-            reversal = new MayOnlyReverseTheManeuverTitled(
-                "Vertical Suplex", card.Title, card.Types, card.Subtypes, card.Fortitude,
-                card.Damage, card.StunValue, card.CardEffect
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Vertical Suplex", PlayAs.Maneuver, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Belly to Back Suplex")
         {
-            // reversal = new BellyToBackSuplex(card.Title, card.Types, card.Subtypes, card.Fortitude,
-            //                                  card.Damage, card.StunValue, card.CardEffect);
-            reversal = new MayOnlyReverseTheManeuverTitled(
-                "Belly to Back Suplex", card.Title, card.Types, card.Subtypes, card.Fortitude,
-                card.Damage, card.StunValue, card.CardEffect
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Belly to Back Suplex", PlayAs.Maneuver, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Ensugiri")
         {
-            // reversal = new Ensugiri(card.Title, card.Types, card.Subtypes, card.Fortitude,
-            //                         card.Damage, card.StunValue, card.CardEffect);
-            reversal = new MayOnlyReverseTheManeuverTitled(
-                "Kick", card.Title, card.Types, card.Subtypes, card.Fortitude,
-                card.Damage, card.StunValue, card.CardEffect
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Kick", PlayAs.Maneuver, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Drop Kick")
         {
-            // reversal = new DropKick(card.Title, card.Types, card.Subtypes, card.Fortitude,
-            //                         card.Damage, card.StunValue, card.CardEffect);
-            reversal = new MayOnlyReverseTheManeuverTitled(
-                "Drop Kick", card.Title, card.Types, card.Subtypes, card.Fortitude,
-                card.Damage, card.StunValue, card.CardEffect
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Drop Kick", PlayAs.Maneuver, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else if (reversalTitle == "Double Arm DDT")
         {
-            // reversal = new DoubleArmDDT(card.Title, card.Types, card.Subtypes, card.Fortitude,
-            //                             card.Damage, card.StunValue, card.CardEffect);
-            reversal = new MayOnlyReverseTheManeuverTitled(
-                "Back Body Drop", card.Title, card.Types, card.Subtypes, card.Fortitude,
-                card.Damage, card.StunValue, card.CardEffect
+            reversal = new MayOnlyReverseTheCardTitled(
+                "Back Body Drop", PlayAs.Maneuver, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
             );
         }
         else

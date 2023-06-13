@@ -4,12 +4,12 @@ namespace RawDeal.Reversals;
 using RawDeal.Plays;
 
 
-public class NoEffectReversal : Reversal
+public class MayOnlyReverseACardThatContainsSubtype : Reversal
 {
     private PlayAs _playAs;
     private Subtype _subtype;
 
-    public NoEffectReversal(
+    public MayOnlyReverseACardThatContainsSubtype(
         PlayAs playAs, Subtype subtype, string title, List<string> types, List<string> subtypes, 
         string fortitude, string damage, string stunValue, string cardEffect
     ) : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
