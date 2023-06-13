@@ -66,10 +66,34 @@ public class Player
         set { _nextSubtypeReversalIsPlusF = value; }
     }
 
+    int _nextManeuverIsPlusD = 0;
+    public int NextManeuverIsPlusD {
+        get { return _nextManeuverIsPlusD; }
+        set { _nextManeuverIsPlusD = value; }
+    }
+
+    int _nextManeuverIsPlusDCounter = 0;
+    public int NextManeuverIsPlusDCounter {
+        get { return _nextManeuverIsPlusDCounter; }
+        set { _nextManeuverIsPlusDCounter = value; }
+    }
+
+    Subtype _nextManeuverIsPlusDSubtype = Subtype.None;
+    public Subtype NextManeuverIsPlusDSubtype {
+        get { return _nextManeuverIsPlusDSubtype; }
+        set { _nextManeuverIsPlusDSubtype = value; }
+    }
+
     private int _damageBonusForRestOfTurn = 0;
     public int DamageBonusForRestOfTurn {
         get { return _damageBonusForRestOfTurn; }
         set { _damageBonusForRestOfTurn = value; }
+    }
+
+    private int _damageBonusForPlayedAfterSomeDamage = 0;
+    public int DamageBonusForPlayedAfterSomeDamage {
+        get { return _damageBonusForPlayedAfterSomeDamage; }
+        set { _damageBonusForPlayedAfterSomeDamage = value; }
     }
 
     private Subtype _damageBonusForRestOfTurnSubtype = Subtype.None;
@@ -153,6 +177,7 @@ public class Player
         Play.Start();
         if (Play.Card.Title != _lastCardPlayed)
         {
+            Console.WriteLine($"AAAAAAAAAAAAAAAAAAAAAAAA");
             ResetNextSubtypeIs();
         }
         _lastCardPlayed = Play.Card.Title;
@@ -355,6 +380,10 @@ public class Player
         _nextSubtypeDoesSomeEffect = Subtype.None;
         _damageBonusForRestOfTurn = 0;
         _damageBonusForRestOfTurnSubtype = Subtype.None;
+        _damageBonusForPlayedAfterSomeDamage = 0;
+        _nextManeuverIsPlusD = 0;
+        _nextManeuverIsPlusDCounter = 0;
+        _nextManeuverIsPlusDSubtype = Subtype.None;
         _lastCardPlayed = "";
     }
 
@@ -363,7 +392,8 @@ public class Player
         Console.WriteLine("Next subtype is " + _nextSubtypeDoesSomeEffect);
         Console.WriteLine("Next subtype is plus D " + _nextSubtypeIsPlusD);
         Console.WriteLine("Next subtype reversal is plus F " + _nextSubtypeReversalIsPlusF);
-        if (!play.Card.Subtypes.Contains(_nextSubtypeDoesSomeEffect.ToString()))
+        if (!play.Card.Subtypes.Contains(_nextSubtypeDoesSomeEffect.ToString()) || 
+            (play.Player.NextSubtypeDoesSomeEffect == Subtype.All))
         {
             ResetNextSubtypeIs();
         }

@@ -26,6 +26,7 @@ public class KneeToTheGut : Reversal
         int damage = card.GetDamage();
         Console.WriteLine("0. Damage: " + damage);
         damage += oponent.NextSubtypeIsPlusD;
+        damage += oponent.DamageBonusForPlayedAfterSomeDamage;
         Console.WriteLine("1. Damage: " + damage);
         Console.WriteLine("Damage Bonus: " + oponent.DamageBonusForRestOfTurn);
         Console.WriteLine("Damage Bonus subtype: " + oponent.DamageBonusForRestOfTurnSubtype);

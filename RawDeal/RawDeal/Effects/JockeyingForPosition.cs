@@ -2,8 +2,6 @@ namespace RawDeal.Effects;
 
 
 using RawDealView.Options;
-using RawDeal.Initialize;
-using RawDeal.Effects;
 
 
 public class JockeyingForPosition : Effect

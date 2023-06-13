@@ -13,4 +13,9 @@ public abstract class Effect
     }
 
     public abstract void Resolve();
+
+    public virtual Subtype GetSubtypeDoesSomeEffect()
+    {
+        return Subtype.None;
+    }
 }

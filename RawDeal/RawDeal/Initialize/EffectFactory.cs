@@ -238,10 +238,22 @@ public static class EffectFactory
         {
             effect = new DamageBonusForRestOfTurn(1, Subtype.Strike, player);
         }
-        // else if (card.Title == "Superkick")
-        // {
-        //     effect = new NextSubtypePlayedIsPlusDamage(card.Title, Subtype.Strike, 5, player);
-        // }
+        else if (card.Title == "Superkick")
+        {
+            effect = new DamageBonusForPlayedAfterSomeDamage(5, player);
+        }
+        else if (card.Title == "Clothesline")
+        {
+            effect = new NextManeuverPlayedIsPlusDamage(2, Subtype.All, player);
+        }
+        else if (card.Title == "Atomic Drop")
+        {
+            effect = new NextManeuverPlayedIsPlusDamage(2, Subtype.All, player);
+        }
+        else if (card.Title == "Snap Mare")
+        {
+            effect = new NextManeuverPlayedIsPlusDamage(2, Subtype.Strike, player);
+        }
         else
         {
             if (card.PlayAs == PlayAs.Action)
