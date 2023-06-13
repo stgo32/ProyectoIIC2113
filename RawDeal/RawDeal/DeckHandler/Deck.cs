@@ -256,4 +256,35 @@ public class Deck
         );
         return discardCardId;
     }
+
+    public void DrawCards(int quantity)
+    {
+        if (quantity > 0)
+        {
+            Formatter.View.SayThatPlayerDrawCards(Superstar.Name, quantity);
+            for (int i = quantity; i > 0; i--)
+            {
+                DrawCardFromArsenalToHand();
+            }
+        }
+    }
+
+    public void DrawACard()
+    {
+        DrawCardFromArsenalToHand();
+        Formatter.View.SayThatPlayerDrawCards(Superstar.Name, 1);
+    }
+
+    public void DrawCardsBecauseOfStunValue(int stunValue, int gapDamage)
+    {
+        int howManyWillDraw = 0;
+        if (stunValue > 0 && gapDamage > 0)
+        {
+            howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(
+                Superstar.Name,
+                stunValue
+            );
+            DrawCards(howManyWillDraw);
+        }
+    }
 }

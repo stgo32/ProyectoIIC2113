@@ -24,7 +24,7 @@ public class StoneCold:Superstar
     public override void UseAbility()
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
-        Player.DrawACard();
+        Player.Deck.DrawACard();
         Player.Deck.ReturnACard();
         UsedAbilityThisTurn = true;
     }

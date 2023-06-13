@@ -14,6 +14,6 @@ public class StandardActionEffect : Effect
     public override void Resolve()
     {
         _player.Deck.DiscardPossibleCardById(_cardId);
-        _player.DrawACard();
+        _player.Deck.DrawACard();
     }
 }

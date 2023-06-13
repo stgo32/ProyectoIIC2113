@@ -293,23 +293,23 @@ public class Player
     //     return discardCardId;
     // }
 
-    public void DrawCards(int quantity)
-    {
-        if (quantity > 0)
-        {
-            Formatter.View.SayThatPlayerDrawCards(Superstar.Name, quantity);
-            for (int i = quantity; i > 0; i--)
-            {
-                Deck.DrawCardFromArsenalToHand();
-            }
-        }
-    }
+    // public void DrawCards(int quantity)
+    // {
+    //     if (quantity > 0)
+    //     {
+    //         Formatter.View.SayThatPlayerDrawCards(Superstar.Name, quantity);
+    //         for (int i = quantity; i > 0; i--)
+    //         {
+    //             Deck.DrawCardFromArsenalToHand();
+    //         }
+    //     }
+    // }
 
-    public void DrawACard()
-    {
-        Deck.DrawCardFromArsenalToHand();
-        Formatter.View.SayThatPlayerDrawCards(Superstar.Name, 1);
-    }
+    // public void DrawACard()
+    // {
+    //     Deck.DrawCardFromArsenalToHand();
+    //     Formatter.View.SayThatPlayerDrawCards(Superstar.Name, 1);
+    // }
 
     public void RecoverCards(int quantity)
     {
@@ -355,18 +355,18 @@ public class Player
         Deck.DrawCardFromRingsideToHandById(cardId);
     }
 
-    public void DrawCardsBecauseOfStunValue(int stunValue, int gapDamage)
-    {
-        int howManyWillDraw = 0;
-        if (stunValue > 0 && gapDamage > 0)
-        {
-            howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(
-                Superstar.Name,
-                stunValue
-            );
-            DrawCards(howManyWillDraw);
-        }
-    }
+    // public void DrawCardsBecauseOfStunValue(int stunValue, int gapDamage)
+    // {
+    //     int howManyWillDraw = 0;
+    //     if (stunValue > 0 && gapDamage > 0)
+    //     {
+    //         howManyWillDraw = Formatter.View.AskHowManyCardsToDrawBecauseOfStunValue(
+    //             Superstar.Name,
+    //             stunValue
+    //         );
+    //         DrawCards(howManyWillDraw);
+    //     }
+    // }
 
     public void ResetPlayProgress()
     {

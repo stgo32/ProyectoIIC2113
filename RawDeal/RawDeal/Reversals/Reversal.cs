@@ -60,7 +60,7 @@ public abstract class Reversal : Card
         Player oponent = play.Player;
 
         Formatter.View.SayThatCardWasReversedByDeck(playerReversing.Superstar.Name);
-        oponent.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
+        oponent.Deck.DrawCardsBecauseOfStunValue(play.Card.GetStunValue(), gapDamage);
         SetReversalState(playerReversing);
     }
 
