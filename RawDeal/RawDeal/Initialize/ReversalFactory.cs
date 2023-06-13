@@ -40,18 +40,24 @@ public static class ReversalFactory
         }
         else if (reversalTitle == "Rolling Takedown")
         {
-            reversal = new RollingTakedown(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                           card.Damage, card.StunValue, card.CardEffect);
+            reversal = new TakesTheDamageOfTheCardBeingReversed(
+                PlayAs.Maneuver, Subtype.Grapple, 7, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Knee to the Gut")
         {
-            reversal = new KneeToTheGut(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                        card.Damage, card.StunValue, card.CardEffect);
+            reversal = new TakesTheDamageOfTheCardBeingReversed(
+                PlayAs.Maneuver, Subtype.Strike, 7, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Elbow to the Face")
         {
-            reversal = new ElbowToTheFace(card.Title, card.Types, card.Subtypes, card.Fortitude,
-                                          card.Damage, card.StunValue, card.CardEffect);
+            reversal = new MayReverseSomeDamageOrLess(
+                PlayAs.Maneuver, Subtype.All, 7, card.Title, card.Types, card.Subtypes,
+                card.Fortitude, card.Damage, card.StunValue, card.CardEffect
+            );
         }
         else if (reversalTitle == "Manager Interferes")
         {

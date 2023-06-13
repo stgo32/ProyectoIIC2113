@@ -30,12 +30,6 @@ public class MayOnlyReverseAManeuverAfterIrishWhip : Reversal
         return fortitudeRestriction && reversalRestriction;
     }
 
-    protected override void ApplyDamage(Play play)
-    {
-        int damage = play.Player.Oponent.HandleDamage(GetDamage());
-        DeliverDamage(play.Player, damage);
-    }
-
     public override bool CanReverseByDeck(Card card, int fortitude, Player oponent)
     {
         if (_canReverseByDeck)

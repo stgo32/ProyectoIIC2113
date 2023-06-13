@@ -20,10 +20,4 @@ public class ManagerInterferes : Reversal
         bool reversalRestriction = card.PlayAs == PlayAs.Maneuver;
         return fortitudeRestriction && reversalRestriction;
     }
-
-    protected override void ApplyDamage(Play play)
-    {
-        int damage = play.Player.Oponent.HandleDamage(GetDamage());
-        DeliverDamage(play.Player, damage);
-    }
 }

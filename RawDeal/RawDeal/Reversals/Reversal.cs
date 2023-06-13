@@ -36,7 +36,11 @@ public abstract class Reversal : Card
         effect.Resolve();  
     }
     
-    protected abstract void ApplyDamage(Play play);
+    protected virtual void ApplyDamage(Play play)
+    {
+        int damage = play.Player.Oponent.HandleDamage(GetDamage());
+        DeliverDamage(play.Player, damage);
+    }
 
     public void ReverseFromHand(Play play)
     {

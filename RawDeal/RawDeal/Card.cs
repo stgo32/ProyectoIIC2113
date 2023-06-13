@@ -81,11 +81,12 @@ public class Card : IViewableCardInfo
 
     public bool ContainsSubtype(Subtype subtype)
     {
-        if (subtype == Subtype.All)
+        bool contains = false;
+        if ((subtype == Subtype.All) || this.Subtypes.Contains(subtype.ToString()))
         {
-            return true;
+            contains = true;
         }
-        return this.Subtypes.Contains(subtype.ToString());
+        return contains;
     }
 
     public Card PlayCardAs(string type)

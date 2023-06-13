@@ -23,6 +23,4 @@ public class JockeyingForPosition : Reversal
                                    && card.Title == Title;
         return fortitudeRestriction && reversalRestriction;
     }
-
-    protected override void ApplyDamage(Play play) { return; }
 }

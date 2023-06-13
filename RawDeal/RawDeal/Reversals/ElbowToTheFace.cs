@@ -4,12 +4,21 @@ namespace RawDeal.Reversals;
 using RawDeal.Plays;
 
 
-public class ElbowToTheFace : Reversal
+public class MayReverseSomeDamageOrLess : Reversal
 {
-    public ElbowToTheFace(string title, List<string> types, List<string> subtypes, string fortitude,
-                    string damage, string stunValue, string cardEffect)
-                    : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
-    {}
+    protected PlayAs _playAs;
+    protected Subtype _subtype;
+    protected int _damageNeeded;
+
+    public MayReverseSomeDamageOrLess(
+        PlayAs playAs, Subtype subtype, int damageNeeded, string title, List<string> types, 
+        List<string> subtypes, string fortitude, string damage, string stunValue, string cardEffect
+    ) : base(title, types, subtypes, fortitude, damage, stunValue, cardEffect)
+    {
+        _playAs = playAs;
+        _subtype = subtype;
+        _damageNeeded = damageNeeded;
+    }
 
     public override bool CanReverse(Card card, int fortitude, Player oponent)
     {
@@ -17,19 +26,18 @@ public class ElbowToTheFace : Reversal
             fortitude,
             oponent.NextSubtypeReversalIsPlusF
         );
-        Console.WriteLine("Fortitude restriction: " + fortitudeRestriction);
-        bool reversalRestriction = CalculateDamageRestriction(card, oponent);
-        Console.WriteLine("Reversal restriction: " + reversalRestriction);
-        return fortitudeRestriction && reversalRestriction;
+        bool subtypeRestriction = card.ContainsSubtype(_subtype) && 
+                                  card.PlayAs == _playAs;
+        bool damageRestriction = CalculateDamageRestriction(card, oponent);
+        return fortitudeRestriction && subtypeRestriction && damageRestriction;
     }
 
-    private bool CalculateDamageRestriction(Card card, Player oponent)
+    protected bool CalculateDamageRestriction(Card card, Player oponent)
     {
         int damage = card.GetDamage();
         damage += oponent.NextSubtypeIsPlusD;
         damage += oponent.DamageBonusForPlayedAfterSomeDamage;
-        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype) || 
-            oponent.DamageBonusForRestOfTurnSubtype == Subtype.All)
+        if (card.ContainsSubtype(oponent.DamageBonusForRestOfTurnSubtype))
         {
             damage += oponent.DamageBonusForRestOfTurn;
         }
@@ -37,14 +45,6 @@ public class ElbowToTheFace : Reversal
         {
             damage = oponent.Oponent.Superstar.TakeLessDamage(damage);
         }
-        Console.WriteLine("Card: " + Title);
-        Console.WriteLine("Damage: " + damage);
-        return card.PlayAs == PlayAs.Maneuver && damage <= 7;
-    }
-
-    protected override void ApplyDamage(Play play)
-    {
-        int damage = play.Player.Oponent.HandleDamage(GetDamage());
-        DeliverDamage(play.Player, damage);
+        return damage <= _damageNeeded;
     }
 }

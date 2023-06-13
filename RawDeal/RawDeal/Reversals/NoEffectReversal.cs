@@ -28,6 +28,4 @@ public class NoEffectReversal : Reversal
                                    card.PlayAs == _playAs;
         return fortitudeRestriction && reversalRestriction;
     }
-
-    protected override void ApplyDamage(Play play) { return; }
 }

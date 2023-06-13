@@ -21,6 +21,4 @@ public class CleanBreak : Reversal
                                    card.Title == "Jockeying for Position";
         return fortitudeRestriction && reversalRestriction;
     }
-
-    protected override void ApplyDamage(Play play) { return; }
 }
