@@ -9,8 +9,8 @@ public class NextSubtypeReversalIsPlusFortitude : Effect
 
     public override bool CantBeReversed { get { return false; } }
     
-    public NextSubtypeReversalIsPlusFortitude(string cardTitle, Subtype subtype, int fortitude, Player player)
-                                              : base(player) 
+    public NextSubtypeReversalIsPlusFortitude(string cardTitle, Subtype subtype, int fortitude, 
+                                              Player player) : base(player) 
     {
         _cardTitle = cardTitle;
         _subtype = subtype;

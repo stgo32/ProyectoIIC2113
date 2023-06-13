@@ -52,9 +52,9 @@ public class Deck
     {
         SetStartingArsenal();
         SetStartingHand();
-        SetStartingRingside();
-        SetStartingRingArea();
-        SetStartingPossibleReversals();
+        _ringside = new CardSet();
+        _ringArea = new RingArea();
+        _possibleReversalsToPlay = new PossibleReversalsToPlay(_player);
     }
 
     private void SetStartingArsenal()
@@ -71,22 +71,6 @@ public class Deck
             DrawCardFromArsenalToHand();
         }
     }
-
-    private void SetStartingRingside()
-    {
-        _ringside = new CardSet();
-    }
-
-    private void SetStartingRingArea()
-    {
-        _ringArea = new RingArea();
-    }
-
-    private void SetStartingPossibleReversals()
-    {
-        _possibleReversalsToPlay = new PossibleReversalsToPlay(_player);
-    }
-
 
     public PossibleCardsToPlay GetPossibleCardsToPlay()
     {
@@ -197,20 +181,32 @@ public class Deck
         }
     }
 
-    public void DiscardCardsFromOponentHand(int quantity)
-    {
-        for (int i = quantity; i > 0; i--)
-        {
-            DiscardACardFromOponentHand(i);
-        }
-    }
-
     public void DiscardACard(int iter = 1)
     {
         if (Hand.Any())
         {
             int discardCardId = SelectCardToDiscard(iter);
             DrawCardFromHandToRingsideById(discardCardId);
+        }
+    }
+
+    private int SelectCardToDiscard(int iter)
+    {
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
+            formattedHand,
+            Superstar.Name,
+            Superstar.Name, 
+            iter
+        );
+        return discardCardId;
+    }
+
+    public void DiscardCardsFromOponentHand(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            DiscardACardFromOponentHand(i);
         }
     }
 
@@ -228,18 +224,6 @@ public class Deck
         string cardTitle = GetPossibleCardsToPlay().GetCard(cardId).Title;
         Formatter.View.SayThatPlayerMustDiscardThisCard(Superstar.Name, cardTitle);
         DrawCardFromPossibleCardsToRingsideById(cardId);
-    }
-
-    private int SelectCardToDiscard(int iter)
-    {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
-        int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
-            formattedHand,
-            Superstar.Name,
-            Superstar.Name, 
-            iter
-        );
-        return discardCardId;
     }
 
     private int SelectCardFromOponentHandToDiscard(int iter)
@@ -308,5 +292,27 @@ public class Deck
             formattedRingside
         );
         DrawCardFromRingsideToArsenalById(cardId);
+    }
+
+    public void RetrieveCards(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            RetrieveACard(i);
+        }
+    }
+
+    public void RetrieveACard(int iter = 1)
+    {
+        List<string> formattedRingside = Formatter.GetFormattedCardList(
+            Ringside.Cards,
+            NextPlay.ShowCards
+        );
+        int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(
+            Superstar.Name,
+            iter,
+            formattedRingside
+        );
+        DrawCardFromRingsideToHandById(cardId);
     }
 }

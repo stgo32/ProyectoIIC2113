@@ -35,9 +35,4 @@ public class TheRock : Superstar
     {
         Player.Deck.RecoverACard();
     }
-
-   public override int TakeLessDamage(int damage)
-    {
-        throw new System.NotImplementedException();
-    }
 }

@@ -18,4 +18,14 @@ public abstract class Effect
     {
         return Subtype.None;
     }
+
+    public virtual void TheCardHasBeenUsed(int cardId)
+    {
+        _player.Deck.DrawCardFromPossibleCardsToRingAreaById(cardId);
+    }
+
+    public virtual void AfterEffectConfig()
+    {
+        _player.NextManeuverIsPlusDCounter = 0;
+    }
 }

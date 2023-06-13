@@ -258,7 +258,7 @@ public static class EffectFactory
         {
             if (card.PlayAs == PlayAs.Action)
             {
-                effect = new StandardActionEffect(cardId, player);
+                effect = new DiscardThisCardAndDraw(cardId, player);
             }
             else
             {

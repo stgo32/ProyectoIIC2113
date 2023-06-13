@@ -24,4 +24,10 @@ public class NextManeuverPlayedIsPlusDamage : Effect
     {
         return _subtype;
     }
+
+    public override void AfterEffectConfig()
+    {
+        _player.NextManeuverIsPlusDCounter ++;
+        _player.NextManeuverIsPlusDSubtype = GetSubtypeDoesSomeEffect();
+    }
 }

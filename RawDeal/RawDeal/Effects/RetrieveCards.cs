@@ -14,6 +14,6 @@ public class RetrieveCards : Effect
 
     public override void Resolve()
     {
-        _player.RetrieveCards(_quantity);
+        _player.Deck.RetrieveCards(_quantity);
     }
 }

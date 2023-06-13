@@ -29,9 +29,4 @@ public class Jericho : Superstar
         Player.Oponent.Deck.DiscardACard();
         UsedAbilityThisTurn = true;
     }
-    
-    public override int TakeLessDamage(int damage)
-    {
-        throw new System.NotImplementedException();
-    }
 }

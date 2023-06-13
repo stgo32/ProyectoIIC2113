@@ -17,9 +17,4 @@ public class HHH : Superstar
     {
         return;
     }
-
-    public override int TakeLessDamage(int damage)
-    {
-        throw new System.NotImplementedException();
-    }
 }

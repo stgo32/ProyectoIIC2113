@@ -28,9 +28,4 @@ public class StoneCold:Superstar
         Player.Deck.ReturnACard();
         UsedAbilityThisTurn = true;
     }
-
-    public override int TakeLessDamage(int damage)
-    {
-        throw new System.NotImplementedException();
-    }
 }

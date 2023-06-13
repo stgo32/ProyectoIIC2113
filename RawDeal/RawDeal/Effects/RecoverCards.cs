@@ -7,8 +7,7 @@ public class RecoverCards : Effect
     
     private int _quantity;
 
-    public RecoverCards(int quantity, Player player) 
-                        : base(player) 
+    public RecoverCards(int quantity, Player player) : base(player) 
     { 
         _quantity = quantity;
     }

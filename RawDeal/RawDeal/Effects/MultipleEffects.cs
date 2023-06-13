@@ -17,8 +17,7 @@ public class MultipleEffects : Effect
 
     private Effect[] _effects;
 
-    public MultipleEffects(Effect[] effects, Player player) 
-                           : base(player) 
+    public MultipleEffects(Effect[] effects, Player player) : base(player) 
     { 
         _effects = effects;
     }

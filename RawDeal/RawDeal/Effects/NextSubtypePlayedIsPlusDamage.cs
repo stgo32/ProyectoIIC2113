@@ -9,8 +9,8 @@ public class NextSubtypePlayedIsPlusDamage : Effect
 
     public override bool CantBeReversed { get { return false; } }
     
-    public NextSubtypePlayedIsPlusDamage(string cardTitle, Subtype subtype, int damage, Player player)
-                                         : base(player) 
+    public NextSubtypePlayedIsPlusDamage(string cardTitle, Subtype subtype, int damage, 
+                                         Player player) : base(player) 
     {
         _cardTitle = cardTitle;
         _subtype = subtype;

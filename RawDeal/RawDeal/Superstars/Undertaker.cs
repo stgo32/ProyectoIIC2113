@@ -25,12 +25,7 @@ public class Undertaker : Superstar
     {
         Formatter.View.SayThatPlayerIsGoingToUseHisAbility(Name, SuperstarAbility);
         Player.Deck.DiscardCards(2);
-        Player.RetrieveACard();
+        Player.Deck.RetrieveACard();
         UsedAbilityThisTurn = true;
-    }
-
-    public override int TakeLessDamage(int damage)
-    {
-        throw new System.NotImplementedException();
     }
 }

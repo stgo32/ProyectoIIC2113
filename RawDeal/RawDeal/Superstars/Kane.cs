@@ -29,11 +29,6 @@ public class Kane : Superstar
         DeliverExtraDamage();
     }
 
-    public override int TakeLessDamage(int damage)
-    {
-        throw new System.NotImplementedException();
-    }
-
     private void DeliverExtraDamage()
     {
         Card cardOverturned = Player.Oponent.RecieveDamage();

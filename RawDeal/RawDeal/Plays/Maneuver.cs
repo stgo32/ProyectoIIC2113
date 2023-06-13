@@ -8,7 +8,11 @@ using RawDeal.Effects;
 
 public class Maneuver : Play
 {
-    public Maneuver(int cardId, Player player) : base(cardId, player) { }
+    private Effect _effect;
+    public Maneuver(int cardId, Player player) : base(cardId, player)
+    { 
+        _effect = EffectFactory.GetEffect(Card, _cardId, Player);
+    }
 
     private void Stop(Card card, int gapDamage)
     {
@@ -29,9 +33,8 @@ public class Maneuver : Play
 
     protected override void UseEffect()
     {
-        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
         Card card = Player.Deck.DrawCardFromPossibleCardsToRingAreaById(_cardId);
-        effect.Resolve();
+        _effect.Resolve();
     }
 
     private int HandleDamage()
@@ -142,22 +145,8 @@ public class Maneuver : Play
 
     private void ResetDamageBonusEffects(int damage)
     {
-        SetNextManeuverIsPlusDamage();
+        _effect.AfterEffectConfig();
         Player.PlayedAManeuverLast = true;
         Player.LastDamageInflicted = damage;
-    }
-
-    private void SetNextManeuverIsPlusDamage()
-    {
-        Effect effect = EffectFactory.GetEffect(Card, _cardId, Player);
-        if (effect.GetType().Name == "NextManeuverPlayedIsPlusDamage")
-        {
-            Player.NextManeuverIsPlusDCounter ++;
-            Player.NextManeuverIsPlusDSubtype = effect.GetSubtypeDoesSomeEffect();
-        }
-        else 
-        {
-            Player.NextManeuverIsPlusDCounter = 0;
-        }
     }
 }
