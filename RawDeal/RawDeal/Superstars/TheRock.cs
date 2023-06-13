@@ -33,7 +33,7 @@ public class TheRock : Superstar
     
     public override void UseAbility()
     {
-        Player.RecoverACard();
+        Player.Deck.RecoverACard();
     }
 
    public override int TakeLessDamage(int damage)

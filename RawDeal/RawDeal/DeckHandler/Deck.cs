@@ -287,4 +287,26 @@ public class Deck
             DrawCards(howManyWillDraw);
         }
     }
+
+    public void RecoverCards(int quantity)
+    {
+        for (int i = quantity; i > 0; i--)
+        {
+            RecoverACard(i);
+        }
+    }
+
+    public void RecoverACard(int iter = 1)
+    {
+        List<string> formattedRingside = Formatter.GetFormattedCardList(
+            Ringside.Cards,
+            NextPlay.ShowCards
+        );
+        int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
+            Superstar.Name,
+            iter,
+            formattedRingside
+        );
+        DrawCardFromRingsideToArsenalById(cardId);
+    }
 }

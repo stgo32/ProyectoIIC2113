@@ -311,27 +311,27 @@ public class Player
     //     Formatter.View.SayThatPlayerDrawCards(Superstar.Name, 1);
     // }
 
-    public void RecoverCards(int quantity)
-    {
-        for (int i = quantity; i > 0; i--)
-        {
-            RecoverACard(i);
-        }
-    }
+    // public void RecoverCards(int quantity)
+    // {
+    //     for (int i = quantity; i > 0; i--)
+    //     {
+    //         RecoverACard(i);
+    //     }
+    // }
 
-    public void RecoverACard(int iter = 1)
-    {
-        List<string> formattedRingside = Formatter.GetFormattedCardList(
-            Ringside.Cards,
-            NextPlay.ShowCards
-        );
-        int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
-            Superstar.Name,
-            iter,
-            formattedRingside
-        );
-        Deck.DrawCardFromRingsideToArsenalById(cardId);
-    }
+    // public void RecoverACard(int iter = 1)
+    // {
+    //     List<string> formattedRingside = Formatter.GetFormattedCardList(
+    //         Ringside.Cards,
+    //         NextPlay.ShowCards
+    //     );
+    //     int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
+    //         Superstar.Name,
+    //         iter,
+    //         formattedRingside
+    //     );
+    //     Deck.DrawCardFromRingsideToArsenalById(cardId);
+    // }
 
     public void RetrieveCards(int quantity)
     {
