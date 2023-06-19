@@ -1,0 +1,310 @@
+-------------------------
+Elige un mazo
+1- data/10-ComplexEffects/01_HHH.txt
+2- data/10-ComplexEffects/02_TheRock.txt
+3- data/10-ComplexEffects/03_TheRock.txt
+4- data/10-ComplexEffects/04_TheRock.txt
+5- data/10-ComplexEffects/05_TheRock.txt
+6- data/10-ComplexEffects/06_TheRock.txt
+7- data/10-ComplexEffects/07_Kane.txt
+8- data/10-ComplexEffects/08_Undertaker.txt
+9- data/10-ComplexEffects/09_StoneCold.txt
+10- data/10-ComplexEffects/10_Kane.txt
+11- data/10-ComplexEffects/11_HHH.txt
+12- data/10-ComplexEffects/12_Jericho.txt
+13- data/10-ComplexEffects/13_Undertaker.txt
+14- data/10-ComplexEffects/14_Kane.txt
+15- data/10-ComplexEffects/15_Mankind.txt
+16- data/10-ComplexEffects/16_Mankind.txt
+17- data/10-ComplexEffects/17_Kane.txt
+18- data/10-ComplexEffects/18_StoneCold.txt
+19- data/10-ComplexEffects/19_TheRock.txt
+20- data/10-ComplexEffects/20_Undertaker.txt
+21- data/10-ComplexEffects/21_Kane.txt
+22- data/10-ComplexEffects/22_Undertaker.txt
+23- data/10-ComplexEffects/23_StoneCold.txt
+24- data/10-ComplexEffects/24_Mankind.txt
+25- data/10-ComplexEffects/25_Jericho.txt
+26- data/10-ComplexEffects/26_Kane.txt
+27- data/10-ComplexEffects/27_TheRock.txt
+28- data/10-ComplexEffects/28_TheRock.txt
+29- data/10-ComplexEffects/29_TheRock.txt
+30- data/10-ComplexEffects/30_HHH.txt
+31- data/10-ComplexEffects/31_Undertaker.txt
+32- data/10-ComplexEffects/32_Jericho.txt
+33- data/10-ComplexEffects/33_Mankind.txt
+(Ingresa un número entre 1 y 33)
+INPUT: 9
+-------------------------
+Elige un mazo
+1- data/10-ComplexEffects/01_HHH.txt
+2- data/10-ComplexEffects/02_TheRock.txt
+3- data/10-ComplexEffects/03_TheRock.txt
+4- data/10-ComplexEffects/04_TheRock.txt
+5- data/10-ComplexEffects/05_TheRock.txt
+6- data/10-ComplexEffects/06_TheRock.txt
+7- data/10-ComplexEffects/07_Kane.txt
+8- data/10-ComplexEffects/08_Undertaker.txt
+9- data/10-ComplexEffects/09_StoneCold.txt
+10- data/10-ComplexEffects/10_Kane.txt
+11- data/10-ComplexEffects/11_HHH.txt
+12- data/10-ComplexEffects/12_Jericho.txt
+13- data/10-ComplexEffects/13_Undertaker.txt
+14- data/10-ComplexEffects/14_Kane.txt
+15- data/10-ComplexEffects/15_Mankind.txt
+16- data/10-ComplexEffects/16_Mankind.txt
+17- data/10-ComplexEffects/17_Kane.txt
+18- data/10-ComplexEffects/18_StoneCold.txt
+19- data/10-ComplexEffects/19_TheRock.txt
+20- data/10-ComplexEffects/20_Undertaker.txt
+21- data/10-ComplexEffects/21_Kane.txt
+22- data/10-ComplexEffects/22_Undertaker.txt
+23- data/10-ComplexEffects/23_StoneCold.txt
+24- data/10-ComplexEffects/24_Mankind.txt
+25- data/10-ComplexEffects/25_Jericho.txt
+26- data/10-ComplexEffects/26_Kane.txt
+27- data/10-ComplexEffects/27_TheRock.txt
+28- data/10-ComplexEffects/28_TheRock.txt
+29- data/10-ComplexEffects/29_TheRock.txt
+30- data/10-ComplexEffects/30_HHH.txt
+31- data/10-ComplexEffects/31_Undertaker.txt
+32- data/10-ComplexEffects/32_Jericho.txt
+33- data/10-ComplexEffects/33_Mankind.txt
+(Ingresa un número entre 1 y 33)
+INPUT: 10
+--------------------------------------------
+Comienza el turno de STONE COLD STEVE AUSTIN.
+--------------------------------------------
+STONE COLD STEVE AUSTIN: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+KANE: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+2- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+3- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+STONE COLD STEVE AUSTIN intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+KANE tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+1- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+STONE COLD STEVE AUSTIN recibe 2 de daño.
+-------------------------------- 1/2
+*Punch*. Info: 0F/3D, Maneuver, Strike.
+-------------------------------- 2/2
+*Roll Out of the Ring*. Info: 2F/0D, Action. Effect: Discard up to 2 cards from your hand to your Ringside pile. Return an equal number of cards of your choice to your hand from your Ringside pile.
+--------------------------------------------
+Comienza el turno de KANE.
+--------------------------------------------
+KANE usa su habilidad: At the start of your turn, before your draw segment, opponent must take the top card from his Arsenal and place it into his Ringside pile.
+STONE COLD STEVE AUSTIN recibe 1 de daño.
+-------------------------------- 1/1
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+KANE: 2F, tiene 7 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 5 de daño.
+-------------------------------- 1/5
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/5
+*Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 3/5
+*Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 4/5
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/5
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+--------------------------------------------
+KANE: 7F, tiene 6 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 44 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- [MANEUVER] *Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 10 de daño.
+-------------------------------- 1/10
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+-------------------------------- 2/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 3/10
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 4/10
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 5/10
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 6/10
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 7/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 8/10
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 9/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 10/10
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+KANE: 12F, tiene 5 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+1- [MANEUVER] *Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Kane's Chokeslam*. Info: 12F/12D/2SV, Maneuver, Grapple/Kane/Unique.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 12 de daño.
+-------------------------------- 1/12
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 2/12
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 3/12
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 4/12
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/12
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 6/12
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 7/12
+*Austin Elbow Smash*. Info: 8F/10D, Maneuver, HighRisk/StoneCold/Unique. Effect: May not be reversed. Can only be played after a maneuver that does 5D or greater.
+-------------------------------- 8/12
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 9/12
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 10/12
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 11/12
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 12/12
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+KANE: 24F, tiene 4 cartas en la mano y 52 en el arsenal.
+STONE COLD STEVE AUSTIN: 0F, tiene 7 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kane's Tombstone Piledriver*. Info: 30F/25D/3SV, Maneuver, TrademarkFinisher/Kane/Unique. Effect: -6F on this card if played after the card titled Kane's Choke Slam.
+1- [MANEUVER] *Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+KANE intenta jugar la siguiente carta:
+[MANEUVER] *Kane's Tombstone Piledriver*. Info: 30F/25D/3SV, Maneuver, TrademarkFinisher/Kane/Unique. Effect: -6F on this card if played after the card titled Kane's Choke Slam.
+--------------------------------------------
+La carta fue exitosamente jugada.
+STONE COLD STEVE AUSTIN recibe 25 de daño.
+-------------------------------- 1/25
+*Cross Body Block*. Info: 0F/7D, Maneuver/Reversal, Strike/ReversalSpecial. Effect: The card titled Irish Whip must be played before playing this card. May only reverse a maneuver played after the card titled Irish Whip.
+-------------------------------- 2/25
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/25
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 4/25
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 5/25
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 6/25
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 7/25
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 8/25
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 9/25
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 10/25
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 11/25
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 12/25
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 13/25
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 14/25
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 15/25
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 16/25
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 17/25
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 18/25
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 19/25
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 20/25
+*Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+-------------------------------- 21/25
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 22/25
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+
+--------------------------------------------
+Felicidades, gana KANE.

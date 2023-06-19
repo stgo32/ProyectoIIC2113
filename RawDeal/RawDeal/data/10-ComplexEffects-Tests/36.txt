@@ -1,0 +1,1345 @@
+-------------------------
+Elige un mazo
+1- data/10-ComplexEffects/01_HHH.txt
+2- data/10-ComplexEffects/02_TheRock.txt
+3- data/10-ComplexEffects/03_TheRock.txt
+4- data/10-ComplexEffects/04_TheRock.txt
+5- data/10-ComplexEffects/05_TheRock.txt
+6- data/10-ComplexEffects/06_TheRock.txt
+7- data/10-ComplexEffects/07_Kane.txt
+8- data/10-ComplexEffects/08_Undertaker.txt
+9- data/10-ComplexEffects/09_StoneCold.txt
+10- data/10-ComplexEffects/10_Kane.txt
+11- data/10-ComplexEffects/11_HHH.txt
+12- data/10-ComplexEffects/12_Jericho.txt
+13- data/10-ComplexEffects/13_Undertaker.txt
+14- data/10-ComplexEffects/14_Kane.txt
+15- data/10-ComplexEffects/15_Mankind.txt
+16- data/10-ComplexEffects/16_Mankind.txt
+17- data/10-ComplexEffects/17_Kane.txt
+18- data/10-ComplexEffects/18_StoneCold.txt
+19- data/10-ComplexEffects/19_TheRock.txt
+20- data/10-ComplexEffects/20_Undertaker.txt
+21- data/10-ComplexEffects/21_Kane.txt
+22- data/10-ComplexEffects/22_Undertaker.txt
+23- data/10-ComplexEffects/23_StoneCold.txt
+24- data/10-ComplexEffects/24_Mankind.txt
+25- data/10-ComplexEffects/25_Jericho.txt
+26- data/10-ComplexEffects/26_Kane.txt
+27- data/10-ComplexEffects/27_TheRock.txt
+28- data/10-ComplexEffects/28_TheRock.txt
+29- data/10-ComplexEffects/29_TheRock.txt
+30- data/10-ComplexEffects/30_HHH.txt
+31- data/10-ComplexEffects/31_Undertaker.txt
+32- data/10-ComplexEffects/32_Jericho.txt
+33- data/10-ComplexEffects/33_Mankind.txt
+(Ingresa un número entre 1 y 33)
+INPUT: 24
+-------------------------
+Elige un mazo
+1- data/10-ComplexEffects/01_HHH.txt
+2- data/10-ComplexEffects/02_TheRock.txt
+3- data/10-ComplexEffects/03_TheRock.txt
+4- data/10-ComplexEffects/04_TheRock.txt
+5- data/10-ComplexEffects/05_TheRock.txt
+6- data/10-ComplexEffects/06_TheRock.txt
+7- data/10-ComplexEffects/07_Kane.txt
+8- data/10-ComplexEffects/08_Undertaker.txt
+9- data/10-ComplexEffects/09_StoneCold.txt
+10- data/10-ComplexEffects/10_Kane.txt
+11- data/10-ComplexEffects/11_HHH.txt
+12- data/10-ComplexEffects/12_Jericho.txt
+13- data/10-ComplexEffects/13_Undertaker.txt
+14- data/10-ComplexEffects/14_Kane.txt
+15- data/10-ComplexEffects/15_Mankind.txt
+16- data/10-ComplexEffects/16_Mankind.txt
+17- data/10-ComplexEffects/17_Kane.txt
+18- data/10-ComplexEffects/18_StoneCold.txt
+19- data/10-ComplexEffects/19_TheRock.txt
+20- data/10-ComplexEffects/20_Undertaker.txt
+21- data/10-ComplexEffects/21_Kane.txt
+22- data/10-ComplexEffects/22_Undertaker.txt
+23- data/10-ComplexEffects/23_StoneCold.txt
+24- data/10-ComplexEffects/24_Mankind.txt
+25- data/10-ComplexEffects/25_Jericho.txt
+26- data/10-ComplexEffects/26_Kane.txt
+27- data/10-ComplexEffects/27_TheRock.txt
+28- data/10-ComplexEffects/28_TheRock.txt
+29- data/10-ComplexEffects/29_TheRock.txt
+30- data/10-ComplexEffects/30_HHH.txt
+31- data/10-ComplexEffects/31_Undertaker.txt
+32- data/10-ComplexEffects/32_Jericho.txt
+33- data/10-ComplexEffects/33_Mankind.txt
+(Ingresa un número entre 1 y 33)
+INPUT: 25
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+CHRIS JERICHO: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+MANKIND: 0F, tiene 4 cartas en la mano y 56 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+CHRIS JERICHO: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+MANKIND: 0F, tiene 6 cartas en la mano y 54 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+CHRIS JERICHO: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+MANKIND: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+CHRIS JERICHO: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 5 de daño.
+-------------------------------- 1/5
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+MANKIND puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+MANKIND roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 0F, tiene 11 cartas en la mano y 48 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, CHRIS JERICHO se pega 1 de daño colateral a si mismo.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Chop*. Info: 0F/2D, Action/Maneuver, Strike. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+-------------------------------- 2/4
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/4
+*Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+-------------------------------- 4/4
+*Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+--------------------------------------------
+CHRIS JERICHO: 5F, tiene 10 cartas en la mano y 47 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+5- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 5
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 2 de daño.
+-------------------------------- 1/2
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+MANKIND revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 5F, tiene 12 cartas en la mano y 42 en el arsenal.
+CHRIS JERICHO: 8F, tiene 9 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Shake It Off*. Info: 2F/0D, Action. Effect: Playable only if your Fortitude Rating is less than your opponent's Fortitude Rating. Remove any 1 card in opponent's Ring area with a D value less than or equal to your total Fortitude Rating and place it into his Ringside pile.
+1- [MANEUVER] *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+3- [MANEUVER] *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 2
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+CHRIS JERICHO tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Don't You Never... EVER!*. Info: 2F/0D, Reversal, ReversalSpecial/Jericho/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards and all your maneuvers next turn are +2D.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO revierte la carta usando:
+[REVERSAL] *Don't You Never... EVER!*. Info: 2F/0D, Reversal, ReversalSpecial/Jericho/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards and all your maneuvers next turn are +2D.
+MANKIND debe descartar 2 carta(s).
+MANKIND elige una carta para descartar.
+--------------------------------------------
+0- *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+1- *Mr. Socko*. Info: 20F/0D, Action, Mankind/Unique. Effect: Take 1 card from either your Arsenal or Ringside pile and place it into your hand, then shuffle your Arsenal. While Mr. Socko is in your Ring area, all your maneuvers are +1D.
+2- *Shake It Off*. Info: 2F/0D, Action. Effect: Playable only if your Fortitude Rating is less than your opponent's Fortitude Rating. Remove any 1 card in opponent's Ring area with a D value less than or equal to your total Fortitude Rating and place it into his Ringside pile.
+3- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+6- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+7- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+8- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+10- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 4
+MANKIND debe descartar 1 carta(s).
+MANKIND elige una carta para descartar.
+--------------------------------------------
+0- *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+1- *Mr. Socko*. Info: 20F/0D, Action, Mankind/Unique. Effect: Take 1 card from either your Arsenal or Ringside pile and place it into your hand, then shuffle your Arsenal. While Mr. Socko is in your Ring area, all your maneuvers are +1D.
+2- *Shake It Off*. Info: 2F/0D, Action. Effect: Playable only if your Fortitude Rating is less than your opponent's Fortitude Rating. Remove any 1 card in opponent's Ring area with a D value less than or equal to your total Fortitude Rating and place it into his Ringside pile.
+3- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+4- *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+5- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+6- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+7- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+9- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 9)
+INPUT: 6
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 8F, tiene 9 cartas en la mano y 46 en el arsenal.
+MANKIND: 5F, tiene 9 cartas en la mano y 42 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 5
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+1- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+2- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+MANKIND recibe 4 de daño.
+-------------------------------- 1/4
+*Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+-------------------------------- 2/4
+*Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+-------------------------------- 3/4
+*Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+-------------------------------- 4/4
+*Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 8 cartas en la mano y 46 en el arsenal.
+MANKIND: 5F, tiene 9 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+1- [MANEUVER] *Lionsault*. Info: 6F/12D/2SV, Maneuver, HighRisk/Jericho/Unique. Effect: Can only be played after a 4D or greater maneuver. When successfully played, opponent must discard 1 card.
+2- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+5- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 2
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+1- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+2- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, CHRIS JERICHO se pega 1 de daño colateral a si mismo.
+CHRIS JERICHO recibe 1 de daño.
+-------------------------------- 1/1
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+MANKIND recibe 6 de daño.
+-------------------------------- 1/6
+*Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+-------------------------------- 2/6
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 3/6
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+MANKIND revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 5F, tiene 11 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 16F, tiene 7 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Shake It Off*. Info: 2F/0D, Action. Effect: Playable only if your Fortitude Rating is less than your opponent's Fortitude Rating. Remove any 1 card in opponent's Ring area with a D value less than or equal to your total Fortitude Rating and place it into his Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Shake It Off*. Info: 2F/0D, Action. Effect: Playable only if your Fortitude Rating is less than your opponent's Fortitude Rating. Remove any 1 card in opponent's Ring area with a D value less than or equal to your total Fortitude Rating and place it into his Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+Como resultado, MANKIND puede elegir una de estas cartas del ring area de CHRIS JERICHO y descartarla.
+--------------------------------------------
+0- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Don't You Never... EVER!*. Info: 2F/0D, Reversal, ReversalSpecial/Jericho/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent must discard 2 cards and all your maneuvers next turn are +2D.
+3- *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+4- *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+--------------------------------------------
+MANKIND: 5F, tiene 10 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 11F, tiene 7 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+MANKIND: 5F, tiene 10 cartas en la mano y 33 en el arsenal.
+CHRIS JERICHO: 11F, tiene 7 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 8 cartas en la mano y 44 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+1- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Y2J*. Info: 5F/0D, Action, Jericho/Unique. Effect: Draw up to 5 Cards or force opponent to discard up to 5 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, CHRIS JERICHO debe elegir uno de los siguientes efectos:
+1- Robar cartas.
+2- Forzar al oponente a descartar cartas.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+--------------------------------------------
+CHRIS JERICHO puede robar hasta 5 cartas debido al efecto de la carta. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 5)
+INPUT: 5
+CHRIS JERICHO roba 5 carta(s).
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 12 cartas en la mano y 39 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+1- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+7- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 11 cartas en la mano y 39 en el arsenal.
+MANKIND: 5F, tiene 10 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+1- [MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+2- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+3- [ACTION] *Irish Whip*. Info: 5F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Strike maneuver it is +5D. As a reversal, may only reverse the card titled Irish Whip. If so, you end opponent's turn; and if your next card played on your turn is a Strike maneuver it is +5D.
+4- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+6- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- [MANEUVER] *Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 8)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Back Body Drop*. Info: 5F/7D/1SV, Maneuver, Strike. Effect: The card titled Irish Whip must be played before playing this card. When successfully played, you may either draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+1- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Have a Nice Day!*. Info: 5F/0D, Reversal, ReversalSpecial/Mankind/Unique. Effect: Reverse any Strike, Grapple or Submission maneuver. End your opponent's turn. If played from your hand, opponent discards all cards in his hand.
+CHRIS JERICHO descarta su mano.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 5F, tiene 11 cartas en la mano y 31 en el arsenal.
+CHRIS JERICHO: 11F, tiene 0 cartas en la mano y 39 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 5 de daño.
+-------------------------------- 1/5
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/5
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+-------------------------------- 3/5
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 35 en el arsenal.
+MANKIND: 9F, tiene 10 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 35 en el arsenal.
+MANKIND: 9F, tiene 10 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 9F, tiene 12 cartas en la mano y 29 en el arsenal.
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 35 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 5 de daño.
+-------------------------------- 1/5
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+MANKIND puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+MANKIND roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 2 cartas en la mano y 33 en el arsenal.
+MANKIND: 14F, tiene 12 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 2 cartas en la mano y 33 en el arsenal.
+MANKIND: 14F, tiene 12 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 14F, tiene 14 cartas en la mano y 26 en el arsenal.
+CHRIS JERICHO: 11F, tiene 2 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+4- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+6- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 5 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+1- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+3- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+4- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+5- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+6- *Punch*. Info: 0F/3D, Maneuver, Strike.
+7- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+8- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+9- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+10- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+11- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+12- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+13- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+14- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 14)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 4 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+1- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+2- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+3- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+4- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+5- *Punch*. Info: 0F/3D, Maneuver, Strike.
+6- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+7- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+8- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+9- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+10- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+11- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+12- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+13- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 13)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 3 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+2- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+3- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+4- *Punch*. Info: 0F/3D, Maneuver, Strike.
+5- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+6- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+7- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+8- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+9- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+10- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+11- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+12- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 12)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+1- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+2- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+3- *Punch*. Info: 0F/3D, Maneuver, Strike.
+4- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+5- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+6- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+7- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+8- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+9- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+10- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+11- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+1- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+2- *Punch*. Info: 0F/3D, Maneuver, Strike.
+3- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+4- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+5- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+6- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+7- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+8- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+9- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+10- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 0
+MANKIND roba 2 carta(s).
+--------------------------------------------
+MANKIND: 14F, tiene 15 cartas en la mano y 29 en el arsenal.
+CHRIS JERICHO: 11F, tiene 2 cartas en la mano y 33 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+6- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 1
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+CHRIS JERICHO tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO revierte la carta usando:
+[REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 2 cartas en la mano y 32 en el arsenal.
+MANKIND: 14F, tiene 14 cartas en la mano y 29 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+1- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+2- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+4- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+CHRIS JERICHO recibe 3 de daño.
+-------------------------------- 1/3
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 2/3
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 3/3
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 14F, tiene 15 cartas en la mano y 27 en el arsenal.
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 29 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 7)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 10 de daño.
+-------------------------------- 1/10
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/10
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 3/10
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 4/10
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+MANKIND puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+MANKIND roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 2 cartas en la mano y 24 en el arsenal.
+MANKIND: 24F, tiene 15 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+1- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+2- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+3- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+4- [REVERSAL] *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 1
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+CHRIS JERICHO recibe 2 de daño.
+-------------------------------- 1/2
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/2
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 26F, tiene 16 cartas en la mano y 24 en el arsenal.
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Mr. Socko*. Info: 20F/0D, Action, Mankind/Unique. Effect: Take 1 card from either your Arsenal or Ringside pile and place it into your hand, then shuffle your Arsenal. While Mr. Socko is in your Ring area, all your maneuvers are +1D.
+1- [MANEUVER] *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+2- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+3- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+5- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+6- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+7- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+8- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+9- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+10- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+11- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 11)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Mr. Socko*. Info: 20F/0D, Action, Mankind/Unique. Effect: Take 1 card from either your Arsenal or Ringside pile and place it into your hand, then shuffle your Arsenal. While Mr. Socko is in your Ring area, all your maneuvers are +1D.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, MANKIND debe elegir uno de los siguientes efectos:
+1- Obtener carta desde el arsenal.
+2- Obtener carta desde el ringside.
+(Ingresa un número entre 1 y 2)
+INPUT: 2
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+3- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+4- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+5- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+6- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+7- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+8- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+9- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+10- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 5
+--------------------------------------------
+MANKIND: 26F, tiene 16 cartas en la mano y 24 en el arsenal.
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+9- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+10- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- [ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 11)
+INPUT: 11
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[ACTION] *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+
+--------------------------------------------
+MANKIND debe elegir 5 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- *Punch*. Info: 0F/3D, Maneuver, Strike.
+2- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+3- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+4- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+5- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+6- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+7- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+8- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+9- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 9)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 4 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Punch*. Info: 0F/3D, Maneuver, Strike.
+1- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+2- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+3- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+4- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+5- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+6- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+7- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+8- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 3 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+1- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+2- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+4- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+7- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 7)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 2 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Puppies! Puppies!*. Info: 14F/0D, Action. Effect: Shuffle up to 5 cards from your Ringside pile into your Arsenal. Then draw 2 cards.
+1- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+3- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+5- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+6- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 0
+
+--------------------------------------------
+MANKIND debe elegir 1 carta(s) para devolver de su ringside a su arsenal. ¿Qué carta quieres recuperar?
+--------------------------------------------
+0- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+1- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+2- *Recovery*. Info: 4F/0D, Action. Effect: Shuffle any 2 cards from your Ringside pile back into your Arsenal. Then draw 1 card.
+3- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+4- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+5- *Chicken Wing*. Info: 12F/7D, Maneuver, Submission. Effect: When successfully played, shuffle 2 cards from your Ringside pile into your Arsenal.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 0
+MANKIND roba 2 carta(s).
+--------------------------------------------
+MANKIND: 26F, tiene 17 cartas en la mano y 27 en el arsenal.
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+1- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+2- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+4- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+5- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+6- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+7- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+8- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+9- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+10- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+11- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 11)
+INPUT: 0
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Tree of Woe*. Info: 18F/10D, Maneuver, Grapple/Mankind/Unique. Effect: May not be reversed. When successfully played, opponent must discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO debe descartar 2 carta(s).
+CHRIS JERICHO elige una carta para descartar.
+--------------------------------------------
+0- *No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 0)
+INPUT: 0
+CHRIS JERICHO recibe 11 de daño.
+-------------------------------- 1/11
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 2/11
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 3/11
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 4/11
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+-------------------------------- 5/11
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 6/11
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 7/11
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 8/11
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 9/11
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 10/11
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 11/11
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+MANKIND: 36F, tiene 16 cartas en la mano y 27 en el arsenal.
+CHRIS JERICHO: 11F, tiene 0 cartas en la mano y 11 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+7- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+8- [MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+9- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+10- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 8
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 7 de daño.
+-------------------------------- 1/7
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+CHRIS JERICHO revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de CHRIS JERICHO.
+--------------------------------------------
+CHRIS JERICHO: 11F, tiene 1 cartas en la mano y 9 en el arsenal.
+MANKIND: 42F, tiene 15 cartas en la mano y 27 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+CHRIS JERICHO intenta jugar la siguiente carta:
+[MANEUVER] *Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+--------------------------------------------
+MANKIND tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+1- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+2- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+3- [REVERSAL] *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 2
+--------------------------------------------
+MANKIND revierte la carta usando:
+[REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+CHRIS JERICHO recibe 2 de daño.
+-------------------------------- 1/2
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/2
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+Comienza el turno de MANKIND.
+--------------------------------------------
+MANKIND: 44F, tiene 16 cartas en la mano y 25 en el arsenal.
+CHRIS JERICHO: 11F, tiene 0 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+1- [ACTION] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+2- [MANEUVER] *Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+3- [MANEUVER] *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+4- [MANEUVER] *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+7- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+8- [MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+9- [MANEUVER] *Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+10- [MANEUVER] *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 10)
+INPUT: 8
+--------------------------------------------
+MANKIND intenta jugar la siguiente carta:
+[MANEUVER] *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+--------------------------------------------
+La carta fue exitosamente jugada.
+CHRIS JERICHO recibe 8 de daño.
+-------------------------------- 1/8
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 2/8
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 3/8
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+-------------------------------- 4/8
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/8
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/8
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 7/8
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+
+--------------------------------------------
+Felicidades, gana MANKIND.

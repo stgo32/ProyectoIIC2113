@@ -1,0 +1,1338 @@
+-------------------------
+Elige un mazo
+1- data/10-ComplexEffects/01_HHH.txt
+2- data/10-ComplexEffects/02_TheRock.txt
+3- data/10-ComplexEffects/03_TheRock.txt
+4- data/10-ComplexEffects/04_TheRock.txt
+5- data/10-ComplexEffects/05_TheRock.txt
+6- data/10-ComplexEffects/06_TheRock.txt
+7- data/10-ComplexEffects/07_Kane.txt
+8- data/10-ComplexEffects/08_Undertaker.txt
+9- data/10-ComplexEffects/09_StoneCold.txt
+10- data/10-ComplexEffects/10_Kane.txt
+11- data/10-ComplexEffects/11_HHH.txt
+12- data/10-ComplexEffects/12_Jericho.txt
+13- data/10-ComplexEffects/13_Undertaker.txt
+14- data/10-ComplexEffects/14_Kane.txt
+15- data/10-ComplexEffects/15_Mankind.txt
+16- data/10-ComplexEffects/16_Mankind.txt
+17- data/10-ComplexEffects/17_Kane.txt
+18- data/10-ComplexEffects/18_StoneCold.txt
+19- data/10-ComplexEffects/19_TheRock.txt
+20- data/10-ComplexEffects/20_Undertaker.txt
+21- data/10-ComplexEffects/21_Kane.txt
+22- data/10-ComplexEffects/22_Undertaker.txt
+23- data/10-ComplexEffects/23_StoneCold.txt
+24- data/10-ComplexEffects/24_Mankind.txt
+25- data/10-ComplexEffects/25_Jericho.txt
+26- data/10-ComplexEffects/26_Kane.txt
+27- data/10-ComplexEffects/27_TheRock.txt
+28- data/10-ComplexEffects/28_TheRock.txt
+29- data/10-ComplexEffects/29_TheRock.txt
+30- data/10-ComplexEffects/30_HHH.txt
+31- data/10-ComplexEffects/31_Undertaker.txt
+32- data/10-ComplexEffects/32_Jericho.txt
+33- data/10-ComplexEffects/33_Mankind.txt
+(Ingresa un número entre 1 y 33)
+INPUT: 30
+-------------------------
+Elige un mazo
+1- data/10-ComplexEffects/01_HHH.txt
+2- data/10-ComplexEffects/02_TheRock.txt
+3- data/10-ComplexEffects/03_TheRock.txt
+4- data/10-ComplexEffects/04_TheRock.txt
+5- data/10-ComplexEffects/05_TheRock.txt
+6- data/10-ComplexEffects/06_TheRock.txt
+7- data/10-ComplexEffects/07_Kane.txt
+8- data/10-ComplexEffects/08_Undertaker.txt
+9- data/10-ComplexEffects/09_StoneCold.txt
+10- data/10-ComplexEffects/10_Kane.txt
+11- data/10-ComplexEffects/11_HHH.txt
+12- data/10-ComplexEffects/12_Jericho.txt
+13- data/10-ComplexEffects/13_Undertaker.txt
+14- data/10-ComplexEffects/14_Kane.txt
+15- data/10-ComplexEffects/15_Mankind.txt
+16- data/10-ComplexEffects/16_Mankind.txt
+17- data/10-ComplexEffects/17_Kane.txt
+18- data/10-ComplexEffects/18_StoneCold.txt
+19- data/10-ComplexEffects/19_TheRock.txt
+20- data/10-ComplexEffects/20_Undertaker.txt
+21- data/10-ComplexEffects/21_Kane.txt
+22- data/10-ComplexEffects/22_Undertaker.txt
+23- data/10-ComplexEffects/23_StoneCold.txt
+24- data/10-ComplexEffects/24_Mankind.txt
+25- data/10-ComplexEffects/25_Jericho.txt
+26- data/10-ComplexEffects/26_Kane.txt
+27- data/10-ComplexEffects/27_TheRock.txt
+28- data/10-ComplexEffects/28_TheRock.txt
+29- data/10-ComplexEffects/29_TheRock.txt
+30- data/10-ComplexEffects/30_HHH.txt
+31- data/10-ComplexEffects/31_Undertaker.txt
+32- data/10-ComplexEffects/32_Jericho.txt
+33- data/10-ComplexEffects/33_Mankind.txt
+(Ingresa un número entre 1 y 33)
+INPUT: 31
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+HHH: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+THE UNDERTAKER: 0F, tiene 7 cartas en la mano y 53 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+HHH: 0F, tiene 11 cartas en la mano y 49 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+THE UNDERTAKER: 0F, tiene 8 cartas en la mano y 52 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+HHH: 0F, tiene 12 cartas en la mano y 48 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+THE UNDERTAKER: 0F, tiene 9 cartas en la mano y 51 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+HHH: 0F, tiene 13 cartas en la mano y 47 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 0F, tiene 14 cartas en la mano y 46 en el arsenal.
+THE UNDERTAKER: 0F, tiene 10 cartas en la mano y 50 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+-------------------------------- 2/5
+*Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+-------------------------------- 3/5
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 4/5
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 5/5
+*Pump Handle Slam*. Info: 10F/7D, Maneuver, Grapple. Effect: When successfully played, opponent must discard 2 cards.
+--------------------------------------------
+HHH: 5F, tiene 13 cartas en la mano y 45 en el arsenal.
+THE UNDERTAKER: 0F, tiene 10 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+1- [ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- [ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+3- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+4- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+5- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+HHH: 5F, tiene 12 cartas en la mano y 45 en el arsenal.
+THE UNDERTAKER: 0F, tiene 10 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 0F, tiene 11 cartas en la mano y 44 en el arsenal.
+HHH: 5F, tiene 12 cartas en la mano y 45 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+-------------------------------- 2/5
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+-------------------------------- 3/5
+*Bow & Arrow*. Info: 6F/6D, Maneuver, Submission.
+-------------------------------- 4/5
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+THE UNDERTAKER puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+THE UNDERTAKER roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 5F, tiene 13 cartas en la mano y 40 en el arsenal.
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *I Am the Game*. Info: 3F/0D, Action, HHH/Unique. Effect: All your maneuvers are +3D for the rest of this turn. Draw 2 cards, or force opponent to discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado, HHH debe elegir uno de los siguientes efectos:
+1- Robar cartas.
+2- Forzar al oponente a descartar cartas.
+(Ingresa un número entre 1 y 2)
+INPUT: 1
+HHH roba 2 carta(s).
+--------------------------------------------
+HHH: 5F, tiene 14 cartas en la mano y 38 en el arsenal.
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 43 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+3- [MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 3
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 9 de daño.
+-------------------------------- 1/9
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 2/9
+*Undertaker's Flying Clothesline*. Info: 10F/18D/2SV, Maneuver, HighRisk/Undertaker/Unique. Effect: Can only be played after a 5D or greater maneuver. Reversals to this maneuver are +6D.
+-------------------------------- 3/9
+*Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+-------------------------------- 4/9
+*Snap Mare*. Info: 3F/4D, Maneuver, Grapple. Effect: When successfully played, if your next card played this turn is a Strike maneuver it is +2D.
+-------------------------------- 5/9
+*Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+-------------------------------- 6/9
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 7/9
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 8/9
+*Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+-------------------------------- 9/9
+*Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+--------------------------------------------
+HHH: 11F, tiene 13 cartas en la mano y 38 en el arsenal.
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 34 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+4- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+5- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+6- [MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 6
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER revierte la carta usando:
+[REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 33 en el arsenal.
+HHH: 11F, tiene 12 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 33 en el arsenal.
+HHH: 11F, tiene 12 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+0- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Pump Handle Slam*. Info: 10F/7D, Maneuver, Grapple. Effect: When successfully played, opponent must discard 2 cards.
+5- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+6- *Undertaker's Flying Clothesline*. Info: 10F/18D/2SV, Maneuver, HighRisk/Undertaker/Unique. Effect: Can only be played after a 5D or greater maneuver. Reversals to this maneuver are +6D.
+7- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+8- *Snap Mare*. Info: 3F/4D, Maneuver, Grapple. Effect: When successfully played, if your next card played this turn is a Strike maneuver it is +2D.
+9- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+10- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+12- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+13- *Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 33 en el arsenal.
+HHH: 11F, tiene 12 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+1- Mi mano
+2- Mi ring area
+3- Mi ringside pile
+4- El ring area de mi oponente
+5- El ringside pile de mi oponente
+(Ingresa un número entre 1 y 5)
+INPUT: 1
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+8- *Power Slam*. Info: 13F/10D/1SV, Maneuver, Grapple. Effect: When successfully played, opponent must discard 1 card.
+9- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+10- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 11 cartas en la mano y 33 en el arsenal.
+HHH: 11F, tiene 12 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+8- *Power Slam*. Info: 13F/10D/1SV, Maneuver, Grapple. Effect: When successfully played, opponent must discard 1 card.
+9- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+10- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 8
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+8- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+9- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 9)
+INPUT: 9
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+1- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+4- *Pump Handle Slam*. Info: 10F/7D, Maneuver, Grapple. Effect: When successfully played, opponent must discard 2 cards.
+5- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+6- *Undertaker's Flying Clothesline*. Info: 10F/18D/2SV, Maneuver, HighRisk/Undertaker/Unique. Effect: Can only be played after a 5D or greater maneuver. Reversals to this maneuver are +6D.
+7- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+8- *Snap Mare*. Info: 3F/4D, Maneuver, Grapple. Effect: When successfully played, if your next card played this turn is a Strike maneuver it is +2D.
+9- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+10- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+12- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+13- *Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+14- *Power Slam*. Info: 13F/10D/1SV, Maneuver, Grapple. Effect: When successfully played, opponent must discard 1 card.
+15- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 15)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER: 5F, tiene 10 cartas en la mano y 33 en el arsenal.
+HHH: 11F, tiene 12 cartas en la mano y 38 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Superkick*. Info: 0F/5D/1SV, Maneuver, Strike. Effect: When successfully played, +5D if played after a 5D or greater maneuver.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 5 de daño.
+-------------------------------- 1/5
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 2/5
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 3/5
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 4/5
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+THE UNDERTAKER puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+THE UNDERTAKER roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 11F, tiene 13 cartas en la mano y 33 en el arsenal.
+THE UNDERTAKER: 10F, tiene 10 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+3- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+4- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Kick*. Info: 0F/5D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+1- [REVERSAL] *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+THE UNDERTAKER recibe 5 de daño.
+-------------------------------- 1/5
+*Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+-------------------------------- 2/5
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 3/5
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 10F, tiene 11 cartas en la mano y 28 en el arsenal.
+HHH: 16F, tiene 12 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+No hay nada que puedas jugar
+--------------------------------------------
+--------------------------------------------
+THE UNDERTAKER: 10F, tiene 11 cartas en la mano y 28 en el arsenal.
+HHH: 16F, tiene 12 cartas en la mano y 32 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 4
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 16F, tiene 13 cartas en la mano y 31 en el arsenal.
+THE UNDERTAKER: 10F, tiene 11 cartas en la mano y 28 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+1- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+2- [MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+3- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+4- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+5- [MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 5
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+--------------------------------------------
+THE UNDERTAKER tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- [REVERSAL] *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+THE UNDERTAKER recibe 4 de daño.
+-------------------------------- 1/4
+*Undertaker's Tombstone Piledriver*. Info: 30F/25D/3SV, Action/Maneuver, TrademarkFinisher/Undertaker/Unique. Effect: As an action, this card is -30F and -25D, discard this card and draw 1 card.
+-------------------------------- 2/4
+*Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+-------------------------------- 3/4
+*Atomic Drop*. Info: 5F/6D, Maneuver, Grapple. Effect: When successfully played, if your next card played this turn is a maneuver it is +2D.
+-------------------------------- 4/4
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+THE UNDERTAKER revierte la carta desde el mazo.
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 10F, tiene 12 cartas en la mano y 23 en el arsenal.
+HHH: 20F, tiene 12 cartas en la mano y 31 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Clothesline*. Info: 8F/7D/1SV, Maneuver, Strike. Effect: When successfully played, if your next card played this turn is a maneuver it is +2D.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Clothesline*. Info: 8F/7D/1SV, Maneuver, Strike. Effect: When successfully played, if your next card played this turn is a maneuver it is +2D.
+--------------------------------------------
+HHH tiene la opción de revertir la carta:
+--------------------------------------------
+0- [REVERSAL] *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre -1 y 0)
+INPUT: -1
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 7 de daño.
+-------------------------------- 1/7
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 2/7
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+--------------------------------------------
+HHH revierte la carta desde el mazo.
+--------------------------------------------
+THE UNDERTAKER puede robar hasta 1 cartas debido al stun value. ¿Cuántas cartas quieres robar?
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+THE UNDERTAKER roba 1 carta(s).
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 20F, tiene 13 cartas en la mano y 28 en el arsenal.
+THE UNDERTAKER: 17F, tiene 12 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+4- [MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+5- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+6- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+HHH: 20F, tiene 12 cartas en la mano y 28 en el arsenal.
+THE UNDERTAKER: 17F, tiene 12 cartas en la mano y 22 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+3- [MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+4- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+5- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 3
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *DDT*. Info: 11F/9D/1SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Hip Toss*. Info: 0F/3D, Maneuver, Grapple.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+8- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+9- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+10- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+11- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 11)
+INPUT: 8
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+8- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+9- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+10- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+(Ingresa un número entre 0 y 10)
+INPUT: 10
+THE UNDERTAKER recibe 9 de daño.
+-------------------------------- 1/9
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 2/9
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 3/9
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 4/9
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/9
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 6/9
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 7/9
+*Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+-------------------------------- 8/9
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 9/9
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+--------------------------------------------
+HHH: 29F, tiene 11 cartas en la mano y 27 en el arsenal.
+THE UNDERTAKER: 17F, tiene 10 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+2- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+3- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+4- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+5- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+6- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 6)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+HHH: 29F, tiene 10 cartas en la mano y 27 en el arsenal.
+THE UNDERTAKER: 17F, tiene 10 cartas en la mano y 13 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+2- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+3- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+4- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+5- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 5)
+INPUT: 1
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+THE UNDERTAKER recibe 6 de daño.
+-------------------------------- 1/6
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 2/6
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 3/6
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/6
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 5/6
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 6/6
+*Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+--------------------------------------------
+HHH: 35F, tiene 9 cartas en la mano y 26 en el arsenal.
+THE UNDERTAKER: 17F, tiene 10 cartas en la mano y 7 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de THE UNDERTAKER.
+--------------------------------------------
+THE UNDERTAKER: 17F, tiene 11 cartas en la mano y 6 en el arsenal.
+HHH: 35F, tiene 9 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+2- [ACTION] *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+3- [ACTION] *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 2
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[ACTION] *Power of Darkness*. Info: 12F/0D, Action, Undertaker/Unique. Effect: +5D to all your maneuvers and +20F to all of opponent's reversals for the rest of this turn.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+THE UNDERTAKER: 17F, tiene 10 cartas en la mano y 6 en el arsenal.
+HHH: 35F, tiene 9 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Usar habilidad
+4- Terminar turno
+5- Rendirse
+(Ingresa un número entre 1 y 5)
+INPUT: 3
+--------------------------------------------
+THE UNDERTAKER usa su habilidad: Once during your turn, you may discard 2 cards to the Ringside pile and take 1 card from the Ringside pile and place it into your hand.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+8- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+9- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+--------------------------------------------
+(Ingresa un número entre 0 y 9)
+INPUT: 9
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+7- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+8- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 8
+
+--------------------------------------------
+THE UNDERTAKER debe elegir 1 carta(s) para poner en su mano. ¿Qué carta quieres obtener?
+--------------------------------------------
+0- *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+1- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+2- *Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+3- *Pump Handle Slam*. Info: 10F/7D, Maneuver, Grapple. Effect: When successfully played, opponent must discard 2 cards.
+4- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+5- *Undertaker's Flying Clothesline*. Info: 10F/18D/2SV, Maneuver, HighRisk/Undertaker/Unique. Effect: Can only be played after a 5D or greater maneuver. Reversals to this maneuver are +6D.
+6- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+7- *Snap Mare*. Info: 3F/4D, Maneuver, Grapple. Effect: When successfully played, if your next card played this turn is a Strike maneuver it is +2D.
+8- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+9- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+10- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+11- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+12- *Discus Punch*. Info: 7F/9D, Maneuver, Strike. Effect: Reversals to this maneuver are +2D.
+13- *Power Slam*. Info: 13F/10D/1SV, Maneuver, Grapple. Effect: When successfully played, opponent must discard 1 card.
+14- *Powerbomb*. Info: 18F/12D/2SV, Maneuver, Grapple. Effect: When successfully played, you may draw 1 card. Add +1D for every maneuver with the word "slam" in its title in your Ring area.
+15- *Haymaker*. Info: 3F/4D, Maneuver, Strike. Effect: When successfully played, all Strike maneuvers are +1D for the rest of this turn.
+16- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+17- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+18- *Undertaker's Tombstone Piledriver*. Info: 30F/25D/3SV, Action/Maneuver, TrademarkFinisher/Undertaker/Unique. Effect: As an action, this card is -30F and -25D, discard this card and draw 1 card.
+19- *Running Elbow Smash*. Info: 2F/6D, Maneuver, Strike. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile.
+20- *Atomic Drop*. Info: 5F/6D, Maneuver, Grapple. Effect: When successfully played, if your next card played this turn is a maneuver it is +2D.
+21- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+22- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+23- *Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+24- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+25- *Big Boot*. Info: 6F/6D, Maneuver, Strike.
+26- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+27- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+28- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+29- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+30- *Back Breaker*. Info: 8F/7D, Maneuver, Grapple.
+31- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+32- *Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+33- *Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+34- *Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+35- *Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+36- *Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+37- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+38- *Roundhouse Punch*. Info: 2F/4D, Maneuver, Strike.
+39- *Jockeying for Position*. Info: 4F/0D, Action/Reversal, SetUp/ReversalSpecial. Effect: As an action, if your next card played is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F. As a reversal, may only reverse the card titled Jockeying for Position. If so, you end opponent's turn; and if your next card played on your turn is a Grapple maneuver, declare whether it will be +4D or your opponent's reversal to it will be +8F.
+40- *Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+--------------------------------------------
+(Ingresa un número entre 0 y 40)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER: 17F, tiene 9 cartas en la mano y 6 en el arsenal.
+HHH: 35F, tiene 9 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+2- [MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 0
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+THE UNDERTAKER: 17F, tiene 8 cartas en la mano y 6 en el arsenal.
+HHH: 35F, tiene 9 cartas en la mano y 26 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+(Ingresa un número entre -1 y 1)
+INPUT: 1
+--------------------------------------------
+THE UNDERTAKER intenta jugar la siguiente carta:
+[MANEUVER] *Undertaker's Chokeslam*. Info: 15F/15D/2SV, Maneuver, Grapple/Undertaker/Unique.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH recibe 20 de daño.
+-------------------------------- 1/20
+*Atomic Facebuster*. Info: 4F/6D, Maneuver, Grapple.
+-------------------------------- 2/20
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 3/20
+*Chair Shot*. Info: 10F/10D/1SV, Maneuver, Strike/ForeignObject/Heel.
+-------------------------------- 4/20
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 5/20
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 6/20
+*Big Boot*. Info: 6F/6D, Maneuver, Strike.
+-------------------------------- 7/20
+*Gut Buster*. Info: 4F/5D, Maneuver, Grapple.
+-------------------------------- 8/20
+*Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+-------------------------------- 9/20
+*Inverse Atomic Drop*. Info: 6F/5D/1SV, Maneuver, Grapple.
+-------------------------------- 10/20
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 11/20
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 12/20
+*Knee to the Gut*. Info: 1F/#D, Reversal, ReversalStrikeSpecial. Effect: Can only reverse a Strike that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 13/20
+*Rolling Takedown*. Info: 1F/#D, Reversal, ReversalGrappleSpecial. Effect: Can only reverse a Grapple that does 7D or less. End your opponent's turn. # = D of maneuver card being reversed. Read as 0 when in your Ring area.
+-------------------------------- 14/20
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 15/20
+*Body Slam*. Info: 7F/6D/1SV, Maneuver, Grapple.
+-------------------------------- 16/20
+*Russian Leg Sweep*. Info: 2F/4D, Maneuver, Grapple.
+-------------------------------- 17/20
+*No Chance in Hell*. Info: 12F/0D, Reversal, ReversalAction. Effect: Reverse any ACTION card being played by your opponent from his hand. It is unsuccessful, goes to his Ringside pile, has no effect and ends his turn.
+-------------------------------- 18/20
+*Chyna Interferes*. Info: 5F/3D, Reversal, ReversalSpecial/HHH/Unique. Effect: Reverses any maneuver and ends your opponent's turn. If played from your hand, draw 2 cards.
+-------------------------------- 19/20
+*Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+-------------------------------- 20/20
+*Step Over Toe Hold*. Info: 8F/6D, Maneuver, Submission.
+--------------------------------------------
+THE UNDERTAKER: 32F, tiene 7 cartas en la mano y 6 en el arsenal.
+HHH: 35F, tiene 9 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- [ACTION] *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: -1
+--------------------------------------------
+THE UNDERTAKER: 32F, tiene 7 cartas en la mano y 6 en el arsenal.
+HHH: 35F, tiene 9 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 3
+--------------------------------------------
+Comienza el turno de HHH.
+--------------------------------------------
+HHH: 35F, tiene 10 cartas en la mano y 5 en el arsenal.
+THE UNDERTAKER: 32F, tiene 7 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+2- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+3- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+4- [ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 4)
+INPUT: 4
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Spit At Opponent*. Info: 4F/0D, Action, Heel. Effect: Can only be played when you have 2 or more cards in your hand. Discard 1 card and then your opponent discards 4 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+HHH debe descartar 1 carta(s).
+HHH elige una carta para descartar.
+--------------------------------------------
+0- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+2- *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+3- *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+4- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+5- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+6- *Elbow to the Face*. Info: 0F/2D, Reversal, ReversalSpecial. Effect: May reverse any maneuver that does 7D or less. End your opponent's turn.
+7- *Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+8- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 8)
+INPUT: 6
+THE UNDERTAKER debe descartar 4 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+2- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+3- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+4- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+5- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+6- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 6)
+INPUT: 0
+THE UNDERTAKER debe descartar 3 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Stagger*. Info: 3F/0D, Action. Effect: Play after a successfully played maneuver. If your next card played this turn is a maneuver of 7D or less your opponent can not reverse it.
+1- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+2- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+3- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+4- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+5- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 5)
+INPUT: 0
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+2- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+3- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+4- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 4)
+INPUT: 0
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+1- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+2- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+3- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 3)
+INPUT: 0
+--------------------------------------------
+HHH: 35F, tiene 8 cartas en la mano y 5 en el arsenal.
+THE UNDERTAKER: 32F, tiene 3 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+1- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+2- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+3- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 3)
+INPUT: 0
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[ACTION] *Diversion*. Info: 17F/0D, Action. Effect: Your next maneuver may not be reversed.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+HHH: 35F, tiene 7 cartas en la mano y 5 en el arsenal.
+THE UNDERTAKER: 32F, tiene 3 cartas en la mano y 6 en el arsenal.
+--------------------------------------------
+1- Ver cartas
+2- Jugar carta
+3- Terminar turno
+4- Rendirse
+(Ingresa un número entre 1 y 4)
+INPUT: 2
+--------------------------------------------
+0- [MANEUVER] *Guillotine Stretch*. Info: 12F/8D, Maneuver, Submission. Effect: When successfully played, opponent must discard 1 card and you may draw 1 card.
+1- [MANEUVER] *Fisherman's Suplex*. Info: 10F/10D, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. You may draw 1 card.
+2- [MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+--------------------------------------------
+(Ingresa un número entre -1 y 2)
+INPUT: 2
+--------------------------------------------
+HHH intenta jugar la siguiente carta:
+[MANEUVER] *Press Slam*. Info: 24F/15D/2SV, Maneuver, Grapple. Effect: When successfully played, you must take the top card of your Arsenal and put it into your Ringside pile. Opponent must discard 2 cards.
+--------------------------------------------
+La carta fue exitosamente jugada.
+--------------------------------------------
+Como resultado de jugar la carta, HHH se pega 1 de daño colateral a si mismo.
+HHH recibe 1 de daño.
+-------------------------------- 1/1
+*Arm Bar Takedown*. Info: 0F/2D, Action/Maneuver, Grapple. Effect: As an action, you may discard this card to draw 1 card. Doing this will not cause any damage to opponent.
+THE UNDERTAKER debe descartar 2 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Escape Move*. Info: 0F/0D, Reversal, ReversalGrapple. Effect: Reverse any Grapple maneuver and end your opponent's turn.
+1- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+2- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 2)
+INPUT: 0
+THE UNDERTAKER debe descartar 1 carta(s).
+THE UNDERTAKER elige una carta para descartar.
+--------------------------------------------
+0- *Undertaker Sits Up!*. Info: 15F/0D, Reversal, ReversalSpecial/Undertaker/Unique. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand, take the top 4 cards from your Arsenal and put them in your Ringside pile. Opponent must discard 1 card; next turn, all your maneuvers are +2D, and all opponent's reversals are +25F.
+1- *Step Aside*. Info: 0F/0D, Reversal, ReversalStrike. Effect: Reverse any Strike maneuver and end your opponent's turn.
+--------------------------------------------
+(Ingresa un número entre 0 y 1)
+INPUT: 1
+THE UNDERTAKER recibe 15 de daño.
+-------------------------------- 1/15
+*Break the Hold*. Info: 0F/0D, Reversal, ReversalSubmission. Effect: Reverse any Submission maneuver and end your opponent's turn.
+-------------------------------- 2/15
+*Wrist Lock*. Info: 0F/2D, Maneuver, Submission.
+-------------------------------- 3/15
+*Chin Lock*. Info: 2F/3D, Maneuver, Submission.
+-------------------------------- 4/15
+*Manager Interferes*. Info: 10F/1D, Reversal, ReversalSpecial/Heel. Effect: Reverse any maneuver and end your opponent's turn. If played from your hand draw 1 card.
+-------------------------------- 5/15
+*Sit Out Powerbomb*. Info: 3F/6D, Maneuver, Grapple.
+-------------------------------- 6/15
+*Hurricanrana*. Info: 11F/10D/1SV, Maneuver, Strike.
+
+--------------------------------------------
+Felicidades, gana HHH.

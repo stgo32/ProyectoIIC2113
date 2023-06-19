@@ -44,6 +44,12 @@ public class GameTests
     public void TestSimpleEffects(string deckFolder, string testFile)
         => RunTest(deckFolder, testFile);
 
+        
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "10-ComplexEffects")]
+    public void TestComplexEffects(string deckFolder, string testFile)
+        => RunTest(deckFolder, testFile);
+
     public static IEnumerable<object[]> GetTestsAssociatedWithThisFolder(string deckFolder)
     {
         deckFolder = Path.Combine("data", deckFolder);

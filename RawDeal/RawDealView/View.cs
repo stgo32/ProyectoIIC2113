@@ -103,6 +103,18 @@ public class View
         return AskUserToSelectACard(cardsThatMightBeDiscarded);
     }
 
+    public int AskPlayerToSelectACardToDiscardFromRingArea(string playersSuperstar, string opponentSuperstar, List<string> cardsThatMightBeDiscarded)
+    {
+        _view.WriteLine($"Como resultado, {playersSuperstar} puede elegir una de estas cartas del ring area de {opponentSuperstar} y descartarla.");
+        return AskUserToSelectACard(cardsThatMightBeDiscarded);
+    }
+
+    public void SayThatPlayerLooksAtHisOpponentsHand(string playersSuperstar, string opponentSuperstar)
+        => _view.WriteLine($"{playersSuperstar} mira la mano de {opponentSuperstar}.");
+
+    public void SayThatNoCardMeetsTheConditionsToBeRemoved()
+        => _view.WriteLine($"Lamentablemente, ninguna carta cumple las condiciones para ser removida.");
+
     public bool DoesPlayerWantToUseHisAbility(string superstarName)
     {
         _view.WriteLine($"{superstarName}: ¿Quieres usar tu habilidad? (Y/N).");
@@ -118,6 +130,21 @@ public class View
     public void SayThatPlayerDrawCards(string superstarName, int numOfCardsToDraw)
         => _view.WriteLine($"{superstarName} roba {numOfCardsToDraw} carta(s).");
     
+    public void SayThatPlayerSearchesForTheTargetCardInHisRingside(string superstarName, string targetCard)
+        => _view.WriteLine($"{superstarName} busca la carta {targetCard} en su ringside.");
+
+    public void SayThatPlayerSearchesForTheTargetCardInHisArsenal(string superstarName, string targetCard)
+        => _view.WriteLine($"{superstarName} busca la carta {targetCard} en su arsenal.");
+
+    public void SayThatPlayerFoundTheCardAndPutItIntoHisHand(string superstarName)
+        => _view.WriteLine($"{superstarName} encontró la carta y la puso en su mano.");
+
+    public void SayThatPlayerDidntFindTheCard(string superstarName)
+        => _view.WriteLine($"{superstarName} no encontró la carta.");
+
+    public void SayThatPlayerPutsThisCardAtTheBottomOfHisArsenal(string superstarName, string cardTitle)
+        => _view.WriteLine($"{superstarName} pone {cardTitle} al final de su arsenal.");
+
     public void SayThatPlayerIsTryingToPlayThisCard(string superstarName, string playInfo)
     {
         ShowDivision();
@@ -176,6 +203,9 @@ public class View
         _view.WriteLine(
             $"{playersSuperstarName} pierde debido al daño colateral.");
     }
+
+    public void SayThatPlayerDiscardsHisHand(string playersSuperstarName)
+        => _view.WriteLine($"{playersSuperstarName} descarta su mano.");
 
     public void SayThatSuperstarWillTakeSomeDamage(string opponentsSuperstarName, int damageToBeReceived)
         => _view.WriteLine($"{opponentsSuperstarName} recibe {damageToBeReceived} de daño.");
@@ -260,6 +290,10 @@ public class View
     public SelectedEffect AskUserToChooseBetweenDrawingOrForcingOpponentToDiscardCards(string superstarName)
         => AskUserToSelectAnEffect(superstarName,
             new[] { SelectedEffect.DrawCards, SelectedEffect.ForceOpponentToDiscard });
+
+    public SelectedEffect AskUserToChooseBetweenTakingACardFromYourArsenalOrRingside(string superstarName)
+        => AskUserToSelectAnEffect(superstarName,
+            new[] { SelectedEffect.TakeCardFromArsenal, SelectedEffect.TakeCardFromRingside });
 
     private SelectedEffect AskUserToSelectAnEffect(string superstarName, SelectedEffect[] possibleEffects)
     {

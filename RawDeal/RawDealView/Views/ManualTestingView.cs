@@ -68,6 +68,13 @@ class ManualTestingView:TestingView
 
     protected override string GetNextInput()
     {
+        if (_isOutputCorrectSoFar)
+            return GetNextInputFromTestFile();
+        return GetNextInputFromUser();
+    }
+
+    private string GetNextInputFromTestFile()
+    {
         string nextInput = base.GetNextInput();
         Console.Write($"[INPUT TEST]: {nextInput}");
         Console.ReadLine();
@@ -75,4 +82,9 @@ class ManualTestingView:TestingView
         return nextInput;
     }
 
+    private string GetNextInputFromUser()
+    {
+        Console.Write($"[INPUT MANUAL]: ");
+        return Console.ReadLine();
+    }
 }
