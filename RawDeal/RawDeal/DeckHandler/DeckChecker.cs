@@ -143,19 +143,43 @@ public class DeckChecker
 
     private bool CheckSuperstarLogo(List<Superstar> superstars)
     {
+        bool isValid = true;
         foreach (Card card in _deck)
         {
-            foreach (string subtype in card.Subtypes)
+            bool containsLogo = CheckLogoInSubtypes(card, superstars);
+            if (!containsLogo)
             {
-                if (superstars.Exists(s => s.Logo == subtype))
-                {
-                    if (!_superstar.Logo.Contains(subtype))
-                    {
-                        return false;
-                    }
-                }
+                isValid = false;
+                break;
             }
         }
-        return true;
+        return isValid;
+    }
+
+    private bool CheckLogoInSubtypes(Card card, List<Superstar> superstars)
+    {
+        bool containsLogo = true;
+        foreach (string subtype in card.Subtypes)
+        {
+            containsLogo = CardContainsSuperstarLogo(subtype, superstars);
+            if (!containsLogo)
+            {
+                break;
+            }
+        }
+        return containsLogo;
+    }
+
+    private bool CardContainsSuperstarLogo(string subtype, List<Superstar> superstars)
+    {
+        bool containsLogo = true;
+        if (superstars.Exists(s => s.Logo == subtype))
+        {
+            if (!_superstar.Logo.Contains(subtype))
+            {
+                containsLogo = false;
+            }
+        }
+        return containsLogo;
     }
 }
