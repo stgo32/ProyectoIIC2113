@@ -7,13 +7,13 @@ public class DeckChecker
     private int _maxCardCountInDeck = 3;
     private int _maxUniqueCardCountInDeck = 1;
 
-    private List<Card> _deck;
+    private CardSet _deck;
 
-    private List<Superstar> _superstars;
+    private SuperstarSet _superstars;
 
     private Superstar _superstar;
 
-    public DeckChecker(List<Card> deck, List<Superstar> superstars, Superstar superstar)
+    public DeckChecker(CardSet deck, SuperstarSet superstars, Superstar superstar)
     {
         _deck = deck;
         _superstars = superstars;
@@ -40,7 +40,7 @@ public class DeckChecker
     private bool CheckCardCount()
     {
         bool isValid = true;
-        if (_deck.Count != _deckSize)
+        if (_deck.Count() != _deckSize)
         {
             isValid = false;
         }
@@ -51,7 +51,7 @@ public class DeckChecker
     {
         Dictionary<string, int> cardCount = new Dictionary<string, int>();
         bool isValid = true;
-        foreach (Card card in _deck)
+        foreach (Card card in _deck.Cards)
         {
             if (card.ContainsSubtype(Subtype.Unique))
             {
@@ -121,7 +121,7 @@ public class DeckChecker
         bool isHeel = false;
         bool isFace = false;
         bool isValid = true;
-        foreach (Card card in _deck)
+        foreach (Card card in _deck.Cards)
         {
             if (card.ContainsSubtype(Subtype.Heel))
             {
@@ -141,10 +141,10 @@ public class DeckChecker
         return isValid;
     }
 
-    private bool CheckSuperstarLogo(List<Superstar> superstars)
+    private bool CheckSuperstarLogo(SuperstarSet superstars)
     {
         bool isValid = true;
-        foreach (Card card in _deck)
+        foreach (Card card in _deck.Cards)
         {
             bool containsLogo = CheckLogoInSubtypes(card, superstars);
             if (!containsLogo)
@@ -156,7 +156,7 @@ public class DeckChecker
         return isValid;
     }
 
-    private bool CheckLogoInSubtypes(Card card, List<Superstar> superstars)
+    private bool CheckLogoInSubtypes(Card card, SuperstarSet superstars)
     {
         bool containsLogo = true;
         foreach (string subtype in card.Subtypes)
@@ -170,10 +170,10 @@ public class DeckChecker
         return containsLogo;
     }
 
-    private bool CardContainsSuperstarLogo(string subtype, List<Superstar> superstars)
+    private bool CardContainsSuperstarLogo(string subtype, SuperstarSet superstars)
     {
         bool containsLogo = true;
-        if (superstars.Exists(s => s.Logo == subtype))
+        if (superstars.Set.Exists(s => s.Logo == subtype))
         {
             if (!_superstar.Logo.Contains(subtype))
             {

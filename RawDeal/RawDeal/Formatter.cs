@@ -36,30 +36,30 @@ public static class Formatter
         CardSet cardsToSee = View.AskUserWhatSetOfCardsHeWantsToSee();
         if (cardsToSee == CardSet.Hand)
         {
-            View.ShowCards(GetFormattedCardList(playerAtTurn.Hand.Cards, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(playerAtTurn.Hand, NextPlay.ShowCards));
         }
         else if (cardsToSee == CardSet.RingArea)
         {
-            View.ShowCards(GetFormattedCardList(playerAtTurn.RingArea.Cards, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(playerAtTurn.RingArea, NextPlay.ShowCards));
         }
         else if (cardsToSee == CardSet.RingsidePile)
         {
-            View.ShowCards(GetFormattedCardList(playerAtTurn.Ringside.Cards, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(playerAtTurn.Ringside, NextPlay.ShowCards));
         }
         else if (cardsToSee == CardSet.OpponentsRingArea)
         {
-            View.ShowCards(GetFormattedCardList(oponent.RingArea.Cards, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(oponent.RingArea, NextPlay.ShowCards));
         }
         else if (cardsToSee == CardSet.OpponentsRingsidePile)
         {
-            View.ShowCards(GetFormattedCardList(oponent.Ringside.Cards, NextPlay.ShowCards));
+            View.ShowCards(GetFormattedCardList(oponent.Ringside, NextPlay.ShowCards));
         }
     }
 
-    public static List<string> GetFormattedCardList(List<Card> cardList, NextPlay nextPlay)
+    public static List<string> GetFormattedCardList(DeckHandler.CardSet cardSet, NextPlay nextPlay)
     {
         List<string> formattedCardList = new List<string>();
-        foreach (Card card in cardList)
+        foreach (Card card in cardSet.Cards)
         {
             string formattedCard = FormatCard(card, nextPlay);
             formattedCardList.Add(formattedCard);

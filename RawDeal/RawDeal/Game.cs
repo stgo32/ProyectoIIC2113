@@ -11,9 +11,9 @@ public class Game
 {
     private string _deckFolder;
 
-    private List<Superstar> _superstars { get; set; }
+    private SuperstarSet _superstars { get; set; }
     
-    private List<Card> _cards { get; set; }
+    private DeckHandler.CardSet _cards { get; set; }
     
     public Player[] Players { get; set; } = { new Player(), new Player() };
     

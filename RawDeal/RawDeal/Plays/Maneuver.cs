@@ -109,8 +109,7 @@ public class Maneuver : Play
     private int CheckNextSubtypeDoesSomeEffect()
     {
         int damageBonus = 0;
-        if (Card.ContainsSubtype(Player.NextSubtypeDoesSomeEffect) || 
-            Player.NextSubtypeDoesSomeEffect == Subtype.All)
+        if (Card.ContainsSubtype(Player.NextSubtypeDoesSomeEffect))
         {
             damageBonus = Player.NextSubtypeIsPlusD;
         }
@@ -120,8 +119,7 @@ public class Maneuver : Play
     private int CheckNextManeuverIsPlusDamage()
     {
         int damageBonus = 0;
-        if (Card.ContainsSubtype(Player.NextManeuverIsPlusDSubtype) || 
-            Player.NextManeuverIsPlusDSubtype == Subtype.All)
+        if (Card.ContainsSubtype(Player.NextManeuverIsPlusDSubtype))
         {
             if (Card.PlayAs == PlayAs.Maneuver && Player.NextManeuverIsPlusDCounter > 0 && Player.PlayedAManeuverLast)
             {
@@ -135,8 +133,7 @@ public class Maneuver : Play
     private int CheckDamageBonusForRestOfTurn()
     {
         int damageBonus = 0;
-        if (Card.ContainsSubtype(Player.DamageBonusForRestOfTurnSubtype) || 
-            Player.DamageBonusForRestOfTurnSubtype == Subtype.All)
+        if (Card.ContainsSubtype(Player.DamageBonusForRestOfTurnSubtype))
         {
             damageBonus = Player.DamageBonusForRestOfTurn;
         }        

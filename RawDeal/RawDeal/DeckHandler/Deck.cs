@@ -6,7 +6,7 @@ using RawDealView.Options;
 
 public class Deck
 {
-    private List<Card> _deck;
+    private CardSet _deck;
 
     private Arsenal _arsenal;
     public Arsenal Arsenal { get { return _arsenal; } set { _arsenal = value; } }
@@ -30,14 +30,14 @@ public class Deck
     private Player _player;
     public Player Player { get { return _player; } set { _player = value; } }
 
-    public void ReadCardsFromFile(string filePath, List<Superstar> superstars, List<Card> cards)
+    public void ReadCardsFromFile(string filePath, SuperstarSet superstars, CardSet cards)
     {
         DeckReader deckReader = new DeckReader(filePath, superstars, cards);
         _superstar = deckReader.ReadSuperstar(_player);
         _deck = deckReader.ReadCards();
     }
 
-    public bool CheckCorrectness(List<Superstar> superstars)
+    public bool CheckCorrectness(SuperstarSet superstars)
     {
         DeckChecker deckChecker = new DeckChecker(_deck, superstars, Superstar);
         bool isValid = deckChecker.CheckDeck();
@@ -60,7 +60,7 @@ public class Deck
     private void SetStartingArsenal()
     {
         _arsenal = new Arsenal();
-        _arsenal.Cards = _deck;
+        _arsenal.Cards = _deck.Cards;
     }
 
     private void SetStartingHand()
@@ -166,7 +166,7 @@ public class Deck
 
     public void ReturnACard()
     {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand, NextPlay.ShowCards);
         int cardId = Formatter.View.AskPlayerToReturnOneCardFromHisHandToHisArsenal(
             Superstar.Name,
             formattedHand
@@ -192,7 +192,7 @@ public class Deck
 
     private int SelectCardToDiscard(int iter)
     {
-        List<string> formattedHand = Formatter.GetFormattedCardList(Hand.Cards, NextPlay.ShowCards);
+        List<string> formattedHand = Formatter.GetFormattedCardList(Hand, NextPlay.ShowCards);
         int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
             formattedHand,
             Superstar.Name,
@@ -229,7 +229,7 @@ public class Deck
     private int SelectCardFromOponentHandToDiscard(int iter)
     {
         List<string> formattedHand = Formatter.GetFormattedCardList(
-            _player.Oponent.Hand.Cards,
+            _player.Oponent.Hand,
             NextPlay.ShowCards
         );
         int discardCardId = Formatter.View.AskPlayerToSelectACardToDiscard(
@@ -283,7 +283,7 @@ public class Deck
     public void RecoverACard(int iter = 1)
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(
-            Ringside.Cards,
+            Ringside,
             NextPlay.ShowCards
         );
         int cardId = Formatter.View.AskPlayerToSelectCardsToRecover(
@@ -305,7 +305,7 @@ public class Deck
     public void RetrieveACard(int iter = 1)
     {
         List<string> formattedRingside = Formatter.GetFormattedCardList(
-            Ringside.Cards,
+            Ringside,
             NextPlay.ShowCards
         );
         int cardId = Formatter.View.AskPlayerToSelectCardsToPutInHisHand(

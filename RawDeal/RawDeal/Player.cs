@@ -161,7 +161,7 @@ public class Player
     {
         PossibleCardsToPlay possibleCards = Deck.GetPossibleCardsToPlay();
         List<string> formattedPossibleCards = Formatter.GetFormattedCardList(
-            possibleCards.Cards,
+            possibleCards,
             NextPlay.PlayCard
         );
         int idCardSelected = Formatter.View.AskUserToSelectAPlay(formattedPossibleCards);
@@ -183,7 +183,7 @@ public class Player
     public int SelectReversal(Card oponentCard)
     {
         List<string> formattedReversals = Formatter.GetFormattedCardList(
-            Deck.GetPossibleReversals(oponentCard, Fortitude).Cards,
+            Deck.GetPossibleReversals(oponentCard, Fortitude),
             NextPlay.PlayCard
         );
         int reversalSelected = Formatter.View.AskUserToSelectAReversal(
