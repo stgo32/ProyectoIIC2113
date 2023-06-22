@@ -3,6 +3,10 @@ namespace RawDeal.DeckHandler;
 
 public class DeckChecker
 {
+    private int _deckSize = 60;
+    private int _maxCardCountInDeck = 3;
+    private int _maxUniqueCardCountInDeck = 1;
+
     private List<Card> _deck;
 
     private List<Superstar> _superstars;
@@ -36,7 +40,7 @@ public class DeckChecker
     private bool CheckCardCount()
     {
         bool isValid = true;
-        if (_deck.Count != 60)
+        if (_deck.Count != _deckSize)
         {
             isValid = false;
         }
@@ -72,7 +76,8 @@ public class DeckChecker
     private bool CheckRegularTypeCard(Card card, Dictionary<string, int> cardCount)
     {
         bool isValid = true;
-        if (cardCount.ContainsKey(card.Title) && cardCount[card.Title] >= 3)
+        if (cardCount.ContainsKey(card.Title) && 
+            cardCount[card.Title] >= _maxCardCountInDeck)
         {
             isValid = false;
         }
@@ -99,7 +104,8 @@ public class DeckChecker
     private bool CheckUniqueTypeCard(Card card, Dictionary<string, int> cardCount)
     {
         bool isValid = true;
-        if (cardCount.ContainsKey(card.Title) && cardCount[card.Title] >= 1)
+        if (cardCount.ContainsKey(card.Title) && 
+            cardCount[card.Title] >= _maxUniqueCardCountInDeck)
         {
             isValid = false;
         }
